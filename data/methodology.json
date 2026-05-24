@@ -1,0 +1,67 @@
+[
+  {
+    "title": "Churches that don't file are invisible",
+    "bullets": [
+      "&sect;6033(a)(3)(A)(i) exempts churches from filing Form 990.",
+      "The 15,656 church-status filers here are a self-selecting subset: ECFA members, federal-grant recipients under the Single Audit Act, religious nonprofits that opted in.",
+      "Any rate or ratio you compute is filer-vs-filer, not population-vs-population &mdash; the denominator is what chose to file."
+    ]
+  },
+  {
+    "title": "Group rulings cloak denominational structures",
+    "bullets": [
+      "Catholic dioceses, SBC affiliates, UMC/ELCA conferences typically file under a single group exemption (Rev. Proc. 80-27 / 2018-40).",
+      "Sub-entities don't appear individually &mdash; fewer than 30 of 197 US Catholic dioceses file Form 990 directly.",
+      "The visible related-party landscape is biased toward independent / non-denominational filers."
+    ]
+  },
+  {
+    "title": "Sched R is a disclosure tree, not a peer network",
+    "bullets": [
+      "Only 8.8% of disclosed related tax-exempt EINs are themselves filers in this corpus &mdash; the rest are non-filing affiliates the filer is reporting on.",
+      "Top-cited entities are all Christian Television Network affiliates, with 15&ndash;16 distinct citing filers each.",
+      "22.8% of related entities are cited by &ge;2 filers; only 2.7% by &ge;5.",
+      "Read the network as <em>disclosed corporate families</em>, not <em>a network of religious nonprofits</em>."
+    ]
+  },
+  {
+    "title": "&sect;4958 admissions are a floor, not a population",
+    "bullets": [
+      "Schedule L Part I (excess-benefit transactions) is a self-incrimination box &mdash; reporting a non-zero entry is a tax admission.",
+      "84 rows total across 2015&ndash;2024, at 27 distinct EINs.",
+      "The actual population of excess-benefit transactions is unknowable from Form 990 alone &mdash; this is the disclosed floor, not an estimate of behavior."
+    ]
+  },
+  {
+    "title": "Sentinels are kept separate from real names",
+    "bullets": [
+      "Person-name and relationship columns include filer dodges: SUBSTANTIAL CONTRIBUTOR, NONE, NA, VARIOUS, SEE PART V.",
+      "These are real disclosures with the counterparty obscured &mdash; not missing data.",
+      "Surfaced as their own bucket in the Sched L persons tab, never merged with real names. The sentinel-share-by-year line in that tab is itself a data finding."
+    ]
+  },
+  {
+    "title": "The 2019 dip is COVID, not a behavioral collapse",
+    "bullets": [
+      "Every related-party table shows a ~45% trough at tax-period-end 2019.",
+      "Those filings actually landed in calendar 2020 under IRS extension orders; the tax_period field stamps them as 2019.",
+      "Treat 2019 as not-a-comparable-year when reading any time series in the room."
+    ]
+  },
+  {
+    "title": "Sched L person-name graph is essentially zero",
+    "bullets": [
+      "Across all Schedule L parts, only 37 normalized person names appear at &ge;2 distinct filers.",
+      "Either insider relationships are genuinely org-specific in this population, or name normalization is missing variants that would need fuzzy matching to recover.",
+      "The cross-filer <em>shared insider</em> signal lives in Part VII (1,874 persons appearing at &ge;3 EINs), not Schedule L."
+    ]
+  },
+  {
+    "title": "Corpus scope",
+    "bullets": [
+      "Form 990 (full) filings only &mdash; 990-EZ filers don't file Sched L Pt IV or Sched R, and 990-PF runs the different &sect;4941 self-dealing regime.",
+      "Religion-related NTEE-X subset: 88,660 filings, 18,017 EINs, 2014&ndash;2025.",
+      "Foundation-group breakdown: 56,179 public charity, 16,117 supporting org, 15,656 church-status, ~570 other."
+    ]
+  }
+]

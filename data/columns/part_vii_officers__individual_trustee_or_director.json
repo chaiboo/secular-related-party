@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 11477357,
+"n_true": 11477357,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 933607,
+"false": 0,
+"null": 207790
+},
+{
+"year": 2017,
+"true": 1128770,
+"false": 0,
+"null": 247305
+},
+{
+"year": 2018,
+"true": 1210732,
+"false": 0,
+"null": 267393
+},
+{
+"year": 2019,
+"true": 734259,
+"false": 0,
+"null": 159322
+},
+{
+"year": 2020,
+"true": 1254918,
+"false": 0,
+"null": 288801
+},
+{
+"year": 2021,
+"true": 1421544,
+"false": 0,
+"null": 330537
+},
+{
+"year": 2022,
+"true": 1455387,
+"false": 0,
+"null": 349284
+},
+{
+"year": 2023,
+"true": 1478233,
+"false": 0,
+"null": 364080
+},
+{
+"year": 2024,
+"true": 1483365,
+"false": 0,
+"null": 375441
+},
+{
+"year": 2025,
+"true": 365674,
+"false": 0,
+"null": 86506
+}
+],
+"name": "individual_trustee_or_director",
+"non_null_pct": 0.8107196878886329,
+"status": "ok"
+}

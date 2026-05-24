@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 5551,
+"n_true": 5551,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 582,
+"false": 0,
+"null": 21968
+},
+{
+"year": 2017,
+"true": 581,
+"false": 0,
+"null": 25978
+},
+{
+"year": 2018,
+"true": 641,
+"false": 0,
+"null": 28117
+},
+{
+"year": 2019,
+"true": 306,
+"false": 0,
+"null": 16499
+},
+{
+"year": 2020,
+"true": 676,
+"false": 0,
+"null": 30594
+},
+{
+"year": 2021,
+"true": 629,
+"false": 0,
+"null": 34769
+},
+{
+"year": 2022,
+"true": 649,
+"false": 0,
+"null": 36666
+},
+{
+"year": 2023,
+"true": 706,
+"false": 0,
+"null": 38944
+},
+{
+"year": 2024,
+"true": 689,
+"false": 0,
+"null": 40853
+},
+{
+"year": 2025,
+"true": 83,
+"false": 0,
+"null": 8471
+}
+],
+"name": "first_class_or_charter_travel",
+"non_null_pct": 0.019233167946337,
+"status": "ok"
+}

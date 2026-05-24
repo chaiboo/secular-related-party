@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 7464,
+"n_true": 7464,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 804,
+"false": 0,
+"null": 21746
+},
+{
+"year": 2017,
+"true": 922,
+"false": 0,
+"null": 25637
+},
+{
+"year": 2018,
+"true": 922,
+"false": 0,
+"null": 27836
+},
+{
+"year": 2019,
+"true": 526,
+"false": 0,
+"null": 16279
+},
+{
+"year": 2020,
+"true": 822,
+"false": 0,
+"null": 30448
+},
+{
+"year": 2021,
+"true": 771,
+"false": 0,
+"null": 34627
+},
+{
+"year": 2022,
+"true": 825,
+"false": 0,
+"null": 36490
+},
+{
+"year": 2023,
+"true": 879,
+"false": 0,
+"null": 38771
+},
+{
+"year": 2024,
+"true": 852,
+"false": 0,
+"null": 40690
+},
+{
+"year": 2025,
+"true": 134,
+"false": 0,
+"null": 8420
+}
+],
+"name": "travel_companions",
+"non_null_pct": 0.02586135210799124,
+"status": "ok"
+}

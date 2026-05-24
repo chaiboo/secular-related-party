@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 100548,
+"n_true": 100548,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 8964,
+"false": 0,
+"null": 13586
+},
+{
+"year": 2017,
+"true": 10195,
+"false": 0,
+"null": 16364
+},
+{
+"year": 2018,
+"true": 10821,
+"false": 0,
+"null": 17937
+},
+{
+"year": 2019,
+"true": 6292,
+"false": 0,
+"null": 10513
+},
+{
+"year": 2020,
+"true": 11103,
+"false": 0,
+"null": 20167
+},
+{
+"year": 2021,
+"true": 12090,
+"false": 0,
+"null": 23308
+},
+{
+"year": 2022,
+"true": 12428,
+"false": 0,
+"null": 24887
+},
+{
+"year": 2023,
+"true": 12841,
+"false": 0,
+"null": 26809
+},
+{
+"year": 2024,
+"true": 13224,
+"false": 0,
+"null": 28318
+},
+{
+"year": 2025,
+"true": 2514,
+"false": 0,
+"null": 6040
+}
+],
+"name": "compensation_survey",
+"non_null_pct": 0.3483798542007373,
+"status": "ok"
+}

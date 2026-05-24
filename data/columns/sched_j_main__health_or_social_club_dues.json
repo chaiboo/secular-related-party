@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 13678,
+"n_true": 13678,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 1495,
+"false": 0,
+"null": 21055
+},
+{
+"year": 2017,
+"true": 1634,
+"false": 0,
+"null": 24925
+},
+{
+"year": 2018,
+"true": 1618,
+"false": 0,
+"null": 27140
+},
+{
+"year": 2019,
+"true": 962,
+"false": 0,
+"null": 15843
+},
+{
+"year": 2020,
+"true": 1560,
+"false": 0,
+"null": 29710
+},
+{
+"year": 2021,
+"true": 1591,
+"false": 0,
+"null": 33807
+},
+{
+"year": 2022,
+"true": 1552,
+"false": 0,
+"null": 35763
+},
+{
+"year": 2023,
+"true": 1550,
+"false": 0,
+"null": 38100
+},
+{
+"year": 2024,
+"true": 1467,
+"false": 0,
+"null": 40075
+},
+{
+"year": 2025,
+"true": 233,
+"false": 0,
+"null": 8321
+}
+],
+"name": "health_or_social_club_dues",
+"non_null_pct": 0.0473916899963966,
+"status": "ok"
+}

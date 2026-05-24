@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 273186,
+"n_true": 30725,
+"n_false": 242461,
+"yearly": [
+{
+"year": 2016,
+"true": 2441,
+"false": 18853,
+"null": 1256
+},
+{
+"year": 2017,
+"true": 2727,
+"false": 22449,
+"null": 1383
+},
+{
+"year": 2018,
+"true": 3000,
+"false": 24180,
+"null": 1578
+},
+{
+"year": 2019,
+"true": 1636,
+"false": 14409,
+"null": 760
+},
+{
+"year": 2020,
+"true": 3429,
+"false": 26134,
+"null": 1707
+},
+{
+"year": 2021,
+"true": 3665,
+"false": 29789,
+"null": 1944
+},
+{
+"year": 2022,
+"true": 4101,
+"false": 31206,
+"null": 2008
+},
+{
+"year": 2023,
+"true": 4399,
+"false": 33131,
+"null": 2120
+},
+{
+"year": 2024,
+"true": 4673,
+"false": 34602,
+"null": 2267
+},
+{
+"year": 2025,
+"true": 631,
+"false": 7529,
+"null": 394
+}
+],
+"name": "non_fixed_payments",
+"non_null_pct": 0.9465379604734319,
+"status": "ok"
+}

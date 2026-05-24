@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 140667,
+"n_real": 140550,
+"n_sentinel": 117,
+"n_distinct": 8269,
+"top": [
+{
+"value": "REAL ESTATE",
+"n": 8768
+},
+{
+"value": "SKILLED NURSING FACILITY",
+"n": 5907
+},
+{
+"value": "HOUSING",
+"n": 5752
+},
+{
+"value": "AFFORDABLE HOUSING",
+"n": 4594
+},
+{
+"value": "LOW INCOME HOUSING",
+"n": 4345
+},
+{
+"value": "HEALTHCARE",
+"n": 3195
+},
+{
+"value": "RENTAL REAL ESTATE",
+"n": 2500
+},
+{
+"value": "LOW-INCOME HOUSING",
+"n": 1932
+},
+{
+"value": "INACTIVE",
+"n": 1823
+},
+{
+"value": "INVESTMENTS",
+"n": 1769
+},
+{
+"value": "HOLDING COMPANY",
+"n": 1643
+},
+{
+"value": "ASSISTED LIVING FACILITY",
+"n": 1384
+},
+{
+"value": "INVESTMENT",
+"n": 1148
+},
+{
+"value": "RENTAL",
+"n": 1123
+},
+{
+"value": "REAL ESTATE DEVELOPMENT",
+"n": 1061
+},
+{
+"value": "REAL ESTATE HOLDING COMPANY",
+"n": 1018
+},
+{
+"value": "LOW-INCOME HSG",
+"n": 955
+},
+{
+"value": "REAL ESTATE HOLDING",
+"n": 848
+},
+{
+"value": "REAL ESTAT",
+"n": 785
+},
+{
+"value": "TO PROVIDE SAFE & AFFORDABLE HOUSING TO LOW INCOME FAMILIES AND SENIORS",
+"n": 734
+},
+{
+"value": "EMPLOYS PHYSICIANS",
+"n": 723
+},
+{
+"value": "EDUCATION",
+"n": 712
+},
+{
+"value": "TO PROVIDE LOW INCOME HOUSING.",
+"n": 619
+},
+{
+"value": "COMMUNITY DEVELOPMENT",
+"n": 591
+},
+{
+"value": "AFFORDABLE RENTAL HOUSING",
+"n": 582
+},
+{
+"value": "REAL ESTATE HOLDINGS",
+"n": 559
+},
+{
+"value": "MEDICAL SERVICES",
+"n": 525
+},
+{
+"value": "RESIDENTIAL RENTAL",
+"n": 464
+},
+{
+"value": "LOW INC HSG",
+"n": 460
+},
+{
+"value": "SAME AS 3CDC",
+"n": 442
+},
+{
+"value": "TO PROVIDE SAFE & AFFORDABLE HOUSING TO LOW INCOME FAMILIES & SENIORS",
+"n": 426
+},
+{
+"value": "HOLD PROPERTY",
+"n": 413
+},
+{
+"value": "SEE PART VII",
+"n": 410
+},
+{
+"value": "HOSPITAL",
+"n": 406
+},
+{
+"value": "ACCOUNTABLE CARE ORGANIZATION",
+"n": 384
+},
+{
+"value": "PARTNERSHIP MANAGEMENT",
+"n": 353
+},
+{
+"value": "LOW INCOME MULTI-FAMILY HOUSING",
+"n": 348
+},
+{
+"value": "PROPERTY MANAGEMENT",
+"n": 344
+},
+{
+"value": "OUTPATIENT REHABILITATION",
+"n": 312
+},
+{
+"value": "RENTAL PROPERTY",
+"n": 308
+},
+{
+"value": "HEALTH CARE",
+"n": 298
+},
+{
+"value": "CHARITABLE",
+"n": 295
+},
+{
+"value": "LOW-INC HSNG",
+"n": 293
+},
+{
+"value": "MULTIFAMILY RESIDENTIAL",
+"n": 289
+},
+{
+"value": "MANAGEMENT",
+"n": 286
+},
+{
+"value": "RESEARCH",
+"n": 286
+},
+{
+"value": "SUPPORT",
+"n": 285
+},
+{
+"value": "STUDENT LOANS",
+"n": 277
+},
+{
+"value": "TO FINANCE, OWN AND OPERATE STUDENT HOUSING FACILITIES FOR THE UNIVERSITY",
+"n": 275
+},
+{
+"value": "HOLDING CO",
+"n": 272
+}
+],
+"other_n": 77029,
+"yearly": [
+{
+"year": 2016,
+"n_real": 10465,
+"n_sentinel": 93,
+"REAL ESTATE": 807,
+"SKILLED NURSING FACILITY": 3,
+"HOUSING": 166,
+"AFFORDABLE HOUSING": 225,
+"LOW INCOME HOUSING": 249,
+"HEALTHCARE": 287,
+"RENTAL REAL ESTATE": 150,
+"LOW-INCOME HOUSING": 331,
+"INACTIVE": 196,
+"INVESTMENTS": 192
+},
+{
+"year": 2017,
+"n_real": 12444,
+"n_sentinel": 108,
+"REAL ESTATE": 938,
+"SKILLED NURSING FACILITY": 3,
+"HOUSING": 372,
+"AFFORDABLE HOUSING": 304,
+"LOW INCOME HOUSING": 449,
+"HEALTHCARE": 334,
+"RENTAL REAL ESTATE": 205,
+"LOW-INCOME HOUSING": 421,
+"INACTIVE": 201,
+"INVESTMENTS": 222
+},
+{
+"year": 2018,
+"n_real": 20644,
+"n_sentinel": 116,
+"REAL ESTATE": 932,
+"SKILLED NURSING FACILITY": 5341,
+"HOUSING": 410,
+"AFFORDABLE HOUSING": 346,
+"LOW INCOME HOUSING": 448,
+"HEALTHCARE": 351,
+"RENTAL REAL ESTATE": 222,
+"LOW-INCOME HOUSING": 140,
+"INACTIVE": 211,
+"INVESTMENTS": 242
+},
+{
+"year": 2019,
+"n_real": 7268,
+"n_sentinel": 52,
+"REAL ESTATE": 459,
+"SKILLED NURSING FACILITY": 560,
+"HOUSING": 388,
+"AFFORDABLE HOUSING": 153,
+"LOW INCOME HOUSING": 153,
+"HEALTHCARE": 156,
+"RENTAL REAL ESTATE": 84,
+"LOW-INCOME HOUSING": 18,
+"INACTIVE": 96,
+"INVESTMENTS": 94
+},
+{
+"year": 2020,
+"n_real": 14657,
+"n_sentinel": 121,
+"REAL ESTATE": 982,
+"SKILLED NURSING FACILITY": 0,
+"HOUSING": 328,
+"AFFORDABLE HOUSING": 527,
+"LOW INCOME HOUSING": 526,
+"HEALTHCARE": 360,
+"RENTAL REAL ESTATE": 256,
+"LOW-INCOME HOUSING": 133,
+"INACTIVE": 223,
+"INVESTMENTS": 213
+},
+{
+"year": 2021,
+"n_real": 16773,
+"n_sentinel": 158,
+"REAL ESTATE": 1083,
+"SKILLED NURSING FACILITY": 0,
+"HOUSING": 643,
+"AFFORDABLE HOUSING": 683,
+"LOW INCOME HOUSING": 563,
+"HEALTHCARE": 400,
+"RENTAL REAL ESTATE": 309,
+"LOW-INCOME HOUSING": 180,
+"INACTIVE": 231,
+"INVESTMENTS": 219
+},
+{
+"year": 2022,
+"n_real": 17622,
+"n_sentinel": 169,
+"REAL ESTATE": 1129,
+"SKILLED NURSING FACILITY": 0,
+"HOUSING": 834,
+"AFFORDABLE HOUSING": 768,
+"LOW INCOME HOUSING": 603,
+"HEALTHCARE": 416,
+"RENTAL REAL ESTATE": 360,
+"LOW-INCOME HOUSING": 202,
+"INACTIVE": 217,
+"INVESTMENTS": 208
+},
+{
+"year": 2023,
+"n_real": 18504,
+"n_sentinel": 171,
+"REAL ESTATE": 1148,
+"SKILLED NURSING FACILITY": 0,
+"HOUSING": 902,
+"AFFORDABLE HOUSING": 752,
+"LOW INCOME HOUSING": 625,
+"HEALTHCARE": 450,
+"RENTAL REAL ESTATE": 421,
+"LOW-INCOME HOUSING": 229,
+"INACTIVE": 206,
+"INVESTMENTS": 185
+},
+{
+"year": 2024,
+"n_real": 19388,
+"n_sentinel": 178,
+"REAL ESTATE": 1209,
+"SKILLED NURSING FACILITY": 0,
+"HOUSING": 1037,
+"AFFORDABLE HOUSING": 804,
+"LOW INCOME HOUSING": 649,
+"HEALTHCARE": 436,
+"RENTAL REAL ESTATE": 458,
+"LOW-INCOME HOUSING": 267,
+"INACTIVE": 227,
+"INVESTMENTS": 186
+},
+{
+"year": 2025,
+"n_real": 2622,
+"n_sentinel": 21,
+"REAL ESTATE": 79,
+"SKILLED NURSING FACILITY": 0,
+"HOUSING": 670,
+"AFFORDABLE HOUSING": 28,
+"LOW INCOME HOUSING": 58,
+"HEALTHCARE": 1,
+"RENTAL REAL ESTATE": 34,
+"LOW-INCOME HOUSING": 11,
+"INACTIVE": 15,
+"INVESTMENTS": 8
+}
+],
+"name": "primary_activity",
+"non_null_pct": 0.992443804766541,
+"status": "ok"
+}

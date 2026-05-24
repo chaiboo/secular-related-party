@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 6742,
+"n_true": 6742,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 697,
+"false": 0,
+"null": 21853
+},
+{
+"year": 2017,
+"true": 762,
+"false": 0,
+"null": 25797
+},
+{
+"year": 2018,
+"true": 774,
+"false": 0,
+"null": 27984
+},
+{
+"year": 2019,
+"true": 402,
+"false": 0,
+"null": 16403
+},
+{
+"year": 2020,
+"true": 779,
+"false": 0,
+"null": 30491
+},
+{
+"year": 2021,
+"true": 781,
+"false": 0,
+"null": 34617
+},
+{
+"year": 2022,
+"true": 799,
+"false": 0,
+"null": 36516
+},
+{
+"year": 2023,
+"true": 843,
+"false": 0,
+"null": 38807
+},
+{
+"year": 2024,
+"true": 813,
+"false": 0,
+"null": 40729
+},
+{
+"year": 2025,
+"true": 84,
+"false": 0,
+"null": 8470
+}
+],
+"name": "tax_indemnification",
+"non_null_pct": 0.023359758294758434,
+"status": "ok"
+}

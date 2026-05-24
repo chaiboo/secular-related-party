@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 284674,
+"n_true": 44578,
+"n_false": 240096,
+"yearly": [
+{
+"year": 2016,
+"true": 4440,
+"false": 17890,
+"null": 220
+},
+{
+"year": 2017,
+"true": 4845,
+"false": 21434,
+"null": 280
+},
+{
+"year": 2018,
+"true": 5002,
+"false": 23426,
+"null": 330
+},
+{
+"year": 2019,
+"true": 2570,
+"false": 14039,
+"null": 196
+},
+{
+"year": 2020,
+"true": 5260,
+"false": 25616,
+"null": 394
+},
+{
+"year": 2021,
+"true": 5482,
+"false": 29419,
+"null": 497
+},
+{
+"year": 2022,
+"true": 5472,
+"false": 31299,
+"null": 544
+},
+{
+"year": 2023,
+"true": 5482,
+"false": 33587,
+"null": 581
+},
+{
+"year": 2024,
+"true": 5530,
+"false": 35322,
+"null": 690
+},
+{
+"year": 2025,
+"true": 444,
+"false": 7907,
+"null": 203
+}
+],
+"name": "supplemental_nonqualified_retirement",
+"non_null_pct": 0.986341713557114,
+"status": "ok"
+}

@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 1157538,
+"n_real": 1100207,
+"n_sentinel": 57331,
+"n_distinct": 186391,
+"top": [
+{
+"value": "PHYSICIAN",
+"n": 45474
+},
+{
+"value": "EXECUTIVE DIRECTOR",
+"n": 43672
+},
+{
+"value": "PRESIDENT",
+"n": 37675
+},
+{
+"value": "CEO",
+"n": 27189
+},
+{
+"value": "PRESIDENT & CEO",
+"n": 21069
+},
+{
+"value": "CFO",
+"n": 20179
+},
+{
+"value": "CHIEF FINANCIAL OFFICER",
+"n": 15387
+},
+{
+"value": "VICE PRESIDENT",
+"n": 15204
+},
+{
+"value": "PRESIDENT/CEO",
+"n": 15069
+},
+{
+"value": "CHIEF EXECUTIVE OFFICER",
+"n": 12869
+},
+{
+"value": "TREASURER",
+"n": 12342
+},
+{
+"value": "SECRETARY",
+"n": 12003
+},
+{
+"value": "TRUSTEE",
+"n": 11631
+},
+{
+"value": "CHIEF OPERATING OFFICER",
+"n": 10106
+},
+{
+"value": "COO",
+"n": 8719
+},
+{
+"value": "PRESIDENT AND CEO",
+"n": 6859
+},
+{
+"value": "FORMER OFFICER",
+"n": 5580
+},
+{
+"value": "MEDICAL DIRECTOR",
+"n": 5523
+},
+{
+"value": "HEAD OF SCHOOL",
+"n": 5016
+},
+{
+"value": "PSYCHIATRIST",
+"n": 4995
+},
+{
+"value": "CHIEF MEDICAL OFFICER",
+"n": 4212
+},
+{
+"value": "EXECUTIVE DIR.",
+"n": 3656
+},
+{
+"value": "CONTROLLER",
+"n": 3147
+},
+{
+"value": "ASSISTANT SECRETARY",
+"n": 3140
+},
+{
+"value": "CHIEF INFORMATION OFFICER",
+"n": 3072
+},
+{
+"value": "EXECUTIVE VICE PRESIDENT",
+"n": 2934
+},
+{
+"value": "CHIEF DEVELOPMENT OFFICER",
+"n": 2897
+},
+{
+"value": "PROFESSOR",
+"n": 2757
+},
+{
+"value": "ASSISTANT TREASURER",
+"n": 2747
+},
+{
+"value": "ADMINISTRATOR",
+"n": 2629
+},
+{
+"value": "PRINCIPAL",
+"n": 2595
+},
+{
+"value": "DIRECTOR OF FINANCE",
+"n": 2510
+},
+{
+"value": "FORMER KEY EMPLOYEE",
+"n": 2432
+},
+{
+"value": "GENERAL COUNSEL",
+"n": 2339
+},
+{
+"value": "SENIOR VICE PRESIDENT",
+"n": 2233
+},
+{
+"value": "SECRETARY/TREASURER",
+"n": 2219
+},
+{
+"value": "CMO",
+"n": 2128
+},
+{
+"value": "CHAIRMAN",
+"n": 2106
+},
+{
+"value": "MANAGING DIRECTOR",
+"n": 2006
+},
+{
+"value": "PHARMACIST",
+"n": 1999
+},
+{
+"value": "DENTIST",
+"n": 1956
+},
+{
+"value": "CHIEF OF STAFF",
+"n": 1949
+},
+{
+"value": "VP HUMAN RESOURCES",
+"n": 1805
+},
+{
+"value": "DIRECTOR OF DEVELOPMENT",
+"n": 1735
+},
+{
+"value": "CEO/PRESIDENT",
+"n": 1714
+},
+{
+"value": "REGISTERED NURSE",
+"n": 1657
+},
+{
+"value": "PROGRAM DIRECTOR",
+"n": 1650
+},
+{
+"value": "FORMER DIRECTOR",
+"n": 1645
+},
+{
+"value": "FORMER PRESIDENT",
+"n": 1592
+},
+{
+"value": "SEE SCHEDULE O - O & T TITLES",
+"n": 1516
+}
+],
+"other_n": 692669,
+"yearly": [
+{
+"year": 2016,
+"n_real": 89818,
+"n_sentinel": 6628,
+"PHYSICIAN": 4789,
+"EXECUTIVE DIRECTOR": 2913,
+"PRESIDENT": 3379,
+"CEO": 1873,
+"PRESIDENT & CEO": 1714,
+"CFO": 1422,
+"CHIEF FINANCIAL OFFICER": 1050,
+"VICE PRESIDENT": 1533,
+"PRESIDENT/CEO": 1327,
+"CHIEF EXECUTIVE OFFICER": 836
+},
+{
+"year": 2017,
+"n_real": 101910,
+"n_sentinel": 7343,
+"PHYSICIAN": 5203,
+"EXECUTIVE DIRECTOR": 3553,
+"PRESIDENT": 3902,
+"CEO": 2251,
+"PRESIDENT & CEO": 2020,
+"CFO": 1694,
+"CHIEF FINANCIAL OFFICER": 1231,
+"VICE PRESIDENT": 1666,
+"PRESIDENT/CEO": 1518,
+"CHIEF EXECUTIVE OFFICER": 1028
+},
+{
+"year": 2018,
+"n_real": 110275,
+"n_sentinel": 7711,
+"PHYSICIAN": 5385,
+"EXECUTIVE DIRECTOR": 3924,
+"PRESIDENT": 4127,
+"CEO": 2483,
+"PRESIDENT & CEO": 2185,
+"CFO": 1919,
+"CHIEF FINANCIAL OFFICER": 1396,
+"VICE PRESIDENT": 1653,
+"PRESIDENT/CEO": 1545,
+"CHIEF EXECUTIVE OFFICER": 1137
+},
+{
+"year": 2019,
+"n_real": 61246,
+"n_sentinel": 4440,
+"PHYSICIAN": 2895,
+"EXECUTIVE DIRECTOR": 2314,
+"PRESIDENT": 2344,
+"CEO": 1484,
+"PRESIDENT & CEO": 1169,
+"CFO": 1061,
+"CHIEF FINANCIAL OFFICER": 793,
+"VICE PRESIDENT": 910,
+"PRESIDENT/CEO": 856,
+"CHIEF EXECUTIVE OFFICER": 667
+},
+{
+"year": 2020,
+"n_real": 121633,
+"n_sentinel": 8744,
+"PHYSICIAN": 5428,
+"EXECUTIVE DIRECTOR": 4529,
+"PRESIDENT": 4111,
+"CEO": 2908,
+"PRESIDENT & CEO": 2408,
+"CFO": 2206,
+"CHIEF FINANCIAL OFFICER": 1636,
+"VICE PRESIDENT": 1652,
+"PRESIDENT/CEO": 1664,
+"CHIEF EXECUTIVE OFFICER": 1362
+},
+{
+"year": 2021,
+"n_real": 134009,
+"n_sentinel": 9719,
+"PHYSICIAN": 5539,
+"EXECUTIVE DIRECTOR": 5314,
+"PRESIDENT": 4611,
+"CEO": 3355,
+"PRESIDENT & CEO": 2528,
+"CFO": 2579,
+"CHIEF FINANCIAL OFFICER": 1926,
+"VICE PRESIDENT": 1792,
+"PRESIDENT/CEO": 1835,
+"CHIEF EXECUTIVE OFFICER": 1567
+},
+{
+"year": 2022,
+"n_real": 141947,
+"n_sentinel": 9902,
+"PHYSICIAN": 5392,
+"EXECUTIVE DIRECTOR": 5825,
+"PRESIDENT": 4696,
+"CEO": 3632,
+"PRESIDENT & CEO": 2612,
+"CFO": 2704,
+"CHIEF FINANCIAL OFFICER": 2067,
+"VICE PRESIDENT": 1905,
+"PRESIDENT/CEO": 1913,
+"CHIEF EXECUTIVE OFFICER": 1760
+},
+{
+"year": 2023,
+"n_real": 152092,
+"n_sentinel": 10162,
+"PHYSICIAN": 5259,
+"EXECUTIVE DIRECTOR": 6412,
+"PRESIDENT": 4791,
+"CEO": 3982,
+"PRESIDENT & CEO": 2884,
+"CFO": 2943,
+"CHIEF FINANCIAL OFFICER": 2267,
+"VICE PRESIDENT": 1894,
+"PRESIDENT/CEO": 1961,
+"CHIEF EXECUTIVE OFFICER": 1929
+},
+{
+"year": 2024,
+"n_real": 161338,
+"n_sentinel": 10009,
+"PHYSICIAN": 5035,
+"EXECUTIVE DIRECTOR": 7083,
+"PRESIDENT": 4781,
+"CEO": 4300,
+"PRESIDENT & CEO": 3027,
+"CFO": 3087,
+"CHIEF FINANCIAL OFFICER": 2536,
+"VICE PRESIDENT": 1853,
+"PRESIDENT/CEO": 2042,
+"CHIEF EXECUTIVE OFFICER": 2149
+},
+{
+"year": 2025,
+"n_real": 24846,
+"n_sentinel": 1622,
+"PHYSICIAN": 502,
+"EXECUTIVE DIRECTOR": 1776,
+"PRESIDENT": 897,
+"CEO": 899,
+"PRESIDENT & CEO": 514,
+"CFO": 551,
+"CHIEF FINANCIAL OFFICER": 468,
+"VICE PRESIDENT": 329,
+"PRESIDENT/CEO": 397,
+"CHIEF EXECUTIVE OFFICER": 421
+}
+],
+"name": "title",
+"non_null_pct": 0.9837898846772638,
+"status": "ok"
+}

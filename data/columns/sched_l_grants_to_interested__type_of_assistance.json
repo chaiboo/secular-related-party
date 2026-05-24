@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 9471,
+"n_real": 9436,
+"n_sentinel": 35,
+"n_distinct": 997,
+"top": [
+{
+"value": "SCHOLARSHIP",
+"n": 1568
+},
+{
+"value": "FINANCIAL AID",
+"n": 618
+},
+{
+"value": "GRANT",
+"n": 592
+},
+{
+"value": "TUITION REMISSION",
+"n": 477
+},
+{
+"value": "TUITION ASSISTANCE",
+"n": 385
+},
+{
+"value": "TUITION",
+"n": 263
+},
+{
+"value": "SCHOLARSHIPS",
+"n": 220
+},
+{
+"value": "CASH",
+"n": 211
+},
+{
+"value": "DISCOUNTED TUITION",
+"n": 156
+},
+{
+"value": "CASH GRANT",
+"n": 148
+},
+{
+"value": "TUITION DISCOUNT",
+"n": 143
+},
+{
+"value": "STIPEND",
+"n": 95
+},
+{
+"value": "TUITION REDUCTION",
+"n": 93
+},
+{
+"value": "MERIT SCHOLARSHIP",
+"n": 92
+},
+{
+"value": "SCHOLARSHIPS AWARDED",
+"n": 82
+},
+{
+"value": "NEED BASED FINANCIAL AID",
+"n": 66
+},
+{
+"value": "ENTRANCE FEES",
+"n": 64
+},
+{
+"value": "GRANTS",
+"n": 60
+},
+{
+"value": "TUITION WAIVER",
+"n": 59
+},
+{
+"value": "MERIT SCHOLARSHIPS",
+"n": 57
+},
+{
+"value": "AWARD",
+"n": 49
+},
+{
+"value": "TUITION DISCOUNTS",
+"n": 49
+},
+{
+"value": "GRANTS & SCHOLARSHIPS",
+"n": 48
+},
+{
+"value": "NEED BASED",
+"n": 46
+},
+{
+"value": "REGISTRATION",
+"n": 45
+},
+{
+"value": "TUITION GRANTS",
+"n": 44
+},
+{
+"value": "MERIT AWARD",
+"n": 44
+},
+{
+"value": "SCHOLARSHIP/FINANCIAL AID",
+"n": 40
+},
+{
+"value": "FINANCIAL ASSISTANCE",
+"n": 40
+},
+{
+"value": "DISCOUNT REGISTRATION",
+"n": 35
+},
+{
+"value": "MERIT BASED",
+"n": 34
+},
+{
+"value": "FINANCIAL AID FOR TUITION",
+"n": 34
+},
+{
+"value": "TUITION FINANCIAL ASSISTANCE IN THE FORM OF DISCOUNT",
+"n": 33
+},
+{
+"value": "EMPLOYEE TUITION REMISSION",
+"n": 33
+},
+{
+"value": "TRNMNT PRIZE",
+"n": 33
+},
+{
+"value": "MERIT BASED SCHOLARSHIP",
+"n": 32
+},
+{
+"value": "TUITION GRANT",
+"n": 32
+},
+{
+"value": "SUBGRANT",
+"n": 29
+},
+{
+"value": "MONETARY",
+"n": 28
+},
+{
+"value": "MEMBER BENEFIT",
+"n": 28
+},
+{
+"value": "TUITION EXCHANGE",
+"n": 27
+},
+{
+"value": "SCHOLARSHIP GRANT",
+"n": 25
+},
+{
+"value": "ARTS GRANT",
+"n": 25
+},
+{
+"value": "DISCOUNT",
+"n": 23
+},
+{
+"value": "FINANCIAL",
+"n": 22
+},
+{
+"value": "LOAN",
+"n": 22
+},
+{
+"value": "COLLEGE SCHOLARSHIP",
+"n": 22
+},
+{
+"value": "FELLOWSHIP",
+"n": 22
+},
+{
+"value": "NEED-BASED SCHOLARSHIPS",
+"n": 22
+},
+{
+"value": "HOUSING",
+"n": 21
+}
+],
+"other_n": 3000,
+"yearly": [
+{
+"year": 2016,
+"n_real": 762,
+"n_sentinel": 73,
+"SCHOLARSHIP": 121,
+"FINANCIAL AID": 35,
+"GRANT": 35,
+"TUITION REMISSION": 34,
+"TUITION ASSISTANCE": 32,
+"TUITION": 10,
+"SCHOLARSHIPS": 18,
+"CASH": 19,
+"DISCOUNTED TUITION": 16,
+"CASH GRANT": 19
+},
+{
+"year": 2017,
+"n_real": 928,
+"n_sentinel": 57,
+"SCHOLARSHIP": 147,
+"FINANCIAL AID": 50,
+"GRANT": 62,
+"TUITION REMISSION": 41,
+"TUITION ASSISTANCE": 43,
+"TUITION": 19,
+"SCHOLARSHIPS": 24,
+"CASH": 8,
+"DISCOUNTED TUITION": 16,
+"CASH GRANT": 29
+},
+{
+"year": 2018,
+"n_real": 1011,
+"n_sentinel": 68,
+"SCHOLARSHIP": 138,
+"FINANCIAL AID": 69,
+"GRANT": 81,
+"TUITION REMISSION": 52,
+"TUITION ASSISTANCE": 39,
+"TUITION": 32,
+"SCHOLARSHIPS": 27,
+"CASH": 19,
+"DISCOUNTED TUITION": 17,
+"CASH GRANT": 43
+},
+{
+"year": 2019,
+"n_real": 706,
+"n_sentinel": 33,
+"SCHOLARSHIP": 98,
+"FINANCIAL AID": 50,
+"GRANT": 55,
+"TUITION REMISSION": 33,
+"TUITION ASSISTANCE": 30,
+"TUITION": 23,
+"SCHOLARSHIPS": 14,
+"CASH": 10,
+"DISCOUNTED TUITION": 10,
+"CASH GRANT": 27
+},
+{
+"year": 2020,
+"n_real": 1098,
+"n_sentinel": 28,
+"SCHOLARSHIP": 161,
+"FINANCIAL AID": 71,
+"GRANT": 72,
+"TUITION REMISSION": 59,
+"TUITION ASSISTANCE": 50,
+"TUITION": 27,
+"SCHOLARSHIPS": 23,
+"CASH": 25,
+"DISCOUNTED TUITION": 18,
+"CASH GRANT": 7
+},
+{
+"year": 2021,
+"n_real": 1194,
+"n_sentinel": 64,
+"SCHOLARSHIP": 214,
+"FINANCIAL AID": 85,
+"GRANT": 71,
+"TUITION REMISSION": 65,
+"TUITION ASSISTANCE": 52,
+"TUITION": 33,
+"SCHOLARSHIPS": 23,
+"CASH": 24,
+"DISCOUNTED TUITION": 17,
+"CASH GRANT": 9
+},
+{
+"year": 2022,
+"n_real": 1120,
+"n_sentinel": 67,
+"SCHOLARSHIP": 204,
+"FINANCIAL AID": 82,
+"GRANT": 61,
+"TUITION REMISSION": 58,
+"TUITION ASSISTANCE": 42,
+"TUITION": 36,
+"SCHOLARSHIPS": 29,
+"CASH": 32,
+"DISCOUNTED TUITION": 19,
+"CASH GRANT": 5
+},
+{
+"year": 2023,
+"n_real": 1159,
+"n_sentinel": 64,
+"SCHOLARSHIP": 216,
+"FINANCIAL AID": 75,
+"GRANT": 71,
+"TUITION REMISSION": 53,
+"TUITION ASSISTANCE": 43,
+"TUITION": 51,
+"SCHOLARSHIPS": 24,
+"CASH": 35,
+"DISCOUNTED TUITION": 17,
+"CASH GRANT": 4
+},
+{
+"year": 2024,
+"n_real": 1161,
+"n_sentinel": 83,
+"SCHOLARSHIP": 213,
+"FINANCIAL AID": 80,
+"GRANT": 66,
+"TUITION REMISSION": 64,
+"TUITION ASSISTANCE": 40,
+"TUITION": 24,
+"SCHOLARSHIPS": 27,
+"CASH": 35,
+"DISCOUNTED TUITION": 19,
+"CASH GRANT": 5
+},
+{
+"year": 2025,
+"n_real": 292,
+"n_sentinel": 7,
+"SCHOLARSHIP": 55,
+"FINANCIAL AID": 20,
+"GRANT": 18,
+"TUITION REMISSION": 18,
+"TUITION ASSISTANCE": 14,
+"TUITION": 8,
+"SCHOLARSHIPS": 11,
+"CASH": 4,
+"DISCOUNTED TUITION": 7,
+"CASH GRANT": 0
+}
+],
+"name": "type_of_assistance",
+"non_null_pct": 0.948997995991984,
+"status": "ok"
+}

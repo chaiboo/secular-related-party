@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 59621,
+"n_true": 40653,
+"n_false": 18968,
+"yearly": [
+{
+"year": 2016,
+"true": 4279,
+"false": 1938,
+"null": 39
+},
+{
+"year": 2017,
+"true": 4646,
+"false": 2069,
+"null": 28
+},
+{
+"year": 2018,
+"true": 4892,
+"false": 2194,
+"null": 34
+},
+{
+"year": 2019,
+"true": 2572,
+"false": 1022,
+"null": 20
+},
+{
+"year": 2020,
+"true": 4877,
+"false": 2252,
+"null": 42
+},
+{
+"year": 2021,
+"true": 4827,
+"false": 2287,
+"null": 59
+},
+{
+"year": 2022,
+"true": 4566,
+"false": 2280,
+"null": 44
+},
+{
+"year": 2023,
+"true": 4548,
+"false": 2295,
+"null": 44
+},
+{
+"year": 2024,
+"true": 4650,
+"false": 2254,
+"null": 42
+},
+{
+"year": 2025,
+"true": 680,
+"false": 307,
+"null": 7
+}
+],
+"name": "written_agreement",
+"non_null_pct": 0.9940146715571857,
+"status": "ok"
+}

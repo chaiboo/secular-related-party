@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 53778,
+"n_real": 36042,
+"n_sentinel": 17736,
+"n_distinct": 4442,
+"top": [
+{
+"value": "PRESIDENT",
+"n": 5243
+},
+{
+"value": "EXECUTIVE DIRECTOR",
+"n": 2793
+},
+{
+"value": "CEO",
+"n": 1159
+},
+{
+"value": "TRUSTEE",
+"n": 816
+},
+{
+"value": "TREASURER",
+"n": 725
+},
+{
+"value": "KEY EMPLOYEE",
+"n": 531
+},
+{
+"value": "FORMER BOARD MEMBER",
+"n": 507
+},
+{
+"value": "CHAIRMAN",
+"n": 473
+},
+{
+"value": "FOUNDER",
+"n": 466
+},
+{
+"value": "FORMER DIRECTOR",
+"n": 357
+},
+{
+"value": "VICE PRESIDENT",
+"n": 331
+},
+{
+"value": "SECRETARY",
+"n": 314
+},
+{
+"value": "BOARD",
+"n": 277
+},
+{
+"value": "FORMER OFFICER",
+"n": 265
+},
+{
+"value": "EXEC DIR",
+"n": 250
+},
+{
+"value": "CFO",
+"n": 221
+},
+{
+"value": "BOARD PRESIDENT",
+"n": 209
+},
+{
+"value": "BOARD CHAIR",
+"n": 206
+},
+{
+"value": "EXEC DIRECTOR",
+"n": 181
+},
+{
+"value": "BOARD OF DIRECTORS",
+"n": 175
+},
+{
+"value": "PRESIDENT/CEO",
+"n": 174
+},
+{
+"value": "RELATED ORGANIZATION",
+"n": 172
+},
+{
+"value": "HEAD OF SCHOOL",
+"n": 167
+},
+{
+"value": "35% CONTROLLED ENTITY",
+"n": 166
+},
+{
+"value": "AFFILIATE",
+"n": 157
+},
+{
+"value": "FORMER TRUSTEE",
+"n": 151
+},
+{
+"value": "FORMER PRESIDENT",
+"n": 146
+},
+{
+"value": "OFFICER/DIRECTOR",
+"n": 134
+},
+{
+"value": "CONTROLLED ENTITY",
+"n": 114
+},
+{
+"value": "FAMILY",
+"n": 111
+},
+{
+"value": "RELATED ENTITY",
+"n": 107
+},
+{
+"value": "CURRENT OFFICER",
+"n": 106
+},
+{
+"value": "PRESIDENT & CEO",
+"n": 103
+},
+{
+"value": "BOARD DIRECTOR",
+"n": 101
+},
+{
+"value": "ARTISTIC DIRECTOR",
+"n": 100
+},
+{
+"value": "CHAIR",
+"n": 87
+},
+{
+"value": "COO",
+"n": 84
+},
+{
+"value": "HIGHEST COMPENSATED EMPLOYEE",
+"n": 83
+},
+{
+"value": "DIRECTOR/OFFICER",
+"n": 83
+},
+{
+"value": "FORMER TREASURER",
+"n": 82
+},
+{
+"value": "PRESIDENT AND CEO",
+"n": 78
+},
+{
+"value": "FORMER EXECUTIVE DIRECTOR",
+"n": 75
+},
+{
+"value": "OFFICER/ DIRECTOR",
+"n": 74
+},
+{
+"value": "PHYSICIAN",
+"n": 74
+},
+{
+"value": "MANAGER",
+"n": 69
+},
+{
+"value": "CHAIRPERSON",
+"n": 63
+},
+{
+"value": "RELATED OFFICER",
+"n": 62
+},
+{
+"value": "EXECUTIVE",
+"n": 60
+},
+{
+"value": "PRES",
+"n": 59
+},
+{
+"value": "OWNER",
+"n": 59
+}
+],
+"other_n": 17442,
+"yearly": [
+{
+"year": 2016,
+"n_real": 3400,
+"n_sentinel": 2856,
+"PRESIDENT": 448,
+"EXECUTIVE DIRECTOR": 285,
+"CEO": 102,
+"TRUSTEE": 94,
+"TREASURER": 59,
+"KEY EMPLOYEE": 40,
+"FORMER BOARD MEMBER": 63,
+"CHAIRMAN": 50,
+"FOUNDER": 47,
+"FORMER DIRECTOR": 47
+},
+{
+"year": 2017,
+"n_real": 3823,
+"n_sentinel": 2920,
+"PRESIDENT": 533,
+"EXECUTIVE DIRECTOR": 332,
+"CEO": 97,
+"TRUSTEE": 97,
+"TREASURER": 80,
+"KEY EMPLOYEE": 45,
+"FORMER BOARD MEMBER": 59,
+"CHAIRMAN": 52,
+"FOUNDER": 45,
+"FORMER DIRECTOR": 39
+},
+{
+"year": 2018,
+"n_real": 4171,
+"n_sentinel": 2949,
+"PRESIDENT": 601,
+"EXECUTIVE DIRECTOR": 342,
+"CEO": 106,
+"TRUSTEE": 100,
+"TREASURER": 81,
+"KEY EMPLOYEE": 69,
+"FORMER BOARD MEMBER": 52,
+"CHAIRMAN": 58,
+"FOUNDER": 45,
+"FORMER DIRECTOR": 52
+},
+{
+"year": 2019,
+"n_real": 2135,
+"n_sentinel": 1479,
+"PRESIDENT": 290,
+"EXECUTIVE DIRECTOR": 174,
+"CEO": 66,
+"TRUSTEE": 55,
+"TREASURER": 43,
+"KEY EMPLOYEE": 46,
+"FORMER BOARD MEMBER": 30,
+"CHAIRMAN": 34,
+"FOUNDER": 25,
+"FORMER DIRECTOR": 17
+},
+{
+"year": 2020,
+"n_real": 4347,
+"n_sentinel": 2824,
+"PRESIDENT": 640,
+"EXECUTIVE DIRECTOR": 323,
+"CEO": 146,
+"TRUSTEE": 88,
+"TREASURER": 80,
+"KEY EMPLOYEE": 63,
+"FORMER BOARD MEMBER": 52,
+"CHAIRMAN": 58,
+"FOUNDER": 52,
+"FORMER DIRECTOR": 32
+},
+{
+"year": 2021,
+"n_real": 4399,
+"n_sentinel": 2774,
+"PRESIDENT": 660,
+"EXECUTIVE DIRECTOR": 305,
+"CEO": 137,
+"TRUSTEE": 97,
+"TREASURER": 91,
+"KEY EMPLOYEE": 52,
+"FORMER BOARD MEMBER": 54,
+"CHAIRMAN": 59,
+"FOUNDER": 54,
+"FORMER DIRECTOR": 46
+},
+{
+"year": 2022,
+"n_real": 4360,
+"n_sentinel": 2530,
+"PRESIDENT": 668,
+"EXECUTIVE DIRECTOR": 324,
+"CEO": 147,
+"TRUSTEE": 93,
+"TREASURER": 88,
+"KEY EMPLOYEE": 65,
+"FORMER BOARD MEMBER": 60,
+"CHAIRMAN": 59,
+"FOUNDER": 57,
+"FORMER DIRECTOR": 40
+},
+{
+"year": 2023,
+"n_real": 4330,
+"n_sentinel": 2557,
+"PRESIDENT": 651,
+"EXECUTIVE DIRECTOR": 320,
+"CEO": 160,
+"TRUSTEE": 83,
+"TREASURER": 92,
+"KEY EMPLOYEE": 78,
+"FORMER BOARD MEMBER": 73,
+"CHAIRMAN": 46,
+"FOUNDER": 64,
+"FORMER DIRECTOR": 39
+},
+{
+"year": 2024,
+"n_real": 4377,
+"n_sentinel": 2569,
+"PRESIDENT": 655,
+"EXECUTIVE DIRECTOR": 326,
+"CEO": 171,
+"TRUSTEE": 94,
+"TREASURER": 91,
+"KEY EMPLOYEE": 62,
+"FORMER BOARD MEMBER": 54,
+"CHAIRMAN": 50,
+"FOUNDER": 66,
+"FORMER DIRECTOR": 37
+},
+{
+"year": 2025,
+"n_real": 614,
+"n_sentinel": 380,
+"PRESIDENT": 83,
+"EXECUTIVE DIRECTOR": 55,
+"CEO": 21,
+"TRUSTEE": 14,
+"TREASURER": 20,
+"KEY EMPLOYEE": 11,
+"FORMER BOARD MEMBER": 10,
+"CHAIRMAN": 4,
+"FOUNDER": 10,
+"FORMER DIRECTOR": 8
+}
+],
+"name": "relationship",
+"non_null_pct": 0.896598866288763,
+"status": "ok"
+}

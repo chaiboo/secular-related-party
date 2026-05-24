@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 238245,
+"n_true": 238245,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 19295,
+"false": 0,
+"null": 1122102
+},
+{
+"year": 2017,
+"true": 22066,
+"false": 0,
+"null": 1354009
+},
+{
+"year": 2018,
+"true": 24077,
+"false": 0,
+"null": 1454048
+},
+{
+"year": 2019,
+"true": 13526,
+"false": 0,
+"null": 880055
+},
+{
+"year": 2020,
+"true": 25993,
+"false": 0,
+"null": 1517726
+},
+{
+"year": 2021,
+"true": 29347,
+"false": 0,
+"null": 1722734
+},
+{
+"year": 2022,
+"true": 31294,
+"false": 0,
+"null": 1773377
+},
+{
+"year": 2023,
+"true": 32622,
+"false": 0,
+"null": 1809691
+},
+{
+"year": 2024,
+"true": 33535,
+"false": 0,
+"null": 1825271
+},
+{
+"year": 2025,
+"true": 6178,
+"false": 0,
+"null": 446002
+}
+],
+"name": "key_employee",
+"non_null_pct": 0.016828779660772716,
+"status": "ok"
+}

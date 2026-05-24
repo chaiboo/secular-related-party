@@ -1,0 +1,22 @@
+{
+  "n_filings": 1200910,
+  "n_eins": 187133,
+  "year_range": [
+    2014,
+    2026
+  ],
+  "foundation_group_counts": {
+    "public_charity": 681932,
+    "supporting_org": 317140,
+    "other_501c": 84303,
+    "school": 71041,
+    "hospital_medical_research": 26928,
+    "community_trust": 12059,
+    "church": 3372,
+    "private_op_foundation": 2794,
+    "other_501c3": 550,
+    "public_college_support": 512,
+    "private_foundation": 279
+  },
+  "church_status_n": 0
+}

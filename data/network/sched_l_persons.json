@@ -1,0 +1,531 @@
+{
+"n_edges": 64590,
+"n_persons_real": 61389,
+"n_filers_with_real_person": 26084,
+"n_persons_at_ge_2_filers": 1845,
+"sentinel_examples": [
+{
+"pname": "SUBSTANTIAL CONTRIBUTOR",
+"n": 3092
+},
+{
+"pname": "SEE PART V",
+"n": 376
+},
+{
+"pname": "VARIOUS",
+"n": 222
+},
+{
+"pname": "NA",
+"n": 184
+},
+{
+"pname": "ANONYMOUS",
+"n": 165
+},
+{
+"pname": "BOARD MEMBER",
+"n": 101
+},
+{
+"pname": "BOARD MEMBERS",
+"n": 55
+},
+{
+"pname": "NONE",
+"n": 32
+},
+{
+"pname": "-",
+"n": 30
+},
+{
+"pname": "1",
+"n": 23
+},
+{
+"pname": "SEE SCHEDULE O",
+"n": 23
+},
+{
+"pname": "EMPLOYEES",
+"n": 20
+},
+{
+"pname": "DONOR",
+"n": 17
+},
+{
+"pname": "OFFICER",
+"n": 17
+},
+{
+"pname": "2",
+"n": 14
+},
+{
+"pname": "EMPLOYEE",
+"n": 12
+},
+{
+"pname": "INTERESTED PERSON",
+"n": 12
+},
+{
+"pname": "0",
+"n": 11
+},
+{
+"pname": "SEE STATEMENT",
+"n": 11
+},
+{
+"pname": "DIRECTOR",
+"n": 8
+},
+{
+"pname": "RELATED PARTY",
+"n": 7
+},
+{
+"pname": "SA",
+"n": 7
+},
+{
+"pname": "3",
+"n": 7
+},
+{
+"pname": "A",
+"n": 6
+},
+{
+"pname": "INTERESTED PERSONS",
+"n": 5
+},
+{
+"pname": "M",
+"n": 4
+},
+{
+"pname": "5",
+"n": 3
+},
+{
+"pname": "SP",
+"n": 2
+},
+{
+"pname": "T",
+"n": 1
+},
+{
+"pname": "VP",
+"n": 1
+}
+],
+"cross_filer_persons": [
+{
+"pname": "VARIOUS BOARD MEMBERS",
+"n_filers": 24
+},
+{
+"pname": "RELATED TO SUBSTANTIAL CONTRIBUTOR",
+"n_filers": 23
+},
+{
+"pname": "LOAN FROM OFFICER",
+"n_filers": 22
+},
+{
+"pname": "BEL-ART ENTERPRISES",
+"n_filers": 17
+},
+{
+"pname": "SEE BELOW",
+"n_filers": 15
+},
+{
+"pname": "SEE SCHEDULE L PART V",
+"n_filers": 15
+},
+{
+"pname": "BELART COMPANY LLC",
+"n_filers": 15
+},
+{
+"pname": "NOTE PAYABLE",
+"n_filers": 14
+},
+{
+"pname": "CONSTELLATION SCHOOLS LLC",
+"n_filers": 14
+},
+{
+"pname": "SAMUEL BLEVINS - SON OF ROSEANNE",
+"n_filers": 13
+},
+{
+"pname": "MARK HOFFMAN",
+"n_filers": 13
+},
+{
+"pname": "ELIZABETH LETICH - DAUGHTER OF",
+"n_filers": 13
+},
+{
+"pname": "JULIE SULLIVAN",
+"n_filers": 12
+},
+{
+"pname": "VERTEX EDUCATION LLC",
+"n_filers": 12
+},
+{
+"pname": "UNITED PROPERTIES MANAGEMENT INC",
+"n_filers": 12
+},
+{
+"pname": "DENNIS LINDOR - HUSBAND OF DAWN",
+"n_filers": 11
+},
+{
+"pname": "CHERI BROUSE SISTER OF",
+"n_filers": 11
+},
+{
+"pname": "KAITLYN PENISKA RELATIVE OF LAURIE",
+"n_filers": 11
+},
+{
+"pname": "KAITLYN PENISKA - RELATIVE LAURIE",
+"n_filers": 11
+},
+{
+"pname": "BAILEY HAGEN DAUGHTER OF CHRISTINE",
+"n_filers": 11
+},
+{
+"pname": "INTREPID MANAGEMENT INC",
+"n_filers": 11
+},
+{
+"pname": "ELIZABETH LETICH",
+"n_filers": 11
+},
+{
+"pname": "STACY RICHARDS - DAUGHER OF JUDY",
+"n_filers": 11
+},
+{
+"pname": "ANNA LYNCH",
+"n_filers": 11
+},
+{
+"pname": "TARREN MCALISTER SON OF",
+"n_filers": 11
+},
+{
+"pname": "ANDY RAW SON OF",
+"n_filers": 11
+},
+{
+"pname": "ANDY RAW - SON OF",
+"n_filers": 11
+},
+{
+"pname": "KERRI HICKS NEICE OF",
+"n_filers": 11
+},
+{
+"pname": "ANDREW RAW",
+"n_filers": 11
+},
+{
+"pname": "CFE MANAGEMENT GROUP LLC",
+"n_filers": 11
+},
+{
+"pname": "RILEIGH PORT DAUGHTER OF",
+"n_filers": 11
+},
+{
+"pname": "KIM GILBERT",
+"n_filers": 11
+},
+{
+"pname": "CHANTEL TRIGGS - WIFE OF JOHNATHON",
+"n_filers": 11
+},
+{
+"pname": "ELIZABETH LETICH DAUGHTER OF",
+"n_filers": 11
+},
+{
+"pname": "BAILEY HAGEN -DAUGHTER OF CHRISTINE",
+"n_filers": 11
+},
+{
+"pname": "NORINE KOSOBUSKI DAUGHTER OF CARRIE",
+"n_filers": 11
+},
+{
+"pname": "CASSIDY HAGEN-DAUGHTER OF CHRISTINE",
+"n_filers": 11
+},
+{
+"pname": "CONCERN FOR INDEPENDENT LIVING INC",
+"n_filers": 11
+},
+{
+"pname": "JUSTIN NELSON - SON OF LEAH",
+"n_filers": 11
+},
+{
+"pname": "VICKI KOSCHAK-SIBLING OF CHESTER",
+"n_filers": 11
+},
+{
+"pname": "DAWN BJORGE",
+"n_filers": 11
+},
+{
+"pname": "RACHEL RESENDIZ - SISTER OF EMILY",
+"n_filers": 11
+},
+{
+"pname": "CHRISTOPHER WAGNER",
+"n_filers": 11
+},
+{
+"pname": "INTREPID INVESTMENTS INC INTREPID INVESTMENTS INC",
+"n_filers": 10
+},
+{
+"pname": "BRIAN PORT SPOUSE OF",
+"n_filers": 10
+},
+{
+"pname": "ANDY RAW",
+"n_filers": 10
+},
+{
+"pname": "NOT REQUIRED",
+"n_filers": 10
+},
+{
+"pname": "JUSTIN PENISKA RELATIVE - LAURIE",
+"n_filers": 10
+},
+{
+"pname": "SUSAN URLAUB",
+"n_filers": 10
+},
+{
+"pname": "KAITLYN PENISKA",
+"n_filers": 10
+},
+{
+"pname": "INTREPID INVESTMENTS INC",
+"n_filers": 10
+},
+{
+"pname": "LEE WARSHAVSKY",
+"n_filers": 10
+},
+{
+"pname": "DEGNON ASSOCIATES INC",
+"n_filers": 9
+},
+{
+"pname": "KIMBERLY JAMES",
+"n_filers": 9
+},
+{
+"pname": "GLOBAL PACKAGING SOLUTIONS",
+"n_filers": 9
+},
+{
+"pname": "BELARTS COMPANY LLC",
+"n_filers": 9
+},
+{
+"pname": "JAIDEEP KARAMCHANDANI",
+"n_filers": 9
+},
+{
+"pname": "LTC SUPPORT SERVICES (LTC)",
+"n_filers": 9
+},
+{
+"pname": "RACHEL MARKIEWICZ",
+"n_filers": 9
+},
+{
+"pname": "STEPHANIE NELSON",
+"n_filers": 8
+},
+{
+"pname": "SCOTT MARKIEWICZ",
+"n_filers": 8
+},
+{
+"pname": "BOARD OF DIRECTORS",
+"n_filers": 8
+},
+{
+"pname": "MARLA ATKINSON",
+"n_filers": 8
+},
+{
+"pname": "CARRIE SETTE-CAMARA",
+"n_filers": 8
+},
+{
+"pname": "LOAN",
+"n_filers": 8
+},
+{
+"pname": "CERTIFIED HEAT AIR",
+"n_filers": 8
+},
+{
+"pname": "CYNTHIA WORKMAN",
+"n_filers": 8
+},
+{
+"pname": "EDUCATION DYNAMICS INC",
+"n_filers": 8
+},
+{
+"pname": "MONTE LANGE",
+"n_filers": 8
+},
+{
+"pname": "MELISSA DAVIDSON",
+"n_filers": 8
+},
+{
+"pname": "TIFFANY MAINTENANCE CO INC",
+"n_filers": 8
+},
+{
+"pname": "FOUNDATION BUILDING MATERIALS",
+"n_filers": 8
+},
+{
+"pname": "NICOLE ATKINSON",
+"n_filers": 8
+},
+{
+"pname": "DAVID A MACHOLZ",
+"n_filers": 8
+},
+{
+"pname": "MITCH POSSINGER",
+"n_filers": 8
+},
+{
+"pname": "UNITED PROPERTIES MANAGEMENT INC UNITED PROPERTIES MANAGEMENT INC",
+"n_filers": 8
+},
+{
+"pname": "CS CAPITAL MANAGEMENT INC",
+"n_filers": 7
+},
+{
+"pname": "SANTIAGO COMMUNITIES INC",
+"n_filers": 7
+},
+{
+"pname": "JOE WILL",
+"n_filers": 7
+},
+{
+"pname": "WASHINGTON PLACE AT ST BARNABAS",
+"n_filers": 7
+},
+{
+"pname": "SCOTT KAPLAN",
+"n_filers": 7
+},
+{
+"pname": "SENTRY SECURITY COMPANY INC",
+"n_filers": 7
+},
+{
+"pname": "ORGANIZATIONS LISTED IN PART D BELO",
+"n_filers": 7
+},
+{
+"pname": "GORDON GILBERT",
+"n_filers": 7
+},
+{
+"pname": "JOHN POPP",
+"n_filers": 7
+},
+{
+"pname": "CAROLYN AMES",
+"n_filers": 7
+},
+{
+"pname": "CRISTA TAYLOR",
+"n_filers": 7
+},
+{
+"pname": "DAVID M WARD",
+"n_filers": 7
+},
+{
+"pname": "JOAN MURRAY",
+"n_filers": 7
+},
+{
+"pname": "ALFRED FITZSIMONS",
+"n_filers": 7
+},
+{
+"pname": "DANIELLE ZOLLER",
+"n_filers": 7
+},
+{
+"pname": "THE COMMUNITY BUILDERS INC",
+"n_filers": 7
+},
+{
+"pname": "NICO SANDERS",
+"n_filers": 7
+},
+{
+"pname": "JACOB TUCKER",
+"n_filers": 7
+},
+{
+"pname": "JACOB SOLOMON",
+"n_filers": 7
+},
+{
+"pname": "STEPHEN LANDE",
+"n_filers": 7
+},
+{
+"pname": "BRADLEY BURCK",
+"n_filers": 7
+},
+{
+"pname": "MICHAEL HESS",
+"n_filers": 7
+},
+{
+"pname": "KATHLEEN ZAPFEL",
+"n_filers": 7
+},
+{
+"pname": "MAURICIO RIVEROS",
+"n_filers": 7
+}
+],
+"method_note": "Persons normalized via upper+strip. Same-name collisions possible."
+}

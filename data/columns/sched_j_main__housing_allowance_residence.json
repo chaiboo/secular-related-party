@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 14289,
+"n_true": 14289,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 1393,
+"false": 0,
+"null": 21157
+},
+{
+"year": 2017,
+"true": 1571,
+"false": 0,
+"null": 24988
+},
+{
+"year": 2018,
+"true": 1625,
+"false": 0,
+"null": 27133
+},
+{
+"year": 2019,
+"true": 968,
+"false": 0,
+"null": 15837
+},
+{
+"year": 2020,
+"true": 1584,
+"false": 0,
+"null": 29686
+},
+{
+"year": 2021,
+"true": 1675,
+"false": 0,
+"null": 33723
+},
+{
+"year": 2022,
+"true": 1717,
+"false": 0,
+"null": 35598
+},
+{
+"year": 2023,
+"true": 1708,
+"false": 0,
+"null": 37942
+},
+{
+"year": 2024,
+"true": 1726,
+"false": 0,
+"null": 39816
+},
+{
+"year": 2025,
+"true": 306,
+"false": 0,
+"null": 8248
+}
+],
+"name": "housing_allowance_residence",
+"non_null_pct": 0.04950868974693018,
+"status": "ok"
+}

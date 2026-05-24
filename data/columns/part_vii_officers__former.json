@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 67823,
+"n_true": 67823,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 5899,
+"false": 0,
+"null": 1135498
+},
+{
+"year": 2017,
+"true": 6681,
+"false": 0,
+"null": 1369394
+},
+{
+"year": 2018,
+"true": 7310,
+"false": 0,
+"null": 1470815
+},
+{
+"year": 2019,
+"true": 4190,
+"false": 0,
+"null": 889391
+},
+{
+"year": 2020,
+"true": 7678,
+"false": 0,
+"null": 1536041
+},
+{
+"year": 2021,
+"true": 8047,
+"false": 0,
+"null": 1744034
+},
+{
+"year": 2022,
+"true": 8207,
+"false": 0,
+"null": 1796464
+},
+{
+"year": 2023,
+"true": 8973,
+"false": 0,
+"null": 1833340
+},
+{
+"year": 2024,
+"true": 9723,
+"false": 0,
+"null": 1849083
+},
+{
+"year": 2025,
+"true": 1004,
+"false": 0,
+"null": 451176
+}
+],
+"name": "former",
+"non_null_pct": 0.004790775558490578,
+"status": "ok"
+}

@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 3387,
+"n_true": 3387,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 331,
+"false": 0,
+"null": 22219
+},
+{
+"year": 2017,
+"true": 375,
+"false": 0,
+"null": 26184
+},
+{
+"year": 2018,
+"true": 385,
+"false": 0,
+"null": 28373
+},
+{
+"year": 2019,
+"true": 216,
+"false": 0,
+"null": 16589
+},
+{
+"year": 2020,
+"true": 367,
+"false": 0,
+"null": 30903
+},
+{
+"year": 2021,
+"true": 421,
+"false": 0,
+"null": 34977
+},
+{
+"year": 2022,
+"true": 397,
+"false": 0,
+"null": 36918
+},
+{
+"year": 2023,
+"true": 407,
+"false": 0,
+"null": 39243
+},
+{
+"year": 2024,
+"true": 403,
+"false": 0,
+"null": 41139
+},
+{
+"year": 2025,
+"true": 78,
+"false": 0,
+"null": 8476
+}
+],
+"name": "discretionary_spending_account",
+"non_null_pct": 0.011735316129389916,
+"status": "ok"
+}

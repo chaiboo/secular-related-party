@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 59794,
+"n_true": 51415,
+"n_false": 8379,
+"yearly": [
+{
+"year": 2016,
+"true": 5364,
+"false": 871,
+"null": 21
+},
+{
+"year": 2017,
+"true": 5769,
+"false": 960,
+"null": 14
+},
+{
+"year": 2018,
+"true": 6078,
+"false": 1028,
+"null": 14
+},
+{
+"year": 2019,
+"true": 3114,
+"false": 487,
+"null": 13
+},
+{
+"year": 2020,
+"true": 6168,
+"false": 979,
+"null": 24
+},
+{
+"year": 2021,
+"true": 6200,
+"false": 950,
+"null": 23
+},
+{
+"year": 2022,
+"true": 5897,
+"false": 968,
+"null": 25
+},
+{
+"year": 2023,
+"true": 5867,
+"false": 994,
+"null": 26
+},
+{
+"year": 2024,
+"true": 5941,
+"false": 983,
+"null": 22
+},
+{
+"year": 2025,
+"true": 871,
+"false": 119,
+"null": 4
+}
+],
+"name": "approved_by_board",
+"non_null_pct": 0.9968989663221074,
+"status": "ok"
+}

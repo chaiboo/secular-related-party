@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 2236109,
+"n_true": 877653,
+"n_false": 1358456,
+"yearly": [
+{
+"year": 2016,
+"true": 75604,
+"false": 96553,
+"null": 851
+},
+{
+"year": 2017,
+"true": 83950,
+"false": 122180,
+"null": 824
+},
+{
+"year": 2018,
+"true": 87691,
+"false": 136842,
+"null": 932
+},
+{
+"year": 2019,
+"true": 61601,
+"false": 82802,
+"null": 451
+},
+{
+"year": 2020,
+"true": 114337,
+"false": 163792,
+"null": 727
+},
+{
+"year": 2021,
+"true": 113200,
+"false": 178815,
+"null": 749
+},
+{
+"year": 2022,
+"true": 110312,
+"false": 183588,
+"null": 870
+},
+{
+"year": 2023,
+"true": 115213,
+"false": 181014,
+"null": 877
+},
+{
+"year": 2024,
+"true": 113018,
+"false": 185874,
+"null": 914
+},
+{
+"year": 2025,
+"true": 2191,
+"false": 26359,
+"null": 129
+}
+],
+"name": "section_512b_13_controlled",
+"non_null_pct": 0.9967300290401592,
+"status": "ok"
+}

@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 3338,
+"n_true": 3338,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 352,
+"false": 0,
+"null": 22198
+},
+{
+"year": 2017,
+"true": 384,
+"false": 0,
+"null": 26175
+},
+{
+"year": 2018,
+"true": 392,
+"false": 0,
+"null": 28366
+},
+{
+"year": 2019,
+"true": 227,
+"false": 0,
+"null": 16578
+},
+{
+"year": 2020,
+"true": 378,
+"false": 0,
+"null": 30892
+},
+{
+"year": 2021,
+"true": 392,
+"false": 0,
+"null": 35006
+},
+{
+"year": 2022,
+"true": 386,
+"false": 0,
+"null": 36929
+},
+{
+"year": 2023,
+"true": 388,
+"false": 0,
+"null": 39262
+},
+{
+"year": 2024,
+"true": 378,
+"false": 0,
+"null": 41164
+},
+{
+"year": 2025,
+"true": 57,
+"false": 0,
+"null": 8497
+}
+],
+"name": "personal_services",
+"non_null_pct": 0.011565540371982149,
+"status": "ok"
+}

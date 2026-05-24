@@ -1,0 +1,109 @@
+{
+  "sched_l_loans": {
+    "n_total": 59980,
+    "n_default_known": 59862,
+    "n_default_true": 454,
+    "pct_default": 0.007584110119942535,
+    "n_unwritten": 18968,
+    "n_unapproved": 8379,
+    "n_unwritten_and_unapproved": 6172,
+    "n_unwritten_and_unapproved_eins": 1899
+  },
+  "sched_r_controlled": {
+    "te_n": 2236109,
+    "te_controlled": 877653,
+    "te_pct": 0.39249115315934957,
+    "ct_n": 638462,
+    "ct_controlled": 240572,
+    "ct_pct": 0.3767992456872923,
+    "combined_n": 2874571,
+    "combined_controlled": 1118225,
+    "combined_pct": 0.3890058725284573
+  },
+  "sched_j_contingent": {
+    "rev_n": 273725,
+    "rev_true": 4590,
+    "rev_pct": 0.016768654671659514,
+    "ne_n": 273694,
+    "ne_true": 3130,
+    "ne_pct": 0.011436129399986847,
+    "any_n": 5789,
+    "any_eins": 1265
+  },
+  "sched_l_excess_benefit": {
+    "n_rows": 456,
+    "n_eins": 211,
+    "n_with_tax": 147,
+    "sum_tax_imposed": 13823605.0,
+    "sum_tax_reimbursed": 13000.0,
+    "n_reimbursed": 1,
+    "n_uncorrected": 0
+  },
+  "sched_l_sentinel_yearly": [
+    {
+      "year": 2016,
+      "n_total": 21371,
+      "n_sentinel": 1607,
+      "pct_sentinel": 0.07519535819568575
+    },
+    {
+      "year": 2017,
+      "n_total": 23683,
+      "n_sentinel": 1948,
+      "pct_sentinel": 0.08225309293586117
+    },
+    {
+      "year": 2018,
+      "n_total": 24827,
+      "n_sentinel": 2017,
+      "pct_sentinel": 0.08124219599629436
+    },
+    {
+      "year": 2019,
+      "n_total": 13432,
+      "n_sentinel": 1094,
+      "pct_sentinel": 0.08144729005360334
+    },
+    {
+      "year": 2020,
+      "n_total": 23790,
+      "n_sentinel": 2340,
+      "pct_sentinel": 0.09836065573770492
+    },
+    {
+      "year": 2021,
+      "n_total": 24287,
+      "n_sentinel": 2315,
+      "pct_sentinel": 0.09531848313912793
+    },
+    {
+      "year": 2022,
+      "n_total": 23745,
+      "n_sentinel": 2251,
+      "pct_sentinel": 0.09479890503263845
+    },
+    {
+      "year": 2023,
+      "n_total": 23615,
+      "n_sentinel": 2383,
+      "pct_sentinel": 0.10091043828075376
+    },
+    {
+      "year": 2024,
+      "n_total": 23348,
+      "n_sentinel": 2430,
+      "pct_sentinel": 0.10407743703957513
+    },
+    {
+      "year": 2025,
+      "n_total": 4201,
+      "n_sentinel": 328,
+      "pct_sentinel": 0.07807664841704356
+    }
+  ],
+  "sched_l_sentinel_overall": {
+    "n_total": 206299,
+    "n_sentinel": 18713,
+    "pct_sentinel": 0.09070814691297582
+  }
+}

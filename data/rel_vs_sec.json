@@ -1,0 +1,64 @@
+{
+  "religion": {
+    "n_filings": 88660,
+    "n_eins": 18017,
+    "label": "Religion-classified (NTEE-X)",
+    "url": "https://chaiboo.github.io/religious-nonprofit-related-party/"
+  },
+  "secular": {
+    "n_filings": 1200910,
+    "n_eins": 187133,
+    "label": "Secular (NTEE A\u2013W minus X)",
+    "url": null
+  },
+  "rows": [
+    {
+      "label": "In-default insider loans (Sched L Pt II)",
+      "metric": "share of insider loans flagged in_default",
+      "religion": 0.007369432874078821,
+      "secular": 0.007584110119942535,
+      "lower_is_safer": true,
+      "ratio": 0.9716938121323929
+    },
+    {
+      "label": "Unwritten insider loans (Sched L Pt II)",
+      "metric": "share of insider loans with no written agreement",
+      "religion": 0.39714834988785647,
+      "secular": 0.3168621162005947,
+      "lower_is_safer": true,
+      "ratio": 1.2533790869351995
+    },
+    {
+      "label": "\u00a7512(b)(13) controlled related orgs (Sched R Pt II + IV)",
+      "metric": "share of related tax-exempts + corp/trust under filer control",
+      "religion": 0.3112579610209261,
+      "secular": 0.3890058725284573,
+      "lower_is_safer": false,
+      "ratio": 0.8001369208074266
+    },
+    {
+      "label": "Sentinel counterparty names (Sched L combined)",
+      "metric": "share of Sched L person fields that use a sentinel non-name",
+      "religion": 0.0601132473005004,
+      "secular": 0.09070814691297582,
+      "lower_is_safer": true,
+      "ratio": 0.6627105651069274
+    },
+    {
+      "label": "\u00a74958 excess-benefit admissions (Sched L Pt I)",
+      "metric": "rate of filings with at least one Pt I row",
+      "religion": 0.0009474396571170765,
+      "secular": 0.0003797120516941319,
+      "lower_is_safer": true,
+      "ratio": 2.4951529794483958
+    },
+    {
+      "label": "Contingent-on-revenue officer comp (Sched J Pt I)",
+      "metric": "filings disclosing comp tied to revenues",
+      "religion": 0.000857207308820212,
+      "secular": 0.006428458419032234,
+      "lower_is_safer": true,
+      "ratio": 0.13334570326881875
+    }
+  ]
+}

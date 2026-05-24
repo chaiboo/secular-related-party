@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 4924140,
+"n_true": 4924140,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 377683,
+"false": 0,
+"null": 763714
+},
+{
+"year": 2017,
+"true": 460155,
+"false": 0,
+"null": 915920
+},
+{
+"year": 2018,
+"true": 501510,
+"false": 0,
+"null": 976615
+},
+{
+"year": 2019,
+"true": 304521,
+"false": 0,
+"null": 589060
+},
+{
+"year": 2020,
+"true": 535433,
+"false": 0,
+"null": 1008286
+},
+{
+"year": 2021,
+"true": 613680,
+"false": 0,
+"null": 1138401
+},
+{
+"year": 2022,
+"true": 638808,
+"false": 0,
+"null": 1165863
+},
+{
+"year": 2023,
+"true": 655794,
+"false": 0,
+"null": 1186519
+},
+{
+"year": 2024,
+"true": 665692,
+"false": 0,
+"null": 1193114
+},
+{
+"year": 2025,
+"true": 165693,
+"false": 0,
+"null": 286487
+}
+],
+"name": "officer",
+"non_null_pct": 0.34782374059811266,
+"status": "ok"
+}

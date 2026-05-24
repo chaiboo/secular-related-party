@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 446,
+"n_real": 321,
+"n_sentinel": 125,
+"n_distinct": 135,
+"top": [
+{
+"value": "EXECUTIVE DIRECTOR",
+"n": 29
+},
+{
+"value": "PRESIDENT",
+"n": 15
+},
+{
+"value": "FORMER EXECUTIVE DIRECTOR",
+"n": 15
+},
+{
+"value": "TREASURER",
+"n": 13
+},
+{
+"value": "CHIEF EXECUTIVE OFFICER",
+"n": 12
+},
+{
+"value": "DIRECTOR/OFFICER/KEY EMPLOYEE",
+"n": 12
+},
+{
+"value": "FOUNDER",
+"n": 11
+},
+{
+"value": "PARENT",
+"n": 9
+},
+{
+"value": "EXECUTIVE DIRECTOR - C...",
+"n": 9
+},
+{
+"value": "CEO",
+"n": 6
+},
+{
+"value": "NPNR",
+"n": 6
+},
+{
+"value": "PRESIDENT/CEO",
+"n": 5
+},
+{
+"value": "FORMER CEO",
+"n": 5
+},
+{
+"value": "FORMER OFFICER",
+"n": 5
+},
+{
+"value": "VENDOR",
+"n": 5
+},
+{
+"value": "FORMER BOARD MEMBER",
+"n": 4
+},
+{
+"value": "OFFICER & DIRECTOR",
+"n": 4
+},
+{
+"value": "DIRECTOR OF OPERATIONS",
+"n": 4
+},
+{
+"value": "FAMILY MEMBER OF OFFICER",
+"n": 4
+},
+{
+"value": "BOARD TREASURER",
+"n": 4
+},
+{
+"value": "EX OFFICER",
+"n": 4
+},
+{
+"value": "FORMER PRESIDENT",
+"n": 3
+},
+{
+"value": "CFO",
+"n": 3
+},
+{
+"value": "PRESIDENT OF AMRF",
+"n": 3
+},
+{
+"value": "OFFICER AND TRUSTEE",
+"n": 3
+},
+{
+"value": "FORMER EMPLOYEE/DIR",
+"n": 2
+},
+{
+"value": "WIFE OF BOARD MEMBER",
+"n": 2
+},
+{
+"value": "OWNERSHIP-SUBST. CONTRIB.",
+"n": 2
+},
+{
+"value": "**SEE SCHEDULE O FOR DETAILS",
+"n": 2
+},
+{
+"value": "FORMER BOARD TREASURER",
+"n": 2
+},
+{
+"value": "FAMILY MEMBER OF TRUSTEE",
+"n": 2
+},
+{
+"value": "FORMER DIRECTOR",
+"n": 2
+},
+{
+"value": "HUSBAND TO EXECUTIVE DIRECTOR",
+"n": 2
+},
+{
+"value": "COMMON BOARD MEMBERS",
+"n": 2
+},
+{
+"value": "SPOUSE",
+"n": 2
+},
+{
+"value": "KEY EMPLOYEE",
+"n": 2
+},
+{
+"value": "OFFICER, FORMER CFO",
+"n": 2
+},
+{
+"value": "DAUGHTER IN LAW OF OFFICER",
+"n": 2
+},
+{
+"value": "BOARD CHAIR",
+"n": 2
+},
+{
+"value": "FATHER OF PRESIDENT",
+"n": 2
+},
+{
+"value": "CHAIR OF BOARD OF DIRECTORS",
+"n": 2
+},
+{
+"value": "DISASTER LOAN ASSIST",
+"n": 2
+},
+{
+"value": "DIRECTOR AND OFFICER",
+"n": 2
+},
+{
+"value": "VP OF FINANCE & ADM",
+"n": 1
+},
+{
+"value": "FORMER VICE PRESIDENT",
+"n": 1
+},
+{
+"value": "FORMER EXECUTIVE DIRECTOR OF THE ORGANIZATION",
+"n": 1
+},
+{
+"value": "SEE SCHEDULE L PT V",
+"n": 1
+},
+{
+"value": "GRANDSON OF BOARD MEMBER",
+"n": 1
+},
+{
+"value": "DAUGHTER OF BOARD MEMBER",
+"n": 1
+},
+{
+"value": "NEICE OF BOARD MEMBER",
+"n": 1
+}
+],
+"other_n": 85,
+"yearly": [
+{
+"year": 2016,
+"n_real": 27,
+"n_sentinel": 4,
+"EXECUTIVE DIRECTOR": 3,
+"PRESIDENT": 2,
+"FORMER EXECUTIVE DIRECTOR": 0,
+"TREASURER": 1,
+"CHIEF EXECUTIVE OFFICER": 0,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 0,
+"FOUNDER": 1,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 1
+},
+{
+"year": 2017,
+"n_real": 30,
+"n_sentinel": 3,
+"EXECUTIVE DIRECTOR": 3,
+"PRESIDENT": 0,
+"FORMER EXECUTIVE DIRECTOR": 1,
+"TREASURER": 1,
+"CHIEF EXECUTIVE OFFICER": 0,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 0,
+"FOUNDER": 2,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 0
+},
+{
+"year": 2018,
+"n_real": 36,
+"n_sentinel": 9,
+"EXECUTIVE DIRECTOR": 2,
+"PRESIDENT": 1,
+"FORMER EXECUTIVE DIRECTOR": 1,
+"TREASURER": 2,
+"CHIEF EXECUTIVE OFFICER": 0,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 0,
+"FOUNDER": 1,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 0
+},
+{
+"year": 2019,
+"n_real": 12,
+"n_sentinel": 4,
+"EXECUTIVE DIRECTOR": 0,
+"PRESIDENT": 0,
+"FORMER EXECUTIVE DIRECTOR": 1,
+"TREASURER": 1,
+"CHIEF EXECUTIVE OFFICER": 0,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 0,
+"FOUNDER": 1,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 2
+},
+{
+"year": 2020,
+"n_real": 31,
+"n_sentinel": 10,
+"EXECUTIVE DIRECTOR": 1,
+"PRESIDENT": 2,
+"FORMER EXECUTIVE DIRECTOR": 0,
+"TREASURER": 1,
+"CHIEF EXECUTIVE OFFICER": 1,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 0,
+"FOUNDER": 1,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 0
+},
+{
+"year": 2021,
+"n_real": 39,
+"n_sentinel": 16,
+"EXECUTIVE DIRECTOR": 3,
+"PRESIDENT": 2,
+"FORMER EXECUTIVE DIRECTOR": 2,
+"TREASURER": 2,
+"CHIEF EXECUTIVE OFFICER": 0,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 3,
+"FOUNDER": 1,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 0
+},
+{
+"year": 2022,
+"n_real": 36,
+"n_sentinel": 17,
+"EXECUTIVE DIRECTOR": 1,
+"PRESIDENT": 1,
+"FORMER EXECUTIVE DIRECTOR": 5,
+"TREASURER": 2,
+"CHIEF EXECUTIVE OFFICER": 0,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 3,
+"FOUNDER": 1,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 1
+},
+{
+"year": 2023,
+"n_real": 54,
+"n_sentinel": 23,
+"EXECUTIVE DIRECTOR": 6,
+"PRESIDENT": 3,
+"FORMER EXECUTIVE DIRECTOR": 3,
+"TREASURER": 1,
+"CHIEF EXECUTIVE OFFICER": 11,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 3,
+"FOUNDER": 1,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 1
+},
+{
+"year": 2024,
+"n_real": 49,
+"n_sentinel": 44,
+"EXECUTIVE DIRECTOR": 9,
+"PRESIDENT": 4,
+"FORMER EXECUTIVE DIRECTOR": 1,
+"TREASURER": 2,
+"CHIEF EXECUTIVE OFFICER": 0,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 3,
+"FOUNDER": 1,
+"PARENT": 1,
+"EXECUTIVE DIRECTOR - C...": 1,
+"CEO": 0
+},
+{
+"year": 2025,
+"n_real": 5,
+"n_sentinel": 5,
+"EXECUTIVE DIRECTOR": 0,
+"PRESIDENT": 0,
+"FORMER EXECUTIVE DIRECTOR": 1,
+"TREASURER": 0,
+"CHIEF EXECUTIVE OFFICER": 0,
+"DIRECTOR/OFFICER/KEY EMPLOYEE": 0,
+"FOUNDER": 0,
+"PARENT": 0,
+"EXECUTIVE DIRECTOR - C...": 0,
+"CEO": 1
+}
+],
+"name": "relationship",
+"non_null_pct": 0.9780701754385965,
+"status": "ok"
+}

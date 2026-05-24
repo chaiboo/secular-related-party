@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 273725,
+"n_true": 4590,
+"n_false": 269135,
+"yearly": [
+{
+"year": 2016,
+"true": 467,
+"false": 20882,
+"null": 1201
+},
+{
+"year": 2017,
+"true": 501,
+"false": 24730,
+"null": 1328
+},
+{
+"year": 2018,
+"true": 530,
+"false": 26731,
+"null": 1497
+},
+{
+"year": 2019,
+"true": 293,
+"false": 15793,
+"null": 719
+},
+{
+"year": 2020,
+"true": 555,
+"false": 29083,
+"null": 1632
+},
+{
+"year": 2021,
+"true": 535,
+"false": 32986,
+"null": 1877
+},
+{
+"year": 2022,
+"true": 517,
+"false": 34862,
+"null": 1936
+},
+{
+"year": 2023,
+"true": 560,
+"false": 37024,
+"null": 2066
+},
+{
+"year": 2024,
+"true": 546,
+"false": 38764,
+"null": 2232
+},
+{
+"year": 2025,
+"true": 83,
+"false": 8080,
+"null": 391
+}
+],
+"name": "compensation_contingent_on_revenues",
+"non_null_pct": 0.9484054938049172,
+"status": "ok"
+}

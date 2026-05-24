@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 135976,
+"n_true": 1314,
+"n_false": 134662,
+"yearly": [
+{
+"year": 2016,
+"true": 124,
+"false": 14077,
+"null": 79
+},
+{
+"year": 2017,
+"true": 166,
+"false": 15697,
+"null": 92
+},
+{
+"year": 2018,
+"true": 134,
+"false": 16401,
+"null": 93
+},
+{
+"year": 2019,
+"true": 87,
+"false": 8946,
+"null": 46
+},
+{
+"year": 2020,
+"true": 126,
+"false": 15233,
+"null": 134
+},
+{
+"year": 2021,
+"true": 139,
+"false": 15635,
+"null": 82
+},
+{
+"year": 2022,
+"true": 155,
+"false": 15402,
+"null": 111
+},
+{
+"year": 2023,
+"true": 196,
+"false": 15246,
+"null": 63
+},
+{
+"year": 2024,
+"true": 139,
+"false": 14953,
+"null": 66
+},
+{
+"year": 2025,
+"true": 48,
+"false": 2850,
+"null": 10
+}
+],
+"name": "sharing_of_revenues",
+"non_null_pct": 0.9943254943254943,
+"status": "ok"
+}

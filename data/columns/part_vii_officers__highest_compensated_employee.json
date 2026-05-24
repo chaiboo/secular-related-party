@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 526805,
+"n_true": 526805,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 41609,
+"false": 0,
+"null": 1099788
+},
+{
+"year": 2017,
+"true": 48213,
+"false": 0,
+"null": 1327862
+},
+{
+"year": 2018,
+"true": 52520,
+"false": 0,
+"null": 1425605
+},
+{
+"year": 2019,
+"true": 29980,
+"false": 0,
+"null": 863601
+},
+{
+"year": 2020,
+"true": 56168,
+"false": 0,
+"null": 1487551
+},
+{
+"year": 2021,
+"true": 63001,
+"false": 0,
+"null": 1689080
+},
+{
+"year": 2022,
+"true": 67897,
+"false": 0,
+"null": 1736774
+},
+{
+"year": 2023,
+"true": 73642,
+"false": 0,
+"null": 1768671
+},
+{
+"year": 2024,
+"true": 78590,
+"false": 0,
+"null": 1780216
+},
+{
+"year": 2025,
+"true": 14733,
+"false": 0,
+"null": 437447
+}
+],
+"name": "highest_compensated_employee",
+"non_null_pct": 0.0372116320140753,
+"status": "ok"
+}

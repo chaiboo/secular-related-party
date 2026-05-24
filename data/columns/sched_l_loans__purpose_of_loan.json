@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 56076,
+"n_real": 55435,
+"n_sentinel": 641,
+"n_distinct": 8528,
+"top": [
+{
+"value": "WORKING CAPITAL",
+"n": 2186
+},
+{
+"value": "OPERATIONS",
+"n": 1802
+},
+{
+"value": "CASH FLOW",
+"n": 1284
+},
+{
+"value": "SPLIT-DOLLAR LIFE INSURANCE",
+"n": 898
+},
+{
+"value": "OPERATING EXPENSES",
+"n": 671
+},
+{
+"value": "Operations",
+"n": 640
+},
+{
+"value": "MORTGAGE",
+"n": 583
+},
+{
+"value": "OPERATING",
+"n": 505
+},
+{
+"value": "Working Capital",
+"n": 425
+},
+{
+"value": "Cash Flow",
+"n": 394
+},
+{
+"value": "Loan",
+"n": 366
+},
+{
+"value": "PERSONAL",
+"n": 364
+},
+{
+"value": "LOAN",
+"n": 344
+},
+{
+"value": "OPERATING CAPITAL",
+"n": 312
+},
+{
+"value": "ADVANCE",
+"n": 310
+},
+{
+"value": "OPERATING FUNDS",
+"n": 266
+},
+{
+"value": "EXPENSES",
+"n": 241
+},
+{
+"value": "CAPITAL",
+"n": 228
+},
+{
+"value": "NEW BUILDING",
+"n": 226
+},
+{
+"value": "Personal",
+"n": 223
+},
+{
+"value": "FUNDING",
+"n": 218
+},
+{
+"value": "CONSTRUCTION",
+"n": 214
+},
+{
+"value": "Mortgage",
+"n": 203
+},
+{
+"value": "BUILDING",
+"n": 202
+},
+{
+"value": "INVESTMENT",
+"n": 192
+},
+{
+"value": "GENERAL OPERATIONS",
+"n": 184
+},
+{
+"value": "OPERATING CASH",
+"n": 179
+},
+{
+"value": "Expenses",
+"n": 176
+},
+{
+"value": "Operating",
+"n": 170
+},
+{
+"value": "START UP",
+"n": 157
+},
+{
+"value": "Cash flow",
+"n": 155
+},
+{
+"value": "Working capital",
+"n": 149
+},
+{
+"value": "Operating Expenses",
+"n": 146
+},
+{
+"value": "To fund split dollar life Insurance premiums for supplemental life insurance",
+"n": 145
+},
+{
+"value": "PART V",
+"n": 144
+},
+{
+"value": "RECRUITMENT",
+"n": 137
+},
+{
+"value": "PROVIDE CAPITAL FOR MICROLOANS",
+"n": 135
+},
+{
+"value": "SUPPORT",
+"n": 127
+},
+{
+"value": "operations",
+"n": 124
+},
+{
+"value": "OPERATING CASH FLOW",
+"n": 122
+},
+{
+"value": "GENERAL",
+"n": 118
+},
+{
+"value": "FUND OPERATIONS",
+"n": 117
+},
+{
+"value": "PERSONAL LOAN",
+"n": 116
+},
+{
+"value": "TEMPORARY LOAN",
+"n": 113
+},
+{
+"value": "Capital",
+"n": 112
+},
+{
+"value": "Advance",
+"n": 111
+},
+{
+"value": "SHORT TERM LOAN",
+"n": 110
+},
+{
+"value": "OPERATING LOAN",
+"n": 110
+},
+{
+"value": "AUTO LOAN",
+"n": 109
+},
+{
+"value": "FIXED ASSET PURCHASE",
+"n": 108
+}
+],
+"other_n": 38764,
+"yearly": [
+{
+"year": 2016,
+"n_real": 5690,
+"n_sentinel": 566,
+"WORKING CAPITAL": 238,
+"OPERATIONS": 186,
+"CASH FLOW": 107,
+"SPLIT-DOLLAR LIFE INSURANCE": 0,
+"OPERATING EXPENSES": 87,
+"Operations": 60,
+"MORTGAGE": 61,
+"OPERATING": 40,
+"Working Capital": 56,
+"Cash Flow": 40
+},
+{
+"year": 2017,
+"n_real": 6127,
+"n_sentinel": 616,
+"WORKING CAPITAL": 268,
+"OPERATIONS": 200,
+"CASH FLOW": 142,
+"SPLIT-DOLLAR LIFE INSURANCE": 0,
+"OPERATING EXPENSES": 72,
+"Operations": 84,
+"MORTGAGE": 48,
+"OPERATING": 48,
+"Working Capital": 68,
+"Cash Flow": 23
+},
+{
+"year": 2018,
+"n_real": 6549,
+"n_sentinel": 571,
+"WORKING CAPITAL": 293,
+"OPERATIONS": 223,
+"CASH FLOW": 186,
+"SPLIT-DOLLAR LIFE INSURANCE": 0,
+"OPERATING EXPENSES": 89,
+"Operations": 64,
+"MORTGAGE": 61,
+"OPERATING": 55,
+"Working Capital": 59,
+"Cash Flow": 35
+},
+{
+"year": 2019,
+"n_real": 3376,
+"n_sentinel": 238,
+"WORKING CAPITAL": 185,
+"OPERATIONS": 113,
+"CASH FLOW": 69,
+"SPLIT-DOLLAR LIFE INSURANCE": 6,
+"OPERATING EXPENSES": 40,
+"Operations": 38,
+"MORTGAGE": 49,
+"OPERATING": 28,
+"Working Capital": 23,
+"Cash Flow": 28
+},
+{
+"year": 2020,
+"n_real": 6626,
+"n_sentinel": 545,
+"WORKING CAPITAL": 315,
+"OPERATIONS": 229,
+"CASH FLOW": 161,
+"SPLIT-DOLLAR LIFE INSURANCE": 55,
+"OPERATING EXPENSES": 73,
+"Operations": 78,
+"MORTGAGE": 77,
+"OPERATING": 67,
+"Working Capital": 51,
+"Cash Flow": 54
+},
+{
+"year": 2021,
+"n_real": 6633,
+"n_sentinel": 540,
+"WORKING CAPITAL": 251,
+"OPERATIONS": 221,
+"CASH FLOW": 144,
+"SPLIT-DOLLAR LIFE INSURANCE": 107,
+"OPERATING EXPENSES": 73,
+"Operations": 89,
+"MORTGAGE": 69,
+"OPERATING": 71,
+"Working Capital": 55,
+"Cash Flow": 62
+},
+{
+"year": 2022,
+"n_real": 6425,
+"n_sentinel": 465,
+"WORKING CAPITAL": 212,
+"OPERATIONS": 212,
+"CASH FLOW": 158,
+"SPLIT-DOLLAR LIFE INSURANCE": 179,
+"OPERATING EXPENSES": 72,
+"Operations": 78,
+"MORTGAGE": 78,
+"OPERATING": 62,
+"Working Capital": 33,
+"Cash Flow": 51
+},
+{
+"year": 2023,
+"n_real": 6426,
+"n_sentinel": 461,
+"WORKING CAPITAL": 192,
+"OPERATIONS": 188,
+"CASH FLOW": 158,
+"SPLIT-DOLLAR LIFE INSURANCE": 245,
+"OPERATING EXPENSES": 74,
+"Operations": 67,
+"MORTGAGE": 57,
+"OPERATING": 61,
+"Working Capital": 30,
+"Cash Flow": 50
+},
+{
+"year": 2024,
+"n_real": 6498,
+"n_sentinel": 448,
+"WORKING CAPITAL": 197,
+"OPERATIONS": 189,
+"CASH FLOW": 134,
+"SPLIT-DOLLAR LIFE INSURANCE": 306,
+"OPERATING EXPENSES": 75,
+"Operations": 68,
+"MORTGAGE": 66,
+"OPERATING": 68,
+"Working Capital": 42,
+"Cash Flow": 43
+},
+{
+"year": 2025,
+"n_real": 914,
+"n_sentinel": 80,
+"WORKING CAPITAL": 28,
+"OPERATIONS": 38,
+"CASH FLOW": 22,
+"SPLIT-DOLLAR LIFE INSURANCE": 0,
+"OPERATING EXPENSES": 14,
+"Operations": 13,
+"MORTGAGE": 14,
+"OPERATING": 5,
+"Working Capital": 7,
+"Cash Flow": 7
+}
+],
+"name": "purpose_of_loan",
+"non_null_pct": 0.9349116372124041,
+"status": "ok"
+}

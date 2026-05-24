@@ -1,0 +1,143 @@
+[
+  {
+    "label": "Schedule L Part I \u2014 Excess benefit transactions (\u00a74958)",
+    "table": "sched_l_excess_benefit",
+    "strength": "strongest",
+    "what_it_is": "A self-reported \u00a74958 admission. The disqualified person owes a 25% first-tier excise tax (200% if uncorrected); a manager who knowingly approved owes 10%.",
+    "why_it_matters": "Reporting Part I is essentially a tax admission. Filers do not volunteer entries here. 86 rows across the entire panel (2015-2024), at 27 distinct EINs \u2014 this is the floor count, not the population.",
+    "literature": "Cited as a top-tier indicator in IRS-TE/GE compliance projects, Grassley 2007-2011 Senate Finance review, Hopkins/Conway Nonprofit Law treatise. When a non-zero entry appears, it is the smoking gun.",
+    "fields_to_watch": [
+      "amt_tax_imposed (the \u00a74958 excise)",
+      "amt_tax_reimbursed (when >0 \u2192 the org reimbursed the DP's excise, which is itself a new excess-benefit transaction triggering the 200% second-tier tax)",
+      "transaction_corrected (correction within the \u00a74958 correction period eliminates the second-tier tax)"
+    ]
+  },
+  {
+    "label": "Schedule L Part II \u2014 Loans to/from interested persons",
+    "table": "sched_l_loans",
+    "strength": "strong",
+    "what_it_is": "Loans between the org and an officer/director/trustee/key employee/disqualified person.",
+    "why_it_matters": "Loans to disqualified persons without written terms are an ECFA-flagged pattern. The Grassley inquiry specifically named unwritten officer loans at several prosperity-gospel ministries. A forgiven officer loan = an excess-benefit transaction under \u00a74958.",
+    "literature": "ECFA Standard 6 (Compensation and Related-Party Transactions); Grassley 2011 staff memo; IRS Reg. \u00a753.4958-4(c).",
+    "fields_to_watch": [
+      "written_agreement == False (no documentation of terms \u2014 high risk)",
+      "in_default == True (forgiven officer loan = excess benefit)",
+      "approved_by_board == False (unilateral loan to insider)",
+      "loan_from_organization == True (org borrowing FROM an officer \u2014 can mask disguised compensation or pension-substitute)",
+      "round numbers in original_principal (~50% are round-$1000, 28% round-$10000 \u2014 normal, not a flag)"
+    ]
+  },
+  {
+    "label": "Schedule L Part III \u2014 Grants to interested persons",
+    "table": "sched_l_grants_to_interested",
+    "strength": "moderate",
+    "what_it_is": "Grants, scholarships, or assistance benefiting an officer/director/trustee/key employee or their family member.",
+    "why_it_matters": "Surfaces the classic 'scholarship funneled to founder's child' pattern. Less commonly weaponized than Part IV, but a \u00a74958 admission when the recipient is a disqualified person without an objective scholarship process.",
+    "literature": "IRS PLR 200437040 (improperly directed scholarship as excess benefit). Hopkins/Conway \u00a720.4.",
+    "fields_to_watch": [
+      "amount_of_assistance (size of the grant)",
+      "relationship == 'FAMILY MEMBER' (the spousal-grant or child-scholarship pattern)",
+      "type_of_assistance (scholarship, housing, healthcare \u2014 the housing-benefit version is also a \u00a7107 question)"
+    ]
+  },
+  {
+    "label": "Schedule L Part IV \u2014 Business transactions with interested persons",
+    "table": "sched_l_business_transactions",
+    "strength": "strong",
+    "what_it_is": "Business transactions \u2265$100k aggregate per person between the org and an officer/director/trustee/key employee/substantial contributor, or their family/business.",
+    "why_it_matters": "The classic 'founder's-spouse-as-vendor' pattern. Surfaces the architecture of insider self-dealing more often than Part I, because the disclosure rule is mandatory rather than self-incriminating. The Grassley inquiry traced multiple insider-vendor relationships through Part IV.",
+    "literature": "Grassley 2011 staff memo; Reg. \u00a71.6033-2(a)(2)(ii)(I); ECFA Standard 6.",
+    "fields_to_watch": [
+      "transaction_amount (~$40k median, $36M max in religious-org subset)",
+      "relationship == 'FAMILY MEMBER' (157 rows) or 'SUBSTANTIAL CONTRIBUTOR' (257 rows)",
+      "description_of_transaction (free text \u2014 the actual nature of the deal lives here)",
+      "sharing_of_revenues == True (the org and the insider split revenues)"
+    ]
+  },
+  {
+    "label": "Schedule R Part II \u2014 Related tax-exempt organizations",
+    "table": "sched_r_related_tax_exempt",
+    "strength": "moderate",
+    "what_it_is": "Other 501(c)/527 organizations under common control or controlled by the filer.",
+    "why_it_matters": "Maps the corporate family \u2014 the structural prerequisite for any \u00a7512(b)(13) UBIT analysis or for tracking transfers between affiliates. The \u00a7512(b)(13) flag specifically marks the 'controlled entity' relationship that triggers UBIT on interest, rent, royalty, or annuity payments between the entities.",
+    "literature": "IRC \u00a7512(b)(13); Treas. Reg. \u00a71.512(b)-1(l); Catholic diocese bankruptcy cases (Milwaukee, Davenport, Tucson) where pre-BK transfers to related entities precipitated litigation.",
+    "fields_to_watch": [
+      "section_512b_13_controlled == True (UBIT trigger)",
+      "exempt_code_section (501(c)(3) vs 501(c)(2) holding company vs (4) action arm vs 527 PAC \u2014 different governance regimes)",
+      "primary_activity (the activity the related entity claims to perform)",
+      "Reciprocity: only 8.8% of disclosed related EINs are themselves filers. Most related entities are non-filing affiliates (denominational kin, foreign missions, dormant LLCs)."
+    ]
+  },
+  {
+    "label": "Schedule R Part V \u2014 Transactions with related organizations",
+    "table": "sched_r_transactions",
+    "strength": "strongest",
+    "what_it_is": "Transfers, loans, leases, services, or shared facilities between the filer and a related organization disclosed on Parts II/III/IV.",
+    "why_it_matters": "Where the money actually moves between affiliated entities. The diocesan-bankruptcy pattern (Milwaukee Catholic Archdiocese 2011, et al.) is large Part V transfers to a related cemetery trust or real-estate LLC in the years preceding insolvency. The Grassley inquiry surfaced the 'pay through the related LLC' pattern as a Sched J disclosure-avoidance technique.",
+    "literature": "IRC \u00a7512(b)(13); diocese bankruptcy litigation; Hopkins/Conway \u00a728; Form 1023 application instructions \u00a7VIII.",
+    "fields_to_watch": [
+      "transaction_amount (median $156k, max $1.6B in panel)",
+      "transaction_type_code: B/C (gift), D/E (loan), G/H/I (asset sale/purchase/exchange), J/K (lease), L/M (services), N (shared facilities), R/S (other transfer)",
+      "method_of_determining_amount: 'FMV' vs 'Cost' vs 'Cash' \u2014 discloses how the org valued the transaction",
+      "Caveat: Sched R is a one-directional disclosure tree, NOT a peer network. Most related entities never file; the visible network is mostly large broadcast-ministry corporate families (CTN affiliates dominate top-cited entities)."
+    ]
+  },
+  {
+    "label": "Schedule J Part I \u2014 Compensation policy indicators",
+    "table": "sched_j_main",
+    "strength": "strong",
+    "what_it_is": "Indicators that the org provides certain perquisites and that it has procedural protections for setting officer compensation.",
+    "why_it_matters": "Two distinct concerns: (1) luxury perks (first-class travel, travel companions, club dues, housing for personal residence) \u2014 Grassley specifically flagged these at Copeland, Hinn ministries; (2) procedural protections \u2014 Reg. \u00a753.4958-6 'rebuttable presumption of reasonableness' (independent persons + comparability data + contemporaneous documentation) shifts the burden of proof on \u00a74958 challenges. The Pt VI L15 trio that documents this presumption is schema-deprecated and not present here.",
+    "literature": "Reg. \u00a753.4958-6; Grassley 2011 staff memo; ECFA Standards 6 & 7.",
+    "fields_to_watch": [
+      "first_class_or_charter_travel, travel_companions (luxury perks for officer + family)",
+      "severance_payment, supplemental_nonqualified_retirement (golden parachute / SERP \u2014 pre-approved + documented = OK; lacking documentation = excess-benefit candidate)",
+      "compensation_contingent_on_revenues, compensation_contingent_on_net_earnings (private inurement risk under Reg. \u00a71.501(c)(3)-1(c)(2))",
+      "tax_indemnification (org pays the officer's tax bill)",
+      "housing_allowance_residence (\u00a7107 minister housing exclusion \u2014 explains why officer 'comp' is systematically understated for ordained ministers)",
+      "non_fixed_payments (bonus/discretionary comp without written formula)"
+    ]
+  },
+  {
+    "label": "Schedule J Part II \u2014 Per-officer compensation breakdown",
+    "table": "sched_j_compensation",
+    "strength": "strong",
+    "what_it_is": "Detailed compensation breakdown for officers/key employees/highly compensated whose Pt VII compensation triggered Sched J filing.",
+    "why_it_matters": "Separates base + bonus + deferred + nontaxable benefits + comp from related orgs. The 'comp from related orgs' column is the disclosure-avoidance pattern: paying an officer through a related single-member LLC to keep filing-org Pt VII low. Cross-reference against Sched R Pt II/IV related entities to identify which affiliate is paying.",
+    "literature": "Grassley 2011 staff memo (related-org compensation as disclosure avoidance); Reg. \u00a753.4958-4(b)(1)(i).",
+    "fields_to_watch": [
+      "base_compensation_related_org, bonus_related_org, deferred_compensation_related_org (the 'paid through related entity' pattern)",
+      "total_filing_org (~$173k median, $4.4M max in religious-org subset)",
+      "comp_reported_prior_form990 (the 'restated prior-year comp' pattern \u2014 sometimes corrections, sometimes signal of irregularities)"
+    ]
+  },
+  {
+    "label": "Part VII Section A \u2014 Officers, directors, trustees, key employees",
+    "table": "part_vii_officers",
+    "strength": "strong",
+    "what_it_is": "Roster of governing-body members and the most highly-compensated employees. ~600k rows across 18k EINs.",
+    "why_it_matters": "Two patterns: (1) outlier compensation \u2014 415 officers with total comp \u2265$1M, 22 with \u2265$5M, dominated by religiously-sponsored hospital systems; (2) cross-org interlocks \u2014 same person serving at multiple religious nonprofits in the same year. 4,961 distinct persons appear at \u22652 EINs in the same tax year (after sentinel-strip + min-6-char filter).",
+    "literature": "IRS 2009 governance project; Hopkins/Conway \u00a76.3 (interlocking directorates); state-AG enforcement actions (NY, CA) on board interlocks.",
+    "fields_to_watch": [
+      "reportable_comp_from_org (87% of rows are $0 \u2014 uncompensated board members. Filter to >0 before charting medians.)",
+      "reportable_comp_from_related > 0 (insider drawing comp from a related entity \u2014 cross-reference Sched R)",
+      "cross-org person matches (the 'shared insider' pattern; people-network view)",
+      "Caveat: titles are truncated by the parser at ~12 chars in some schema versions ('VICE PRESIDE', 'EXECUTIVE DI'). Collapsed at display."
+    ]
+  },
+  {
+    "label": "Part VI \u2014 Governance",
+    "table": "main_990",
+    "strength": "moderate-to-strong",
+    "what_it_is": "Governance disclosures: family/business relationships among directors, board composition, COI policy + enforcement, board review of 990.",
+    "why_it_matters": "Pt VI L2 (family/business relationship among directors) is a Top-4 governance flag from the IRS 2009 project \u2014 16% of church-status filers report Yes. Pt VI L11b (board reviewed the 990) is a basic-governance baseline; 41% of church-status filers say No or don't answer. The L15 sub-procedure trio that would document \u00a74958 rebuttable-presumption-of-reasonableness is SCHEMA-DEPRECATED from 2014v5.0+ and lives in Sched O free text \u2014 not extractable as structured fields.",
+    "literature": "IRS Governance Check Sheet 2009; Reg. \u00a753.4958-6; ECFA Standard 7.",
+    "fields_to_watch": [
+      "vi_family_business_relationship == True (highest-impact single governance signal)",
+      "vi_form_990_provided_to_board == False (basic-governance failure)",
+      "vi_conflict_of_interest_policy + vi_annual_disclosure_policy + vi_enforce_conflict_policy (all three must be True for meaningful COI architecture)",
+      "vi_voting_members_independent_count vs vi_voting_members_governing_body (independence ratio)",
+      "vi_compensation_independent_persons / _comparability_data / _deliberation \u2014 SCHEMA-DEPRECATED, not extractable"
+    ]
+  }
+]

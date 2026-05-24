@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 273694,
+"n_true": 3130,
+"n_false": 270564,
+"yearly": [
+{
+"year": 2016,
+"true": 356,
+"false": 20989,
+"null": 1205
+},
+{
+"year": 2017,
+"true": 360,
+"false": 24871,
+"null": 1328
+},
+{
+"year": 2018,
+"true": 379,
+"false": 26879,
+"null": 1500
+},
+{
+"year": 2019,
+"true": 197,
+"false": 15888,
+"null": 720
+},
+{
+"year": 2020,
+"true": 393,
+"false": 29248,
+"null": 1629
+},
+{
+"year": 2021,
+"true": 352,
+"false": 33166,
+"null": 1880
+},
+{
+"year": 2022,
+"true": 351,
+"false": 35025,
+"null": 1939
+},
+{
+"year": 2023,
+"true": 368,
+"false": 37211,
+"null": 2071
+},
+{
+"year": 2024,
+"true": 334,
+"false": 38965,
+"null": 2243
+},
+{
+"year": 2025,
+"true": 36,
+"false": 8123,
+"null": 395
+}
+],
+"name": "compensation_contingent_on_net_earnings",
+"non_null_pct": 0.9482980846522715,
+"status": "ok"
+}

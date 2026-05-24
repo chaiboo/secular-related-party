@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 134799,
+"n_real": 129737,
+"n_sentinel": 5062,
+"n_distinct": 33414,
+"top": [
+{
+"value": "EMPLOYMENT",
+"n": 4661
+},
+{
+"value": "COMPENSATION",
+"n": 3446
+},
+{
+"value": "RENT",
+"n": 1589
+},
+{
+"value": "Employment",
+"n": 1588
+},
+{
+"value": "EMPLOYEE COMPENSATION",
+"n": 1310
+},
+{
+"value": "WAGES",
+"n": 1199
+},
+{
+"value": "Compensation",
+"n": 1033
+},
+{
+"value": "SALARY",
+"n": 889
+},
+{
+"value": "LEGAL SERVICES",
+"n": 658
+},
+{
+"value": "CONSULTING",
+"n": 637
+},
+{
+"value": "CONSULTING SERVICES",
+"n": 614
+},
+{
+"value": "MANAGEMENT FEES",
+"n": 603
+},
+{
+"value": "SEE BELOW",
+"n": 498
+},
+{
+"value": "PAYROLL",
+"n": 469
+},
+{
+"value": "MANAGEMENT SERVICES",
+"n": 453
+},
+{
+"value": "SERVICES",
+"n": 449
+},
+{
+"value": "INDEPENDENT CONTRACTOR",
+"n": 448
+},
+{
+"value": "Employee Compensation",
+"n": 432
+},
+{
+"value": "ACCOUNTING SERVICES",
+"n": 408
+},
+{
+"value": "Rent",
+"n": 404
+},
+{
+"value": "Wages",
+"n": 391
+},
+{
+"value": "CONTRIBUTION",
+"n": 383
+},
+{
+"value": "compensation",
+"n": 336
+},
+{
+"value": "EMPLOYMENT COMPENSATION",
+"n": 333
+},
+{
+"value": "Employee compensation",
+"n": 332
+},
+{
+"value": "INSURANCE",
+"n": 320
+},
+{
+"value": "LOAN",
+"n": 290
+},
+{
+"value": "EMPLOYEE WAGES",
+"n": 282
+},
+{
+"value": "EMPLOYMENT ARRANGEMENT",
+"n": 280
+},
+{
+"value": "RENTAL INCOME",
+"n": 274
+},
+{
+"value": "Salary",
+"n": 273
+},
+{
+"value": "Vendor",
+"n": 268
+},
+{
+"value": "DIRECTOR IN COMMON",
+"n": 264
+},
+{
+"value": "Independent Contractor",
+"n": 263
+},
+{
+"value": "CONSTRUCTION SERVICES",
+"n": 253
+},
+{
+"value": "OFFICE RENT",
+"n": 232
+},
+{
+"value": "RENT EXPENSE",
+"n": 216
+},
+{
+"value": "DONATION",
+"n": 216
+},
+{
+"value": "CONTRACT SERVICES",
+"n": 212
+},
+{
+"value": "RENTAL OF PROPERTY",
+"n": 203
+},
+{
+"value": "DONOR PROVIDED GOODS/SERVICES TO TH-MI",
+"n": 196
+},
+{
+"value": "CONSULTING FEES",
+"n": 190
+},
+{
+"value": "TOTAL COMPENSATION FOR BEING AN EMPLOYEE OF BRONSON METHODIST HOSPITAL",
+"n": 185
+},
+{
+"value": "LEGAL FEES",
+"n": 182
+},
+{
+"value": "CONSTRUCTION",
+"n": 180
+},
+{
+"value": "PAYMENT OF COMPENSATION",
+"n": 178
+},
+{
+"value": "SEE SCH. O",
+"n": 177
+},
+{
+"value": "GRANTS",
+"n": 170
+},
+{
+"value": "COMPENSATION FOR SERVICES",
+"n": 167
+},
+{
+"value": "Compensation and benefits as an employee",
+"n": 165
+}
+],
+"other_n": 100538,
+"yearly": [
+{
+"year": 2016,
+"n_real": 13485,
+"n_sentinel": 795,
+"EMPLOYMENT": 411,
+"COMPENSATION": 299,
+"RENT": 123,
+"Employment": 188,
+"EMPLOYEE COMPENSATION": 120,
+"WAGES": 88,
+"Compensation": 120,
+"SALARY": 75,
+"LEGAL SERVICES": 76,
+"CONSULTING": 47
+},
+{
+"year": 2017,
+"n_real": 15131,
+"n_sentinel": 824,
+"EMPLOYMENT": 498,
+"COMPENSATION": 334,
+"RENT": 160,
+"Employment": 211,
+"EMPLOYEE COMPENSATION": 122,
+"WAGES": 115,
+"Compensation": 123,
+"SALARY": 98,
+"LEGAL SERVICES": 92,
+"CONSULTING": 61
+},
+{
+"year": 2018,
+"n_real": 15718,
+"n_sentinel": 910,
+"EMPLOYMENT": 568,
+"COMPENSATION": 378,
+"RENT": 189,
+"Employment": 184,
+"EMPLOYEE COMPENSATION": 142,
+"WAGES": 106,
+"Compensation": 88,
+"SALARY": 112,
+"LEGAL SERVICES": 91,
+"CONSULTING": 60
+},
+{
+"year": 2019,
+"n_real": 8661,
+"n_sentinel": 418,
+"EMPLOYMENT": 231,
+"COMPENSATION": 184,
+"RENT": 106,
+"Employment": 94,
+"EMPLOYEE COMPENSATION": 74,
+"WAGES": 84,
+"Compensation": 66,
+"SALARY": 48,
+"LEGAL SERVICES": 41,
+"CONSULTING": 42
+},
+{
+"year": 2020,
+"n_real": 14664,
+"n_sentinel": 829,
+"EMPLOYMENT": 522,
+"COMPENSATION": 359,
+"RENT": 199,
+"Employment": 193,
+"EMPLOYEE COMPENSATION": 149,
+"WAGES": 134,
+"Compensation": 92,
+"SALARY": 93,
+"LEGAL SERVICES": 68,
+"CONSULTING": 79
+},
+{
+"year": 2021,
+"n_real": 15037,
+"n_sentinel": 819,
+"EMPLOYMENT": 537,
+"COMPENSATION": 407,
+"RENT": 195,
+"Employment": 215,
+"EMPLOYEE COMPENSATION": 144,
+"WAGES": 146,
+"Compensation": 112,
+"SALARY": 95,
+"LEGAL SERVICES": 75,
+"CONSULTING": 73
+},
+{
+"year": 2022,
+"n_real": 14842,
+"n_sentinel": 826,
+"EMPLOYMENT": 575,
+"COMPENSATION": 466,
+"RENT": 200,
+"Employment": 176,
+"EMPLOYEE COMPENSATION": 166,
+"WAGES": 163,
+"Compensation": 115,
+"SALARY": 126,
+"LEGAL SERVICES": 69,
+"CONSULTING": 88
+},
+{
+"year": 2023,
+"n_real": 14739,
+"n_sentinel": 766,
+"EMPLOYMENT": 607,
+"COMPENSATION": 468,
+"RENT": 193,
+"Employment": 149,
+"EMPLOYEE COMPENSATION": 180,
+"WAGES": 158,
+"Compensation": 134,
+"SALARY": 120,
+"LEGAL SERVICES": 72,
+"CONSULTING": 87
+},
+{
+"year": 2024,
+"n_real": 14440,
+"n_sentinel": 718,
+"EMPLOYMENT": 623,
+"COMPENSATION": 461,
+"RENT": 184,
+"Employment": 155,
+"EMPLOYEE COMPENSATION": 175,
+"WAGES": 164,
+"Compensation": 154,
+"SALARY": 102,
+"LEGAL SERVICES": 60,
+"CONSULTING": 90
+},
+{
+"year": 2025,
+"n_real": 2810,
+"n_sentinel": 98,
+"EMPLOYMENT": 73,
+"COMPENSATION": 89,
+"RENT": 37,
+"Employment": 22,
+"EMPLOYEE COMPENSATION": 34,
+"WAGES": 41,
+"Compensation": 29,
+"SALARY": 20,
+"LEGAL SERVICES": 14,
+"CONSULTING": 9
+}
+],
+"name": "description_of_transaction",
+"non_null_pct": 0.9857186732186732,
+"status": "ok"
+}

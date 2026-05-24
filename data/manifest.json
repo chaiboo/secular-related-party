@@ -1,0 +1,730 @@
+{
+  "tables": [
+    {
+      "table": "sched_l_excess_benefit",
+      "label": "Schedule L Part I \u2014 Excess benefit transactions (\u00a74958)",
+      "fraud_strength": "strongest",
+      "n_rows": 456,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 199,
+          "name": "amt_tax_imposed",
+          "non_null_pct": 0.43640350877192985,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 118,
+          "name": "amt_tax_reimbursed",
+          "non_null_pct": 0.25877192982456143,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 134,
+          "name": "transaction_corrected",
+          "non_null_pct": 0.29385964912280704,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 446,
+          "n_distinct": 135,
+          "name": "relationship",
+          "non_null_pct": 0.9780701754385965,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 441,
+          "n_distinct": 237,
+          "name": "description",
+          "non_null_pct": 0.9671052631578947,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_l_loans",
+      "label": "Schedule L Part II \u2014 Loans to/from interested persons",
+      "fraud_strength": "strong",
+      "n_rows": 59980,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 56992,
+          "name": "original_principal",
+          "non_null_pct": 0.9501833944648216,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 55771,
+          "name": "balance_due",
+          "non_null_pct": 0.9298266088696232,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 41179,
+          "name": "loan_to_organization",
+          "non_null_pct": 0.6865455151717239,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 18647,
+          "name": "loan_from_organization",
+          "non_null_pct": 0.3108869623207736,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 59621,
+          "name": "written_agreement",
+          "non_null_pct": 0.9940146715571857,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 59862,
+          "name": "in_default",
+          "non_null_pct": 0.9980326775591863,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 59794,
+          "name": "approved_by_board",
+          "non_null_pct": 0.9968989663221074,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 53778,
+          "n_distinct": 4442,
+          "name": "relationship",
+          "non_null_pct": 0.896598866288763,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 56076,
+          "n_distinct": 8528,
+          "name": "purpose_of_loan",
+          "non_null_pct": 0.9349116372124041,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_l_grants_to_interested",
+      "label": "Schedule L Part III \u2014 Grants to interested persons",
+      "fraud_strength": "moderate",
+      "n_rows": 9980,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 9364,
+          "name": "amount_of_assistance",
+          "non_null_pct": 0.9382765531062124,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 7957,
+          "n_distinct": 1385,
+          "name": "relationship",
+          "non_null_pct": 0.7972945891783567,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 9471,
+          "n_distinct": 997,
+          "name": "type_of_assistance",
+          "non_null_pct": 0.948997995991984,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_l_business_transactions",
+      "label": "Schedule L Part IV \u2014 Business transactions with interested persons",
+      "fraud_strength": "strong",
+      "n_rows": 136752,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 124446,
+          "name": "transaction_amount",
+          "non_null_pct": 0.910012285012285,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 135742,
+          "n_distinct": 23369,
+          "name": "relationship",
+          "non_null_pct": 0.9926143676143676,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 134799,
+          "n_distinct": 33414,
+          "name": "description_of_transaction",
+          "non_null_pct": 0.9857186732186732,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 135976,
+          "name": "sharing_of_revenues",
+          "non_null_pct": 0.9943254943254943,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_r_disregarded",
+      "label": "Schedule R Part I \u2014 Disregarded entities",
+      "fraud_strength": "moderate",
+      "n_rows": 141738,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 109432,
+          "name": "total_income",
+          "non_null_pct": 0.7720724153014717,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 113670,
+          "name": "end_of_year_assets",
+          "non_null_pct": 0.8019726537696313,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 138424,
+          "n_distinct": 56,
+          "name": "legal_domicile",
+          "non_null_pct": 0.9766188319293344,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 140667,
+          "n_distinct": 8269,
+          "name": "primary_activity",
+          "non_null_pct": 0.992443804766541,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_r_related_tax_exempt",
+      "label": "Schedule R Part II \u2014 Related tax-exempt organizations",
+      "fraud_strength": "moderate",
+      "n_rows": 2243445,
+      "columns": [
+        {
+          "kind": "categorical",
+          "n": 2216511,
+          "n_distinct": 61,
+          "name": "legal_domicile",
+          "non_null_pct": 0.9879943568930818,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 2210046,
+          "n_distinct": 873,
+          "name": "exempt_code_section",
+          "non_null_pct": 0.9851126281232658,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 2106337,
+          "n_distinct": 2821,
+          "name": "public_charity_status",
+          "non_null_pct": 0.9388850629277741,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 2236109,
+          "name": "section_512b_13_controlled",
+          "non_null_pct": 0.9967300290401592,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 2233561,
+          "n_distinct": 36270,
+          "name": "primary_activity",
+          "non_null_pct": 0.9955942757678481,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_r_related_partnership",
+      "label": "Schedule R Part III \u2014 Related taxable partnerships",
+      "fraud_strength": "moderate",
+      "n_rows": 757841,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 102220,
+          "name": "percentage_ownership",
+          "non_null_pct": 0.13488317470287303,
+          "status": "ok"
+        },
+        {
+          "name": "share_total_income",
+          "kind": "numeric",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "name": "share_end_of_year_assets",
+          "kind": "numeric",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "kind": "boolean",
+          "n": 536591,
+          "name": "general_or_managing_partner",
+          "non_null_pct": 0.7080522167578688,
+          "status": "ok"
+        },
+        {
+          "name": "disprortion_allocation",
+          "kind": "boolean",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "name": "primary_predominant_income",
+          "kind": "categorical",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "kind": "categorical",
+          "n": 750192,
+          "n_distinct": 56,
+          "name": "legal_domicile",
+          "non_null_pct": 0.9899068538123432,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_r_related_corp_trust",
+      "label": "Schedule R Part IV \u2014 Related corporations/trusts",
+      "fraud_strength": "moderate",
+      "n_rows": 666058,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 112917,
+          "name": "percentage_ownership",
+          "non_null_pct": 0.16953028114668692,
+          "status": "ok"
+        },
+        {
+          "name": "share_total_income",
+          "kind": "numeric",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "name": "share_end_of_year_assets",
+          "kind": "numeric",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "kind": "categorical",
+          "n": 633527,
+          "n_distinct": 116,
+          "name": "type_of_entity",
+          "non_null_pct": 0.9511589080830799,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 638462,
+          "name": "section_512b_13_controlled",
+          "non_null_pct": 0.9585681727417131,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 585251,
+          "n_distinct": 60,
+          "name": "legal_domicile",
+          "non_null_pct": 0.8786787336838534,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_r_transactions",
+      "label": "Schedule R Part V \u2014 Transactions with related organizations",
+      "fraud_strength": "strongest",
+      "n_rows": 511974,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 488357,
+          "name": "transaction_amount",
+          "non_null_pct": 0.9538707043717064,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 509830,
+          "n_distinct": 32,
+          "name": "transaction_type_code",
+          "non_null_pct": 0.9958122873427167,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 469936,
+          "n_distinct": 13405,
+          "name": "method_of_determining_amount",
+          "non_null_pct": 0.917890361619926,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_j_main",
+      "label": "Schedule J Part I \u2014 Compensation policy indicators",
+      "fraud_strength": "strong",
+      "n_rows": 288616,
+      "columns": [
+        {
+          "kind": "boolean",
+          "n": 5551,
+          "name": "first_class_or_charter_travel",
+          "non_null_pct": 0.019233167946337,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 7464,
+          "name": "travel_companions",
+          "non_null_pct": 0.02586135210799124,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 6742,
+          "name": "tax_indemnification",
+          "non_null_pct": 0.023359758294758434,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 3387,
+          "name": "discretionary_spending_account",
+          "non_null_pct": 0.011735316129389916,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 14289,
+          "name": "housing_allowance_residence",
+          "non_null_pct": 0.04950868974693018,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 3338,
+          "name": "personal_services",
+          "non_null_pct": 0.011565540371982149,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 13678,
+          "name": "health_or_social_club_dues",
+          "non_null_pct": 0.0473916899963966,
+          "status": "ok"
+        },
+        {
+          "name": "written_policy_for_above",
+          "kind": "boolean",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "kind": "boolean",
+          "n": 77914,
+          "name": "compensation_committee",
+          "non_null_pct": 0.26995731352385177,
+          "status": "ok"
+        },
+        {
+          "name": "independent_compensation_consultant",
+          "kind": "boolean",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "kind": "boolean",
+          "n": 100548,
+          "name": "compensation_survey",
+          "non_null_pct": 0.3483798542007373,
+          "status": "ok"
+        },
+        {
+          "name": "approval_by_board_or_comp_committee",
+          "kind": "boolean",
+          "status": "empty_in_corpus",
+          "non_null_pct": 0.0
+        },
+        {
+          "kind": "boolean",
+          "n": 284689,
+          "name": "severance_payment",
+          "non_null_pct": 0.986393685727749,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 284674,
+          "name": "supplemental_nonqualified_retirement",
+          "non_null_pct": 0.986341713557114,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 284628,
+          "name": "equity_based_compensation",
+          "non_null_pct": 0.9861823322338332,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 273725,
+          "name": "compensation_contingent_on_revenues",
+          "non_null_pct": 0.9484054938049172,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 273694,
+          "name": "compensation_contingent_on_net_earnings",
+          "non_null_pct": 0.9482980846522715,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 273186,
+          "name": "non_fixed_payments",
+          "non_null_pct": 0.9465379604734319,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "sched_j_compensation",
+      "label": "Schedule J Part II \u2014 Per-officer compensation",
+      "fraud_strength": "strong",
+      "n_rows": 1176611,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 1124833,
+          "name": "base_compensation_filing_org",
+          "non_null_pct": 0.9559939521218143,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1058095,
+          "name": "base_compensation_related_org",
+          "non_null_pct": 0.8992734217171181,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1045541,
+          "name": "bonus_filing_org",
+          "non_null_pct": 0.8886037951370503,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1028717,
+          "name": "bonus_related_org",
+          "non_null_pct": 0.8743051016861138,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1045243,
+          "name": "other_filing_org",
+          "non_null_pct": 0.8883505253647977,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1081600,
+          "name": "deferred_compensation_filing_org",
+          "non_null_pct": 0.9192502874781895,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1048476,
+          "name": "deferred_compensation_related_org",
+          "non_null_pct": 0.8910982474241699,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1087480,
+          "name": "nontaxable_benefits_filing_org",
+          "non_null_pct": 0.9242476910380746,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1126223,
+          "name": "total_filing_org",
+          "non_null_pct": 0.957175311126617,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 1060818,
+          "name": "total_related_org",
+          "non_null_pct": 0.901587695508541,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 1157538,
+          "n_distinct": 186391,
+          "name": "title",
+          "non_null_pct": 0.9837898846772638,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "part_vii_officers",
+      "label": "Part VII Section A \u2014 Officers, directors, trustees, key employees",
+      "fraud_strength": "strong",
+      "n_rows": 14156998,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 14129984,
+          "name": "reportable_comp_from_org",
+          "non_null_pct": 0.9980918270949816,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 14128153,
+          "name": "reportable_comp_from_related",
+          "non_null_pct": 0.9979624917655565,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 14128915,
+          "name": "other_compensation",
+          "non_null_pct": 0.9980163167360764,
+          "status": "ok"
+        },
+        {
+          "kind": "numeric",
+          "n": 13419624,
+          "name": "average_hours",
+          "non_null_pct": 0.9479145225562651,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 11477357,
+          "name": "individual_trustee_or_director",
+          "non_null_pct": 0.8107196878886329,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 4924140,
+          "name": "officer",
+          "non_null_pct": 0.34782374059811266,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 238245,
+          "name": "key_employee",
+          "non_null_pct": 0.016828779660772716,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 526805,
+          "name": "highest_compensated_employee",
+          "non_null_pct": 0.0372116320140753,
+          "status": "ok"
+        },
+        {
+          "kind": "boolean",
+          "n": 67823,
+          "name": "former",
+          "non_null_pct": 0.004790775558490578,
+          "status": "ok"
+        }
+      ]
+    },
+    {
+      "table": "part_vii_contractors",
+      "label": "Part VII Section B \u2014 Top contractors",
+      "fraud_strength": "moderate",
+      "n_rows": 494298,
+      "columns": [
+        {
+          "kind": "numeric",
+          "n": 489153,
+          "name": "compensation",
+          "non_null_pct": 0.9895912991758008,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 478916,
+          "n_distinct": 60,
+          "name": "contractor_state",
+          "non_null_pct": 0.9688811202958539,
+          "status": "ok"
+        },
+        {
+          "kind": "categorical",
+          "n": 488021,
+          "n_distinct": 65467,
+          "name": "services_description",
+          "non_null_pct": 0.9873011826873668,
+          "status": "ok"
+        }
+      ]
+    }
+  ]
+}

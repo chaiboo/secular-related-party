@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 135742,
+"n_real": 108745,
+"n_sentinel": 26997,
+"n_distinct": 23369,
+"top": [
+{
+"value": "FAMILY MEMBER",
+"n": 2115
+},
+{
+"value": "TRUSTEE",
+"n": 2112
+},
+{
+"value": "PRESIDENT",
+"n": 1973
+},
+{
+"value": "EXECUTIVE DIRECTOR",
+"n": 1251
+},
+{
+"value": "TREASURER",
+"n": 1076
+},
+{
+"value": "OWNER",
+"n": 759
+},
+{
+"value": "FAMILY",
+"n": 723
+},
+{
+"value": "SEE BELOW",
+"n": 680
+},
+{
+"value": "FAMILY MEMBER OF OFFICER",
+"n": 583
+},
+{
+"value": "CEO",
+"n": 544
+},
+{
+"value": "VENDOR",
+"n": 495
+},
+{
+"value": "FORMER BOARD MEMBER",
+"n": 467
+},
+{
+"value": "FORMER DIRECTOR",
+"n": 417
+},
+{
+"value": "SPOUSE",
+"n": 408
+},
+{
+"value": "SECRETARY",
+"n": 404
+},
+{
+"value": "BOARD DIRECTOR",
+"n": 404
+},
+{
+"value": "BOARD OF DIRECTORS",
+"n": 383
+},
+{
+"value": "FAMILY MEMBER OF BOARD MEMBER",
+"n": 373
+},
+{
+"value": "BOARD PRESIDENT",
+"n": 350
+},
+{
+"value": "FAMILY MEMBER OF TRUSTEE",
+"n": 344
+},
+{
+"value": "VICE PRESIDENT",
+"n": 337
+},
+{
+"value": "BUSINESS",
+"n": 331
+},
+{
+"value": "CHAIRMAN",
+"n": 314
+},
+{
+"value": "SPOUSE OF BOARD MEMBER",
+"n": 311
+},
+{
+"value": "FORMER OFFICER",
+"n": 305
+},
+{
+"value": "SPOUSE OF OFFICER",
+"n": 295
+},
+{
+"value": "KEY EMPLOYEE",
+"n": 264
+},
+{
+"value": "LANDLORD",
+"n": 263
+},
+{
+"value": "BOARD CHAIR",
+"n": 260
+},
+{
+"value": "COMMON BOARD MEMBERS",
+"n": 239
+},
+{
+"value": "EXEC DIRECTOR",
+"n": 238
+},
+{
+"value": "FAMILY RELATIONSHIP",
+"n": 230
+},
+{
+"value": "SEE SUPPLEMENTAL INFO",
+"n": 228
+},
+{
+"value": "FAMILY OF BOARD MEMBER",
+"n": 224
+},
+{
+"value": "BOARD TRUSTEE",
+"n": 215
+},
+{
+"value": "SUB. CONTRIBUTOR",
+"n": 210
+},
+{
+"value": "FAMILY RELATION",
+"n": 203
+},
+{
+"value": "FAMILY MEMBER OF KEY EMPLOYEE",
+"n": 199
+},
+{
+"value": "FAMILY MEMBER OF DIRECTOR",
+"n": 195
+},
+{
+"value": "FAMILY MEMBER OF EXECUTIVE DIRECTOR",
+"n": 194
+},
+{
+"value": "DAUGHTER",
+"n": 194
+},
+{
+"value": "SPOUSE OF EXECUTIVE DIRECTOR",
+"n": 189
+},
+{
+"value": "FOUNDER",
+"n": 182
+},
+{
+"value": "DAUGHTER OF CEO",
+"n": 180
+},
+{
+"value": "EXEC. DIRECTOR",
+"n": 177
+},
+{
+"value": "SPOUSE OF CEO",
+"n": 177
+},
+{
+"value": "COMMON DIRECTOR",
+"n": 175
+},
+{
+"value": "SPOUSE OF PRESIDENT",
+"n": 168
+},
+{
+"value": "COMMON BOARD",
+"n": 163
+},
+{
+"value": "MANAGEMENT",
+"n": 159
+}
+],
+"other_n": 86065,
+"yearly": [
+{
+"year": 2016,
+"n_real": 11341,
+"n_sentinel": 2939,
+"FAMILY MEMBER": 194,
+"TRUSTEE": 292,
+"PRESIDENT": 192,
+"EXECUTIVE DIRECTOR": 106,
+"TREASURER": 108,
+"OWNER": 47,
+"FAMILY": 79,
+"SEE BELOW": 91,
+"FAMILY MEMBER OF OFFICER": 59,
+"CEO": 52
+},
+{
+"year": 2017,
+"n_real": 12594,
+"n_sentinel": 3361,
+"FAMILY MEMBER": 207,
+"TRUSTEE": 266,
+"PRESIDENT": 219,
+"EXECUTIVE DIRECTOR": 132,
+"TREASURER": 123,
+"OWNER": 69,
+"FAMILY": 89,
+"SEE BELOW": 91,
+"FAMILY MEMBER OF OFFICER": 50,
+"CEO": 57
+},
+{
+"year": 2018,
+"n_real": 13149,
+"n_sentinel": 3479,
+"FAMILY MEMBER": 212,
+"TRUSTEE": 263,
+"PRESIDENT": 236,
+"EXECUTIVE DIRECTOR": 139,
+"TREASURER": 121,
+"OWNER": 80,
+"FAMILY": 90,
+"SEE BELOW": 82,
+"FAMILY MEMBER OF OFFICER": 57,
+"CEO": 64
+},
+{
+"year": 2019,
+"n_real": 7136,
+"n_sentinel": 1943,
+"FAMILY MEMBER": 159,
+"TRUSTEE": 174,
+"PRESIDENT": 111,
+"EXECUTIVE DIRECTOR": 78,
+"TREASURER": 77,
+"OWNER": 63,
+"FAMILY": 51,
+"SEE BELOW": 31,
+"FAMILY MEMBER OF OFFICER": 21,
+"CEO": 31
+},
+{
+"year": 2020,
+"n_real": 12240,
+"n_sentinel": 3253,
+"FAMILY MEMBER": 209,
+"TRUSTEE": 235,
+"PRESIDENT": 238,
+"EXECUTIVE DIRECTOR": 141,
+"TREASURER": 115,
+"OWNER": 65,
+"FAMILY": 76,
+"SEE BELOW": 72,
+"FAMILY MEMBER OF OFFICER": 60,
+"CEO": 78
+},
+{
+"year": 2021,
+"n_real": 12783,
+"n_sentinel": 3073,
+"FAMILY MEMBER": 253,
+"TRUSTEE": 226,
+"PRESIDENT": 242,
+"EXECUTIVE DIRECTOR": 149,
+"TREASURER": 133,
+"OWNER": 97,
+"FAMILY": 85,
+"SEE BELOW": 73,
+"FAMILY MEMBER OF OFFICER": 75,
+"CEO": 63
+},
+{
+"year": 2022,
+"n_real": 12427,
+"n_sentinel": 3241,
+"FAMILY MEMBER": 263,
+"TRUSTEE": 225,
+"PRESIDENT": 236,
+"EXECUTIVE DIRECTOR": 157,
+"TREASURER": 115,
+"OWNER": 91,
+"FAMILY": 78,
+"SEE BELOW": 75,
+"FAMILY MEMBER OF OFFICER": 78,
+"CEO": 59
+},
+{
+"year": 2023,
+"n_real": 12380,
+"n_sentinel": 3125,
+"FAMILY MEMBER": 285,
+"TRUSTEE": 199,
+"PRESIDENT": 233,
+"EXECUTIVE DIRECTOR": 151,
+"TREASURER": 119,
+"OWNER": 105,
+"FAMILY": 74,
+"SEE BELOW": 74,
+"FAMILY MEMBER OF OFFICER": 83,
+"CEO": 64
+},
+{
+"year": 2024,
+"n_real": 12207,
+"n_sentinel": 2951,
+"FAMILY MEMBER": 268,
+"TRUSTEE": 186,
+"PRESIDENT": 215,
+"EXECUTIVE DIRECTOR": 172,
+"TREASURER": 129,
+"OWNER": 102,
+"FAMILY": 78,
+"SEE BELOW": 77,
+"FAMILY MEMBER OF OFFICER": 90,
+"CEO": 65
+},
+{
+"year": 2025,
+"n_real": 2317,
+"n_sentinel": 591,
+"FAMILY MEMBER": 64,
+"TRUSTEE": 45,
+"PRESIDENT": 44,
+"EXECUTIVE DIRECTOR": 24,
+"TREASURER": 35,
+"OWNER": 40,
+"FAMILY": 21,
+"SEE BELOW": 14,
+"FAMILY MEMBER OF OFFICER": 7,
+"CEO": 10
+}
+],
+"name": "relationship",
+"non_null_pct": 0.9926143676143676,
+"status": "ok"
+}

@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 633527,
+"n_real": 633527,
+"n_sentinel": 0,
+"n_distinct": 116,
+"top": [
+{
+"value": "C",
+"n": 399289
+},
+{
+"value": "C CORPORATION",
+"n": 128319
+},
+{
+"value": "C CORP",
+"n": 56220
+},
+{
+"value": "T",
+"n": 12014
+},
+{
+"value": "C CORP.",
+"n": 9369
+},
+{
+"value": "TRUST",
+"n": 8268
+},
+{
+"value": "C-CORP",
+"n": 7409
+},
+{
+"value": "S",
+"n": 6635
+},
+{
+"value": "S CORP",
+"n": 1577
+},
+{
+"value": "C. CORP",
+"n": 869
+},
+{
+"value": "C-CORPORATION",
+"n": 507
+},
+{
+"value": "CORP",
+"n": 444
+},
+{
+"value": "FOREIGN CORP.",
+"n": 382
+},
+{
+"value": "FOREIGN CORP",
+"n": 334
+},
+{
+"value": "S CORPORATION",
+"n": 251
+},
+{
+"value": "LIMITED COMPANY",
+"n": 222
+},
+{
+"value": "S CORP.",
+"n": 171
+},
+{
+"value": "S-CORP",
+"n": 165
+},
+{
+"value": "LLC",
+"n": 155
+},
+{
+"value": "N/A",
+"n": 88
+},
+{
+"value": "LTD",
+"n": 69
+},
+{
+"value": "CORPORATION",
+"n": 69
+},
+{
+"value": "C-CORP/REIT",
+"n": 66
+},
+{
+"value": "FOREIGN C CORP",
+"n": 61
+},
+{
+"value": "HOMEOWNER ASSOC",
+"n": 58
+},
+{
+"value": "FOREIGN",
+"n": 42
+},
+{
+"value": "REIT",
+"n": 36
+},
+{
+"value": "LLC CORP",
+"n": 32
+},
+{
+"value": "CORP.",
+"n": 23
+},
+{
+"value": "FOREIGN COMPANY",
+"n": 18
+},
+{
+"value": "501(C)(9)",
+"n": 16
+},
+{
+"value": "COOP",
+"n": 15
+},
+{
+"value": "FOREIGN TRUST",
+"n": 15
+},
+{
+"value": "REG MUTUAL FUND",
+"n": 15
+},
+{
+"value": "S-CORPORATION",
+"n": 14
+},
+{
+"value": "PC",
+"n": 14
+},
+{
+"value": "TRUSTS",
+"n": 13
+},
+{
+"value": "OTHER",
+"n": 12
+},
+{
+"value": "HOMEOWNERS ASSOC",
+"n": 11
+},
+{
+"value": "GRANTOR TRUST",
+"n": 10
+},
+{
+"value": "CRUT",
+"n": 9
+},
+{
+"value": "S-CORP.",
+"n": 9
+},
+{
+"value": "FOR PROFIT",
+"n": 9
+},
+{
+"value": "C COPR",
+"n": 8
+},
+{
+"value": "REMAINDER TRUST",
+"n": 8
+},
+{
+"value": "SINGLE MEMBER LLC",
+"n": 7
+},
+{
+"value": "FOREIGN CO.",
+"n": 7
+},
+{
+"value": "FOREIGN CORPORATION",
+"n": 7
+},
+{
+"value": "HOME ASSOC",
+"n": 6
+},
+{
+"value": "EXEMPTED CO",
+"n": 6
+}
+],
+"other_n": 154,
+"yearly": [
+{
+"year": 2016,
+"n_real": 49938,
+"n_sentinel": 3281,
+"C": 29883,
+"C CORPORATION": 9182,
+"C CORP": 5945,
+"T": 1085,
+"C CORP.": 910,
+"TRUST": 775,
+"C-CORP": 935,
+"S": 549,
+"S CORP": 126,
+"C. CORP": 105
+},
+{
+"year": 2017,
+"n_real": 58740,
+"n_sentinel": 4007,
+"C": 37647,
+"C CORPORATION": 8806,
+"C CORP": 6680,
+"T": 1257,
+"C CORP.": 1336,
+"TRUST": 727,
+"C-CORP": 870,
+"S": 612,
+"S CORP": 128,
+"C. CORP": 185
+},
+{
+"year": 2018,
+"n_real": 64124,
+"n_sentinel": 4499,
+"C": 41186,
+"C CORPORATION": 9971,
+"C CORP": 6565,
+"T": 1298,
+"C CORP.": 1423,
+"TRUST": 840,
+"C-CORP": 1023,
+"S": 731,
+"S CORP": 164,
+"C. CORP": 293
+},
+{
+"year": 2019,
+"n_real": 36408,
+"n_sentinel": 1302,
+"C": 17597,
+"C CORPORATION": 12568,
+"C CORP": 3778,
+"T": 711,
+"C CORP.": 283,
+"TRUST": 582,
+"C-CORP": 416,
+"S": 210,
+"S CORP": 86,
+"C. CORP": 0
+},
+{
+"year": 2020,
+"n_real": 78506,
+"n_sentinel": 3696,
+"C": 47306,
+"C CORPORATION": 17442,
+"C CORP": 7334,
+"T": 1384,
+"C CORP.": 1000,
+"TRUST": 1038,
+"C-CORP": 1136,
+"S": 950,
+"S CORP": 208,
+"C. CORP": 286
+},
+{
+"year": 2021,
+"n_real": 83059,
+"n_sentinel": 3613,
+"C": 52836,
+"C CORPORATION": 17389,
+"C CORP": 6762,
+"T": 1544,
+"C CORP.": 1009,
+"TRUST": 972,
+"C-CORP": 1077,
+"S": 902,
+"S CORP": 177,
+"C. CORP": 0
+},
+{
+"year": 2022,
+"n_real": 84615,
+"n_sentinel": 3883,
+"C": 55083,
+"C CORPORATION": 17412,
+"C CORP": 6369,
+"T": 1509,
+"C CORP.": 1033,
+"TRUST": 1003,
+"C-CORP": 722,
+"S": 839,
+"S CORP": 303,
+"C. CORP": 0
+},
+{
+"year": 2023,
+"n_real": 85782,
+"n_sentinel": 3809,
+"C": 55787,
+"C CORPORATION": 17467,
+"C CORP": 6609,
+"T": 1480,
+"C CORP.": 1176,
+"TRUST": 1086,
+"C-CORP": 741,
+"S": 916,
+"S CORP": 197,
+"C. CORP": 0
+},
+{
+"year": 2024,
+"n_real": 86673,
+"n_sentinel": 3555,
+"C": 58202,
+"C CORPORATION": 17900,
+"C CORP": 4852,
+"T": 1559,
+"C CORP.": 1197,
+"TRUST": 1129,
+"C-CORP": 487,
+"S": 862,
+"S CORP": 171,
+"C. CORP": 0
+},
+{
+"year": 2025,
+"n_real": 5141,
+"n_sentinel": 827,
+"C": 3302,
+"C CORPORATION": 172,
+"C CORP": 1305,
+"T": 187,
+"C CORP.": 2,
+"TRUST": 83,
+"C-CORP": 1,
+"S": 54,
+"S CORP": 15,
+"C. CORP": 0
+}
+],
+"name": "type_of_entity",
+"non_null_pct": 0.9511589080830799,
+"status": "ok"
+}

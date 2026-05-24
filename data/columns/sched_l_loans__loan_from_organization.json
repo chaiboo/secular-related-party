@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 18647,
+"n_true": 18647,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 1788,
+"false": 0,
+"null": 4468
+},
+{
+"year": 2017,
+"true": 1896,
+"false": 0,
+"null": 4847
+},
+{
+"year": 2018,
+"true": 2033,
+"false": 0,
+"null": 5087
+},
+{
+"year": 2019,
+"true": 990,
+"false": 0,
+"null": 2624
+},
+{
+"year": 2020,
+"true": 2120,
+"false": 0,
+"null": 5051
+},
+{
+"year": 2021,
+"true": 2203,
+"false": 0,
+"null": 4970
+},
+{
+"year": 2022,
+"true": 2323,
+"false": 0,
+"null": 4567
+},
+{
+"year": 2023,
+"true": 2429,
+"false": 0,
+"null": 4458
+},
+{
+"year": 2024,
+"true": 2558,
+"false": 0,
+"null": 4388
+},
+{
+"year": 2025,
+"true": 261,
+"false": 0,
+"null": 733
+}
+],
+"name": "loan_from_organization",
+"non_null_pct": 0.3108869623207736,
+"status": "ok"
+}

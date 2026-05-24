@@ -1,0 +1,1123 @@
+{
+  "filings_per_major": [
+    {
+      "ntee_major": "B",
+      "ntee_major_label": "Education",
+      "n_filings": 194778
+    },
+    {
+      "ntee_major": "P",
+      "ntee_major_label": "Human Services",
+      "n_filings": 176886
+    },
+    {
+      "ntee_major": "A",
+      "ntee_major_label": "Arts, Culture & Humanities",
+      "n_filings": 112428
+    },
+    {
+      "ntee_major": "E",
+      "ntee_major_label": "Health Care",
+      "n_filings": 98562
+    },
+    {
+      "ntee_major": "S",
+      "ntee_major_label": "Community Improvement",
+      "n_filings": 81133
+    },
+    {
+      "ntee_major": "L",
+      "ntee_major_label": "Housing & Shelter",
+      "n_filings": 79712
+    },
+    {
+      "ntee_major": "N",
+      "ntee_major_label": "Recreation & Sports",
+      "n_filings": 74352
+    },
+    {
+      "ntee_major": "T",
+      "ntee_major_label": "Philanthropy & Voluntarism",
+      "n_filings": 60206
+    },
+    {
+      "ntee_major": "M",
+      "ntee_major_label": "Public Safety & Disaster Preparedness",
+      "n_filings": 35382
+    },
+    {
+      "ntee_major": "D",
+      "ntee_major_label": "Animal-related",
+      "n_filings": 33711
+    },
+    {
+      "ntee_major": "Q",
+      "ntee_major_label": "International, Foreign Affairs",
+      "n_filings": 33622
+    },
+    {
+      "ntee_major": "O",
+      "ntee_major_label": "Youth Development",
+      "n_filings": 32851
+    },
+    {
+      "ntee_major": "C",
+      "ntee_major_label": "Environment",
+      "n_filings": 32557
+    },
+    {
+      "ntee_major": "F",
+      "ntee_major_label": "Mental Health & Crisis",
+      "n_filings": 29726
+    },
+    {
+      "ntee_major": "J",
+      "ntee_major_label": "Employment",
+      "n_filings": 21264
+    },
+    {
+      "ntee_major": "W",
+      "ntee_major_label": "Public & Societal Benefit",
+      "n_filings": 19156
+    },
+    {
+      "ntee_major": "I",
+      "ntee_major_label": "Crime & Legal-Related",
+      "n_filings": 19052
+    },
+    {
+      "ntee_major": "G",
+      "ntee_major_label": "Voluntary Health Associations",
+      "n_filings": 18490
+    },
+    {
+      "ntee_major": "K",
+      "ntee_major_label": "Food, Agriculture & Nutrition",
+      "n_filings": 17791
+    },
+    {
+      "ntee_major": "R",
+      "ntee_major_label": "Civil Rights & Civic Action",
+      "n_filings": 10519
+    },
+    {
+      "ntee_major": "H",
+      "ntee_major_label": "Medical Research",
+      "n_filings": 9176
+    },
+    {
+      "ntee_major": "U",
+      "ntee_major_label": "Science & Technology",
+      "n_filings": 6728
+    },
+    {
+      "ntee_major": "V",
+      "ntee_major_label": "Social Science",
+      "n_filings": 2828
+    }
+  ],
+  "disclosure_rates_by_major": {
+    "sched_l_excess_benefit": {
+      "label": "Schedule L Part I \u2014 Excess benefit transactions (\u00a74958)",
+      "fraud_strength": "strongest",
+      "per_major": [
+        {
+          "ntee_major": "F",
+          "label": "Mental Health & Crisis",
+          "n_filings": 29726,
+          "n_with_disclosure": 32,
+          "rate": 0.0010764986880172239
+        },
+        {
+          "ntee_major": "H",
+          "label": "Medical Research",
+          "n_filings": 9176,
+          "n_with_disclosure": 4,
+          "rate": 0.00043591979075850045
+        },
+        {
+          "ntee_major": "D",
+          "label": "Animal-related",
+          "n_filings": 33711,
+          "n_with_disclosure": 14,
+          "rate": 0.00041529471092521727
+        },
+        {
+          "ntee_major": "G",
+          "label": "Voluntary Health Associations",
+          "n_filings": 18490,
+          "n_with_disclosure": 7,
+          "rate": 0.00037858301784748514
+        },
+        {
+          "ntee_major": "Q",
+          "label": "International, Foreign Affairs",
+          "n_filings": 33622,
+          "n_with_disclosure": 12,
+          "rate": 0.00035690916661709597
+        },
+        {
+          "ntee_major": "A",
+          "label": "Arts, Culture & Humanities",
+          "n_filings": 112428,
+          "n_with_disclosure": 39,
+          "rate": 0.00034688867541893476
+        },
+        {
+          "ntee_major": "N",
+          "label": "Recreation & Sports",
+          "n_filings": 74352,
+          "n_with_disclosure": 25,
+          "rate": 0.00033623843339789113
+        },
+        {
+          "ntee_major": "P",
+          "label": "Human Services",
+          "n_filings": 176886,
+          "n_with_disclosure": 51,
+          "rate": 0.0002883212916793867
+        },
+        {
+          "ntee_major": "R",
+          "label": "Civil Rights & Civic Action",
+          "n_filings": 10519,
+          "n_with_disclosure": 3,
+          "rate": 0.00028519821275786673
+        },
+        {
+          "ntee_major": "O",
+          "label": "Youth Development",
+          "n_filings": 32851,
+          "n_with_disclosure": 9,
+          "rate": 0.00027396426288393047
+        },
+        {
+          "ntee_major": "B",
+          "label": "Education",
+          "n_filings": 194778,
+          "n_with_disclosure": 49,
+          "rate": 0.0002515684522892729
+        },
+        {
+          "ntee_major": "C",
+          "label": "Environment",
+          "n_filings": 32557,
+          "n_with_disclosure": 8,
+          "rate": 0.00024572288601529626
+        },
+        {
+          "ntee_major": "E",
+          "label": "Health Care",
+          "n_filings": 98562,
+          "n_with_disclosure": 21,
+          "rate": 0.00021306385828209656
+        },
+        {
+          "ntee_major": "I",
+          "label": "Crime & Legal-Related",
+          "n_filings": 19052,
+          "n_with_disclosure": 4,
+          "rate": 0.0002099517111064455
+        },
+        {
+          "ntee_major": "W",
+          "label": "Public & Societal Benefit",
+          "n_filings": 19156,
+          "n_with_disclosure": 4,
+          "rate": 0.00020881186051367718
+        },
+        {
+          "ntee_major": "T",
+          "label": "Philanthropy & Voluntarism",
+          "n_filings": 60206,
+          "n_with_disclosure": 11,
+          "rate": 0.00018270604258711757
+        },
+        {
+          "ntee_major": "K",
+          "label": "Food, Agriculture & Nutrition",
+          "n_filings": 17791,
+          "n_with_disclosure": 3,
+          "rate": 0.00016862458546456073
+        },
+        {
+          "ntee_major": "U",
+          "label": "Science & Technology",
+          "n_filings": 6728,
+          "n_with_disclosure": 1,
+          "rate": 0.00014863258026159333
+        },
+        {
+          "ntee_major": "J",
+          "label": "Employment",
+          "n_filings": 21264,
+          "n_with_disclosure": 3,
+          "rate": 0.00014108352144469525
+        },
+        {
+          "ntee_major": "S",
+          "label": "Community Improvement",
+          "n_filings": 81133,
+          "n_with_disclosure": 9,
+          "rate": 0.00011092896848384751
+        },
+        {
+          "ntee_major": "M",
+          "label": "Public Safety & Disaster Preparedness",
+          "n_filings": 35382,
+          "n_with_disclosure": 3,
+          "rate": 8.478887569950823e-05
+        },
+        {
+          "ntee_major": "L",
+          "label": "Housing & Shelter",
+          "n_filings": 79712,
+          "n_with_disclosure": 4,
+          "rate": 5.0180650341228424e-05
+        },
+        {
+          "ntee_major": "V",
+          "label": "Social Science",
+          "n_filings": 2828,
+          "n_with_disclosure": 0,
+          "rate": 0.0
+        }
+      ]
+    },
+    "sched_l_loans": {
+      "label": "Schedule L Part II \u2014 Loans to/from interested persons",
+      "fraud_strength": "strong",
+      "per_major": [
+        {
+          "ntee_major": "A",
+          "label": "Arts, Culture & Humanities",
+          "n_filings": 112428,
+          "n_with_disclosure": 5402,
+          "rate": 0.048048528836232965
+        },
+        {
+          "ntee_major": "V",
+          "label": "Social Science",
+          "n_filings": 2828,
+          "n_with_disclosure": 120,
+          "rate": 0.042432814710042434
+        },
+        {
+          "ntee_major": "D",
+          "label": "Animal-related",
+          "n_filings": 33711,
+          "n_with_disclosure": 1344,
+          "rate": 0.03986829224882086
+        },
+        {
+          "ntee_major": "Q",
+          "label": "International, Foreign Affairs",
+          "n_filings": 33622,
+          "n_with_disclosure": 1293,
+          "rate": 0.038456962702992085
+        },
+        {
+          "ntee_major": "W",
+          "label": "Public & Societal Benefit",
+          "n_filings": 19156,
+          "n_with_disclosure": 681,
+          "rate": 0.03555021925245354
+        },
+        {
+          "ntee_major": "B",
+          "label": "Education",
+          "n_filings": 194778,
+          "n_with_disclosure": 6768,
+          "rate": 0.03474725071619998
+        },
+        {
+          "ntee_major": "U",
+          "label": "Science & Technology",
+          "n_filings": 6728,
+          "n_with_disclosure": 233,
+          "rate": 0.034631391200951246
+        },
+        {
+          "ntee_major": "O",
+          "label": "Youth Development",
+          "n_filings": 32851,
+          "n_with_disclosure": 1112,
+          "rate": 0.0338498067029923
+        },
+        {
+          "ntee_major": "F",
+          "label": "Mental Health & Crisis",
+          "n_filings": 29726,
+          "n_with_disclosure": 990,
+          "rate": 0.03330417816053287
+        },
+        {
+          "ntee_major": "C",
+          "label": "Environment",
+          "n_filings": 32557,
+          "n_with_disclosure": 1013,
+          "rate": 0.031114660441686887
+        },
+        {
+          "ntee_major": "P",
+          "label": "Human Services",
+          "n_filings": 176886,
+          "n_with_disclosure": 5477,
+          "rate": 0.030963445382901984
+        },
+        {
+          "ntee_major": "H",
+          "label": "Medical Research",
+          "n_filings": 9176,
+          "n_with_disclosure": 284,
+          "rate": 0.03095030514385353
+        },
+        {
+          "ntee_major": "N",
+          "label": "Recreation & Sports",
+          "n_filings": 74352,
+          "n_with_disclosure": 1972,
+          "rate": 0.026522487626425652
+        },
+        {
+          "ntee_major": "G",
+          "label": "Voluntary Health Associations",
+          "n_filings": 18490,
+          "n_with_disclosure": 483,
+          "rate": 0.026122228231476474
+        },
+        {
+          "ntee_major": "R",
+          "label": "Civil Rights & Civic Action",
+          "n_filings": 10519,
+          "n_with_disclosure": 263,
+          "rate": 0.025002376651772983
+        },
+        {
+          "ntee_major": "K",
+          "label": "Food, Agriculture & Nutrition",
+          "n_filings": 17791,
+          "n_with_disclosure": 433,
+          "rate": 0.0243381485020516
+        },
+        {
+          "ntee_major": "E",
+          "label": "Health Care",
+          "n_filings": 98562,
+          "n_with_disclosure": 2267,
+          "rate": 0.023000750796452994
+        },
+        {
+          "ntee_major": "I",
+          "label": "Crime & Legal-Related",
+          "n_filings": 19052,
+          "n_with_disclosure": 431,
+          "rate": 0.022622296871719506
+        },
+        {
+          "ntee_major": "L",
+          "label": "Housing & Shelter",
+          "n_filings": 79712,
+          "n_with_disclosure": 1587,
+          "rate": 0.019909173022882375
+        },
+        {
+          "ntee_major": "S",
+          "label": "Community Improvement",
+          "n_filings": 81133,
+          "n_with_disclosure": 1519,
+          "rate": 0.01872234479188493
+        },
+        {
+          "ntee_major": "J",
+          "label": "Employment",
+          "n_filings": 21264,
+          "n_with_disclosure": 375,
+          "rate": 0.01763544018058691
+        },
+        {
+          "ntee_major": "T",
+          "label": "Philanthropy & Voluntarism",
+          "n_filings": 60206,
+          "n_with_disclosure": 1030,
+          "rate": 0.01710792944224828
+        },
+        {
+          "ntee_major": "M",
+          "label": "Public Safety & Disaster Preparedness",
+          "n_filings": 35382,
+          "n_with_disclosure": 314,
+          "rate": 0.008874568989881862
+        }
+      ]
+    },
+    "sched_l_business_transactions": {
+      "label": "Schedule L Part IV \u2014 Business transactions with interested persons",
+      "fraud_strength": "strong",
+      "per_major": [
+        {
+          "ntee_major": "E",
+          "label": "Health Care",
+          "n_filings": 98562,
+          "n_with_disclosure": 11113,
+          "rate": 0.11275136462328281
+        },
+        {
+          "ntee_major": "U",
+          "label": "Science & Technology",
+          "n_filings": 6728,
+          "n_with_disclosure": 608,
+          "rate": 0.09036860879904875
+        },
+        {
+          "ntee_major": "H",
+          "label": "Medical Research",
+          "n_filings": 9176,
+          "n_with_disclosure": 795,
+          "rate": 0.08663905841325197
+        },
+        {
+          "ntee_major": "F",
+          "label": "Mental Health & Crisis",
+          "n_filings": 29726,
+          "n_with_disclosure": 2237,
+          "rate": 0.07525398640920407
+        },
+        {
+          "ntee_major": "B",
+          "label": "Education",
+          "n_filings": 194778,
+          "n_with_disclosure": 13783,
+          "rate": 0.07076261179393976
+        },
+        {
+          "ntee_major": "G",
+          "label": "Voluntary Health Associations",
+          "n_filings": 18490,
+          "n_with_disclosure": 1199,
+          "rate": 0.06484586262844781
+        },
+        {
+          "ntee_major": "J",
+          "label": "Employment",
+          "n_filings": 21264,
+          "n_with_disclosure": 1371,
+          "rate": 0.06447516930022573
+        },
+        {
+          "ntee_major": "C",
+          "label": "Environment",
+          "n_filings": 32557,
+          "n_with_disclosure": 2089,
+          "rate": 0.06416438861074424
+        },
+        {
+          "ntee_major": "R",
+          "label": "Civil Rights & Civic Action",
+          "n_filings": 10519,
+          "n_with_disclosure": 673,
+          "rate": 0.06397946572868143
+        },
+        {
+          "ntee_major": "P",
+          "label": "Human Services",
+          "n_filings": 176886,
+          "n_with_disclosure": 11176,
+          "rate": 0.06318193638840836
+        },
+        {
+          "ntee_major": "V",
+          "label": "Social Science",
+          "n_filings": 2828,
+          "n_with_disclosure": 175,
+          "rate": 0.06188118811881188
+        },
+        {
+          "ntee_major": "Q",
+          "label": "International, Foreign Affairs",
+          "n_filings": 33622,
+          "n_with_disclosure": 2072,
+          "rate": 0.0616263161025519
+        },
+        {
+          "ntee_major": "D",
+          "label": "Animal-related",
+          "n_filings": 33711,
+          "n_with_disclosure": 1935,
+          "rate": 0.05739966183144968
+        },
+        {
+          "ntee_major": "A",
+          "label": "Arts, Culture & Humanities",
+          "n_filings": 112428,
+          "n_with_disclosure": 6357,
+          "rate": 0.05654285409328637
+        },
+        {
+          "ntee_major": "S",
+          "label": "Community Improvement",
+          "n_filings": 81133,
+          "n_with_disclosure": 4453,
+          "rate": 0.05488518851761922
+        },
+        {
+          "ntee_major": "O",
+          "label": "Youth Development",
+          "n_filings": 32851,
+          "n_with_disclosure": 1765,
+          "rate": 0.053727435998904144
+        },
+        {
+          "ntee_major": "K",
+          "label": "Food, Agriculture & Nutrition",
+          "n_filings": 17791,
+          "n_with_disclosure": 918,
+          "rate": 0.051599123152155583
+        },
+        {
+          "ntee_major": "W",
+          "label": "Public & Societal Benefit",
+          "n_filings": 19156,
+          "n_with_disclosure": 985,
+          "rate": 0.051419920651493006
+        },
+        {
+          "ntee_major": "L",
+          "label": "Housing & Shelter",
+          "n_filings": 79712,
+          "n_with_disclosure": 3675,
+          "rate": 0.04610347250100361
+        },
+        {
+          "ntee_major": "T",
+          "label": "Philanthropy & Voluntarism",
+          "n_filings": 60206,
+          "n_with_disclosure": 2704,
+          "rate": 0.04491246719596054
+        },
+        {
+          "ntee_major": "N",
+          "label": "Recreation & Sports",
+          "n_filings": 74352,
+          "n_with_disclosure": 3178,
+          "rate": 0.04274262965353992
+        },
+        {
+          "ntee_major": "I",
+          "label": "Crime & Legal-Related",
+          "n_filings": 19052,
+          "n_with_disclosure": 814,
+          "rate": 0.042725173210161664
+        },
+        {
+          "ntee_major": "M",
+          "label": "Public Safety & Disaster Preparedness",
+          "n_filings": 35382,
+          "n_with_disclosure": 797,
+          "rate": 0.022525577977502684
+        }
+      ]
+    },
+    "sched_r_transactions": {
+      "label": "Schedule R Part V \u2014 Transactions with related organizations",
+      "fraud_strength": "strongest",
+      "per_major": [
+        {
+          "ntee_major": "E",
+          "label": "Health Care",
+          "n_filings": 98562,
+          "n_with_disclosure": 25899,
+          "rate": 0.26276861264990564
+        },
+        {
+          "ntee_major": "L",
+          "label": "Housing & Shelter",
+          "n_filings": 79712,
+          "n_with_disclosure": 16622,
+          "rate": 0.2085256924929747
+        },
+        {
+          "ntee_major": "J",
+          "label": "Employment",
+          "n_filings": 21264,
+          "n_with_disclosure": 3831,
+          "rate": 0.18016365688487584
+        },
+        {
+          "ntee_major": "T",
+          "label": "Philanthropy & Voluntarism",
+          "n_filings": 60206,
+          "n_with_disclosure": 9519,
+          "rate": 0.15810716539879746
+        },
+        {
+          "ntee_major": "S",
+          "label": "Community Improvement",
+          "n_filings": 81133,
+          "n_with_disclosure": 11750,
+          "rate": 0.14482393107613425
+        },
+        {
+          "ntee_major": "R",
+          "label": "Civil Rights & Civic Action",
+          "n_filings": 10519,
+          "n_with_disclosure": 1512,
+          "rate": 0.14373989922996483
+        },
+        {
+          "ntee_major": "U",
+          "label": "Science & Technology",
+          "n_filings": 6728,
+          "n_with_disclosure": 928,
+          "rate": 0.13793103448275862
+        },
+        {
+          "ntee_major": "F",
+          "label": "Mental Health & Crisis",
+          "n_filings": 29726,
+          "n_with_disclosure": 3911,
+          "rate": 0.1315683240261051
+        },
+        {
+          "ntee_major": "B",
+          "label": "Education",
+          "n_filings": 194778,
+          "n_with_disclosure": 24768,
+          "rate": 0.12716015155715737
+        },
+        {
+          "ntee_major": "H",
+          "label": "Medical Research",
+          "n_filings": 9176,
+          "n_with_disclosure": 1138,
+          "rate": 0.12401918047079337
+        },
+        {
+          "ntee_major": "P",
+          "label": "Human Services",
+          "n_filings": 176886,
+          "n_with_disclosure": 18981,
+          "rate": 0.10730640073267528
+        },
+        {
+          "ntee_major": "V",
+          "label": "Social Science",
+          "n_filings": 2828,
+          "n_with_disclosure": 293,
+          "rate": 0.1036067892503536
+        },
+        {
+          "ntee_major": "W",
+          "label": "Public & Societal Benefit",
+          "n_filings": 19156,
+          "n_with_disclosure": 1897,
+          "rate": 0.0990290248486114
+        },
+        {
+          "ntee_major": "G",
+          "label": "Voluntary Health Associations",
+          "n_filings": 18490,
+          "n_with_disclosure": 1746,
+          "rate": 0.09442942130881557
+        },
+        {
+          "ntee_major": "Q",
+          "label": "International, Foreign Affairs",
+          "n_filings": 33622,
+          "n_with_disclosure": 2748,
+          "rate": 0.08173219915531497
+        },
+        {
+          "ntee_major": "I",
+          "label": "Crime & Legal-Related",
+          "n_filings": 19052,
+          "n_with_disclosure": 1481,
+          "rate": 0.07773462103716146
+        },
+        {
+          "ntee_major": "C",
+          "label": "Environment",
+          "n_filings": 32557,
+          "n_with_disclosure": 2421,
+          "rate": 0.07436188838037902
+        },
+        {
+          "ntee_major": "O",
+          "label": "Youth Development",
+          "n_filings": 32851,
+          "n_with_disclosure": 2077,
+          "rate": 0.0632248637788804
+        },
+        {
+          "ntee_major": "A",
+          "label": "Arts, Culture & Humanities",
+          "n_filings": 112428,
+          "n_with_disclosure": 7033,
+          "rate": 0.06255559113388123
+        },
+        {
+          "ntee_major": "K",
+          "label": "Food, Agriculture & Nutrition",
+          "n_filings": 17791,
+          "n_with_disclosure": 1042,
+          "rate": 0.05856893935135743
+        },
+        {
+          "ntee_major": "D",
+          "label": "Animal-related",
+          "n_filings": 33711,
+          "n_with_disclosure": 1337,
+          "rate": 0.03966064489335825
+        },
+        {
+          "ntee_major": "N",
+          "label": "Recreation & Sports",
+          "n_filings": 74352,
+          "n_with_disclosure": 2684,
+          "rate": 0.03609855820959759
+        },
+        {
+          "ntee_major": "M",
+          "label": "Public Safety & Disaster Preparedness",
+          "n_filings": 35382,
+          "n_with_disclosure": 1146,
+          "rate": 0.03238935051721214
+        }
+      ]
+    },
+    "sched_r_related_tax_exempt": {
+      "label": "Schedule R Part II \u2014 Related tax-exempt organizations",
+      "fraud_strength": "moderate",
+      "per_major": [
+        {
+          "ntee_major": "L",
+          "label": "Housing & Shelter",
+          "n_filings": 79712,
+          "n_with_disclosure": 41631,
+          "rate": 0.5222676635889201
+        },
+        {
+          "ntee_major": "E",
+          "label": "Health Care",
+          "n_filings": 98562,
+          "n_with_disclosure": 47424,
+          "rate": 0.4811590673890546
+        },
+        {
+          "ntee_major": "J",
+          "label": "Employment",
+          "n_filings": 21264,
+          "n_with_disclosure": 6580,
+          "rate": 0.3094431903686983
+        },
+        {
+          "ntee_major": "T",
+          "label": "Philanthropy & Voluntarism",
+          "n_filings": 60206,
+          "n_with_disclosure": 17414,
+          "rate": 0.2892402750556423
+        },
+        {
+          "ntee_major": "S",
+          "label": "Community Improvement",
+          "n_filings": 81133,
+          "n_with_disclosure": 18853,
+          "rate": 0.23237153809177524
+        },
+        {
+          "ntee_major": "F",
+          "label": "Mental Health & Crisis",
+          "n_filings": 29726,
+          "n_with_disclosure": 6745,
+          "rate": 0.2269057390836305
+        },
+        {
+          "ntee_major": "R",
+          "label": "Civil Rights & Civic Action",
+          "n_filings": 10519,
+          "n_with_disclosure": 2324,
+          "rate": 0.2209335488164274
+        },
+        {
+          "ntee_major": "B",
+          "label": "Education",
+          "n_filings": 194778,
+          "n_with_disclosure": 40314,
+          "rate": 0.20697409358346425
+        },
+        {
+          "ntee_major": "U",
+          "label": "Science & Technology",
+          "n_filings": 6728,
+          "n_with_disclosure": 1349,
+          "rate": 0.20050535077288942
+        },
+        {
+          "ntee_major": "H",
+          "label": "Medical Research",
+          "n_filings": 9176,
+          "n_with_disclosure": 1774,
+          "rate": 0.19333042720139496
+        },
+        {
+          "ntee_major": "P",
+          "label": "Human Services",
+          "n_filings": 176886,
+          "n_with_disclosure": 34014,
+          "rate": 0.1922933414741698
+        },
+        {
+          "ntee_major": "G",
+          "label": "Voluntary Health Associations",
+          "n_filings": 18490,
+          "n_with_disclosure": 3186,
+          "rate": 0.17230935640886966
+        },
+        {
+          "ntee_major": "V",
+          "label": "Social Science",
+          "n_filings": 2828,
+          "n_with_disclosure": 442,
+          "rate": 0.1562942008486563
+        },
+        {
+          "ntee_major": "W",
+          "label": "Public & Societal Benefit",
+          "n_filings": 19156,
+          "n_with_disclosure": 2820,
+          "rate": 0.1472123616621424
+        },
+        {
+          "ntee_major": "I",
+          "label": "Crime & Legal-Related",
+          "n_filings": 19052,
+          "n_with_disclosure": 2455,
+          "rate": 0.12885786269158095
+        },
+        {
+          "ntee_major": "Q",
+          "label": "International, Foreign Affairs",
+          "n_filings": 33622,
+          "n_with_disclosure": 3796,
+          "rate": 0.11290226637320802
+        },
+        {
+          "ntee_major": "C",
+          "label": "Environment",
+          "n_filings": 32557,
+          "n_with_disclosure": 3625,
+          "rate": 0.11134318272568111
+        },
+        {
+          "ntee_major": "O",
+          "label": "Youth Development",
+          "n_filings": 32851,
+          "n_with_disclosure": 3254,
+          "rate": 0.09905330126936775
+        },
+        {
+          "ntee_major": "A",
+          "label": "Arts, Culture & Humanities",
+          "n_filings": 112428,
+          "n_with_disclosure": 10246,
+          "rate": 0.09113388123954887
+        },
+        {
+          "ntee_major": "K",
+          "label": "Food, Agriculture & Nutrition",
+          "n_filings": 17791,
+          "n_with_disclosure": 1564,
+          "rate": 0.087909617222191
+        },
+        {
+          "ntee_major": "D",
+          "label": "Animal-related",
+          "n_filings": 33711,
+          "n_with_disclosure": 2067,
+          "rate": 0.06131529767731601
+        },
+        {
+          "ntee_major": "M",
+          "label": "Public Safety & Disaster Preparedness",
+          "n_filings": 35382,
+          "n_with_disclosure": 2120,
+          "rate": 0.059917472160985814
+        },
+        {
+          "ntee_major": "N",
+          "label": "Recreation & Sports",
+          "n_filings": 74352,
+          "n_with_disclosure": 4223,
+          "rate": 0.056797396169571766
+        }
+      ]
+    },
+    "sched_j_main": {
+      "label": "Schedule J Part I \u2014 Compensation policy indicators",
+      "fraud_strength": "strong",
+      "per_major": [
+        {
+          "ntee_major": "E",
+          "label": "Health Care",
+          "n_filings": 98562,
+          "n_with_disclosure": 54546,
+          "rate": 0.5534181530407256
+        },
+        {
+          "ntee_major": "U",
+          "label": "Science & Technology",
+          "n_filings": 6728,
+          "n_with_disclosure": 2792,
+          "rate": 0.4149821640903686
+        },
+        {
+          "ntee_major": "V",
+          "label": "Social Science",
+          "n_filings": 2828,
+          "n_with_disclosure": 1063,
+          "rate": 0.3758840169731259
+        },
+        {
+          "ntee_major": "J",
+          "label": "Employment",
+          "n_filings": 21264,
+          "n_with_disclosure": 7224,
+          "rate": 0.3397291196388262
+        },
+        {
+          "ntee_major": "H",
+          "label": "Medical Research",
+          "n_filings": 9176,
+          "n_with_disclosure": 3081,
+          "rate": 0.33576721883173494
+        },
+        {
+          "ntee_major": "L",
+          "label": "Housing & Shelter",
+          "n_filings": 79712,
+          "n_with_disclosure": 25800,
+          "rate": 0.3236651947009233
+        },
+        {
+          "ntee_major": "F",
+          "label": "Mental Health & Crisis",
+          "n_filings": 29726,
+          "n_with_disclosure": 9257,
+          "rate": 0.31141088609298256
+        },
+        {
+          "ntee_major": "B",
+          "label": "Education",
+          "n_filings": 194778,
+          "n_with_disclosure": 51911,
+          "rate": 0.2665136719752744
+        },
+        {
+          "ntee_major": "R",
+          "label": "Civil Rights & Civic Action",
+          "n_filings": 10519,
+          "n_with_disclosure": 2753,
+          "rate": 0.2617168932408024
+        },
+        {
+          "ntee_major": "G",
+          "label": "Voluntary Health Associations",
+          "n_filings": 18490,
+          "n_with_disclosure": 4807,
+          "rate": 0.25997836668469443
+        },
+        {
+          "ntee_major": "W",
+          "label": "Public & Societal Benefit",
+          "n_filings": 19156,
+          "n_with_disclosure": 4510,
+          "rate": 0.235435372729171
+        },
+        {
+          "ntee_major": "T",
+          "label": "Philanthropy & Voluntarism",
+          "n_filings": 60206,
+          "n_with_disclosure": 14138,
+          "rate": 0.23482709364515164
+        },
+        {
+          "ntee_major": "S",
+          "label": "Community Improvement",
+          "n_filings": 81133,
+          "n_with_disclosure": 18600,
+          "rate": 0.22925320153328485
+        },
+        {
+          "ntee_major": "P",
+          "label": "Human Services",
+          "n_filings": 176886,
+          "n_with_disclosure": 38862,
+          "rate": 0.21970082425969267
+        },
+        {
+          "ntee_major": "I",
+          "label": "Crime & Legal-Related",
+          "n_filings": 19052,
+          "n_with_disclosure": 4110,
+          "rate": 0.21572538316187276
+        },
+        {
+          "ntee_major": "Q",
+          "label": "International, Foreign Affairs",
+          "n_filings": 33622,
+          "n_with_disclosure": 6696,
+          "rate": 0.19915531497233954
+        },
+        {
+          "ntee_major": "C",
+          "label": "Environment",
+          "n_filings": 32557,
+          "n_with_disclosure": 5584,
+          "rate": 0.1715145744386768
+        },
+        {
+          "ntee_major": "A",
+          "label": "Arts, Culture & Humanities",
+          "n_filings": 112428,
+          "n_with_disclosure": 15620,
+          "rate": 0.1389333617959939
+        },
+        {
+          "ntee_major": "O",
+          "label": "Youth Development",
+          "n_filings": 32851,
+          "n_with_disclosure": 4459,
+          "rate": 0.13573407202216067
+        },
+        {
+          "ntee_major": "K",
+          "label": "Food, Agriculture & Nutrition",
+          "n_filings": 17791,
+          "n_with_disclosure": 2248,
+          "rate": 0.12635602270811083
+        },
+        {
+          "ntee_major": "N",
+          "label": "Recreation & Sports",
+          "n_filings": 74352,
+          "n_with_disclosure": 6384,
+          "rate": 0.08586184635248548
+        },
+        {
+          "ntee_major": "D",
+          "label": "Animal-related",
+          "n_filings": 33711,
+          "n_with_disclosure": 2711,
+          "rate": 0.080418854379876
+        },
+        {
+          "ntee_major": "M",
+          "label": "Public Safety & Disaster Preparedness",
+          "n_filings": 35382,
+          "n_with_disclosure": 1460,
+          "rate": 0.041263919507094
+        }
+      ]
+    }
+  }
+}

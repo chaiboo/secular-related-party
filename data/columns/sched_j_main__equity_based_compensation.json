@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 284628,
+"n_true": 265,
+"n_false": 284363,
+"yearly": [
+{
+"year": 2016,
+"true": 33,
+"false": 22295,
+"null": 222
+},
+{
+"year": 2017,
+"true": 30,
+"false": 26245,
+"null": 284
+},
+{
+"year": 2018,
+"true": 35,
+"false": 28392,
+"null": 331
+},
+{
+"year": 2019,
+"true": 9,
+"false": 16596,
+"null": 200
+},
+{
+"year": 2020,
+"true": 25,
+"false": 30849,
+"null": 396
+},
+{
+"year": 2021,
+"true": 27,
+"false": 34867,
+"null": 504
+},
+{
+"year": 2022,
+"true": 35,
+"false": 36726,
+"null": 554
+},
+{
+"year": 2023,
+"true": 32,
+"false": 39032,
+"null": 586
+},
+{
+"year": 2024,
+"true": 30,
+"false": 40813,
+"null": 699
+},
+{
+"year": 2025,
+"true": 9,
+"false": 8340,
+"null": 205
+}
+],
+"name": "equity_based_compensation",
+"non_null_pct": 0.9861823322338332,
+"status": "ok"
+}

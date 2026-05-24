@@ -1,0 +1,1166 @@
+{
+  "sched_l_loans": {
+    "fields": [
+      {
+        "field": "written_agreement",
+        "n": 59621,
+        "n_true": 40653,
+        "pct_true": 0.6818570637862498
+      },
+      {
+        "field": "approved_by_board",
+        "n": 59794,
+        "n_true": 51415,
+        "pct_true": 0.859868883165535
+      },
+      {
+        "field": "in_default",
+        "n": 59862,
+        "n_true": 454,
+        "pct_true": 0.007584110119942535
+      },
+      {
+        "field": "loan_to_organization",
+        "n": 41179,
+        "n_true": 41179,
+        "pct_true": 1.0
+      },
+      {
+        "field": "loan_from_organization",
+        "n": 18647,
+        "n_true": 18647,
+        "pct_true": 1.0
+      }
+    ],
+    "pairs": [
+      {
+        "a": "written_agreement",
+        "b": "approved_by_board",
+        "n_both_known": 59606,
+        "n_both_true": 38442,
+        "n_a_true_b_false": 2204,
+        "n_a_false_b_true": 12788,
+        "n_both_false": 6172
+      },
+      {
+        "a": "written_agreement",
+        "b": "in_default",
+        "n_both_known": 59597,
+        "n_both_true": 292,
+        "n_a_true_b_false": 40343,
+        "n_a_false_b_true": 160,
+        "n_both_false": 18802
+      },
+      {
+        "a": "written_agreement",
+        "b": "loan_to_organization",
+        "n_both_known": 40982,
+        "n_both_true": 27317,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 13665,
+        "n_both_false": 0
+      },
+      {
+        "a": "written_agreement",
+        "b": "loan_from_organization",
+        "n_both_known": 18496,
+        "n_both_true": 13266,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 5230,
+        "n_both_false": 0
+      },
+      {
+        "a": "approved_by_board",
+        "b": "in_default",
+        "n_both_known": 59768,
+        "n_both_true": 333,
+        "n_a_true_b_false": 51058,
+        "n_a_false_b_true": 118,
+        "n_both_false": 8259
+      },
+      {
+        "a": "approved_by_board",
+        "b": "loan_to_organization",
+        "n_both_known": 41084,
+        "n_both_true": 36001,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 5083,
+        "n_both_false": 0
+      },
+      {
+        "a": "approved_by_board",
+        "b": "loan_from_organization",
+        "n_both_known": 18567,
+        "n_both_true": 15311,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 3256,
+        "n_both_false": 0
+      },
+      {
+        "a": "in_default",
+        "b": "loan_to_organization",
+        "n_both_known": 41138,
+        "n_both_true": 261,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 40877,
+        "n_both_false": 0
+      },
+      {
+        "a": "in_default",
+        "b": "loan_from_organization",
+        "n_both_known": 18581,
+        "n_both_true": 192,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 18389,
+        "n_both_false": 0
+      }
+    ]
+  },
+  "sched_j_main": {
+    "fields": [
+      {
+        "field": "first_class_or_charter_travel",
+        "n": 5551,
+        "n_true": 5551,
+        "pct_true": 1.0
+      },
+      {
+        "field": "travel_companions",
+        "n": 7464,
+        "n_true": 7464,
+        "pct_true": 1.0
+      },
+      {
+        "field": "tax_indemnification",
+        "n": 6742,
+        "n_true": 6742,
+        "pct_true": 1.0
+      },
+      {
+        "field": "discretionary_spending_account",
+        "n": 3387,
+        "n_true": 3387,
+        "pct_true": 1.0
+      },
+      {
+        "field": "housing_allowance_residence",
+        "n": 14289,
+        "n_true": 14289,
+        "pct_true": 1.0
+      },
+      {
+        "field": "personal_services",
+        "n": 3338,
+        "n_true": 3338,
+        "pct_true": 1.0
+      },
+      {
+        "field": "health_or_social_club_dues",
+        "n": 13678,
+        "n_true": 13678,
+        "pct_true": 1.0
+      },
+      {
+        "field": "severance_payment",
+        "n": 284689,
+        "n_true": 19327,
+        "pct_true": 0.06788811650608208
+      },
+      {
+        "field": "supplemental_nonqualified_retirement",
+        "n": 284674,
+        "n_true": 44578,
+        "pct_true": 0.15659315567983026
+      },
+      {
+        "field": "equity_based_compensation",
+        "n": 284628,
+        "n_true": 265,
+        "pct_true": 0.0009310398133704344
+      },
+      {
+        "field": "compensation_contingent_on_revenues",
+        "n": 273725,
+        "n_true": 4590,
+        "pct_true": 0.016768654671659514
+      },
+      {
+        "field": "compensation_contingent_on_net_earnings",
+        "n": 273694,
+        "n_true": 3130,
+        "pct_true": 0.011436129399986847
+      },
+      {
+        "field": "non_fixed_payments",
+        "n": 273186,
+        "n_true": 30725,
+        "pct_true": 0.11246916020586706
+      },
+      {
+        "field": "compensation_committee",
+        "n": 77914,
+        "n_true": 77914,
+        "pct_true": 1.0
+      },
+      {
+        "field": "independent_compensation_consultant",
+        "n": 0,
+        "n_true": 0,
+        "pct_true": 0
+      },
+      {
+        "field": "compensation_survey",
+        "n": 100548,
+        "n_true": 100548,
+        "pct_true": 1.0
+      }
+    ],
+    "pairs": [
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "travel_companions",
+        "n_both_known": 2303,
+        "n_both_true": 2303,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "tax_indemnification",
+        "n_both_known": 1315,
+        "n_both_true": 1315,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "discretionary_spending_account",
+        "n_both_known": 441,
+        "n_both_true": 441,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "housing_allowance_residence",
+        "n_both_known": 1573,
+        "n_both_true": 1573,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "personal_services",
+        "n_both_known": 702,
+        "n_both_true": 702,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "health_or_social_club_dues",
+        "n_both_known": 1777,
+        "n_both_true": 1777,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "severance_payment",
+        "n_both_known": 5524,
+        "n_both_true": 1499,
+        "n_a_true_b_false": 4025,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "supplemental_nonqualified_retirement",
+        "n_both_known": 5524,
+        "n_both_true": 2545,
+        "n_a_true_b_false": 2979,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "equity_based_compensation",
+        "n_both_known": 5524,
+        "n_both_true": 37,
+        "n_a_true_b_false": 5487,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 5115,
+        "n_both_true": 238,
+        "n_a_true_b_false": 4877,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 5117,
+        "n_both_true": 71,
+        "n_a_true_b_false": 5046,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "non_fixed_payments",
+        "n_both_known": 5124,
+        "n_both_true": 1936,
+        "n_a_true_b_false": 3188,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "compensation_committee",
+        "n_both_known": 3468,
+        "n_both_true": 3468,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "first_class_or_charter_travel",
+        "b": "compensation_survey",
+        "n_both_known": 3920,
+        "n_both_true": 3920,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "tax_indemnification",
+        "n_both_known": 1775,
+        "n_both_true": 1775,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "discretionary_spending_account",
+        "n_both_known": 756,
+        "n_both_true": 756,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "housing_allowance_residence",
+        "n_both_known": 3042,
+        "n_both_true": 3042,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "personal_services",
+        "n_both_known": 1132,
+        "n_both_true": 1132,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "health_or_social_club_dues",
+        "n_both_known": 2973,
+        "n_both_true": 2973,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "severance_payment",
+        "n_both_known": 7451,
+        "n_both_true": 1520,
+        "n_a_true_b_false": 5931,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "supplemental_nonqualified_retirement",
+        "n_both_known": 7451,
+        "n_both_true": 3151,
+        "n_a_true_b_false": 4300,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "equity_based_compensation",
+        "n_both_known": 7447,
+        "n_both_true": 22,
+        "n_a_true_b_false": 7425,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 6803,
+        "n_both_true": 408,
+        "n_a_true_b_false": 6395,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 6802,
+        "n_both_true": 218,
+        "n_a_true_b_false": 6584,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "non_fixed_payments",
+        "n_both_known": 6802,
+        "n_both_true": 1939,
+        "n_a_true_b_false": 4863,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "compensation_committee",
+        "n_both_known": 4824,
+        "n_both_true": 4824,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "travel_companions",
+        "b": "compensation_survey",
+        "n_both_known": 5262,
+        "n_both_true": 5262,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "discretionary_spending_account",
+        "n_both_known": 601,
+        "n_both_true": 601,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "housing_allowance_residence",
+        "n_both_known": 2335,
+        "n_both_true": 2335,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "personal_services",
+        "n_both_known": 841,
+        "n_both_true": 841,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "health_or_social_club_dues",
+        "n_both_known": 1956,
+        "n_both_true": 1956,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "severance_payment",
+        "n_both_known": 6733,
+        "n_both_true": 1921,
+        "n_a_true_b_false": 4812,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "supplemental_nonqualified_retirement",
+        "n_both_known": 6733,
+        "n_both_true": 3838,
+        "n_a_true_b_false": 2895,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "equity_based_compensation",
+        "n_both_known": 6733,
+        "n_both_true": 26,
+        "n_a_true_b_false": 6707,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 6461,
+        "n_both_true": 282,
+        "n_a_true_b_false": 6179,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 6462,
+        "n_both_true": 153,
+        "n_a_true_b_false": 6309,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "non_fixed_payments",
+        "n_both_known": 6460,
+        "n_both_true": 2601,
+        "n_a_true_b_false": 3859,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "compensation_committee",
+        "n_both_known": 4341,
+        "n_both_true": 4341,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "tax_indemnification",
+        "b": "compensation_survey",
+        "n_both_known": 4782,
+        "n_both_true": 4782,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "housing_allowance_residence",
+        "n_both_known": 1160,
+        "n_both_true": 1160,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "personal_services",
+        "n_both_known": 379,
+        "n_both_true": 379,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "health_or_social_club_dues",
+        "n_both_known": 955,
+        "n_both_true": 955,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "severance_payment",
+        "n_both_known": 3369,
+        "n_both_true": 523,
+        "n_a_true_b_false": 2846,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "supplemental_nonqualified_retirement",
+        "n_both_known": 3368,
+        "n_both_true": 1128,
+        "n_a_true_b_false": 2240,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "equity_based_compensation",
+        "n_both_known": 3367,
+        "n_both_true": 2,
+        "n_a_true_b_false": 3365,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 3152,
+        "n_both_true": 53,
+        "n_a_true_b_false": 3099,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 3149,
+        "n_both_true": 8,
+        "n_a_true_b_false": 3141,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "non_fixed_payments",
+        "n_both_known": 3152,
+        "n_both_true": 846,
+        "n_a_true_b_false": 2306,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "compensation_committee",
+        "n_both_known": 1623,
+        "n_both_true": 1623,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "discretionary_spending_account",
+        "b": "compensation_survey",
+        "n_both_known": 1846,
+        "n_both_true": 1846,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "personal_services",
+        "n_both_known": 2799,
+        "n_both_true": 2799,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "health_or_social_club_dues",
+        "n_both_known": 3844,
+        "n_both_true": 3844,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "severance_payment",
+        "n_both_known": 14250,
+        "n_both_true": 2333,
+        "n_a_true_b_false": 11917,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "supplemental_nonqualified_retirement",
+        "n_both_known": 14248,
+        "n_both_true": 3837,
+        "n_a_true_b_false": 10411,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "equity_based_compensation",
+        "n_both_known": 14247,
+        "n_both_true": 24,
+        "n_a_true_b_false": 14223,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 14035,
+        "n_both_true": 263,
+        "n_a_true_b_false": 13772,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 14032,
+        "n_both_true": 74,
+        "n_a_true_b_false": 13958,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "non_fixed_payments",
+        "n_both_known": 14033,
+        "n_both_true": 3158,
+        "n_a_true_b_false": 10875,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "compensation_committee",
+        "n_both_known": 8640,
+        "n_both_true": 8640,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "housing_allowance_residence",
+        "b": "compensation_survey",
+        "n_both_known": 9792,
+        "n_both_true": 9792,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "health_or_social_club_dues",
+        "n_both_known": 1454,
+        "n_both_true": 1454,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "severance_payment",
+        "n_both_known": 3326,
+        "n_both_true": 712,
+        "n_a_true_b_false": 2614,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "supplemental_nonqualified_retirement",
+        "n_both_known": 3325,
+        "n_both_true": 1398,
+        "n_a_true_b_false": 1927,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "equity_based_compensation",
+        "n_both_known": 3324,
+        "n_both_true": 19,
+        "n_a_true_b_false": 3305,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 3296,
+        "n_both_true": 81,
+        "n_a_true_b_false": 3215,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 3296,
+        "n_both_true": 15,
+        "n_a_true_b_false": 3281,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "non_fixed_payments",
+        "n_both_known": 3294,
+        "n_both_true": 998,
+        "n_a_true_b_false": 2296,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "compensation_committee",
+        "n_both_known": 2519,
+        "n_both_true": 2519,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "personal_services",
+        "b": "compensation_survey",
+        "n_both_known": 2736,
+        "n_both_true": 2736,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "health_or_social_club_dues",
+        "b": "severance_payment",
+        "n_both_known": 13672,
+        "n_both_true": 2117,
+        "n_a_true_b_false": 11555,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "health_or_social_club_dues",
+        "b": "supplemental_nonqualified_retirement",
+        "n_both_known": 13671,
+        "n_both_true": 5055,
+        "n_a_true_b_false": 8616,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "health_or_social_club_dues",
+        "b": "equity_based_compensation",
+        "n_both_known": 13671,
+        "n_both_true": 20,
+        "n_a_true_b_false": 13651,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "health_or_social_club_dues",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 13002,
+        "n_both_true": 639,
+        "n_a_true_b_false": 12363,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "health_or_social_club_dues",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 13000,
+        "n_both_true": 317,
+        "n_a_true_b_false": 12683,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "health_or_social_club_dues",
+        "b": "non_fixed_payments",
+        "n_both_known": 13001,
+        "n_both_true": 3580,
+        "n_a_true_b_false": 9421,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "health_or_social_club_dues",
+        "b": "compensation_committee",
+        "n_both_known": 8954,
+        "n_both_true": 8954,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "health_or_social_club_dues",
+        "b": "compensation_survey",
+        "n_both_known": 9849,
+        "n_both_true": 9849,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      },
+      {
+        "a": "severance_payment",
+        "b": "supplemental_nonqualified_retirement",
+        "n_both_known": 284661,
+        "n_both_true": 9900,
+        "n_a_true_b_false": 9420,
+        "n_a_false_b_true": 34676,
+        "n_both_false": 230665
+      },
+      {
+        "a": "severance_payment",
+        "b": "equity_based_compensation",
+        "n_both_known": 284617,
+        "n_both_true": 59,
+        "n_a_true_b_false": 19261,
+        "n_a_false_b_true": 205,
+        "n_both_false": 265092
+      },
+      {
+        "a": "severance_payment",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 270503,
+        "n_both_true": 763,
+        "n_a_true_b_false": 18094,
+        "n_a_false_b_true": 3805,
+        "n_both_false": 247841
+      },
+      {
+        "a": "severance_payment",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 270471,
+        "n_both_true": 547,
+        "n_a_true_b_false": 18307,
+        "n_a_false_b_true": 2555,
+        "n_both_false": 249062
+      },
+      {
+        "a": "severance_payment",
+        "b": "non_fixed_payments",
+        "n_both_known": 269964,
+        "n_both_true": 5670,
+        "n_a_true_b_false": 13123,
+        "n_a_false_b_true": 25038,
+        "n_both_false": 226133
+      },
+      {
+        "a": "severance_payment",
+        "b": "compensation_committee",
+        "n_both_known": 77779,
+        "n_both_true": 8625,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 69154,
+        "n_both_false": 0
+      },
+      {
+        "a": "severance_payment",
+        "b": "compensation_survey",
+        "n_both_known": 100407,
+        "n_both_true": 9817,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 90590,
+        "n_both_false": 0
+      },
+      {
+        "a": "supplemental_nonqualified_retirement",
+        "b": "equity_based_compensation",
+        "n_both_known": 284613,
+        "n_both_true": 159,
+        "n_a_true_b_false": 44413,
+        "n_a_false_b_true": 104,
+        "n_both_false": 239937
+      },
+      {
+        "a": "supplemental_nonqualified_retirement",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 270491,
+        "n_both_true": 2054,
+        "n_a_true_b_false": 41249,
+        "n_a_false_b_true": 2515,
+        "n_both_false": 224673
+      },
+      {
+        "a": "supplemental_nonqualified_retirement",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 270459,
+        "n_both_true": 1731,
+        "n_a_true_b_false": 41569,
+        "n_a_false_b_true": 1371,
+        "n_both_false": 225788
+      },
+      {
+        "a": "supplemental_nonqualified_retirement",
+        "b": "non_fixed_payments",
+        "n_both_known": 269951,
+        "n_both_true": 11697,
+        "n_a_true_b_false": 31378,
+        "n_a_false_b_true": 19009,
+        "n_both_false": 207867
+      },
+      {
+        "a": "supplemental_nonqualified_retirement",
+        "b": "compensation_committee",
+        "n_both_known": 77778,
+        "n_both_true": 17023,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 60755,
+        "n_both_false": 0
+      },
+      {
+        "a": "supplemental_nonqualified_retirement",
+        "b": "compensation_survey",
+        "n_both_known": 100405,
+        "n_both_true": 18780,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 81625,
+        "n_both_false": 0
+      },
+      {
+        "a": "equity_based_compensation",
+        "b": "compensation_contingent_on_revenues",
+        "n_both_known": 270443,
+        "n_both_true": 40,
+        "n_a_true_b_false": 206,
+        "n_a_false_b_true": 4529,
+        "n_both_false": 265668
+      },
+      {
+        "a": "equity_based_compensation",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 270411,
+        "n_both_true": 51,
+        "n_a_true_b_false": 195,
+        "n_a_false_b_true": 3051,
+        "n_both_false": 267114
+      },
+      {
+        "a": "equity_based_compensation",
+        "b": "non_fixed_payments",
+        "n_both_known": 269903,
+        "n_both_true": 40,
+        "n_a_true_b_false": 205,
+        "n_a_false_b_true": 30667,
+        "n_both_false": 238991
+      },
+      {
+        "a": "equity_based_compensation",
+        "b": "compensation_committee",
+        "n_both_known": 77765,
+        "n_both_true": 104,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 77661,
+        "n_both_false": 0
+      },
+      {
+        "a": "equity_based_compensation",
+        "b": "compensation_survey",
+        "n_both_known": 100395,
+        "n_both_true": 125,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 100270,
+        "n_both_false": 0
+      },
+      {
+        "a": "compensation_contingent_on_revenues",
+        "b": "compensation_contingent_on_net_earnings",
+        "n_both_known": 273669,
+        "n_both_true": 1931,
+        "n_a_true_b_false": 2657,
+        "n_a_false_b_true": 1194,
+        "n_both_false": 267887
+      },
+      {
+        "a": "compensation_contingent_on_revenues",
+        "b": "non_fixed_payments",
+        "n_both_known": 273131,
+        "n_both_true": 1039,
+        "n_a_true_b_false": 3532,
+        "n_a_false_b_true": 29665,
+        "n_both_false": 238895
+      },
+      {
+        "a": "compensation_contingent_on_revenues",
+        "b": "compensation_committee",
+        "n_both_known": 74787,
+        "n_both_true": 2680,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 72107,
+        "n_both_false": 0
+      },
+      {
+        "a": "compensation_contingent_on_revenues",
+        "b": "compensation_survey",
+        "n_both_known": 97185,
+        "n_both_true": 3042,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 94143,
+        "n_both_false": 0
+      },
+      {
+        "a": "compensation_contingent_on_net_earnings",
+        "b": "non_fixed_payments",
+        "n_both_known": 273104,
+        "n_both_true": 610,
+        "n_a_true_b_false": 2509,
+        "n_a_false_b_true": 30092,
+        "n_both_false": 239893
+      },
+      {
+        "a": "compensation_contingent_on_net_earnings",
+        "b": "compensation_committee",
+        "n_both_known": 74782,
+        "n_both_true": 1509,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 73273,
+        "n_both_false": 0
+      },
+      {
+        "a": "compensation_contingent_on_net_earnings",
+        "b": "compensation_survey",
+        "n_both_known": 97179,
+        "n_both_true": 1563,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 95616,
+        "n_both_false": 0
+      },
+      {
+        "a": "non_fixed_payments",
+        "b": "compensation_committee",
+        "n_both_known": 74762,
+        "n_both_true": 16272,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 58490,
+        "n_both_false": 0
+      },
+      {
+        "a": "non_fixed_payments",
+        "b": "compensation_survey",
+        "n_both_known": 97137,
+        "n_both_true": 19793,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 77344,
+        "n_both_false": 0
+      },
+      {
+        "a": "compensation_committee",
+        "b": "compensation_survey",
+        "n_both_known": 59473,
+        "n_both_true": 59473,
+        "n_a_true_b_false": 0,
+        "n_a_false_b_true": 0,
+        "n_both_false": 0
+      }
+    ]
+  }
+}

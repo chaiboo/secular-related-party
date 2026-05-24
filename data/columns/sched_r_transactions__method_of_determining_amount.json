@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 469936,
+"n_real": 468742,
+"n_sentinel": 1194,
+"n_distinct": 13405,
+"top": [
+{
+"value": "FMV",
+"n": 124772
+},
+{
+"value": "Cost",
+"n": 67144
+},
+{
+"value": "Cash",
+"n": 50051
+},
+{
+"value": "PER BOOKS",
+"n": 11183
+},
+{
+"value": "ACTUAL",
+"n": 9697
+},
+{
+"value": "CASH VALUE",
+"n": 8612
+},
+{
+"value": "GAAP",
+"n": 8128
+},
+{
+"value": "ACCRUAL",
+"n": 7986
+},
+{
+"value": "BOOK VALUE",
+"n": 7205
+},
+{
+"value": "BOOK",
+"n": 4219
+},
+{
+"value": "CASH PAID",
+"n": 4073
+},
+{
+"value": "ACTUAL AMOUNT",
+"n": 3707
+},
+{
+"value": "ACTUAL COSTS",
+"n": 3539
+},
+{
+"value": "ACTUAL AMOUNT PAID",
+"n": 2955
+},
+{
+"value": "CASH RECEIVED",
+"n": 1939
+},
+{
+"value": "CASH TRANSACTION",
+"n": 1907
+},
+{
+"value": "ALLOCATION OF ACTUAL COST",
+"n": 1868
+},
+{
+"value": "GENERAL LEDGER",
+"n": 1742
+},
+{
+"value": "CORP BOOKS/REC",
+"n": 1682
+},
+{
+"value": "CASH PAYMENT",
+"n": 1476
+},
+{
+"value": "AMOUNT PAID",
+"n": 1402
+},
+{
+"value": "SEE PART VII",
+"n": 1396
+},
+{
+"value": "LEASE AGREEMENT",
+"n": 1326
+},
+{
+"value": "ALLOCATION",
+"n": 1308
+},
+{
+"value": "ACTUAL AMOUNT RECEIVED",
+"n": 1289
+},
+{
+"value": "CONTRACT",
+"n": 1282
+},
+{
+"value": "COST METHOD",
+"n": 1243
+},
+{
+"value": "CASH PAYMENTS",
+"n": 1222
+},
+{
+"value": "CASH TRANSFER",
+"n": 1222
+},
+{
+"value": "LOAN AGREEMENT",
+"n": 1053
+},
+{
+"value": "ACTUAL CASH TRANSFERRED",
+"n": 1046
+},
+{
+"value": "ACCRUAL BASIS",
+"n": 998
+},
+{
+"value": "PER AGREEMENT",
+"n": 986
+},
+{
+"value": "CORP BOOK/REC",
+"n": 983
+},
+{
+"value": "SEE STATEMENT - SCH. R PART VII",
+"n": 866
+},
+{
+"value": "ACTUAL CASH VALUE",
+"n": 853
+},
+{
+"value": "LOAN BALANCE",
+"n": 823
+},
+{
+"value": "CASH TRANSFERRED",
+"n": 777
+},
+{
+"value": "AMOUNT RECEIVED",
+"n": 747
+},
+{
+"value": "ACTUAL EXPENSE",
+"n": 736
+},
+{
+"value": "ACTUAL EXPENSES",
+"n": 719
+},
+{
+"value": "COST BASIS",
+"n": 689
+},
+{
+"value": "ACTUAL CASH",
+"n": 683
+},
+{
+"value": "REIMBURSED EXPENSES",
+"n": 682
+},
+{
+"value": "CASH AMOUNT",
+"n": 660
+},
+{
+"value": "ACTUAL AMOUNTS PAID",
+"n": 658
+},
+{
+"value": "ACTUAL AMOUNT PAID/TRANSFERRED",
+"n": 608
+},
+{
+"value": "ACTUAL COSTS INCURRED",
+"n": 606
+},
+{
+"value": "BASED ON GAAP, CASH, AND/OR FMV.",
+"n": 572
+},
+{
+"value": "COST ALLOCATION",
+"n": 571
+}
+],
+"other_n": 116851,
+"yearly": [
+{
+"year": 2016,
+"n_real": 43441,
+"n_sentinel": 5231,
+"FMV": 11001,
+"Cost": 6285,
+"Cash": 4308,
+"PER BOOKS": 1039,
+"ACTUAL": 921,
+"CASH VALUE": 897,
+"GAAP": 787,
+"ACCRUAL": 692,
+"BOOK VALUE": 554,
+"BOOK": 339
+},
+{
+"year": 2017,
+"n_real": 49528,
+"n_sentinel": 5497,
+"FMV": 12553,
+"Cost": 7084,
+"Cash": 4947,
+"PER BOOKS": 1150,
+"ACTUAL": 1069,
+"CASH VALUE": 1008,
+"GAAP": 968,
+"ACCRUAL": 850,
+"BOOK VALUE": 744,
+"BOOK": 408
+},
+{
+"year": 2018,
+"n_real": 52151,
+"n_sentinel": 5421,
+"FMV": 13329,
+"Cost": 7402,
+"Cash": 5518,
+"PER BOOKS": 1246,
+"ACTUAL": 1078,
+"CASH VALUE": 1119,
+"GAAP": 944,
+"ACCRUAL": 828,
+"BOOK VALUE": 832,
+"BOOK": 388
+},
+{
+"year": 2019,
+"n_real": 28902,
+"n_sentinel": 2961,
+"FMV": 7669,
+"Cost": 3520,
+"Cash": 3233,
+"PER BOOKS": 763,
+"ACTUAL": 634,
+"CASH VALUE": 426,
+"GAAP": 548,
+"ACCRUAL": 500,
+"BOOK VALUE": 429,
+"BOOK": 231
+},
+{
+"year": 2020,
+"n_real": 53468,
+"n_sentinel": 4827,
+"FMV": 14172,
+"Cost": 7697,
+"Cash": 5543,
+"PER BOOKS": 1341,
+"ACTUAL": 1059,
+"CASH VALUE": 1059,
+"GAAP": 1294,
+"ACCRUAL": 1044,
+"BOOK VALUE": 872,
+"BOOK": 449
+},
+{
+"year": 2021,
+"n_real": 57059,
+"n_sentinel": 4907,
+"FMV": 15717,
+"Cost": 8389,
+"Cash": 6162,
+"PER BOOKS": 1371,
+"ACTUAL": 1156,
+"CASH VALUE": 971,
+"GAAP": 859,
+"ACCRUAL": 1131,
+"BOOK VALUE": 877,
+"BOOK": 474
+},
+{
+"year": 2022,
+"n_real": 57900,
+"n_sentinel": 4701,
+"FMV": 16138,
+"Cost": 8265,
+"Cash": 6290,
+"PER BOOKS": 1280,
+"ACTUAL": 1221,
+"CASH VALUE": 929,
+"GAAP": 899,
+"ACCRUAL": 1067,
+"BOOK VALUE": 944,
+"BOOK": 569
+},
+{
+"year": 2023,
+"n_real": 59070,
+"n_sentinel": 4435,
+"FMV": 16347,
+"Cost": 8757,
+"Cash": 6401,
+"PER BOOKS": 1434,
+"ACTUAL": 1174,
+"CASH VALUE": 998,
+"GAAP": 888,
+"ACCRUAL": 1015,
+"BOOK VALUE": 962,
+"BOOK": 637
+},
+{
+"year": 2024,
+"n_real": 58260,
+"n_sentinel": 4251,
+"FMV": 15842,
+"Cost": 8796,
+"Cash": 6421,
+"PER BOOKS": 1557,
+"ACTUAL": 1158,
+"CASH VALUE": 1047,
+"GAAP": 930,
+"ACCRUAL": 794,
+"BOOK VALUE": 896,
+"BOOK": 656
+},
+{
+"year": 2025,
+"n_real": 8282,
+"n_sentinel": 954,
+"FMV": 1940,
+"Cost": 798,
+"Cash": 1187,
+"PER BOOKS": 2,
+"ACTUAL": 218,
+"CASH VALUE": 151,
+"GAAP": 11,
+"ACCRUAL": 62,
+"BOOK VALUE": 93,
+"BOOK": 68
+}
+],
+"name": "method_of_determining_amount",
+"non_null_pct": 0.917890361619926,
+"status": "ok"
+}

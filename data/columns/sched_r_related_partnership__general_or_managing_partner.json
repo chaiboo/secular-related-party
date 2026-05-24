@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 536591,
+"n_true": 93139,
+"n_false": 443452,
+"yearly": [
+{
+"year": 2016,
+"true": 6313,
+"false": 21635,
+"null": 23344
+},
+{
+"year": 2017,
+"true": 6988,
+"false": 29217,
+"null": 31015
+},
+{
+"year": 2018,
+"true": 6873,
+"false": 30378,
+"null": 38454
+},
+{
+"year": 2019,
+"true": 2275,
+"false": 18399,
+"null": 18774
+},
+{
+"year": 2020,
+"true": 9734,
+"false": 50644,
+"null": 32230
+},
+{
+"year": 2021,
+"true": 15232,
+"false": 67567,
+"null": 18925
+},
+{
+"year": 2022,
+"true": 14947,
+"false": 70875,
+"null": 19393
+},
+{
+"year": 2023,
+"true": 15436,
+"false": 72367,
+"null": 19426
+},
+{
+"year": 2024,
+"true": 14729,
+"false": 74865,
+"null": 19363
+},
+{
+"year": 2025,
+"true": 564,
+"false": 7394,
+"null": 43
+}
+],
+"name": "general_or_managing_partner",
+"non_null_pct": 0.7080522167578688,
+"status": "ok"
+}

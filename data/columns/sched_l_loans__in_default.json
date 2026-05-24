@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 59862,
+"n_true": 454,
+"n_false": 59408,
+"yearly": [
+{
+"year": 2016,
+"true": 33,
+"false": 6212,
+"null": 11
+},
+{
+"year": 2017,
+"true": 51,
+"false": 6689,
+"null": 3
+},
+{
+"year": 2018,
+"true": 59,
+"false": 7051,
+"null": 10
+},
+{
+"year": 2019,
+"true": 17,
+"false": 3593,
+"null": 4
+},
+{
+"year": 2020,
+"true": 52,
+"false": 7097,
+"null": 22
+},
+{
+"year": 2021,
+"true": 56,
+"false": 7100,
+"null": 17
+},
+{
+"year": 2022,
+"true": 56,
+"false": 6818,
+"null": 16
+},
+{
+"year": 2023,
+"true": 62,
+"false": 6809,
+"null": 16
+},
+{
+"year": 2024,
+"true": 61,
+"false": 6871,
+"null": 14
+},
+{
+"year": 2025,
+"true": 2,
+"false": 987,
+"null": 5
+}
+],
+"name": "in_default",
+"non_null_pct": 0.9980326775591863,
+"status": "ok"
+}

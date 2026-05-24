@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 284689,
+"n_true": 19327,
+"n_false": 265362,
+"yearly": [
+{
+"year": 2016,
+"true": 1801,
+"false": 20531,
+"null": 218
+},
+{
+"year": 2017,
+"true": 2050,
+"false": 24229,
+"null": 280
+},
+{
+"year": 2018,
+"true": 2169,
+"false": 26257,
+"null": 332
+},
+{
+"year": 2019,
+"true": 1087,
+"false": 15522,
+"null": 196
+},
+{
+"year": 2020,
+"true": 2324,
+"false": 28558,
+"null": 388
+},
+{
+"year": 2021,
+"true": 2411,
+"false": 32490,
+"null": 497
+},
+{
+"year": 2022,
+"true": 2199,
+"false": 34574,
+"null": 542
+},
+{
+"year": 2023,
+"true": 2413,
+"false": 36657,
+"null": 580
+},
+{
+"year": 2024,
+"true": 2600,
+"false": 38256,
+"null": 686
+},
+{
+"year": 2025,
+"true": 254,
+"false": 8099,
+"null": 201
+}
+],
+"name": "severance_payment",
+"non_null_pct": 0.986393685727749,
+"status": "ok"
+}

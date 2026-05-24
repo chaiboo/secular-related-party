@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 77914,
+"n_true": 77914,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 7117,
+"false": 0,
+"null": 15433
+},
+{
+"year": 2017,
+"true": 8006,
+"false": 0,
+"null": 18553
+},
+{
+"year": 2018,
+"true": 8435,
+"false": 0,
+"null": 20323
+},
+{
+"year": 2019,
+"true": 4822,
+"false": 0,
+"null": 11983
+},
+{
+"year": 2020,
+"true": 8656,
+"false": 0,
+"null": 22614
+},
+{
+"year": 2021,
+"true": 9419,
+"false": 0,
+"null": 25979
+},
+{
+"year": 2022,
+"true": 9567,
+"false": 0,
+"null": 27748
+},
+{
+"year": 2023,
+"true": 9839,
+"false": 0,
+"null": 29811
+},
+{
+"year": 2024,
+"true": 10101,
+"false": 0,
+"null": 31441
+},
+{
+"year": 2025,
+"true": 1883,
+"false": 0,
+"null": 6671
+}
+],
+"name": "compensation_committee",
+"non_null_pct": 0.26995731352385177,
+"status": "ok"
+}

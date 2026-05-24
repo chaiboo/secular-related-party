@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 7957,
+"n_real": 5637,
+"n_sentinel": 2320,
+"n_distinct": 1385,
+"top": [
+{
+"value": "CHILD OF BOARD MEMBER",
+"n": 573
+},
+{
+"value": "TRUSTEE",
+"n": 217
+},
+{
+"value": "CHILD OF MEMBER ORG",
+"n": 140
+},
+{
+"value": "PRESIDENT",
+"n": 101
+},
+{
+"value": "HEAD OF SCHOOL",
+"n": 92
+},
+{
+"value": "GRANT ADVISOR",
+"n": 84
+},
+{
+"value": "NOT REQUIRED",
+"n": 74
+},
+{
+"value": "PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.",
+"n": 71
+},
+{
+"value": "TREASURER",
+"n": 65
+},
+{
+"value": "BOARD MEMBERS CHILD",
+"n": 56
+},
+{
+"value": "FERPA LAWS",
+"n": 53
+},
+{
+"value": "VICE PRESIDENT",
+"n": 44
+},
+{
+"value": "KEY EMPLOYEE",
+"n": 44
+},
+{
+"value": "CHILD OF TRUSTEE",
+"n": 41
+},
+{
+"value": "SECRETARY",
+"n": 40
+},
+{
+"value": "CHILD OF OFFICER",
+"n": 39
+},
+{
+"value": "EXECUTIVE DIRECTOR",
+"n": 37
+},
+{
+"value": "GRANT REVIEW COMMITTEE MEMBER",
+"n": 34
+},
+{
+"value": "HEADMASTER",
+"n": 33
+},
+{
+"value": "DAUGHTER OF BOARD MEMBER",
+"n": 31
+},
+{
+"value": "BOARD OF DIRECTORS",
+"n": 31
+},
+{
+"value": "SON",
+"n": 29
+},
+{
+"value": "COMMON BOARD MEMBERS",
+"n": 29
+},
+{
+"value": "SON OF BOARD MEMBER",
+"n": 27
+},
+{
+"value": "TRUSTEES",
+"n": 26
+},
+{
+"value": "FAMILY MEMBER OF DIRECTOR",
+"n": 25
+},
+{
+"value": "BOARD DIRECTOR",
+"n": 23
+},
+{
+"value": "STAFF/FACULTY",
+"n": 23
+},
+{
+"value": "CHILD OF EMPLOYEE",
+"n": 23
+},
+{
+"value": "DAUGHTER OF DIRECTOR",
+"n": 22
+},
+{
+"value": "DISCLOSURE NOT REQUIRED",
+"n": 22
+},
+{
+"value": "FACULTY",
+"n": 22
+},
+{
+"value": "SCHOOL TEACHER",
+"n": 22
+},
+{
+"value": "BOARD PRESIDENT",
+"n": 21
+},
+{
+"value": "MEMBER OF BOARD OF DIRECTORS",
+"n": 21
+},
+{
+"value": "FORMER BOARD MEMBER",
+"n": 20
+},
+{
+"value": "HIGHLY COMPENSATED EMPLOYEE",
+"n": 19
+},
+{
+"value": "FORMER DIRECTOR",
+"n": 18
+},
+{
+"value": "TEACHER AT COMMUNITY CHRISTIAN SCHOOL OF BARABOO",
+"n": 18
+},
+{
+"value": "SEE BELOW",
+"n": 16
+},
+{
+"value": "CHILD OF FORMER BOARD MEMBER",
+"n": 16
+},
+{
+"value": "RELATED TO TRUSTEE",
+"n": 16
+},
+{
+"value": "CHILD OF BOARD MBR.",
+"n": 16
+},
+{
+"value": "BOARD TREASURER",
+"n": 15
+},
+{
+"value": "GRANDCHILD OF OFFICE",
+"n": 15
+},
+{
+"value": "DAUGHTER",
+"n": 14
+},
+{
+"value": "CHILDREN",
+"n": 14
+},
+{
+"value": "DESIGNATED TO BOARD DUE TO POSITION HELD ON STUDENT NEWSPAPER STAFF",
+"n": 14
+},
+{
+"value": "BOARD AND OTHERS",
+"n": 14
+},
+{
+"value": "EMPLOYEE AND MEMBER OF SCHOLARSHIP AWARD COMMITTEE",
+"n": 14
+}
+],
+"other_n": 3163,
+"yearly": [
+{
+"year": 2016,
+"n_real": 455,
+"n_sentinel": 380,
+"CHILD OF BOARD MEMBER": 14,
+"TRUSTEE": 9,
+"CHILD OF MEMBER ORG": 14,
+"PRESIDENT": 7,
+"HEAD OF SCHOOL": 6,
+"GRANT ADVISOR": 14,
+"NOT REQUIRED": 12,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 3,
+"TREASURER": 4,
+"BOARD MEMBERS CHILD": 7
+},
+{
+"year": 2017,
+"n_real": 558,
+"n_sentinel": 427,
+"CHILD OF BOARD MEMBER": 21,
+"TRUSTEE": 15,
+"CHILD OF MEMBER ORG": 13,
+"PRESIDENT": 12,
+"HEAD OF SCHOOL": 8,
+"GRANT ADVISOR": 19,
+"NOT REQUIRED": 8,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 6,
+"TREASURER": 5,
+"BOARD MEMBERS CHILD": 0
+},
+{
+"year": 2018,
+"n_real": 584,
+"n_sentinel": 495,
+"CHILD OF BOARD MEMBER": 42,
+"TRUSTEE": 29,
+"CHILD OF MEMBER ORG": 14,
+"PRESIDENT": 12,
+"HEAD OF SCHOOL": 9,
+"GRANT ADVISOR": 29,
+"NOT REQUIRED": 10,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 6,
+"TREASURER": 9,
+"BOARD MEMBERS CHILD": 15
+},
+{
+"year": 2019,
+"n_real": 410,
+"n_sentinel": 329,
+"CHILD OF BOARD MEMBER": 18,
+"TRUSTEE": 19,
+"CHILD OF MEMBER ORG": 13,
+"PRESIDENT": 9,
+"HEAD OF SCHOOL": 10,
+"GRANT ADVISOR": 22,
+"NOT REQUIRED": 6,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 4,
+"TREASURER": 7,
+"BOARD MEMBERS CHILD": 21
+},
+{
+"year": 2020,
+"n_real": 665,
+"n_sentinel": 461,
+"CHILD OF BOARD MEMBER": 91,
+"TRUSTEE": 36,
+"CHILD OF MEMBER ORG": 18,
+"PRESIDENT": 13,
+"HEAD OF SCHOOL": 13,
+"GRANT ADVISOR": 0,
+"NOT REQUIRED": 10,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 9,
+"TREASURER": 9,
+"BOARD MEMBERS CHILD": 13
+},
+{
+"year": 2021,
+"n_real": 694,
+"n_sentinel": 564,
+"CHILD OF BOARD MEMBER": 78,
+"TRUSTEE": 26,
+"CHILD OF MEMBER ORG": 20,
+"PRESIDENT": 12,
+"HEAD OF SCHOOL": 11,
+"GRANT ADVISOR": 0,
+"NOT REQUIRED": 10,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 11,
+"TREASURER": 9,
+"BOARD MEMBERS CHILD": 0
+},
+{
+"year": 2022,
+"n_real": 686,
+"n_sentinel": 501,
+"CHILD OF BOARD MEMBER": 84,
+"TRUSTEE": 30,
+"CHILD OF MEMBER ORG": 15,
+"PRESIDENT": 12,
+"HEAD OF SCHOOL": 12,
+"GRANT ADVISOR": 0,
+"NOT REQUIRED": 7,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 11,
+"TREASURER": 7,
+"BOARD MEMBERS CHILD": 0
+},
+{
+"year": 2023,
+"n_real": 709,
+"n_sentinel": 514,
+"CHILD OF BOARD MEMBER": 107,
+"TRUSTEE": 24,
+"CHILD OF MEMBER ORG": 21,
+"PRESIDENT": 8,
+"HEAD OF SCHOOL": 11,
+"GRANT ADVISOR": 0,
+"NOT REQUIRED": 6,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 9,
+"TREASURER": 5,
+"BOARD MEMBERS CHILD": 0
+},
+{
+"year": 2024,
+"n_real": 684,
+"n_sentinel": 560,
+"CHILD OF BOARD MEMBER": 106,
+"TRUSTEE": 20,
+"CHILD OF MEMBER ORG": 12,
+"PRESIDENT": 10,
+"HEAD OF SCHOOL": 8,
+"GRANT ADVISOR": 0,
+"NOT REQUIRED": 5,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 11,
+"TREASURER": 8,
+"BOARD MEMBERS CHILD": 0
+},
+{
+"year": 2025,
+"n_real": 191,
+"n_sentinel": 108,
+"CHILD OF BOARD MEMBER": 12,
+"TRUSTEE": 9,
+"CHILD OF MEMBER ORG": 0,
+"PRESIDENT": 6,
+"HEAD OF SCHOOL": 4,
+"GRANT ADVISOR": 0,
+"NOT REQUIRED": 0,
+"PER IRS INSTRUCTIONS, INTERESTED PERSONS ARE NOT INDIVIDUALLY NAMED.": 1,
+"TREASURER": 2,
+"BOARD MEMBERS CHILD": 0
+}
+],
+"name": "relationship",
+"non_null_pct": 0.7972945891783567,
+"status": "ok"
+}

@@ -1,0 +1,71 @@
+{
+"kind": "boolean",
+"n": 134,
+"n_true": 134,
+"n_false": 0,
+"yearly": [
+{
+"year": 2016,
+"true": 12,
+"false": 0,
+"null": 19
+},
+{
+"year": 2017,
+"true": 11,
+"false": 0,
+"null": 22
+},
+{
+"year": 2018,
+"true": 19,
+"false": 0,
+"null": 26
+},
+{
+"year": 2019,
+"true": 11,
+"false": 0,
+"null": 5
+},
+{
+"year": 2020,
+"true": 16,
+"false": 0,
+"null": 25
+},
+{
+"year": 2021,
+"true": 10,
+"false": 0,
+"null": 45
+},
+{
+"year": 2022,
+"true": 13,
+"false": 0,
+"null": 40
+},
+{
+"year": 2023,
+"true": 17,
+"false": 0,
+"null": 60
+},
+{
+"year": 2024,
+"true": 23,
+"false": 0,
+"null": 70
+},
+{
+"year": 2025,
+"true": 2,
+"false": 0,
+"null": 8
+}
+],
+"name": "transaction_corrected",
+"non_null_pct": 0.29385964912280704,
+"status": "ok"
+}

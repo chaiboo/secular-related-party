@@ -1,0 +1,365 @@
+{
+"kind": "categorical",
+"n": 488021,
+"n_real": 486875,
+"n_sentinel": 1146,
+"n_distinct": 65467,
+"top": [
+{
+"value": "CONSTRUCTION",
+"n": 21558
+},
+{
+"value": "CONSULTING",
+"n": 12635
+},
+{
+"value": "CONSTRUCTION SERVICES",
+"n": 7726
+},
+{
+"value": "LEGAL SERVICES",
+"n": 6811
+},
+{
+"value": "MEDICAL SERVICES",
+"n": 6630
+},
+{
+"value": "MANAGEMENT SERVICES",
+"n": 6486
+},
+{
+"value": "PHYSICIAN SERVICES",
+"n": 5539
+},
+{
+"value": "CONSULTING SERVICES",
+"n": 5176
+},
+{
+"value": "FOOD SERVICE",
+"n": 4907
+},
+{
+"value": "IT SERVICES",
+"n": 4180
+},
+{
+"value": "FOOD SERVICES",
+"n": 3779
+},
+{
+"value": "LEGAL",
+"n": 3774
+},
+{
+"value": "RENT",
+"n": 3315
+},
+{
+"value": "MANAGEMENT",
+"n": 3275
+},
+{
+"value": "CONTRACTOR",
+"n": 3018
+},
+{
+"value": "SECURITY SERVICES",
+"n": 2974
+},
+{
+"value": "SECURITY",
+"n": 2696
+},
+{
+"value": "MARKETING",
+"n": 2650
+},
+{
+"value": "STAFFING SERVICES",
+"n": 2568
+},
+{
+"value": "THERAPY SERVICES",
+"n": 2553
+},
+{
+"value": "ACCOUNTING SERVICES",
+"n": 2455
+},
+{
+"value": "ADVERTISING",
+"n": 2343
+},
+{
+"value": "CLEANING SERVICES",
+"n": 2316
+},
+{
+"value": "TRANSPORTATION",
+"n": 2281
+},
+{
+"value": "GENERAL CONTRACTOR",
+"n": 2192
+},
+{
+"value": "PROFESSIONAL SERVICES",
+"n": 2192
+},
+{
+"value": "JANITORIAL SERVICES",
+"n": 2009
+},
+{
+"value": "CONSULTANT",
+"n": 1951
+},
+{
+"value": "MEDICAL",
+"n": 1928
+},
+{
+"value": "ACCOUNTING",
+"n": 1864
+},
+{
+"value": "STAFFING",
+"n": 1831
+},
+{
+"value": "INVESTMENT MANAGEMENT",
+"n": 1754
+},
+{
+"value": "LANDSCAPING",
+"n": 1575
+},
+{
+"value": "IT CONSULTING",
+"n": 1295
+},
+{
+"value": "MARKETING SERVICES",
+"n": 1283
+},
+{
+"value": "DINING SERVICES",
+"n": 1259
+},
+{
+"value": "MAINTENANCE",
+"n": 1251
+},
+{
+"value": "THERAPY",
+"n": 1233
+},
+{
+"value": "LAB SERVICES",
+"n": 1224
+},
+{
+"value": "CONSTRUCTION CONTRACTOR",
+"n": 1215
+},
+{
+"value": "ARCHITECT",
+"n": 1198
+},
+{
+"value": "ARCHITECTURAL SERVICES",
+"n": 1157
+},
+{
+"value": "CONTRACT LABOR",
+"n": 1123
+},
+{
+"value": "ANESTHESIA SERVICES",
+"n": 1113
+},
+{
+"value": "INSURANCE",
+"n": 1074
+},
+{
+"value": "PROPERTY MANAGEMENT",
+"n": 1071
+},
+{
+"value": "HEALTHCARE SERVICES",
+"n": 1021
+},
+{
+"value": "CATERING",
+"n": 1008
+},
+{
+"value": "TEMPORARY STAFFING",
+"n": 994
+},
+{
+"value": "FUNDRAISING",
+"n": 991
+}
+],
+"other_n": 328424,
+"yearly": [
+{
+"year": 2016,
+"n_real": 41665,
+"n_sentinel": 720,
+"CONSTRUCTION": 2061,
+"CONSULTING": 1036,
+"CONSTRUCTION SERVICES": 542,
+"LEGAL SERVICES": 601,
+"MEDICAL SERVICES": 671,
+"MANAGEMENT SERVICES": 573,
+"PHYSICIAN SERVICES": 579,
+"CONSULTING SERVICES": 388,
+"FOOD SERVICE": 478,
+"IT SERVICES": 259
+},
+{
+"year": 2017,
+"n_real": 47433,
+"n_sentinel": 761,
+"CONSTRUCTION": 2413,
+"CONSULTING": 1149,
+"CONSTRUCTION SERVICES": 653,
+"LEGAL SERVICES": 629,
+"MEDICAL SERVICES": 695,
+"MANAGEMENT SERVICES": 660,
+"PHYSICIAN SERVICES": 639,
+"CONSULTING SERVICES": 439,
+"FOOD SERVICE": 567,
+"IT SERVICES": 298
+},
+{
+"year": 2018,
+"n_real": 51180,
+"n_sentinel": 777,
+"CONSTRUCTION": 2510,
+"CONSULTING": 1261,
+"CONSTRUCTION SERVICES": 714,
+"LEGAL SERVICES": 692,
+"MEDICAL SERVICES": 754,
+"MANAGEMENT SERVICES": 710,
+"PHYSICIAN SERVICES": 695,
+"CONSULTING SERVICES": 525,
+"FOOD SERVICE": 583,
+"IT SERVICES": 337
+},
+{
+"year": 2019,
+"n_real": 28943,
+"n_sentinel": 416,
+"CONSTRUCTION": 1397,
+"CONSULTING": 621,
+"CONSTRUCTION SERVICES": 464,
+"LEGAL SERVICES": 380,
+"MEDICAL SERVICES": 349,
+"MANAGEMENT SERVICES": 376,
+"PHYSICIAN SERVICES": 347,
+"CONSULTING SERVICES": 263,
+"FOOD SERVICE": 381,
+"IT SERVICES": 222
+},
+{
+"year": 2020,
+"n_real": 53111,
+"n_sentinel": 859,
+"CONSTRUCTION": 2461,
+"CONSULTING": 1423,
+"CONSTRUCTION SERVICES": 849,
+"LEGAL SERVICES": 782,
+"MEDICAL SERVICES": 805,
+"MANAGEMENT SERVICES": 775,
+"PHYSICIAN SERVICES": 687,
+"CONSULTING SERVICES": 538,
+"FOOD SERVICE": 544,
+"IT SERVICES": 449
+},
+{
+"year": 2021,
+"n_real": 56829,
+"n_sentinel": 913,
+"CONSTRUCTION": 2368,
+"CONSULTING": 1596,
+"CONSTRUCTION SERVICES": 899,
+"LEGAL SERVICES": 848,
+"MEDICAL SERVICES": 845,
+"MANAGEMENT SERVICES": 807,
+"PHYSICIAN SERVICES": 682,
+"CONSULTING SERVICES": 565,
+"FOOD SERVICE": 523,
+"IT SERVICES": 554
+},
+{
+"year": 2022,
+"n_real": 61181,
+"n_sentinel": 974,
+"CONSTRUCTION": 2453,
+"CONSULTING": 1629,
+"CONSTRUCTION SERVICES": 1014,
+"LEGAL SERVICES": 884,
+"MEDICAL SERVICES": 819,
+"MANAGEMENT SERVICES": 839,
+"PHYSICIAN SERVICES": 636,
+"CONSULTING SERVICES": 684,
+"FOOD SERVICE": 543,
+"IT SERVICES": 603
+},
+{
+"year": 2023,
+"n_real": 65477,
+"n_sentinel": 893,
+"CONSTRUCTION": 2589,
+"CONSULTING": 1808,
+"CONSTRUCTION SERVICES": 1098,
+"LEGAL SERVICES": 905,
+"MEDICAL SERVICES": 836,
+"MANAGEMENT SERVICES": 792,
+"PHYSICIAN SERVICES": 620,
+"CONSULTING SERVICES": 784,
+"FOOD SERVICE": 570,
+"IT SERVICES": 630
+},
+{
+"year": 2024,
+"n_real": 68646,
+"n_sentinel": 868,
+"CONSTRUCTION": 2726,
+"CONSULTING": 1849,
+"CONSTRUCTION SERVICES": 1303,
+"LEGAL SERVICES": 956,
+"MEDICAL SERVICES": 808,
+"MANAGEMENT SERVICES": 838,
+"PHYSICIAN SERVICES": 628,
+"CONSULTING SERVICES": 868,
+"FOOD SERVICE": 591,
+"IT SERVICES": 663
+},
+{
+"year": 2025,
+"n_real": 11954,
+"n_sentinel": 232,
+"CONSTRUCTION": 558,
+"CONSULTING": 247,
+"CONSTRUCTION SERVICES": 179,
+"LEGAL SERVICES": 131,
+"MEDICAL SERVICES": 42,
+"MANAGEMENT SERVICES": 109,
+"PHYSICIAN SERVICES": 19,
+"CONSULTING SERVICES": 113,
+"FOOD SERVICE": 127,
+"IT SERVICES": 163
+}
+],
+"name": "services_description",
+"non_null_pct": 0.9873011826873668,
+"status": "ok"
+}
