@@ -65,9 +65,11 @@ input{font:inherit}
 .mast .badge .val .partial{font-family:'Newsreader',serif;font-style:italic;font-size:11px;
   color:var(--marigold);font-weight:500}
 .mast .badge > div{cursor:help}
-.mast .badge .feedback{cursor:default;max-width:240px;margin-left:20px}
-.mast .badge .feedback .fb-body{font-family:'Newsreader',serif;font-style:italic;font-size:11.5px;color:var(--ink-2);line-height:1.4;margin-top:3px}
-.mast .badge .feedback .fb-body a{color:var(--oxblood);text-decoration:none;border-bottom:1px solid var(--oxblood-soft)}
+.mast .badge .feedback{cursor:default;max-width:260px;margin-left:24px;align-self:flex-end;
+  background:var(--paper-2);padding:10px 12px;font-style:normal}
+.mast .badge .feedback .lab{color:var(--oxblood);font-weight:600}
+.mast .badge .feedback .fb-body{font-family:'Newsreader',serif;font-style:italic;font-size:11.5px;color:var(--ink);line-height:1.45;margin-top:4px}
+.mast .badge .feedback .fb-body a{color:var(--oxblood);text-decoration:none;border-bottom:1px solid var(--oxblood-soft);font-style:normal;font-family:'JetBrains Mono',monospace;font-size:10.5px}
 .mast .badge .feedback .fb-body a:hover{border-bottom-color:var(--oxblood)}
 
 /* ===================== sector chip strip ===================== */
@@ -687,7 +689,7 @@ input{font:inherit}
   <div>
     <h1>By Their <span class="em">990s</span> Ye Shall Know Them<br>
       <span style="font-size:18px;font-style:normal;color:var(--ink-2)">what religious nonprofits share with, and don't share with, the rest of the nonprofit sector, read line by line on Schedule L, R, J, and Part VII.</span></h1>
-    <div class="lede">A researcher's browser for every field on Schedule L, Schedule R, Schedule J, and Part VII
+    <div class="lede">A browser for every field on Schedule L, Schedule R, Schedule J, and Part VII
       that the regulatory literature treats as fraud-relevant. Pick a field, pick the secular sectors
       you want to set alongside religious nonprofits, read what the literature says the rate means.
       <em>Disclosure is not wrongdoing</em>; every elevation has a structural explanation worth ruling out before reading it as a fraud signal.
@@ -3476,7 +3478,7 @@ function renderHeadlinePane(){
     <div class="hl-head">
       <div>
         <h2>Headline disclosure rates · <em>religion</em> set against every NTEE major you toggle above</h2>
-        <div class="sub">Pooled "religion 2.5× secular" framing hides two things: <em>which kind of rate</em> we're looking at (per-filing vs conditional rates live on different denominators), and <em>which NTEE major actually leads</em> on each rate — religion is rank #2 on §4958, not #1. The chip strip drives every panel below; each dot is one selected sector, religion (oxblood) always on. <em>Disclosure is not wrongdoing</em> — see the methodology drawer.</div>
+        <div class="sub">Pooled "religion 2.5× secular" framing hides two things: <em>which kind of rate</em> we're looking at (per-filing vs conditional rates live on different denominators), and <em>which NTEE major actually leads</em> on each rate; religion is rank #2 on §4958, not #1. The chip strip drives every panel below; each dot is one selected sector, religion (oxblood) always on. <em>Disclosure is not wrongdoing</em>; see the methodology drawer.</div>
         <div class="sub" style="margin-top:6px;font-family:'JetBrains Mono',monospace;font-size:10.5px;color:var(--ink-3)">
           Religion: ${corpusLabelRel} · Secular pooled: ${corpusLabelSec} · ${nActive} of ${ALL_KEYS.length} sectors visible
         </div>
