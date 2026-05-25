@@ -50,7 +50,7 @@ input{font:inherit}
 .app{display:grid;grid-template-rows:auto auto auto 1fr;height:100vh;width:100vw;min-width:1180px}
 
 /* ===================== masthead ===================== */
-.mast{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:end;
+.mast{display:grid;grid-template-columns:1fr auto;gap:24px;align-items:stretch;
   padding:14px 22px 12px;border-bottom:1.5px solid var(--ink)}
 .mast h1{margin:0;font-family:'Newsreader',serif;font-size:23px;line-height:1.05;
   font-weight:500;letter-spacing:-.012em;font-style:italic}
@@ -65,12 +65,16 @@ input{font:inherit}
 .mast .badge .val .partial{font-family:'Newsreader',serif;font-style:italic;font-size:11px;
   color:var(--marigold);font-weight:500}
 .mast .badge > div{cursor:help}
-.mast .badge .feedback{cursor:default;max-width:260px;margin-left:24px;align-self:flex-end;
-  background:var(--paper-2);padding:10px 12px;font-style:normal}
-.mast .badge .feedback .lab{color:var(--oxblood);font-weight:600}
-.mast .badge .feedback .fb-body{font-family:'Newsreader',serif;font-style:italic;font-size:11.5px;color:var(--ink);line-height:1.45;margin-top:4px}
-.mast .badge .feedback .fb-body a{color:var(--oxblood);text-decoration:none;border-bottom:1px solid var(--oxblood-soft);font-style:normal;font-family:'JetBrains Mono',monospace;font-size:10.5px}
-.mast .badge .feedback .fb-body a:hover{border-bottom-color:var(--oxblood)}
+.mast .right-col{display:flex;flex-direction:column;justify-content:space-between;gap:12px;height:100%}
+.mast .right-col .feedback{align-self:flex-end;max-width:560px;text-align:right;font-size:11.5px;
+  color:var(--ink-2);line-height:1.45;font-family:'Newsreader',serif;font-style:italic}
+.mast .right-col .feedback .lab{font-family:'Hanken Grotesk',sans-serif;font-style:normal;
+  font-size:9.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--oxblood);
+  font-weight:600;margin-right:8px}
+.mast .right-col .feedback a{color:var(--oxblood);text-decoration:none;
+  border-bottom:1px solid var(--oxblood-soft);font-style:normal;
+  font-family:'JetBrains Mono',monospace;font-size:10.5px;white-space:nowrap}
+.mast .right-col .feedback a:hover{border-bottom-color:var(--oxblood)}
 
 /* ===================== sector chip strip ===================== */
 .chipbar{display:flex;align-items:center;gap:6px;padding:9px 22px;border-bottom:1px solid var(--rule);
@@ -695,25 +699,27 @@ input{font:inherit}
       <em>Disclosure is not wrongdoing</em>; every elevation has a structural explanation worth ruling out before reading it as a fraud signal.
       <span class="mthd-link" id="open-mthd">methodology &amp; caveats</span></div>
   </div>
-  <div class="badge">
-    <div title="2014–2024 complete years: 86,455 filings · partial 2025 (snapshot 2026-05-24): 2,205 filings — headline rates exclude 2025">
-      <div class="lab">Religion corpus</div>
-      <div class="val">88,660 filings</div>
-      <div class="split">86,455 (2014–2024) + 2,205 partial 2025 · 18,017 EINs</div>
-    </div>
-    <div title="2014–2024 complete years: 1,160,678 filings · partial 2025 (snapshot 2026-05-24): 40,232 filings — headline rates exclude 2025">
-      <div class="lab">Secular corpus</div>
-      <div class="val">1,200,910 filings</div>
-      <div class="split">1,160,678 (2014–2024) + 40,232 partial 2025 · 187,133 EINs</div>
-    </div>
-    <div title="2025 is partial — snapshot taken 2026-05-24, ~14% of a full year by row count. Headline rates exclude 2025; per-year detail shows 2025 as half-tone.">
-      <div class="lab">Tax years</div>
-      <div class="val">2014–2024 <span class="partial">+ partial 2025</span></div>
-      <div class="split">snapshot 2026-05-24</div>
-    </div>
+  <div class="right-col">
     <div class="feedback">
-      <div class="lab">Living draft</div>
-      <div class="fb-body">Numbers refresh as IRS bulk releases land. Feedback welcome — especially if anything looks off. <a href="mailto:bhuvana@uchicago.edu">bhuvana@uchicago.edu</a></div>
+      <span class="lab">Living draft</span>
+      <span class="fb-body">Numbers refresh as IRS bulk releases land. Feedback welcome, especially if anything looks off. <a href="mailto:bhuvana@uchicago.edu">bhuvana@uchicago.edu</a></span>
+    </div>
+    <div class="badge">
+      <div title="2014–2024 complete years: 86,455 filings · partial 2025 (snapshot 2026-05-24): 2,205 filings — headline rates exclude 2025">
+        <div class="lab">Religion corpus</div>
+        <div class="val">88,660 filings</div>
+        <div class="split">86,455 (2014–2024) + 2,205 partial 2025 · 18,017 EINs</div>
+      </div>
+      <div title="2014–2024 complete years: 1,160,678 filings · partial 2025 (snapshot 2026-05-24): 40,232 filings — headline rates exclude 2025">
+        <div class="lab">Secular corpus</div>
+        <div class="val">1,200,910 filings</div>
+        <div class="split">1,160,678 (2014–2024) + 40,232 partial 2025 · 187,133 EINs</div>
+      </div>
+      <div title="2025 is partial — snapshot taken 2026-05-24, ~14% of a full year by row count. Headline rates exclude 2025; per-year detail shows 2025 as half-tone.">
+        <div class="lab">Tax years</div>
+        <div class="val">2014–2024 <span class="partial">+ partial 2025</span></div>
+        <div class="split">snapshot 2026-05-24</div>
+      </div>
     </div>
   </div>
 </div>
