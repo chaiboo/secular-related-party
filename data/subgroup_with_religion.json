@@ -21,6 +21,11 @@
       "n_filings": 96633
     },
     {
+      "ntee_major": "X",
+      "ntee_major_label": "Religion-related",
+      "n_filings": 86455
+    },
+    {
       "ntee_major": "S",
       "ntee_major_label": "Community Improvement",
       "n_filings": 78731
@@ -138,6 +143,11 @@
       "n_filings": 98562
     },
     {
+      "ntee_major": "X",
+      "ntee_major_label": "Religion-related",
+      "n_filings": 88660
+    },
+    {
       "ntee_major": "S",
       "ntee_major_label": "Community Improvement",
       "n_filings": 81133
@@ -250,6 +260,16 @@
           "n_filings_with_2025": 29726,
           "n_with_disclosure_with_2025": 32,
           "rate_with_2025": 0.0010764986880172239
+        },
+        {
+          "ntee_major": "X",
+          "label": "Religion-related",
+          "n_filings": 86455,
+          "n_with_disclosure": 50,
+          "rate": 0.0005783355502862761,
+          "n_filings_with_2025": 88660,
+          "n_with_disclosure_with_2025": 50,
+          "rate_with_2025": 0.0005639521768554027
         },
         {
           "ntee_major": "H",
@@ -489,6 +509,16 @@
           "n_filings_with_2025": 112428,
           "n_with_disclosure_with_2025": 5402,
           "rate_with_2025": 0.048048528836232965
+        },
+        {
+          "ntee_major": "X",
+          "label": "Religion-related",
+          "n_filings": 86455,
+          "n_with_disclosure": 4066,
+          "rate": 0.04703024694927997,
+          "n_filings_with_2025": 88660,
+          "n_with_disclosure_with_2025": 4124,
+          "rate_with_2025": 0.046514775547033614
         },
         {
           "ntee_major": "V",
@@ -900,6 +930,16 @@
           "rate_with_2025": 0.051419920651493006
         },
         {
+          "ntee_major": "X",
+          "label": "Religion-related",
+          "n_filings": 86455,
+          "n_with_disclosure": 4173,
+          "rate": 0.0482678850268926,
+          "n_filings_with_2025": 88660,
+          "n_with_disclosure_with_2025": 4265,
+          "rate_with_2025": 0.04810512068576585
+        },
+        {
           "ntee_major": "L",
           "label": "Housing & Shelter",
           "n_filings": 77132,
@@ -1159,6 +1199,16 @@
           "rate_with_2025": 0.05856893935135743
         },
         {
+          "ntee_major": "X",
+          "label": "Religion-related",
+          "n_filings": 86455,
+          "n_with_disclosure": 4494,
+          "rate": 0.051980799259730495,
+          "n_filings_with_2025": 88660,
+          "n_with_disclosure_with_2025": 4602,
+          "rate_with_2025": 0.05190615835777126
+        },
+        {
           "ntee_major": "D",
           "label": "Animal-related",
           "n_filings": 32899,
@@ -1376,6 +1426,16 @@
           "n_filings_with_2025": 32851,
           "n_with_disclosure_with_2025": 3254,
           "rate_with_2025": 0.09905330126936775
+        },
+        {
+          "ntee_major": "X",
+          "label": "Religion-related",
+          "n_filings": 86455,
+          "n_with_disclosure": 8018,
+          "rate": 0.09274188884390723,
+          "n_filings_with_2025": 88660,
+          "n_with_disclosure_with_2025": 8207,
+          "rate_with_2025": 0.0925671103090458
         },
         {
           "ntee_major": "A",
@@ -1637,6 +1697,16 @@
           "rate_with_2025": 0.12635602270811083
         },
         {
+          "ntee_major": "X",
+          "label": "Religion-related",
+          "n_filings": 86455,
+          "n_with_disclosure": 7978,
+          "rate": 0.09227922040367821,
+          "n_filings_with_2025": 88660,
+          "n_with_disclosure_with_2025": 8225,
+          "rate_with_2025": 0.09277013309271374
+        },
+        {
           "ntee_major": "N",
           "label": "Recreation & Sports",
           "n_filings": 71059,
@@ -1669,6 +1739,8 @@
       ]
     }
   },
+  "religion_key": "X",
+  "religion_label": "Religion-related",
   "_meta": {
     "rate_construction": "n_distinct_filings_with_at_least_one_row / n_canonical_filings_in_major",
     "rate_kind": "per_filing",
@@ -1676,6 +1748,6 @@
     "headline_year_range": "2014-2024",
     "with_2025_year_range": "2014-2025",
     "data_snapshot_date": "2026-05-24",
-    "notes": "Secular-only (23 majors A-W minus X). Religion-merged version is subgroup_with_religion.json."
+    "notes": "Per-NTEE-major disclosure rates for the 6 fraud-relevant Form 990 tables. Religion (X) is computed from the parallel religion corpus using identical canonicalization (latest return_ts per (ein, tax_period_end)) and identical 'at least one row per canonical filing' counting. 24 NTEE majors (A-W + X)."
   }
 }

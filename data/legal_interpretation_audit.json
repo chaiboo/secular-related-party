@@ -1,0 +1,147 @@
+{
+  "_meta": {
+    "purpose": "Worklist for kubera (Phase B): every numeric claim in legal_interpretation.json that may now be contradicted by the rebuilt data.",
+    "generated_by": "p3_secular_compare/scripts/rebuild_audit_fixes.py",
+    "do_not_use_as_authoritative_truth": "This file flags claims, it does not rewrite them. Phase B should rewrite legal_interpretation.json based on these flags.",
+    "phase_b_resolved_on": "2026-05-24",
+    "phase_b_resolved_by": "kubera (revision pass, claude-opus-4-7)"
+  },
+  "status_legend": {
+    "holds": "claim still consistent with post-audit data",
+    "needs_revision": "claim is contradicted or numerically wrong under post-audit denominator",
+    "should_delete": "claim depended on a metric that no longer exists or was always wrong",
+    "verify": "claim should be cross-checked against current rebuilt data; cannot be auto-flagged",
+    "resolved": "Phase B revision pass addressed this claim in legal_interpretation.json",
+    "still_pending": "Phase B could not address (data not available, ambiguous, or out of scope)"
+  },
+  "claims": [
+    {
+      "claim_text": " volunteer these entries. In the religion corpus, 86 rows at 27 EINs across 10 years — the floor count, not the population. The Grassley ",
+      "field_id": "sched_l_excess_benefit.amt_tax_imposed",
+      "key": "why_it_signals_fraud_or_misappropriation",
+      "current_value": "religion §4958: 84 rows excl-2025; secular §4958: 446 rows excl-2025",
+      "status": "needs_revision",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Rewrote the religion-corpus floor numbers to '50 canonical filings, 27 distinct EINs, 84 raw rows' (2014-2024 excl partial-2025) and added the parallel secular-corpus numbers (307/203/446). This is the audit's '50/27/84 vs 307/203/446' construction.",
+      "note": "Stale 86-row claim. Replace with current religion (and/or secular) counts."
+    },
+    {
+      "claim_text": "these entries. In the religion corpus, 86 rows at 27 EINs across 10 years — the floor count, not the population. The Grassley 2011 staff ",
+      "field_id": "sched_l_excess_benefit.amt_tax_imposed",
+      "key": "why_it_signals_fraud_or_misappropriation",
+      "current_value": "religion §4958: 27 distinct EINs excl-2025; secular §4958: 203 distinct EINs excl-2025",
+      "status": "needs_revision",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Same fix as above. The 27-EIN number happens to still be the current EIN count for religion excl-2025; what was stale was the 86-rows figure (now 84) and the missing filings-count (now 50). Updated to all three numbers (50/27/84) for religion and (307/203/446) for secular.",
+      "note": "Stale '27 distinct EINs' claim. Replace."
+    },
+    {
+      "claim_text": "Religion admits Pt I at 2.5× the secular rate (0.095% vs 0.038%). This is the headline disparity in the comparison view. Two non-exclusive readings: (a) religious orgs disproportionately have founder-...",
+      "field_id": "sched_l_excess_benefit.amt_tax_imposed",
+      "key": "how_to_compare_religion_vs_secular",
+      "current_value": "new §4958 per-filing rates: religion=0.0578%, secular=0.0265%, ratio=2.19x",
+      "status": "needs_revision",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Rewrote the headline to 'Under the disclose-rate construction [n distinct filings with ≥1 Pt I row / n canonical filings], religion §4958 rate is 0.0578% (50 of 86,455 filings flagged) against secular 0.0265% (307 of 1,160,678) — a 2.19× gap, 2014-2024.' Attributed denominator construction explicitly per the audit ask.",
+      "note": "Pre-audit numbers used n_rows / n_filings (0.0947% / 0.0380% / 2.5x). Post-audit uses n_distinct_filings_with_row / n_filings."
+    },
+    {
+      "claim_text": "Mental Health & Crisis (F) actually leads at 0.108%, above religion. Religion is #2. Sectors with single-founder structures (F, X) cluster high; sectors with bureaucratic governance (L Housing, M Publ...",
+      "field_id": "sched_l_excess_benefit.amt_tax_imposed",
+      "key": "subgroup_caveats",
+      "current_value": "new leader: F (Mental Health & Crisis) at 0.1112%; religion ranks #2",
+      "status": "holds",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Updated 0.108% → 0.1112% under post-audit denominator (32 of 28,772 filings); confirmed religion still ranks #2. Added explicit numerator for transparency and added Medical Research (H) #3 ranking and L/M near-zero rates (0.0052%/0.0088%).",
+      "note": "Pre-audit had F leading at 0.108%. Re-check under post-audit denominator."
+    },
+    {
+      "claim_text": "s the largest secular sector (194,778 filings) and shares with religion a high missio",
+      "field_id": "religion_vs_education",
+      "key": "rationale",
+      "current_value": "N/A (verify against subgroup_with_religion.filings_per_major)",
+      "status": "verify",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Re-pegged: Education n=185,568 (2014-2024 headline), 194,778 with partial-2025. Made the year-range labeling explicit so future readers don't conflate the two.",
+      "note": "Filings-count claim; should be verified against filings_per_major in subgroup_with_religion.json."
+    },
+    {
+      "claim_text": "is the second-largest sector (176,886 filings) and most directly comparable to religi",
+      "field_id": "religion_vs_human_services",
+      "key": "rationale",
+      "current_value": "N/A (verify against subgroup_with_religion.filings_per_major)",
+      "status": "verify",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Re-pegged: Human Services n=171,347 (2014-2024 headline), 176,886 with partial-2025. Also added P's actual §4958 rate (0.0286%, 49 of 171,347) for the interpretive_warning paragraph."
+    },
+    {
+      "claim_text": "Philanthropy (60,206 filings) includes private foundations operating",
+      "field_id": "religion_vs_philanthropy",
+      "key": "rationale",
+      "current_value": "N/A (verify against subgroup_with_religion.filings_per_major)",
+      "status": "verify",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Re-pegged: Philanthropy n=58,410 (2014-2024 headline), 60,206 with partial-2025. Confirmed Sched R Pt II rate at 29.03% under post-audit denominator and added ratio (~3.1× religion's 9.27%) to what_to_conclude."
+    },
+    {
+      "claim_text": "Housing & Shelter (79,712 filings) has the highest Sched R Pt II rate in ",
+      "field_id": "religion_vs_housing",
+      "key": "rationale",
+      "current_value": "N/A (verify against subgroup_with_religion.filings_per_major)",
+      "status": "verify",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Re-pegged: Housing & Shelter n=77,132 (2014-2024 headline), 79,712 with partial-2025. Confirmed Sched R Pt II rate at 52.18% (leads dataset) and added L's Pt V rate (20.80%, ranks #2) for completeness."
+    },
+    {
+      "claim_text": "Mental Health & Crisis (29,726 filings) is the only secular major where the §4",
+      "field_id": "religion_vs_mental_health",
+      "key": "rationale",
+      "current_value": "N/A (verify against subgroup_with_religion.filings_per_major)",
+      "status": "verify",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Re-pegged: Mental Health & Crisis n=28,772 (2014-2024 headline), 29,726 with partial-2025. Confirmed F still the only major where §4958 rate exceeds religion's (0.1112% vs 0.0578%) and added explicit numerator counts."
+    },
+    {
+      "claim_text": "International (33,622 filings) overlaps substantially with religion i",
+      "field_id": "religion_vs_international",
+      "key": "rationale",
+      "current_value": "N/A (verify against subgroup_with_religion.filings_per_major)",
+      "status": "verify",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Re-pegged: International n=32,910 (2014-2024 headline), 33,622 with partial-2025."
+    },
+    {
+      "claim_text": "Community Improvement (81,133 filings) covers chambers of commerce, business-",
+      "field_id": "religion_vs_community_improvement",
+      "key": "rationale",
+      "current_value": "N/A (verify against subgroup_with_religion.filings_per_major)",
+      "status": "verify",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Re-pegged: Community Improvement n=78,731 (2014-2024 headline), 81,133 with partial-2025. Confirmed S §4958 rate at 0.0102% (8 of 78,731) under post-audit denominator and added religion-vs-S ratio (~5.7×)."
+    },
+    {
+      "claim_text": "Arts (112,428 filings) is the third-largest sector and most r",
+      "field_id": "religion_vs_arts",
+      "key": "rationale",
+      "current_value": "N/A (verify against subgroup_with_religion.filings_per_major)",
+      "status": "verify",
+      "phase_b_status": "resolved",
+      "phase_b_note": "Re-pegged: Arts n=108,296 (2014-2024 headline), 112,428 with partial-2025. Confirmed A leads insider-loan rate at 4.89% with religion #2 at 4.70%; updated A's rate from 4.8% → 4.89% and religion 4.7% → 4.70%."
+    }
+  ],
+  "phase_b_summary": {
+    "claims_total": 12,
+    "claims_resolved": 12,
+    "claims_still_pending": 0,
+    "additional_audit_addressed_beyond_worklist": [
+      "Removed vocabulary-of-religion-vs-secular claims (cost/cash/FMV/arm's-length, parsonage/working-capital, broadcasting/IT-services, etc.) wherever they appeared in fields not on the original worklist; demoted to hypothesis-flagged framing or deleted.",
+      "Updated global_caveat self_incrimination_floor with current 50/307 filing counts and 84/446 row counts (was '86 rows in the religion corpus and 456 across the full dataset').",
+      "Replaced caveat blocks 'sentinel_filter_extended' and 'rate_construction' and 'year_range_2014_2024' (new caveats inferred from methodology.json) to make the post-audit data-layer changes self-documenting in the interpretive layer.",
+      "Updated subgroup_framing[X].fields_where_this_sector_is_notable to use 2.19× (not 2.5×) and ~7.9× (not 7.7×) and added the rank-of-religion across multiple metrics."
+    ],
+    "could_not_reconcile": [
+      "'unwritten + unapproved cogrid: religion 14.9%, secular 9.6%' (sched_l_loans.written_agreement) — the cogrid intersection is computable but not present in current data files; the specific percentages were demoted to non-numeric framing.",
+      "'415 officers with comp ≥ $1M and 22 with ≥ $5M' (sched_j_compensation.total_filing_org) — the counts are not in current data files; demoted to non-numeric framing."
+    ]
+  }
+}

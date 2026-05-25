@@ -1,0 +1,1240 @@
+{
+  "_generation_memo": {
+    "generated_on": "2026-05-24",
+    "generated_by": "kubera (revision pass, Phase B of post-audit cycle)",
+    "model": "claude-opus-4-7",
+    "file_role": "Editorial / interpretive overlay consumed by the HTML as hover content, sidebar drawer, and inline explainer. NOT a data file. NOT a deliverable on its own. Every numeric assertion in this file must be reconcilable to data/rel_vs_sec.json, data/subgroup_with_religion.json, data/findings.json, or data/methodology.json — if it can't be reconciled, it's a bug.",
+    "claims_hand_verified_against_data": [
+      "§4958 religion per-filing rate 0.0578% (50/86,455) — from rel_vs_sec.json + subgroup_with_religion.json",
+      "§4958 secular per-filing rate 0.0265% (307/1,160,678) — from rel_vs_sec.json + findings.json",
+      "§4958 ratio religion/secular 2.19× — from rel_vs_sec.json",
+      "§4958 leader F (Mental Health & Crisis) at 0.1112% (32/28,772), religion ranks #2 — from subgroup_with_religion.json",
+      "Religion §4958 raw event counts: 50 canonical filings, 27 EINs, 84 raw rows (excl-2025) — from findings.json + methodology.json",
+      "Secular §4958 raw event counts: 307 canonical filings, 203 EINs, 446 raw rows (excl-2025) — from findings.json + methodology.json",
+      "Unwritten insider loans conditional rate: religion 39.9%, secular 31.8%, ratio 1.26× — from rel_vs_sec.json",
+      "In-default insider loans conditional rate: religion 0.67%, secular 0.77%, ratio 0.87× — from rel_vs_sec.json",
+      "§512(b)(13) controlled conditional rate: religion 31.2%, secular 39.3%, ratio 0.79× — from rel_vs_sec.json",
+      "Sentinel-name conditional rate: religion 6.1%, secular 9.3%, ratio 0.66× — from rel_vs_sec.json (extended-filter version)",
+      "Contingent-comp per-filing rate: religion 0.0625% (54/86,455), secular 0.491% (5,694/1,160,678), ratio 0.13× — from rel_vs_sec.json",
+      "Per-major filing counts (NTEE A-W + X), excl-2025 — verified against subgroup_with_religion.json filings_per_major",
+      "Per-major §4958 leaderboard ranking religion as #2 of 24 — verified against subgroup_with_religion.json disclosure_rates_by_major.sched_l_excess_benefit.per_major",
+      "Religion ranks on insider-loan (sched_l_loans #2), Pt IV business transactions (#19), Sched J Pt I (#24), Sched R Pt II (#19), Sched R Pt V (#21) — verified against subgroup_with_religion.json per-major lists"
+    ],
+    "claims_carried_over_unchanged_because_field_definition_only": [
+      "All 'what_it_is' blocks (field definitions)",
+      "All 'statutory_basis' blocks (citations to USC, CFR, Rev. Procs, Cornell URLs)",
+      "All 'what_a_high_rate_means' / 'what_a_low_rate_means' where prior framing did not encode a specific magnitude"
+    ],
+    "qualitative_claims_demoted_or_deleted": [
+      "DEMOTED: 'Religion vocabulary leans more toward cost and cash; secular leans more toward FMV and arm's-length' (sched_r_transactions.method_of_determining_amount) — no vocabulary-analysis output in data/. Replaced with hypothesis-flagged language.",
+      "DEMOTED: 'Religion vocabulary is more concrete (housing, parsonage, mission-trip); secular is more abstract (working capital, bridge, general)' (sched_l_loans.purpose_of_loan) — no free-text analysis in data/. Replaced with regulatory hypothesis.",
+      "DEMOTED: 'Religion: more housing-allowance overage and ministry-credit-card cases; secular: more vendor-kickback and inflated-salary cases' (sched_l_excess_benefit.description) — no Pt I description text analysis in data/. Replaced with hypothesis.",
+      "DEMOTED: 'Religion: heavy rent, broadcasting, book royalties, speaking fees. Secular: heavy consulting, construction, IT services, legal services' (sched_l_business_transactions.description_of_transaction) — no Pt IV description text analysis in data/. Replaced with hypothesis.",
+      "DEMOTED: 'Religion: heavy church, ministry, broadcasting, mission. Secular: heavy foundation, fundraising, real estate, operating' (sched_r_related_tax_exempt.primary_activity) — no related-org activity text analysis in data/. Replaced with hypothesis.",
+      "DEMOTED: 'Religion: heavy broadcasting, media production, construction. Secular: heavy IT services, construction, consulting, legal services' (part_vii_contractors.services_description) — no contractor-description text analysis in data/. Replaced with hypothesis.",
+      "DEMOTED: 'Religion-corpus relationships skew heavily toward FOUNDER, PASTOR, MINISTER — secular corpus skews toward CEO, BOARD MEMBER, FAMILY MEMBER' (sched_l_excess_benefit.relationship) — no relationship-distribution analysis in data/. Replaced with hypothesis.",
+      "DEMOTED: similar relationship-vocabulary claims for sched_l_loans.relationship, sched_l_grants_to_interested.relationship, sched_l_business_transactions.relationship — replaced with hypothesis or rate-only framing where the rate is computable.",
+      "DEMOTED: 'Religion has heavier asset-holding patterns in disregarded entities (real estate, broadcasting equipment)' — no asset-distribution analysis in data/. Replaced with hypothesis.",
+      "DELETED: 'Religion's elevated other-comp share at smaller filers because non-W-2 benefits' — speculative without size-controlled comparison.",
+      "DEMOTED: claims about title-vocabulary skews (PASTOR/MINISTER vs CEO/DIRECTOR) — replaced with hypothesis."
+    ],
+    "audit_flagged_defects_addressed": [
+      "Replaced stale '86 rows / 27 EINs' counts at sched_l_excess_benefit.amt_tax_imposed.why_it_signals_fraud_or_misappropriation with 84 rows / 27 EINs / 50 filings (current excl-2025 numbers).",
+      "Replaced stale '2.5× / 0.095% vs 0.038%' headline at sched_l_excess_benefit.amt_tax_imposed.how_to_compare_religion_vs_secular with 2.19× / 0.0578% vs 0.0265% under the disclose-rate construction.",
+      "Re-pegged Mental Health (F) leader rate from 0.108% to 0.1112% under post-audit denominator at sched_l_excess_benefit.amt_tax_imposed.subgroup_caveats; confirmed religion ranks #2 of 24.",
+      "Re-pegged all 8 comparison_pairs filings-count claims to subgroup_with_religion.filings_per_major (excl-2025).",
+      "Updated subgroup_framing[X].fields_where_this_sector_is_notable to reflect post-audit ratios (2.19× not 2.5×; 0.13× not 7.7× for contingent comp).",
+      "Updated subgroup_framing[F] to use 0.1112% with post-audit denominator and confirm leader status.",
+      "Updated subgroup_framing[L] (Housing) Sched R Pt II rate from 52.2% to confirmed 52.18% under post-audit denominator.",
+      "Updated subgroup_framing[T] (Philanthropy) Sched R Pt II rate from 28.9% to confirmed 29.03% under post-audit denominator.",
+      "Removed §107-housing-vocabulary claims that depended on free-text analysis not present in data/.",
+      "Updated global_caveat self_incrimination_floor to use 84 rows / 446 rows (excl-2025) instead of 86 / 456 stale snapshot.",
+      "Updated comparison_pairs[religion_vs_education] interpretive_warning to remove implicit '2.5×' framing.",
+      "Updated all comparison_pairs filings-count parentheticals to with_2025 numbers where labeled, headline numbers where unlabeled — clarified."
+    ],
+    "could_not_reconcile": [
+      "Original 'unwritten + unapproved cogrid: religion 14.9%, secular 9.6%' at sched_l_loans.written_agreement — the cogrid intersection is computable in principle but not present in current rel_vs_sec.json or findings.json; demoted the specific cogrid percentages to non-numeric framing.",
+      "Original '415 officers with comp ≥ $1M and 22 with ≥ $5M' at sched_j_compensation.total_filing_org — those counts are not in current data/*.json; demoted to non-numeric framing."
+    ]
+  },
+
+  "_meta": {
+    "purpose": "Field-by-field legal/regulatory interpretation layer for the religion-vs-secular comparison tool. Consumed by the HTML as hover content, sidebar drawer, and inline explainer. Not a deliverable on its own.",
+    "scope": "Covers every field in data/codebook.json plus comparison-pair and NTEE-subgroup framing.",
+    "rate_construction_in_use": "Every per-filing rate in this file uses n_distinct_filings_with_at_least_one_row / n_canonical_filings (the disclose-rate construction). Conditional rates (in-default loans, unwritten loans, §512(b)(13) controlled, sentinel names) use a different denominator (rows in the relevant table) and are explicitly labeled.",
+    "year_range": "All headline numbers are 2014-2024 (excl partial 2025). 2025 is a partial cohort — snapshot date 2026-05-24.",
+    "principles": [
+      "Disclosure rate is not wrongdoing rate. High disclosure can mean more wrongdoing OR more conscientious reporting OR more complex related-party architecture.",
+      "Religion corpus is voluntary-filer subset under the church-exemption hole (IRC §6033(a)(3)(A)(i)). Secular corpus has no comparable hole. All ratios are filer-vs-filer.",
+      "No external fraud-label joins; the disclosure itself is the signal."
+    ],
+    "primary_authorities": [
+      "IRC §4958 — https://www.law.cornell.edu/uscode/text/26/4958",
+      "Treas. Reg. §53.4958 — https://www.law.cornell.edu/cfr/text/26/53.4958-0",
+      "IRC §512(b)(13) — https://www.law.cornell.edu/uscode/text/26/512",
+      "IRC §6033(a)(3)(A)(i) church-exemption — https://www.law.cornell.edu/uscode/text/26/6033",
+      "Reg. §1.501(c)(3)-1(c)(2) inurement — https://www.law.cornell.edu/cfr/text/26/1.501(c)(3)-1",
+      "Grassley Senate Finance review of media-based ministries, Jan 6 2011 — https://www.finance.senate.gov/ranking-members-news/grassley-releases-review-of-tax-issues-raised-by-media-based-ministries",
+      "ECFA Standard 6 (Compensation & Related-Party Transactions) — https://www.ecfa.org/standards.aspx",
+      "Rev. Proc. 2018-40 (group exemption procedure) — supersedes Rev. Proc. 80-27"
+    ]
+  },
+
+  "fields": {
+
+    "sched_l_excess_benefit.amt_tax_imposed": {
+      "what_it_is": "First-tier §4958 excise tax imposed on the disqualified person, equal to 25% of the excess benefit (Reg. §53.4958-1(c)).",
+      "statutory_basis": "IRC §4958(a)(1); Treas. Reg. §53.4958-1(c). https://www.law.cornell.edu/uscode/text/26/4958",
+      "why_it_signals_fraud_or_misappropriation": "Reporting an amount here is a tax admission: the org has identified a transaction it concedes was excess and assessed the 25% tax. Filers do not volunteer these entries. In the religion corpus (2014-2024 excl partial-2025): 50 canonical filings disclosed at least one Pt I row, across 27 distinct EINs, totaling 84 raw rows — the disclosed floor, not the population. Secular corpus over the same period: 307 canonical filings at 203 EINs (446 raw rows). The Grassley 2011 staff memo treated any populated Pt I row as the strongest single Form 990 fraud indicator.",
+      "what_a_high_rate_means": "A sector with elevated Pt I rates has either more bad behavior, more scrupulous compliance counsel forcing disclosure, or a higher base rate of IRS audit pressure pushing voluntary correction. Of the three, the second is the rarest — most CPAs advise against populating this box unless cornered.",
+      "what_a_low_rate_means": "Either cleaner operations or, more likely, suppression: counsel writes the transaction up as ordinary compensation rather than as excess benefit, or the org never characterizes a benefit as 'excess' in the first place. A zero rate is consistent with both compliance and concealment.",
+      "how_to_compare_religion_vs_secular": "Under the disclose-rate construction [n distinct filings with ≥1 Pt I row / n canonical filings], religion §4958 rate is 0.0578% (50 of 86,455 filings flagged) against secular 0.0265% (307 of 1,160,678) — a 2.19× gap, 2014-2024. Two non-exclusive readings: (a) religious orgs disproportionately have founder-CEO structures that produce excess-benefit risk, or (b) the ECFA-member subset of religious filers is more likely to use voluntary correction as a fraud-management tool. Both are consistent with the data.",
+      "subgroup_caveats": "Religion is NOT the leader. Of the 24 NTEE majors, Mental Health & Crisis (F) leads at 0.1112% (32 of 28,772 filings); religion (X) ranks #2 at 0.0578%; Medical Research (H) is #3 at 0.0445%. Sectors with single-founder structures (F, X) cluster high; sectors with bureaucratic governance (L Housing at 0.0052%, M Public Safety at 0.0088%) cluster near zero. Social Science (V) is the only major with zero disclosures."
+    },
+    "sched_l_excess_benefit.amt_tax_reimbursed": {
+      "what_it_is": "Excise tax the organization reimbursed back to the disqualified person.",
+      "statutory_basis": "Treas. Reg. §53.4958-7(d) — reimbursement of §4958 tax is itself a new excess benefit unless treated as compensation and pre-approved. https://www.law.cornell.edu/cfr/text/26/53.4958-7",
+      "why_it_signals_fraud_or_misappropriation": "Any non-zero entry here is a second, downstream excess-benefit transaction in the making. The reimbursement triggers the 200% second-tier tax if not itself corrected. Across the full Pt I corpus, n=1 with $13,000 reimbursed — vanishingly rare because counsel will not let a client populate this.",
+      "what_a_high_rate_means": "Extreme rarity. A non-zero entry typically signals an under-counseled filer who literally did the thing the regulation forbids.",
+      "what_a_low_rate_means": "Either compliance or, more often, that orgs that did reimburse simply mischaracterized the payment as W-2 compensation rather than disclosing it here.",
+      "how_to_compare_religion_vs_secular": "Both corpora effectively zero. Not a usable comparison metric — use Pt I amt_tax_imposed instead.",
+      "subgroup_caveats": "Effectively absent across all 24 majors."
+    },
+    "sched_l_excess_benefit.transaction_corrected": {
+      "what_it_is": "Was the excess benefit corrected within the §4958 correction period? Correction (full restitution to the org) eliminates the 200% second-tier tax under IRC §4958(b).",
+      "statutory_basis": "IRC §4958(b), (f)(6); Reg. §53.4958-7. https://www.law.cornell.edu/cfr/text/26/53.4958-7",
+      "why_it_signals_fraud_or_misappropriation": "transaction_corrected=False with a real Pt I entry is a live exposure: the org has admitted the excess benefit but not yet undone it, and the 200% tax clock is running. The full Pt I corpus shows zero uncorrected entries, which means filers who populate Pt I are also the ones who follow through on correction — consistent with these being the conscientious-disclosure subset.",
+      "what_a_high_rate_means": "A sector with many uncorrected entries would suggest disclosure-without-remediation — the worst signal. Doesn't actually appear in the data.",
+      "what_a_low_rate_means": "Either no excess benefits (most filings) or excess benefits that were corrected (most that were disclosed).",
+      "how_to_compare_religion_vs_secular": "Correction-completion is a behavioral choice once disclosure happens. If the secular sector has uncorrected entries while religion does not, that itself is a finding about which filer type follows through.",
+      "subgroup_caveats": "Cell sizes are too small in most majors to compute correction rates."
+    },
+    "sched_l_excess_benefit.relationship": {
+      "what_it_is": "Free-text description of the disqualified person's role: CEO, FOUNDER, BOARD CHAIR, FAMILY MEMBER, etc.",
+      "statutory_basis": "IRC §4958(f)(1) defines 'disqualified person' as someone who, within the last five years, was in a position to exercise substantial influence over the affairs of the org. https://www.law.cornell.edu/uscode/text/26/4958",
+      "why_it_signals_fraud_or_misappropriation": "The relationship type tells you which governance failure produced the excess benefit. FOUNDER and CEO entries suggest unchecked-leader structures; FAMILY MEMBER and SUBSTANTIAL CONTRIBUTOR entries suggest the org has functionally become a personal vehicle for a single household or donor.",
+      "what_a_high_rate_means": "Concentration of FOUNDER/CEO in this column across a sector flags founder-dominated governance — the structural precondition for excess-benefit risk under Reg. §53.4958-3.",
+      "what_a_low_rate_means": "If relationships are diverse (varied job titles, no founder-cluster), excess benefits are likelier to be isolated incidents than systemic.",
+      "how_to_compare_religion_vs_secular": "Hypothesis (not measured in this corpus): the regulatory literature predicts religion-corpus relationships skew toward FOUNDER/PASTOR/MINISTER labels and secular toward CEO/BOARD MEMBER/FAMILY MEMBER. Whether the actual disclosure text bears this out requires Pt I free-text analysis that has not been performed on this dataset.",
+      "subgroup_caveats": "Too few rows to stratify cleanly by NTEE major."
+    },
+    "sched_l_excess_benefit.description": {
+      "what_it_is": "Free-text description of the excess-benefit transaction itself — what the disqualified person actually received.",
+      "statutory_basis": "Treas. Reg. §53.4958-4 defines what counts as 'excess benefit': economic benefit beyond consideration received by the org. https://www.law.cornell.edu/cfr/text/26/53.4958-4",
+      "why_it_signals_fraud_or_misappropriation": "The description text is the most diagnostic single field in the entire 990 dataset for understanding what insiders are doing. 'Personal use of credit card,' 'home renovation,' 'undocumented loan forgiven,' 'family member salary in excess of FMV' are the recurring patterns named in IRS guidance and the Grassley inquiry. Free-text mining of this column across both corpora is a high-yield future task.",
+      "what_a_high_rate_means": "Not applicable as a rate — read by content, not frequency.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis (not measured in this corpus): regulatory and journalistic literature on prosperity ministries predicts religion descriptions tilt toward housing-allowance overage and ministry-expense personal-use; secular tilts toward vendor-kickback and inflated-salary patterns. Free-text analysis of Pt I description has not been performed on this dataset; the statute treats both identically.",
+      "subgroup_caveats": "Read at the field level, not the sector level."
+    },
+
+    "sched_l_loans.original_principal": {
+      "what_it_is": "Original principal of an insider loan, in dollars.",
+      "statutory_basis": "Reportable under Form 990 Schedule L Pt II per Reg. §1.6033-2(a)(2)(ii)(I); fairness/market terms governed by Reg. §53.4958-4(b).",
+      "why_it_signals_fraud_or_misappropriation": "Round-number principals ($50k, $100k, $250k) without amortization schedules are an ECFA-flagged pattern — the Grassley inquiry found multiple six- and seven-figure round-number loans to officers at the prosperity ministries. The dollar amount alone is necessary but not sufficient; pair with written_agreement and in_default to read meaning.",
+      "what_a_high_rate_means": "Sectors with high median principals (Education, Health Care) often reflect legitimate housing-loan programs for recruited faculty or physicians; sectors with high principals AND high unwritten-loan rates flag insider extraction.",
+      "what_a_low_rate_means": "Small principals or many zeros usually mean petty insider advances and travel-expense floats — lower risk per loan but easier to normalize into ongoing extraction.",
+      "how_to_compare_religion_vs_secular": "Per-filing insider-loan disclosure rates are close: religion 4.70% (4,066 of 86,455 filings) ranks #2 of 24 majors; Arts (A) leads at 4.89%. Per-loan principal-size distribution is not aggregated in current rel_vs_sec.json — claim about religion-vs-secular median principal magnitudes requires a numeric run not present in this revision's data inputs.",
+      "subgroup_caveats": "Education and Health Care have high principals for non-fraud reasons (recruitment loans); read alongside written_agreement and approved_by_board."
+    },
+    "sched_l_loans.balance_due": {
+      "what_it_is": "Balance due at the end of the tax period. Negative values indicate a credit/refund position in the relationship.",
+      "statutory_basis": "Same as original_principal; the balance vs. principal ratio approximates loan-amortization adherence.",
+      "why_it_signals_fraud_or_misappropriation": "Balance ≥ original principal multiple years running implies the loan is interest-only or unpaid — economically equivalent to an indefinite advance. If the loan is later forgiven, the entire balance becomes an excess-benefit transaction under Reg. §53.4958-4(a)(1).",
+      "what_a_high_rate_means": "Persistent balance-due across years (read as time series, not single year) flags evergreen insider lending. Single-year snapshots aren't enough.",
+      "what_a_low_rate_means": "Declining balance against original principal is the boring, healthy signal: amortization is happening.",
+      "how_to_compare_religion_vs_secular": "Compute balance_due / original_principal at the loan level; sectors with persistent ratios near 1.0 are the watch list. Per-loan ratio not aggregated in current rel_vs_sec.json.",
+      "subgroup_caveats": "Some sectors (Housing & Shelter, Community Improvement) carry deliberately long-term low-interest insider loans for legitimate program reasons; check loan_to_organization direction and purpose_of_loan text."
+    },
+    "sched_l_loans.loan_to_organization": {
+      "what_it_is": "True = the insider lent money TO the org (the org owes the insider).",
+      "statutory_basis": "Reg. §53.4958-4(b)(2)(ii)(B) treats below-market loans from insiders as potential excess benefit running the opposite direction.",
+      "why_it_signals_fraud_or_misappropriation": "Loans from insiders to the org are not usually the dangerous direction — the insider is taking risk, not extracting value. But they can mask: (1) above-market interest paid to the insider, (2) pension substitutes for a founder taking 'loan repayment' as deferred comp, (3) collateral pledges that effectively put org assets behind insider personal lending.",
+      "what_a_high_rate_means": "High loan_to_organization share is common in young or financially fragile orgs where the founder is bankrolling operations. Not inherently a fraud signal; cross-check with comp from related orgs and severance.",
+      "what_a_low_rate_means": "Most insider loans run the other direction — the org lending to the insider, which is the riskier vector.",
+      "how_to_compare_religion_vs_secular": "Hypothesis (not measured in this corpus): regulatory framing predicts religion has a higher share of insider-to-org loans (founder-bankrolled startups) and secular a higher share of org-to-insider. The split has not been quantified in current data files.",
+      "subgroup_caveats": "Arts & Culture (A) and religion are nearly tied on overall insider-loan rate; direction-split has not been computed here."
+    },
+    "sched_l_loans.loan_from_organization": {
+      "what_it_is": "True = the org lent money TO the insider. The higher-risk direction.",
+      "statutory_basis": "Reg. §53.4958-4(a) — below-market or undocumented org-to-insider loans are presumptively excess-benefit transactions absent the rebuttable-presumption procedure under Reg. §53.4958-6.",
+      "why_it_signals_fraud_or_misappropriation": "Org-to-insider loans are the canonical §4958 risk vector. If terms are below-market, the difference is excess benefit. If unwritten or unapproved, the rebuttable presumption is unavailable and the IRS may treat the entire amount as excess benefit. The Grassley inquiry traced multiple seven-figure unrepaid org-to-officer loans at three of the six investigated ministries.",
+      "what_a_high_rate_means": "Concentrated org-to-insider lending in a sector flags insider-extraction architecture. The most diagnostic version is paired with unwritten + unapproved + in_default.",
+      "what_a_low_rate_means": "Most orgs do not lend to insiders. A near-zero rate is the norm and the safe baseline.",
+      "how_to_compare_religion_vs_secular": "Both corpora populate Sched L Pt II at similar rates overall (religion 4.70%, several secular majors in the 3-5% band); the diagnostic signal lies in the boolean co-grid of org-direction + unwritten + unapproved, which is not currently computed at the religion-vs-secular level.",
+      "subgroup_caveats": "Education (B) carries large absolute counts of insider loans because of faculty/admin housing programs; rate it against written_agreement and approved_by_board before interpreting."
+    },
+    "sched_l_loans.written_agreement": {
+      "what_it_is": "True = the loan terms are in a written agreement.",
+      "statutory_basis": "ECFA Standard 6 explicitly requires written agreements; Reg. §53.4958-6(c) makes contemporaneous documentation a prerequisite for the rebuttable presumption of reasonableness.",
+      "why_it_signals_fraud_or_misappropriation": "An unwritten insider loan is the single Grassley-named pattern most associated with prosperity-ministry abuse. Without written terms there is no rebuttable presumption; without rebuttable presumption the IRS sets the FMV baseline; without an FMV baseline almost any loan is exposed as excess benefit.",
+      "what_a_high_rate_means": "Conditional rate (denominator = loan rows with written_agreement non-null): religion unwritten share 39.9% (2,446 of 6,123 loan rows), secular 31.8% (18,661 of 58,634). Religion is 1.26× the secular unwritten rate. Systemic documentation failure on both sides.",
+      "what_a_low_rate_means": "High written-agreement rates indicate professionalized board governance; correlate with ECFA membership and Single Audit obligations in the religion corpus.",
+      "how_to_compare_religion_vs_secular": "Religion 1.26× secular unwritten rate (39.9% vs 31.8%, conditional on loan rows with non-null written_agreement; n=6,123 religion loan rows vs n=58,634 secular). Consistent with smaller, less-professionalized board structures and less in-house counsel — the church-status filers are smaller orgs on average.",
+      "subgroup_caveats": "Smaller orgs (lower NTEE-major median revenue) systematically have higher unwritten rates regardless of religion classification — control for org size before reading this as a religion-specific finding. The full unwritten×unapproved cogrid has not been recomputed in this revision."
+    },
+    "sched_l_loans.in_default": {
+      "what_it_is": "True = the insider loan is in default at year-end.",
+      "statutory_basis": "Reg. §53.4958-4(a)(1)(i) — a forgiven insider loan is treated as excess benefit equal to the unpaid balance.",
+      "why_it_signals_fraud_or_misappropriation": "A defaulted insider loan that the org subsequently forgives is a textbook excess-benefit transaction. The IRS treats forgiveness as the equivalent of cash compensation, with no FMV defense available because no service was rendered for the forgiven balance.",
+      "what_a_high_rate_means": "Even a small absolute rate is concerning because defaulted loans are the leading edge of forgiveness-as-comp.",
+      "what_a_low_rate_means": "Low default rate is the norm; absence of default doesn't preclude below-market terms or interest-only loans.",
+      "how_to_compare_religion_vs_secular": "Conditional rate (denominator = loan rows with in_default non-null): religion 0.67% (41 of 6,150 loan rows), secular 0.77% (452 of 58,873). Ratio 0.87× — religion is slightly LOWER. One of the few comparison metrics where religion shows no elevated rate; default-and-forgive appears sector-agnostic.",
+      "subgroup_caveats": "Sectors with very small loan populations show statistical noise in this metric — require n_loans ≥ ~200 to compute a stable rate."
+    },
+    "sched_l_loans.approved_by_board": {
+      "what_it_is": "True = the loan was approved by the board or a board-authorized committee.",
+      "statutory_basis": "Reg. §53.4958-6(a)(1) — board approval by independent persons is one of three prerequisites for the rebuttable presumption of reasonableness.",
+      "why_it_signals_fraud_or_misappropriation": "An unapproved insider loan defeats the rebuttable presumption, which means in any §4958 challenge the IRS — not the org — sets the FMV baseline. The Grassley inquiry found multiple cases where six-figure officer loans were arranged unilaterally by the CEO without board approval.",
+      "what_a_high_rate_means": "Approved-rate near 100% is the healthy signal; below ~85% flags weak board oversight of insider transactions.",
+      "what_a_low_rate_means": "Unapproved insider loans = unilateral CEO action = the structural precondition for §4958 exposure.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion has a higher unapproved-loan rate than secular, concentrated in church-status filers with smaller, founder-dominated boards. The conditional approved-rate by sector has not been recomputed in current rel_vs_sec.json (the unwritten rate is the closest available proxy).",
+      "subgroup_caveats": "Sectors with controlled-by-parent governance (Health Care system subsidiaries) may show low approval rates not because of insider extraction but because parent-board approval substitutes for subsidiary-board approval — a structural artifact, not a fraud signal."
+    },
+    "sched_l_loans.relationship": {
+      "what_it_is": "Free-text description of the borrower's relationship to the org.",
+      "statutory_basis": "Definition tracks IRC §4958(f)(1) disqualified-person definition.",
+      "why_it_signals_fraud_or_misappropriation": "OFFICER and FOUNDER labels are the highest-risk; FAMILY MEMBER is the second-degree pattern. Sentinel labels (INTERESTED PERSON, RELATED PARTY) defeat downstream identification.",
+      "what_a_high_rate_means": "Concentration of FAMILY MEMBER and SPOUSE in this field signals the org has become a household vehicle.",
+      "what_a_low_rate_means": "Diverse relationship vocabulary suggests transactional loans rather than systemic insider lending.",
+      "how_to_compare_religion_vs_secular": "Hypothesis (not measured in this corpus): the relationship-label distribution between corpora has not been tabulated; the sentinel-name conditional rate is religion 6.1% vs secular 9.3% (religion uses fewer placeholder labels), but the substantive label distribution behind that is not in current data files.",
+      "subgroup_caveats": "Sentinel-strip first; never trust raw distinct-count from this field."
+    },
+    "sched_l_loans.purpose_of_loan": {
+      "what_it_is": "Free-text description of loan purpose.",
+      "statutory_basis": "No direct statutory standard — read for content.",
+      "why_it_signals_fraud_or_misappropriation": "'Housing,' 'relocation,' 'startup capital' are the legitimate purposes per ECFA guidance and IRS audit history; 'personal,' 'travel,' 'unspecified,' or blank are the watch-list purposes. 'Working capital advance' in a recurring loan is regulatorily a synonym for pension substitute.",
+      "what_a_high_rate_means": "Not rate-based; read free text by content.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory and ministry-finance literature predicts religion purpose-text leans toward parsonage-and-mission-trip vocabulary while secular leans toward working-capital-and-bridge vocabulary. No purpose-text analysis has been run on this corpus.",
+      "subgroup_caveats": "Same."
+    },
+
+    "sched_l_grants_to_interested.amount_of_assistance": {
+      "what_it_is": "Dollar amount of a grant or assistance benefiting an officer/director/trustee/key employee or family member.",
+      "statutory_basis": "Form 990 Schedule L Pt III; Reg. §1.6033-2(a)(2)(ii)(I); excess-benefit analysis under Reg. §53.4958-4.",
+      "why_it_signals_fraud_or_misappropriation": "PLR 200437040 treated an improperly directed scholarship to an insider's child as an excess benefit. Where the grant lacks an objective selection process, the entire amount can be characterized as compensation — and if not on the W-2, as excess benefit. The dollar amount itself flags whether the diversion is symbolic ($500 to a board kid) or substantive ($25,000 to the founder's spouse).",
+      "what_a_high_rate_means": "Concentrated large-dollar Pt III grants in a sector flag scholarship-as-conduit patterns.",
+      "what_a_low_rate_means": "Low rates suggest either compliant scholarship programs with objective criteria, or absence of formal grant-making.",
+      "how_to_compare_religion_vs_secular": "Per-filing Pt III rates and grant-amount distributions are not in current rel_vs_sec.json or subgroup_with_religion.json. Sector-level comparison is not numerically grounded in this revision.",
+      "subgroup_caveats": "Education (B) and Philanthropy (T) have legitimate high-grant volumes that aren't insider-directed; rate is misleading without joining to relationship field."
+    },
+    "sched_l_grants_to_interested.relationship": {
+      "what_it_is": "How the grant recipient is related to the org.",
+      "statutory_basis": "Tracks §4958 disqualified-person framework.",
+      "why_it_signals_fraud_or_misappropriation": "FAMILY MEMBER is the canonical signal — the scholarship-to-founder's-child or housing-to-founder's-parent pattern. SUBSTANTIAL CONTRIBUTOR is the second — the donor-as-grantee circular flow.",
+      "what_a_high_rate_means": "Sectors with high FAMILY MEMBER share in this field are the watch list.",
+      "what_a_low_rate_means": "OFFICER-self grants are usually relocation/housing benefits captured separately on Sched J; presence here without Sched J reciprocity is suspicious.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion has a higher FAMILY MEMBER / SPOUSE share and secular a higher OFFICER / DIRECTOR share. Pt III relationship distribution has not been tabulated in current data.",
+      "subgroup_caveats": "Sentinel-strip before computing distributions."
+    },
+    "sched_l_grants_to_interested.type_of_assistance": {
+      "what_it_is": "Form of assistance: scholarship, housing, medical, etc.",
+      "statutory_basis": "No direct statutory standard.",
+      "why_it_signals_fraud_or_misappropriation": "'Housing' is the dual signal: legitimate parsonage under §107 OR insider housing benefit. 'Scholarship' to a family member is the PLR 200437040 pattern. 'Medical' to a founder is rare and almost always excess benefit.",
+      "what_a_high_rate_means": "Read by content, not rate.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: the §107 housing exclusion makes 'housing' over-represented in religion Pt III relative to secular; tuition is common to both. Type-of-assistance distribution has not been tabulated in current data.",
+      "subgroup_caveats": "Education (B) has high tuition-grant volume that is mostly compliant; flag only when paired with FAMILY MEMBER relationship."
+    },
+
+    "sched_l_business_transactions.transaction_amount": {
+      "what_it_is": "Aggregate dollar amount of business transactions with this interested person during the tax year. The $100k aggregate-per-person threshold triggers required disclosure.",
+      "statutory_basis": "Form 990 Schedule L Pt IV; Reg. §1.6033-2(a)(2)(ii)(I). FMV/reasonableness governed by Reg. §53.4958-4(b).",
+      "why_it_signals_fraud_or_misappropriation": "Pt IV is the most diagnostically rich Schedule L part because the disclosure rule is mandatory (≥$100k aggregate) rather than self-incriminating. The Grassley inquiry traced 'founder's-spouse-as-vendor,' 'board-member's-construction-company,' and 'related-LLC-as-landlord' patterns through this field. The dollar amount alone doesn't establish wrongdoing — fair-market-value paid to a related vendor is legal — but it sets the bound for any §4958 excess-benefit analysis.",
+      "what_a_high_rate_means": "Sectors with high Pt IV disclosure rates (Health Care 11.38%, Science & Tech 9.10%, Medical Research 8.70%) reflect structural use of related-vendor relationships, not necessarily insider extraction. The signal sharpens when paired with sharing_of_revenues=True or FAMILY MEMBER relationship.",
+      "what_a_low_rate_means": "Low disclosure rate may mean (a) genuinely arm's-length sourcing, or (b) sub-threshold transactions structured to stay below $100k.",
+      "how_to_compare_religion_vs_secular": "Per-filing rate: religion Pt IV 4.83% (4,173 of 86,455 filings) ranks #19 of 24 majors — well below the secular median. Range across secular sectors: 2.29% (Public Safety, M) to 11.38% (Health Care, E). Religion is below most secular sectors — partly because religious orgs are smaller and cross the $100k threshold less often.",
+      "subgroup_caveats": "Health Care (E) leads at 11.38% because of physician-owned-practice and physician-supplier relationships that are sector-structural, not fraud. Religion sits among the lowest because smaller orgs cross the $100k threshold less often."
+    },
+    "sched_l_business_transactions.relationship": {
+      "what_it_is": "How the counterparty is related to the org: family member, business affiliate, substantial contributor, etc.",
+      "statutory_basis": "Tracks §4958 disqualified-person framework + Reg. §1.6033-2(a)(2)(ii)(I).",
+      "why_it_signals_fraud_or_misappropriation": "FAMILY MEMBER and SUBSTANTIAL CONTRIBUTOR are the highest-risk labels. Family-member-as-vendor is the canonical Grassley pattern; substantial-contributor-as-vendor is the donor-conduit pattern that converts charitable contributions into vendor revenue back to the donor.",
+      "what_a_high_rate_means": "Concentration of FAMILY MEMBER in Pt IV is the strongest in-dataset signal of household-as-org architecture.",
+      "what_a_low_rate_means": "OFFICER-self vendor relationships are common and usually involve owned consulting LLCs; less inherently risky than family-member vendor relationships.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion's Pt IV relationship labels skew toward FAMILY MEMBER and secular toward BUSINESS AFFILIATE. Pt IV relationship distribution has not been tabulated in current data.",
+      "subgroup_caveats": "Sentinel-strip first."
+    },
+    "sched_l_business_transactions.description_of_transaction": {
+      "what_it_is": "Free-text description of the business transaction.",
+      "statutory_basis": "No direct statutory standard — read by content.",
+      "why_it_signals_fraud_or_misappropriation": "This is the single highest-yield free-text field in the corpus. 'Consulting services,' 'rent paid to' (followed by an owned-LLC name), 'construction services,' 'marketing services' are the recurring vendor archetypes named in IRS audit history. Vague descriptions ('professional services,' 'management fees') without further detail are red flags.",
+      "what_a_high_rate_means": "Not rate-based.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis (not measured in this corpus): regulatory and ministry-finance literature predicts religion descriptions tilt toward rent/broadcasting/royalty/speaking-fee vocabulary; secular toward consulting/construction/IT/legal. Pt IV description text has not been mined for this dataset; the statutory FMV question is identical.",
+      "subgroup_caveats": "Same."
+    },
+    "sched_l_business_transactions.sharing_of_revenues": {
+      "what_it_is": "True = the org and the interested person split revenues from the transaction.",
+      "statutory_basis": "Revenue-sharing with an insider is presumptive private inurement under Reg. §1.501(c)(3)-1(c)(2) and can be the precondition for an excess-benefit determination.",
+      "why_it_signals_fraud_or_misappropriation": "Revenue-sharing arrangements with insiders are among the most aggressive forms of related-party transaction because they create ongoing aligned interest between the org and a private party. The IRS historical position (cf. Rev. Rul. 69-383, GCM 39862) has been that revenue-sharing is permissible only with strict procedural safeguards, otherwise it is private inurement.",
+      "what_a_high_rate_means": "Even a small share is meaningful; this is a low-base-rate field where positives are diagnostic.",
+      "what_a_low_rate_means": "Most Pt IV transactions are flat-fee or per-unit; revenue-sharing is the exception.",
+      "how_to_compare_religion_vs_secular": "Religion-vs-secular revenue-sharing rate is not separately tabulated in rel_vs_sec.json. Regulatory framing predicts religion may show concentrated revenue-sharing in media-and-broadcasting royalty contexts; numeric confirmation requires a metric not in current data.",
+      "subgroup_caveats": "Health Care (E) has some revenue-sharing in physician-services contexts that have specific carve-outs under Stark Law / Anti-Kickback Statute interaction with §4958; don't read pure rate without sector context."
+    },
+
+    "sched_r_disregarded.total_income": {
+      "what_it_is": "Total income reported by a disregarded entity (typically a single-member LLC owned by the filer).",
+      "statutory_basis": "Treas. Reg. §301.7701-3 — disregarded entity rules; its income flows through to the filer.",
+      "why_it_signals_fraud_or_misappropriation": "Disregarded entities are usually legitimate (real-estate-holding LLC, programmatic subsidiary). The fraud-adjacent pattern is using a disregarded entity to hold property whose use benefits an insider, or to channel revenue away from the consolidating 990 in ways that obscure the source.",
+      "what_a_high_rate_means": "High total_income in disregarded entities relative to filer total revenue indicates the org's real economic activity is happening below the parent-990 line.",
+      "what_a_low_rate_means": "Low income / disregarded-as-shell-only is the more typical pattern; less analytically interesting.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion uses disregarded entities more for property-holding (parsonage, church real estate) and secular more for program subsidiaries. Disregarded-entity income distribution by sector has not been tabulated in current data.",
+      "subgroup_caveats": "Housing & Shelter (L), Health Care (E) have legitimate program reasons for high-income disregarded entities; don't read in isolation."
+    },
+    "sched_r_disregarded.end_of_year_assets": {
+      "what_it_is": "End-of-year assets held by the disregarded entity.",
+      "statutory_basis": "Same as total_income.",
+      "why_it_signals_fraud_or_misappropriation": "Assets parked in disregarded entities for ostensibly programmatic reasons can be the holding pattern for later transfers to related parties — the Catholic diocese cemetery-trust pattern that preceded multiple bankruptcies.",
+      "what_a_high_rate_means": "Disregarded entities holding most of the filer's real estate is the structural precondition for the pre-bankruptcy transfer pattern. Read with caution; not all such structures are predatory.",
+      "what_a_low_rate_means": "Most filers have small disregarded entities.",
+      "how_to_compare_religion_vs_secular": "Asset-distribution by sector is not in current rel_vs_sec.json. Regulatory framing predicts religion may concentrate asset-holding in disregarded entities (real estate, broadcasting equipment) more than most secular sectors; not numerically confirmed here.",
+      "subgroup_caveats": "Housing & Shelter (L) by definition holds most assets in property-holding entities."
+    },
+    "sched_r_disregarded.legal_domicile": {
+      "what_it_is": "US state or foreign country where the disregarded entity is legally domiciled.",
+      "statutory_basis": "Pure jurisdictional disclosure.",
+      "why_it_signals_fraud_or_misappropriation": "Foreign domiciles (Cayman, BVI, Bermuda) for disregarded entities of US 501(c)(3) filers are rare and meaningful when they appear. Delaware/Nevada domicile is normal for asset-holding LLCs; specific tax-haven jurisdictions are not.",
+      "what_a_high_rate_means": "Sector-level offshore concentration is essentially absent in religious nonprofits; if it appears, investigate.",
+      "what_a_low_rate_means": "Domestic-only is the norm.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: International (Q) and Health Care (E) secular orgs have higher rates of foreign-domiciled disregarded entities for legitimate program reasons; religion is predicted to be overwhelmingly domestic. Sector-level domicile distribution has not been tabulated here.",
+      "subgroup_caveats": "International, Foreign Affairs (Q) is the obvious exception."
+    },
+    "sched_r_disregarded.primary_activity": {
+      "what_it_is": "Free-text description of what the disregarded entity does.",
+      "statutory_basis": "No direct statutory standard.",
+      "why_it_signals_fraud_or_misappropriation": "'Hold property,' 'real estate,' 'broadcasting' are common and usually benign. 'Investment activities,' 'consulting,' 'management services' to the parent are the patterns worth reading carefully.",
+      "what_a_high_rate_means": "Read by content.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts both corpora concentrate in 'real estate,' with religion adding 'broadcasting' / 'ministry' and secular adding 'program operations.' Primary-activity text has not been mined here.",
+      "subgroup_caveats": "Same."
+    },
+
+    "sched_r_related_tax_exempt.legal_domicile": {
+      "what_it_is": "US state or foreign country where the related tax-exempt entity is domiciled.",
+      "statutory_basis": "Pure jurisdictional disclosure.",
+      "why_it_signals_fraud_or_misappropriation": "Most related tax-exempts share state with the filer. Foreign-domiciled affiliates are common only in International (Q) and a subset of religious mission organizations. Multi-state domicile patterns map denominational/system structure.",
+      "what_a_high_rate_means": "Wide cross-state distribution among related entities typically reflects denominational or multi-state health-system structure — legitimate and informative, not fraud-adjacent.",
+      "what_a_low_rate_means": "Same-state-only suggests a tightly localized affiliate group.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion has heavier cross-state domicile dispersion (denominational kin) and secular heavier in-state clustering (system-affiliated). Domicile distribution has not been tabulated in current data.",
+      "subgroup_caveats": "International (Q) and large Health Care (E) systems are the multi-state exceptions."
+    },
+    "sched_r_related_tax_exempt.exempt_code_section": {
+      "what_it_is": "IRC subsection under which the related entity is exempt: 501(c)(3), 501(c)(4), 501(c)(2), 527, etc.",
+      "statutory_basis": "IRC §501(c) and §527.",
+      "why_it_signals_fraud_or_misappropriation": "501(c)(2) related entities are title-holding corps — the canonical real-estate-holding affiliate structure. 501(c)(4) related entities are the action-arm pattern (the 501(c)(3) does charity; the (c)(4) does advocacy). 527 related entities indicate the org has an associated PAC. Mixed (c)(3)/(c)(4)/527 family structures are not inherently improper but require careful funds-segregation analysis to avoid §501(c)(3) lobbying-limit violations.",
+      "what_a_high_rate_means": "Sectors with high (c)(4)+(c)(3) co-presence are advocacy-adjacent; sectors with high (c)(2) co-presence are real-estate-heavy.",
+      "what_a_low_rate_means": "Single-entity structures suggest simpler organizational architecture and lower transaction-laundering risk.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion-corpus related entities skew toward (c)(2) (parsonage / property-holding) and secular toward (c)(4) and 527 (advocacy/political). Exempt-code distribution has not been tabulated here.",
+      "subgroup_caveats": "Civil Rights (R) and Community Improvement (S) have legitimately high (c)(4)/527 co-presence."
+    },
+    "sched_r_related_tax_exempt.public_charity_status": {
+      "what_it_is": "Schedule A Part I line-code for the related entity's public-charity classification.",
+      "statutory_basis": "IRC §170(b)(1)(A)(i)–(vi) and §509(a)(1)–(3).",
+      "why_it_signals_fraud_or_misappropriation": "509(a)(3) supporting-org affiliates (Type I/II/III, especially Type III non-functionally-integrated) are the regulatorily fraught structure. Type III SOs received tightened oversight after the Pension Protection Act of 2006 because of pre-2006 abuse patterns. Catholic-church-status affiliates often appear here too.",
+      "what_a_high_rate_means": "High 509(a)(3) share in related-entity columns flags supporting-org architecture; cross-reference with section_512b_13_controlled.",
+      "what_a_low_rate_means": "All-509(a)(1)/(2) related-entity profiles are simpler and lower-risk.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion concentrates in 170(b)(1)(A)(i) church-affiliate co-presence and secular in 509(a)(1) and 509(a)(3) co-presence. Public-charity status distribution has not been tabulated here.",
+      "subgroup_caveats": "Philanthropy (T) has legitimately high 509(a)(3) presence; Health Care (E) has heavy 509(a)(1) hospital-affiliate presence."
+    },
+    "sched_r_related_tax_exempt.section_512b_13_controlled": {
+      "what_it_is": "True = the related entity is a 'controlled organization' under IRC §512(b)(13).",
+      "statutory_basis": "IRC §512(b)(13); Treas. Reg. §1.512(b)-1(l). https://www.law.cornell.edu/uscode/text/26/512",
+      "why_it_signals_fraud_or_misappropriation": "Controlled-entity status triggers UBIT on interest, rent, royalty, and annuity payments from the controlled entity to the parent. The fraud-adjacent pattern is using control-relationships to move assets between affiliates pre-bankruptcy (multiple Catholic diocese cases: Milwaukee, Davenport, Tucson) or to route deductible donations through controlled fundraising entities back to operating affiliates.",
+      "what_a_high_rate_means": "High control rate indicates highly integrated corporate-family structures. Health Care systems and Housing systems naturally show high control rates because of system governance.",
+      "what_a_low_rate_means": "Low control rate suggests looser affiliate relationships — historically more typical for religious-denominational kinship.",
+      "how_to_compare_religion_vs_secular": "Conditional rate (denominator = related-entity rows where section_512b_13_controlled is non-null): religion 31.2% (12,909 of 41,363 related-entity rows), secular 39.3% (1,115,388 of 2,840,235). Secular is 1.26× religion. Counter-intuitive only until you note that secular corpus is dominated by health-system and housing-system affiliates with formal control structures; religion corpus is dominated by denominational kin without formal control.",
+      "subgroup_caveats": "Per-filing (not conditional) Sched R Pt II disclosure rates by major: Housing & Shelter (L) leads at 52.18%, Health Care (E) 48.60%, Employment (J) 31.07%, Philanthropy (T) 29.03%, Community Improvement (S) 23.40%. Religion at 9.27% ranks #19 of 24 majors — well below the secular median by this measure."
+    },
+    "sched_r_related_tax_exempt.primary_activity": {
+      "what_it_is": "Free-text description of what the related tax-exempt does.",
+      "statutory_basis": "No direct statutory standard.",
+      "why_it_signals_fraud_or_misappropriation": "Read by content. 'Hold property,' 'real estate,' 'foundation' are common. 'Fundraising' as a related entity's sole activity, with most cash flowing back to the parent, can be the donor-conduit pattern.",
+      "what_a_high_rate_means": "Read by content.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis (not measured in this corpus): regulatory framing predicts religion-corpus related-entity activity skews toward church/ministry/broadcasting/mission descriptors, secular toward foundation/fundraising/real estate/operating descriptors. No related-activity text mining in current data.",
+      "subgroup_caveats": "Same."
+    },
+
+    "sched_r_related_partnership.percentage_ownership": {
+      "what_it_is": "Filer's percentage ownership in the related partnership.",
+      "statutory_basis": "IRC §704 partnership taxation; UBIT analysis under §512(c) for partnership-source income.",
+      "why_it_signals_fraud_or_misappropriation": "High ownership in for-profit partnerships subjects the filer to UBIT on partnership income that doesn't qualify as substantially related. The fraud-adjacent pattern is using partnership structure to route insider compensation as 'guaranteed payments' or 'distributions' instead of as W-2 comp.",
+      "what_a_high_rate_means": "Concentrated high-ownership partnership stakes indicate the filer is operating substantial commercial activity through partnership form.",
+      "what_a_low_rate_means": "Low or zero ownership suggests passive investor partnerships, lower UBIT exposure, less insider-comp risk.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular sectors (Education, Health Care) likely carry higher partnership-ownership patterns than religion based on regulatory framing of endowment-investment and physician-practice partnerships. Partnership-ownership distribution by sector has not been tabulated here.",
+      "subgroup_caveats": "Education (B) endowment-investment partnerships, Health Care (E) physician-practice partnerships are sector-structural."
+    },
+    "sched_r_related_partnership.share_total_income": {
+      "what_it_is": "Filer's share of the related partnership's total income.",
+      "statutory_basis": "IRC §704; UBIT analysis under §512(c).",
+      "why_it_signals_fraud_or_misappropriation": "Empty across the corpus in current data. Where populated in source data, would diagnose the UBIT magnitude of partnership income; absence in parsed data means this analytical axis is unavailable for both corpora.",
+      "what_a_high_rate_means": "Not applicable in current corpus.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable in current corpus.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_r_related_partnership.share_end_of_year_assets": {
+      "what_it_is": "Filer's share of the partnership's end-of-year assets.",
+      "statutory_basis": "Partnership asset allocation; aggregate UBIT context.",
+      "why_it_signals_fraud_or_misappropriation": "Empty in corpus; not usable.",
+      "what_a_high_rate_means": "Not applicable.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable in current corpus.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_r_related_partnership.general_or_managing_partner": {
+      "what_it_is": "True = the filer is a general or managing partner.",
+      "statutory_basis": "Partnership management role determines UBIT treatment under §512(c) and operational control attribution.",
+      "why_it_signals_fraud_or_misappropriation": "GP/managing partner status means the filer controls operations — raising UBIT exposure and making partnership activities attributable to the filer for inurement analysis. Limited-partner roles are more passive and lower risk.",
+      "what_a_high_rate_means": "High GP rate indicates active operational use of partnership form.",
+      "what_a_low_rate_means": "Mostly limited-partner profiles indicate investment-only partnership use.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion participates as limited-partner where it participates at all, while secular Education and Health Care take substantial GP/managing roles. GP-vs-LP split by sector has not been tabulated here.",
+      "subgroup_caveats": "Sector-structural; not a fraud signal on its own."
+    },
+    "sched_r_related_partnership.disprortion_allocation": {
+      "what_it_is": "True = the partnership uses a disproportionate income allocation under §704(b) that diverges from capital contributions.",
+      "statutory_basis": "IRC §704(b); Reg. §1.704-1.",
+      "why_it_signals_fraud_or_misappropriation": "Disproportionate allocations are legitimate when they have substantial economic effect; abusive when they route income/loss to tax-exempt partners to shield income from UBIT. Empty in current corpus.",
+      "what_a_high_rate_means": "Not applicable in current corpus.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable in current corpus.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_r_related_partnership.primary_predominant_income": {
+      "what_it_is": "Free-text description of the partnership's main income type.",
+      "statutory_basis": "Maps to UBIT analysis: rental income (§512(b)(3)), royalties (§512(b)(2)), debt-financed (§514).",
+      "why_it_signals_fraud_or_misappropriation": "Empty in current corpus.",
+      "what_a_high_rate_means": "Not applicable.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable in current corpus.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_r_related_partnership.legal_domicile": {
+      "what_it_is": "US state or foreign country of the partnership.",
+      "statutory_basis": "Jurisdictional disclosure.",
+      "why_it_signals_fraud_or_misappropriation": "Foreign-domiciled related partnerships are rare and meaningful when they appear at non-International filers.",
+      "what_a_high_rate_means": "Concentrated offshore partnership domicile is essentially absent in religion; uncommon but present in some Health Care and International secular filers.",
+      "what_a_low_rate_means": "Domestic-only is the norm.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion is overwhelmingly domestic; secular has narrow offshore exposure in specific sectors (International Q, some Health Care). Partnership-domicile distribution by sector has not been tabulated here.",
+      "subgroup_caveats": "International (Q) is the obvious exception."
+    },
+
+    "sched_r_related_corp_trust.percentage_ownership": {
+      "what_it_is": "Filer's percentage ownership of the related corporation or trust.",
+      "statutory_basis": "IRC §512(b)(13) control test uses 50%+ voting power for corp control; 80%+ value for trust control.",
+      "why_it_signals_fraud_or_misappropriation": "100% ownership of a C-corp typically means the filer has a taxable-corp subsidiary used to run UBIT-likely activities. The fraud-adjacent question is whether intercompany transfers (rent, royalty, dividend, interest) are at arm's length — the §482 question applied to a tax-exempt context.",
+      "what_a_high_rate_means": "Wholly-owned taxable subsidiaries are normal in Health Care and Education; less common in religion.",
+      "what_a_low_rate_means": "Minority interests are more passive, less fraud-adjacent.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular sectors carry systematically higher percentage_ownership values in related corp/trust columns than religion based on sector-structural reasons. Ownership distribution by sector has not been tabulated here.",
+      "subgroup_caveats": "Health Care (E) and Education (B) lead for sector-structural reasons."
+    },
+    "sched_r_related_corp_trust.share_total_income": {
+      "what_it_is": "Filer's share of related corp/trust total income.",
+      "statutory_basis": "Income attribution for UBIT analysis.",
+      "why_it_signals_fraud_or_misappropriation": "Empty in current corpus; analytical axis unavailable.",
+      "what_a_high_rate_means": "Not applicable.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_r_related_corp_trust.share_end_of_year_assets": {
+      "what_it_is": "Filer's share of related corp/trust end-of-year assets.",
+      "statutory_basis": "Asset attribution.",
+      "why_it_signals_fraud_or_misappropriation": "Empty in current corpus.",
+      "what_a_high_rate_means": "Not applicable.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_r_related_corp_trust.type_of_entity": {
+      "what_it_is": "C-corporation, S-corporation, or trust.",
+      "statutory_basis": "Federal entity-classification regime.",
+      "why_it_signals_fraud_or_misappropriation": "C-corp subsidiaries of 501(c)(3)s are typically used to insulate UBIT-prone activities; trust subsidiaries (especially supporting-org-type 509(a)(3) trusts) are the more common structure for endowment-segregated activities. Excessive use of trust form for fee-generating activities can indicate income-shielding architecture.",
+      "what_a_high_rate_means": "Sector-structural — read alongside primary_activity.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion may carry more trust subsidiaries (endowment, parsonage-trust, denominational pension trusts) and secular more C-corp subsidiaries (taxable activity insulation). Entity-type distribution by sector has not been tabulated here.",
+      "subgroup_caveats": "Sector-specific."
+    },
+    "sched_r_related_corp_trust.section_512b_13_controlled": {
+      "what_it_is": "True = controlled organization under §512(b)(13).",
+      "statutory_basis": "IRC §512(b)(13).",
+      "why_it_signals_fraud_or_misappropriation": "Same as the tax-exempt counterpart — controlled status triggers UBIT on interest/rent/royalty/annuity from sub to parent. Where the controlled entity is a for-profit subsidiary, control-rate ≈ 100% is normal; what matters is whether intercompany pricing is arm's-length.",
+      "what_a_high_rate_means": "High control rate in for-profit related entities is structural; in tax-exempt related entities it's the integration signal.",
+      "what_a_low_rate_means": "Same as the tax-exempt counterpart.",
+      "how_to_compare_religion_vs_secular": "Same combined-conditional pattern as the tax-exempt counterpart: religion 31.2%, secular 39.3% under the combined related-tax-exempt + related-corp-trust denominator. Religion is below the secular average; the gap reflects formal system architecture density in secular Health Care and Housing rather than fraud risk.",
+      "subgroup_caveats": "Health Care (E) and Housing & Shelter (L) dominate the per-filing-rate leaderboard; religion sits in the middle of the secular distribution."
+    },
+    "sched_r_related_corp_trust.legal_domicile": {
+      "what_it_is": "US state or foreign country of the related corp/trust.",
+      "statutory_basis": "Jurisdictional disclosure.",
+      "why_it_signals_fraud_or_misappropriation": "Foreign for-profit subsidiaries of US 501(c)(3) filers warrant separate scrutiny under transfer-pricing (§482) and CFC rules.",
+      "what_a_high_rate_means": "Concentrated foreign-domicile in related corps is rare in religion; uncommon in most secular sectors except International.",
+      "what_a_low_rate_means": "Domestic-only is the norm.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion is overwhelmingly domestic; International (Q) and select Health Care orgs carry foreign exposure. Corp/trust domicile distribution by sector has not been tabulated here.",
+      "subgroup_caveats": "International (Q) exception."
+    },
+
+    "sched_r_transactions.transaction_amount": {
+      "what_it_is": "Dollar amount of the transaction with the related organization.",
+      "statutory_basis": "Form 990 Schedule R Pt V; UBIT analysis under §512(b)(13) where the counterparty is a controlled entity.",
+      "why_it_signals_fraud_or_misappropriation": "Where the money actually moves between affiliates. The diocesan-bankruptcy pattern (Milwaukee 2011, Davenport 2006, Tucson 2004) involves outsized pre-insolvency transfers from the diocese to related cemetery trusts and property-holding entities. Routine intercompany operating transfers in a health-system context look the same on the form but have different motive structures.",
+      "what_a_high_rate_means": "High aggregate transfer amounts in a sector indicate intensive corporate-family use; not inherently fraud-adjacent.",
+      "what_a_low_rate_means": "Standalone orgs without affiliates rarely populate Pt V.",
+      "how_to_compare_religion_vs_secular": "Per-filing Pt V disclosure rate: religion 5.20% (4,494 of 86,455 filings) ranks #21 of 24 majors. Health Care (E) leads at 26.52%, Housing & Shelter (L) 20.80%, Employment (J) 18.15%. Religion sits among the lowest sectors on Pt V density.",
+      "subgroup_caveats": "Health Care (E), Housing & Shelter (L), Education (B 12.82%) have legitimate high-volume intercompany transfers."
+    },
+    "sched_r_transactions.transaction_type_code": {
+      "what_it_is": "Single-letter code for transaction type (A through S). Decoded in the txn_type_codes block of codebook.json.",
+      "statutory_basis": "Form 990 Schedule R Pt V structured codes.",
+      "why_it_signals_fraud_or_misappropriation": "Codes are diagnostic: A (rent/royalty/annuity from related org) is the canonical §512(b)(13) UBIT trigger. D/E (loans) raise the same insider-lending concerns as Sched L Pt II but at the entity level. G/H/I (asset sale/purchase/exchange) are the pre-bankruptcy transfer pattern. R/S (other transfer) are the catch-all that often hides what doesn't fit elsewhere.",
+      "what_a_high_rate_means": "Concentration in codes G/H/I/R/S is more diagnostic than concentration in codes B/C (gift/grant) or N (shared facilities). Asset transfers warrant scrutiny; grants and shared facilities are typically benign.",
+      "what_a_low_rate_means": "Sectors with mostly B/C/N profiles have low intercompany-asset-flow concern.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory and ministry-finance framing predicts religion concentrates in codes B/C (grants between affiliated ministries) and N (shared facilities); secular Health Care concentrates in L/M/J/K (services and leases reflecting system operating models). Code distribution by sector has not been tabulated here.",
+      "subgroup_caveats": "Health Care and Education concentrate in L/M/J/K (operating system); Philanthropy (T) concentrates in B (grants to grantees) per regulatory framing."
+    },
+    "sched_r_transactions.method_of_determining_amount": {
+      "what_it_is": "How the org valued the transaction — FMV, cost, cash, arm's-length, invoice, etc.",
+      "statutory_basis": "Reg. §53.4958-4(b) FMV standard; informally guides Pt V valuation.",
+      "why_it_signals_fraud_or_misappropriation": "'FMV' and 'arm's-length' are the safe-harbor methods. 'Cost' on a related-party transaction is the gray-area method — cost-based pricing between affiliates is normal in shared-services contexts but does not establish arm's-length terms for FMV-sensitive transactions like rent or royalty. Blank or 'N/A' should not be tolerated by counsel; their presence indicates lax review.",
+      "what_a_high_rate_means": "High 'FMV'/'arm's-length' rate is the healthy signal; high 'cost'/'cash' rate warrants follow-up.",
+      "what_a_low_rate_means": "Not directly meaningful; read by method distribution rather than rate.",
+      "how_to_compare_religion_vs_secular": "Hypothesis (not measured in this corpus): regulatory framing predicts smaller, less-counseled filers (including much of the religion corpus) lean toward 'cost'/'cash' framing while larger, more-counseled secular filers lean toward 'FMV'/'arm's-length.' Method-text distribution has not been mined in this corpus.",
+      "subgroup_caveats": "Synonyms are canonicalized at data prep; underlying free text has dozens of variants."
+    },
+
+    "sched_j_main.first_class_or_charter_travel": {
+      "what_it_is": "True = the org provides first-class or charter travel for officers/key employees.",
+      "statutory_basis": "Reg. §53.4958-4(c) treats personal-use airfare beyond reasonable business need as compensation; if not reported as such, it's excess benefit.",
+      "why_it_signals_fraud_or_misappropriation": "Specifically Grassley-flagged at Copeland (private jet) and Hinn ministries. First-class/charter is not per se improper but must be reported as compensation or justified as business necessity; the disclosure here is the structural admission, the test is whether the value is in W-2 box 1.",
+      "what_a_high_rate_means": "Sector-level concentration in luxury-perk disclosures correlates with founder-CEO governance.",
+      "what_a_low_rate_means": "Most filers do not provide first-class/charter; the field has low base rates across all sectors.",
+      "how_to_compare_religion_vs_secular": "Per-filing rate by sector for this specific Sched J Pt I boolean is not separately tabulated in current rel_vs_sec.json (the Sched J Pt I leaderboard there counts 'any Sched J row' not 'first-class travel = True'). The Grassley-flagged broadcast-ministry pattern is established in regulatory record; sector-level magnitudes here are hypothesis.",
+      "subgroup_caveats": "Health Care (E) executive comp packages routinely include first-class as part of recruitment, per regulatory record."
+    },
+    "sched_j_main.travel_companions": {
+      "what_it_is": "True = the org pays for travel companions (spouse/family) of officers.",
+      "statutory_basis": "Same §4958 framework as first_class — spousal travel is compensation unless business-necessary.",
+      "why_it_signals_fraud_or_misappropriation": "Grassley specifically named travel-companion payment as a category at multiple ministries. The disclosure is the structural admission; reasonableness depends on whether the companion serves a documented business function.",
+      "what_a_high_rate_means": "Higher rates in religion suggest spouse-as-co-pastor or spouse-as-ministry-partner patterns per regulatory framing.",
+      "what_a_low_rate_means": "Low base rate across all sectors.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion runs higher than secular on travel-companion payments because of spouse-as-ministry-partner doctrine in evangelical and prosperity contexts. The specific per-filing rate for travel_companions=True by sector is not separately tabulated here.",
+      "subgroup_caveats": "Religion-specific phenomenon per regulatory record; minimal secular comparison value."
+    },
+    "sched_j_main.tax_indemnification": {
+      "what_it_is": "True = the org provides tax gross-up payments (org pays the officer's tax bill on certain benefits).",
+      "statutory_basis": "Gross-up payments are themselves compensation under Reg. §1.61-21; treatment under §4958 turns on whether they're documented in initial comp approval.",
+      "why_it_signals_fraud_or_misappropriation": "Grassley-flagged at multiple ministries. A gross-up that isn't in the comp committee's contemporaneous documentation defeats the rebuttable presumption.",
+      "what_a_high_rate_means": "Higher rates indicate sophisticated executive-comp packaging.",
+      "what_a_low_rate_means": "Most orgs don't gross up.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: Health Care and Education lead secular on this perk per regulatory framing; religion is mid-pack overall but elevated in the broadcasting-ministry subset. Sector-specific gross-up rate has not been tabulated here.",
+      "subgroup_caveats": "Sector size correlates with sophistication; control for org size."
+    },
+    "sched_j_main.discretionary_spending_account": {
+      "what_it_is": "True = officers have a discretionary spending account.",
+      "statutory_basis": "Accountable-plan rules under Reg. §1.62-2; non-accountable plans are taxable to the employee.",
+      "why_it_signals_fraud_or_misappropriation": "Discretionary spending accounts without strict accountable-plan procedures are the canonical mechanism for unrestricted insider expense flows. The Grassley inquiry traced credit-card-as-discretionary-account patterns at several ministries.",
+      "what_a_high_rate_means": "Concentration of discretionary accounts warrants scrutiny of the accountable-plan documentation — not visible on the 990 itself.",
+      "what_a_low_rate_means": "Most orgs use accountable-plan reimbursement, not discretionary accounts.",
+      "how_to_compare_religion_vs_secular": "Both corpora are low single-digit rates per regulatory framing; not a top-tier comparison metric. Per-filing rate for this specific boolean has not been separately tabulated.",
+      "subgroup_caveats": "Cell sizes small; statistical noise dominates sector-level differences."
+    },
+    "sched_j_main.housing_allowance_residence": {
+      "what_it_is": "True = the org provides a housing allowance or residence for personal use.",
+      "statutory_basis": "IRC §107 minister housing-allowance exclusion (constitutionally challenged in FFRF v. Lew, FFRF v. Werfel; partially upheld); for non-ministers, §119 convenience-of-employer test.",
+      "why_it_signals_fraud_or_misappropriation": "For ordained ministers, §107 allows a designated housing allowance to be excluded from gross income up to FMV. The compliance question is whether the designated amount actually equals fair-rental-value of the parsonage — over-designation is excess benefit. For non-ministers, housing is straight compensation unless §119 applies.",
+      "what_a_high_rate_means": "Religion-corpus rate is structurally elevated because §107 applies. High rates in secular sectors typically reflect campus-housing programs (Education) or live-on-site requirements (Housing & Shelter).",
+      "what_a_low_rate_means": "Most secular orgs don't provide housing; absence is the baseline.",
+      "how_to_compare_religion_vs_secular": "This is the field where the comparison is most apples-to-oranges. Religion's elevated rate reflects §107's specific carve-out, not a behavioral difference. The fraud question within religion is FMV-comparability of designated allowance, not the rate of disclosure. Per-filing rate for this specific Sched J Pt I boolean has not been tabulated separately from the overall Sched J Pt I 'any row' rate.",
+      "subgroup_caveats": "Treat religion separately on this field; secular-vs-secular comparison is the more meaningful axis."
+    },
+    "sched_j_main.personal_services": {
+      "what_it_is": "True = the org pays for personal services for officers (household staff, personal assistants for non-business work).",
+      "statutory_basis": "Personal-services payments are straight compensation under Reg. §1.61-21 and §4958-4(c).",
+      "why_it_signals_fraud_or_misappropriation": "Grassley-flagged. Personal-service payments are nearly always compensation; the disclosure question is whether they're reported as such on the W-2 or treated as 'org expenses.'",
+      "what_a_high_rate_means": "Concentration here is consistent with founder-CEO household-as-org-cost patterns.",
+      "what_a_low_rate_means": "Rare across all sectors.",
+      "how_to_compare_religion_vs_secular": "Both corpora have very low rates per regulatory framing; not a high-volume comparison metric. Per-filing rate not separately tabulated here.",
+      "subgroup_caveats": "Cell sizes small; rare positives are individually diagnostic."
+    },
+    "sched_j_main.health_or_social_club_dues": {
+      "what_it_is": "True = the org pays health-club or social-club dues for officers.",
+      "statutory_basis": "Club dues are nondeductible business expenses under IRC §274(a)(3); when paid for officers, they are compensation.",
+      "why_it_signals_fraud_or_misappropriation": "Grassley-flagged. Club dues are universally compensation; the disclosure question is W-2 reporting.",
+      "what_a_high_rate_means": "Concentration indicates loose-perk culture more than fraud per se.",
+      "what_a_low_rate_means": "Most orgs don't pay club dues.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular Health Care and Education run somewhat higher than religion per regulatory framing. Per-filing rate by sector not separately tabulated here.",
+      "subgroup_caveats": "Sector-specific perk culture, not necessarily fraud signal."
+    },
+    "sched_j_main.written_policy_for_above": {
+      "what_it_is": "True = there is a written policy covering the above perks.",
+      "statutory_basis": "Reg. §53.4958-6 documentation requirement.",
+      "why_it_signals_fraud_or_misappropriation": "Empty_in_corpus in this dataset; analytical axis unavailable.",
+      "what_a_high_rate_means": "Not applicable.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable in current corpus.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_j_main.compensation_committee": {
+      "what_it_is": "True = a compensation committee sets officer comp.",
+      "statutory_basis": "Reg. §53.4958-6(c)(1) — independent body is the first prerequisite for the rebuttable presumption.",
+      "why_it_signals_fraud_or_misappropriation": "Absence of a comp committee is the most basic governance deficiency for setting officer comp. Without an independent body, the rebuttable presumption is unavailable.",
+      "what_a_high_rate_means": "Higher rates indicate professionalized comp governance.",
+      "what_a_low_rate_means": "Sectors without comp committees rely on whole-board or unilateral comp-setting; weaker procedural defense in §4958 challenges.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has lower comp-committee rates than secular — smaller boards, less specialization. Religion's per-filing 'any Sched J Pt I row' rate is 9.23% (ranks #24 of 24 majors), below every secular sector; this is the closest available proxy in current data, but the specific compensation_committee=True rate by sector is not separately tabulated.",
+      "subgroup_caveats": "Org size correlates with comp-committee presence; control for size before reading as religion-specific finding."
+    },
+    "sched_j_main.independent_compensation_consultant": {
+      "what_it_is": "True = an independent compensation consultant was used.",
+      "statutory_basis": "Reg. §53.4958-6(c)(2)(ii)(B) — reliance on appropriate data, including outside consultant, is the second presumption prerequisite.",
+      "why_it_signals_fraud_or_misappropriation": "Empty_in_corpus in this dataset; analytical axis unavailable.",
+      "what_a_high_rate_means": "Not applicable.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable in current corpus.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_j_main.compensation_survey": {
+      "what_it_is": "True = a compensation survey was used.",
+      "statutory_basis": "Reg. §53.4958-6(c)(2)(i) — comparability data from independent compensation surveys is the second prerequisite for the rebuttable presumption.",
+      "why_it_signals_fraud_or_misappropriation": "Absence of survey-based comparability data leaves the org without a documented basis for asserting comp reasonableness, defeating the rebuttable presumption.",
+      "what_a_high_rate_means": "Higher rates indicate the org is positioning itself for rebuttable-presumption defense.",
+      "what_a_low_rate_means": "Sectors without survey reliance are exposed in any §4958 challenge.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion lags secular substantially on survey use; religious orgs cite the difficulty of finding 'comparable' ministry executives. Per-filing rate for this specific boolean by sector is not separately tabulated.",
+      "subgroup_caveats": "Sector size correlates with survey use."
+    },
+    "sched_j_main.approval_by_board_or_comp_committee": {
+      "what_it_is": "True = comp was approved by the board or the comp committee.",
+      "statutory_basis": "Reg. §53.4958-6(c)(3) — contemporaneous documentation of approval is the third prerequisite.",
+      "why_it_signals_fraud_or_misappropriation": "Empty_in_corpus in this dataset; analytical axis unavailable.",
+      "what_a_high_rate_means": "Not applicable.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Not comparable in current corpus.",
+      "subgroup_caveats": "Field is empty_in_corpus per manifest."
+    },
+    "sched_j_main.severance_payment": {
+      "what_it_is": "True = the org paid severance to a former officer.",
+      "statutory_basis": "Severance is compensation under §4958-4 unless characterized as separation from contract; large-dollar severance to disqualified persons is the golden-parachute risk.",
+      "why_it_signals_fraud_or_misappropriation": "Severance that wasn't pre-approved with comparability documentation is excess-benefit-eligible. The largest §4958 cases in the IRS exam history (cf. Sta-Home Health Agency, Caracci v. Comm'r) involved severance/buyout payments characterized as excess benefits.",
+      "what_a_high_rate_means": "Health-care-system executive turnover drives high secular rates here. Religion-corpus rates are lower and concentrated in larger ministries.",
+      "what_a_low_rate_means": "Smaller orgs don't pay severance; absence is the baseline.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular substantially higher across the board; reflects executive labor-market structure, not necessarily compliance posture. Per-filing severance-payment rate by sector not separately tabulated here.",
+      "subgroup_caveats": "Health Care (E), Education (B), Housing (L) lead per regulatory framing; sector-structural."
+    },
+    "sched_j_main.supplemental_nonqualified_retirement": {
+      "what_it_is": "True = the org has a supplemental non-qualified retirement plan (SERP) for officers.",
+      "statutory_basis": "IRC §457(b)/(f) governs nonqualified deferred comp for tax-exempts; §4958-4 applies for reasonableness.",
+      "why_it_signals_fraud_or_misappropriation": "SERPs are legal but high-stakes — the accumulated deferred amount can become a substantial excess-benefit exposure if not documented contemporaneously. The Caracci-line cases include SERP-equivalent arrangements characterized as excess benefits.",
+      "what_a_high_rate_means": "SERP use is institutionally sophisticated; concentrated in larger orgs.",
+      "what_a_low_rate_means": "Smaller orgs don't offer SERPs.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular substantially higher; religion has lower base rates because religious orgs are smaller on average and use §403(b) instead of SERPs. Per-filing SERP rate by sector not separately tabulated here.",
+      "subgroup_caveats": "Health Care (E), Education (B) dominate per regulatory framing."
+    },
+    "sched_j_main.equity_based_compensation": {
+      "what_it_is": "True = officers receive equity-based comp.",
+      "statutory_basis": "Tax-exempts cannot issue stock; equity-based comp typically means phantom stock, SAR, or partnership-interest grants tied to related taxable entities.",
+      "why_it_signals_fraud_or_misappropriation": "Equity-based comp at a 501(c)(3) is unusual and signals an intricate related-entity structure where the officer holds an interest in a controlled for-profit subsidiary. Inurement risk is high.",
+      "what_a_high_rate_means": "Rare and worth investigating wherever present.",
+      "what_a_low_rate_means": "Most 501(c)(3)s do not use equity-based comp.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: both corpora carry very low base rates; secular Health Care has some real positives tied to physician-practice equity. Per-filing equity-comp rate by sector not separately tabulated here.",
+      "subgroup_caveats": "Health Care (E), Science & Tech (U) are the structural exceptions."
+    },
+    "sched_j_main.compensation_contingent_on_revenues": {
+      "what_it_is": "True = officer comp is tied to org revenues.",
+      "statutory_basis": "Reg. §1.501(c)(3)-1(c)(2) inurement; Rev. Rul. 69-383; GCM 39862 — revenue-contingent comp is presumptive private inurement unless strictly cabined.",
+      "why_it_signals_fraud_or_misappropriation": "Revenue-contingent comp creates the precise alignment of interest that the inurement doctrine prohibits. Where present, the org should have ironclad documentation showing the formula is reasonable, the cap is meaningful, and the arrangement was approved with comparability data.",
+      "what_a_high_rate_means": "Sectors with elevated rates are operating at the edge of the inurement doctrine.",
+      "what_a_low_rate_means": "Most orgs avoid this structure entirely because of the inurement risk.",
+      "how_to_compare_religion_vs_secular": "Per-filing 'contingent comp' rate (any sched_j_main row with revenues OR net-earnings contingent = True): religion 0.0625% (54 of 86,455), secular 0.491% (5,694 of 1,160,678). Ratio 0.13× — secular is ~7.9× religion. The biggest comparison gap in the dataset in the direction OPPOSITE to §4958. Counter-intuitive only until you note that religious orgs operate under direct theological-doctrine constraints against revenue-tied pay (multiple denominations explicitly bar it), while secular nonprofits (especially Health Care and Education) treat productivity-bonus arrangements as standard executive comp.",
+      "subgroup_caveats": "Health Care (E) leads secular sectors because physician-productivity-based pay is sector-standard. Read the secular figure with sector decomposition."
+    },
+    "sched_j_main.compensation_contingent_on_net_earnings": {
+      "what_it_is": "True = officer comp is tied to org net earnings.",
+      "statutory_basis": "Same inurement framework; net-earnings-contingent is even more directly the inurement prohibition's target (Reg. §1.501(c)(3)-1(c)(2)'s 'no part of net earnings' language).",
+      "why_it_signals_fraud_or_misappropriation": "Net-earnings-contingent comp is the most direct possible form of inurement. The statutory text literally prohibits 'inurement of net earnings' to private individuals; this disclosure is the org admitting it has structured comp in exactly that form.",
+      "what_a_high_rate_means": "Any non-trivial rate is concerning at the field level; a sector with elevated rates is operating at high inurement-doctrine exposure.",
+      "what_a_low_rate_means": "Most orgs do not have this; absence is the baseline.",
+      "how_to_compare_religion_vs_secular": "Same direction as revenue-contingent (subsumed into the combined contingent-comp metric in rel_vs_sec.json): secular is materially higher than religion. See sched_j_main.compensation_contingent_on_revenues for the combined 0.0625% vs 0.491% comparison.",
+      "subgroup_caveats": "Same as revenue-contingent."
+    },
+    "sched_j_main.non_fixed_payments": {
+      "what_it_is": "True = the org made bonus or discretionary payments without a fixed written formula.",
+      "statutory_basis": "Reg. §53.4958-4(b)(1)(ii)(B) — non-fixed payments without contemporaneous approval and documentation defeat the rebuttable presumption.",
+      "why_it_signals_fraud_or_misappropriation": "Discretionary bonuses without written formula are not per se improper but require contemporaneous board approval to qualify for the rebuttable presumption. Without that approval they are excess-benefit-eligible.",
+      "what_a_high_rate_means": "Sectors with high rates have weaker structural protection against §4958 challenges.",
+      "what_a_low_rate_means": "Formula-based comp is procedurally safer.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular rates somewhat higher; non-fixed bonus is a more common feature of professionalized executive comp. Per-filing non-fixed-payment rate by sector not separately tabulated here.",
+      "subgroup_caveats": "Health Care, Education lead per regulatory framing."
+    },
+
+    "sched_j_compensation.base_compensation_filing_org": {
+      "what_it_is": "Base salary paid by the filing org.",
+      "statutory_basis": "W-2 box 1 reportable comp; basis for FMV analysis under Reg. §53.4958-4.",
+      "why_it_signals_fraud_or_misappropriation": "Base comp itself isn't a fraud signal — the question is whether total comp (base + bonus + deferred + nontaxable + related-org) is reasonable for the role. Outlier base compensation, especially in small orgs, is the visible signal that warrants attention.",
+      "what_a_high_rate_means": "Sectors with high median base comp reflect sector pay scales (Health Care executives, university presidents); not fraud-adjacent on its own.",
+      "what_a_low_rate_means": "Below-market base comp often correlates with founder-CEO arrangements where comp is delivered through related entities or non-W-2 channels.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has lower median base comp than most secular sectors; the gap is partly real (smaller orgs) and partly structural (§107 housing allowance excluded from base). Median-comp distribution by sector not separately tabulated here.",
+      "subgroup_caveats": "Always control for org size before comparing comp medians."
+    },
+    "sched_j_compensation.base_compensation_related_org": {
+      "what_it_is": "Base salary paid by a RELATED organization (Sched R entity).",
+      "statutory_basis": "Reportable on the filing-org's Sched J under Form 990 instructions; FMV/aggregation analysis under Reg. §53.4958-4(b)(1)(i).",
+      "why_it_signals_fraud_or_misappropriation": "The 'paid through related LLC' disclosure-avoidance pattern. Officer total comp aggregates across filing-org and related-org; the related-org column is where comp paid through a captive subsidiary appears. Cross-reference with Sched R to identify which entity is paying. The Grassley inquiry specifically named this pattern as a disclosure-avoidance technique.",
+      "what_a_high_rate_means": "Concentration of comp in the related-org column relative to filing-org column flags the 'paid through related entity' pattern.",
+      "what_a_low_rate_means": "Most officer comp is paid by the filing org; absence is the baseline.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion's largest broadcast-ministry filers concentrate related-org comp via book-publishing and broadcasting LLCs; secular Health Care concentrates it via subsidiary medical groups. Related-org comp distribution by sector not separately tabulated here.",
+      "subgroup_caveats": "Health Care (E) and Education (B) have legitimate sector-structural reasons; cross-reference is required."
+    },
+    "sched_j_compensation.bonus_filing_org": {
+      "what_it_is": "Bonus / incentive comp from the filing org.",
+      "statutory_basis": "Same as base; reportable comp.",
+      "why_it_signals_fraud_or_misappropriation": "Bonus comp ratio (bonus / base) is itself diagnostic — ratios above 30% are unusual outside of physician-productivity contexts. Where bonuses are large and contingent on revenue or net earnings, the Sched J Pt I contingent flags become the analytical anchor.",
+      "what_a_high_rate_means": "Sectors with high bonus-to-base ratios warrant cross-reference with the contingent-pay flags.",
+      "what_a_low_rate_means": "Salary-only structures are simpler and lower-risk.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has materially lower bonus prevalence; theological objections to performance-based ministry pay are common. The contingent-comp comparison (secular ~7.9× religion) is the closest measured proxy.",
+      "subgroup_caveats": "Health Care dominates secular bonus distribution per regulatory framing."
+    },
+    "sched_j_compensation.bonus_related_org": {
+      "what_it_is": "Bonus / incentive comp from a related org.",
+      "statutory_basis": "Same as base_compensation_related_org.",
+      "why_it_signals_fraud_or_misappropriation": "Same disclosure-avoidance concern as base from related org — bonus paid through an affiliate keeps the filing-org Pt VII comp number low.",
+      "what_a_high_rate_means": "Concentration here flags the related-entity comp-routing pattern.",
+      "what_a_low_rate_means": "Absence is the baseline.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion's broadcast-ministry subset and secular Health Care subsidiaries account for most cases per regulatory framing. Not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "sched_j_compensation.other_filing_org": {
+      "what_it_is": "Other reportable comp from the filing org (commissions, taxable fringe, etc.).",
+      "statutory_basis": "W-2 box 1 inclusion regime under Reg. §1.61-21.",
+      "why_it_signals_fraud_or_misappropriation": "Large 'other' comp relative to base flags either substantial taxable fringe (housing, vehicle, club dues reported as comp) or one-time payments (severance, signing bonus). Read with the corresponding Sched J Pt I perk flags.",
+      "what_a_high_rate_means": "Sectors with high 'other' shares warrant Sched J Pt I cross-reference.",
+      "what_a_low_rate_means": "Most comp is base-driven.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion may have higher 'other' share at smaller filers because non-W-2 benefits (housing, ministry vehicle) appear here when properly reported. Distribution not separately tabulated here.",
+      "subgroup_caveats": "Read by ratio to base, not absolute level."
+    },
+    "sched_j_compensation.deferred_compensation_filing_org": {
+      "what_it_is": "Deferred comp set aside by the filing org.",
+      "statutory_basis": "IRC §457(b)/(f) for tax-exempts; §409A general nonqualified deferred comp rules.",
+      "why_it_signals_fraud_or_misappropriation": "Deferred comp itself is normal; large accumulated balances become outsized excess-benefit exposure if comp committee documentation is weak. The Sched J Pt I supplemental_nonqualified_retirement flag is the structural antecedent.",
+      "what_a_high_rate_means": "Concentration in larger orgs and in Health Care / Education executive comp.",
+      "what_a_low_rate_means": "Smaller orgs don't fund deferred comp meaningfully.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular substantially higher; reflects executive labor-market structure. Deferred-comp distribution by sector not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "sched_j_compensation.deferred_compensation_related_org": {
+      "what_it_is": "Deferred comp set aside by a related org.",
+      "statutory_basis": "Same as filing-org deferred; aggregated for §4958-4(b) reasonableness analysis.",
+      "why_it_signals_fraud_or_misappropriation": "Same disclosure-routing concern as base/bonus from related org.",
+      "what_a_high_rate_means": "Same pattern.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Same.",
+      "subgroup_caveats": "Same."
+    },
+    "sched_j_compensation.nontaxable_benefits_filing_org": {
+      "what_it_is": "Non-taxable benefits provided by the filing org (health insurance, qualified retirement contributions, etc.).",
+      "statutory_basis": "Various exclusions under §106, §125, §401, §403(b), §457.",
+      "why_it_signals_fraud_or_misappropriation": "Mostly benign; large non-taxable benefits in small orgs warrant a quick check that the items are actually qualifying (e.g., is the 'health insurance' a self-funded reimbursement masquerading as a qualified plan?).",
+      "what_a_high_rate_means": "High median non-taxable benefits correlate with org size and benefit-plan sophistication.",
+      "what_a_low_rate_means": "Smaller orgs offer less.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular larger orgs lead; religion has narrower distribution. Not separately tabulated here.",
+      "subgroup_caveats": "Sector size effect dominates."
+    },
+    "sched_j_compensation.total_filing_org": {
+      "what_it_is": "Total reportable + other comp from the filing org.",
+      "statutory_basis": "Aggregated W-2 box 1 + other.",
+      "why_it_signals_fraud_or_misappropriation": "The headline comp number. Outlier total comp in small orgs is the most visible single signal of insider extraction. High-end clusters are concentrated in expected sectors (Health Care, large Education); positives outside those clusters are diagnostic.",
+      "what_a_high_rate_means": "Sectors with high median total comp reflect sector pay scales; not inherently fraud-adjacent.",
+      "what_a_low_rate_means": "Most officers are sub-$200k.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has lower median (smaller orgs); religion's right tail concentrates in religiously-sponsored hospital systems (NTEE-E hospitals owned by religious sponsoring entities such as Ascension, Trinity Health, Providence, CommonSpirit). Compensation-distribution medians by sector not separately tabulated in this revision's data inputs.",
+      "subgroup_caveats": "Right-tail comp in religion is dominated by hospital systems with religious sponsorship; the sponsoring church-status entity often does not appear in this comp tail."
+    },
+    "sched_j_compensation.total_related_org": {
+      "what_it_is": "Total comp from related organizations.",
+      "statutory_basis": "Aggregated for §4958-4(b) reasonableness analysis across the controlled group.",
+      "why_it_signals_fraud_or_misappropriation": "Total related-org comp ≥ filing-org comp is the most concentrated form of the 'paid through related entity' disclosure-avoidance pattern.",
+      "what_a_high_rate_means": "Concentration warrants cross-reference with Sched R.",
+      "what_a_low_rate_means": "Officers paid only by the filing org are the baseline.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular Health Care system executives often have substantial related-org comp from parent and sister entities; religion's broadcast-ministry CEOs have related-org comp from publishing/media LLCs. Distribution not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "sched_j_compensation.title": {
+      "what_it_is": "Officer's title.",
+      "statutory_basis": "No direct statutory standard.",
+      "why_it_signals_fraud_or_misappropriation": "Title concentration (most comp going to a single FOUNDER/PRESIDENT/CEO) is the structural signal of founder-dominated comp architecture. Truncated at ~12 chars in some IRS schema versions ('VICE PRESIDE,' 'EXECUTIVE DI').",
+      "what_a_high_rate_means": "Not rate-based.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: regulatory framing predicts religion title vocabulary leans toward PASTOR/MINISTER/FOUNDER and secular toward CEO/PRESIDENT/EXECUTIVE DIRECTOR. Title-text distribution has not been mined here.",
+      "subgroup_caveats": "Title truncation requires display-layer collapse."
+    },
+
+    "part_vii_officers.reportable_comp_from_org": {
+      "what_it_is": "W-2 box 1 / 1099 box 7 reportable comp from the filing org. 87% of rows are $0 (uncompensated board members).",
+      "statutory_basis": "Form 990 Part VII Section A; W-2 box 1.",
+      "why_it_signals_fraud_or_misappropriation": "Outlier compensation in this column is the most public single signal in the entire 990. Cross-org comp (same person, multiple EINs, same year) is the related signal that surfaces shared-insider architectures.",
+      "what_a_high_rate_means": "Sector pay scales dominate the median; outliers in small-org sectors are the diagnostic positives.",
+      "what_a_low_rate_means": "$0 rows are normal (volunteer directors).",
+      "how_to_compare_religion_vs_secular": "Filter to >0 before computing medians; raw means are dominated by zero-comp board members. Sector medians not separately tabulated here.",
+      "subgroup_caveats": "Hypothesis: Health Care (E) dominates the right tail; religion right tail concentrates in religiously-sponsored hospital systems coded NTEE-E rather than NTEE-X."
+    },
+    "part_vii_officers.reportable_comp_from_related": {
+      "what_it_is": "Reportable comp from a related organization (Sched R entity).",
+      "statutory_basis": "Same as filing-org reportable comp; aggregated under §4958-4(b).",
+      "why_it_signals_fraud_or_misappropriation": "Insider drawing comp from a related entity is the structural antecedent of the 'paid through related LLC' disclosure-avoidance pattern. Cross-reference with Sched R Pt II/IV to identify the paying affiliate.",
+      "what_a_high_rate_means": "Concentration of officers with substantial related-org comp warrants Sched R cross-reference.",
+      "what_a_low_rate_means": "Most officers are paid only by the filing org.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: pattern is more salient in the religion-corpus broadcast-ministry subset and the secular-corpus health-system subset. Not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "part_vii_officers.other_compensation": {
+      "what_it_is": "Other comp from the filing org (deferred, benefits, etc.).",
+      "statutory_basis": "Reg. §1.61-21 fringe-benefit valuation.",
+      "why_it_signals_fraud_or_misappropriation": "Same as Sched J other_filing_org but at Pt VII granularity. Where other comp dwarfs reportable comp, taxable fringe or one-time payments dominate.",
+      "what_a_high_rate_means": "Sectors with high other-to-reportable ratios warrant Sched J Pt I perk cross-reference.",
+      "what_a_low_rate_means": "Most officers have low other comp.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion may have higher other-comp share at smaller filers (housing, vehicle, ministry travel reported here when correctly handled). Not separately tabulated here.",
+      "subgroup_caveats": "Cross-reference with Sched J Pt I."
+    },
+    "part_vii_officers.average_hours": {
+      "what_it_is": "Average hours per week the person works for the filing org.",
+      "statutory_basis": "No direct statutory standard.",
+      "why_it_signals_fraud_or_misappropriation": "Officer with extremely low average hours but substantial comp is the no-show-officer pattern. Especially diagnostic when combined with cross-EIN appearances (same person, multiple orgs, low hours at each).",
+      "what_a_high_rate_means": "Median hours ≥ 40 indicates full-time officer roles; <5 indicates board-only positions.",
+      "what_a_low_rate_means": "Volunteer-board hours are usually 1–2 per week.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has a higher share of pastor-as-officer at ≥40 hours; secular has a higher share of non-executive directors at 1–2 hours. Hours distribution not separately tabulated here.",
+      "subgroup_caveats": "Cross-reference with reportable_comp_from_org to detect comp/hours anomalies."
+    },
+    "part_vii_officers.individual_trustee_or_director": {
+      "what_it_is": "True = serves as individual trustee or director.",
+      "statutory_basis": "Form 990 Pt VII Section A role classification.",
+      "why_it_signals_fraud_or_misappropriation": "Role classification itself is not a fraud signal. Useful for filtering to governing-body members for board-independence ratio analysis.",
+      "what_a_high_rate_means": "High share indicates a large governing body.",
+      "what_a_low_rate_means": "Small board with concentrated officer roles.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has smaller average board size; secular boards are larger. Board-size distribution not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "part_vii_officers.officer": {
+      "what_it_is": "True = is an officer of the org (President, Treasurer, Secretary, CEO, etc.).",
+      "statutory_basis": "Form 990 Pt VII Section A role classification.",
+      "why_it_signals_fraud_or_misappropriation": "Officer role classification triggers Sched J inclusion at the over-$150k comp threshold. Useful for filtering analyses to compensation-bearing roles.",
+      "what_a_high_rate_means": "High share suggests many compensated leadership roles.",
+      "what_a_low_rate_means": "Low share indicates volunteer-led organization.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has higher per-org officer counts when pastoral staff are designated officers; secular varies by sector. Per-org officer counts not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "part_vii_officers.key_employee": {
+      "what_it_is": "True = key employee (over the $150k/$210k thresholds plus other tests under Form 990 instructions).",
+      "statutory_basis": "Form 990 Pt VII Section A; per-year inflation-adjusted thresholds.",
+      "why_it_signals_fraud_or_misappropriation": "Key-employee designation expands the rebuttable-presumption reach to non-officer high earners under §4958-3(c). Sectors with many key employees have broader §4958 exposure surface.",
+      "what_a_high_rate_means": "Concentration in larger organizations.",
+      "what_a_low_rate_means": "Smaller orgs rarely have key employees.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular has materially more key-employee disclosures than religion because of org-size differences. Distribution not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "part_vii_officers.highest_compensated_employee": {
+      "what_it_is": "True = one of the top-5 highest-paid employees not otherwise listed.",
+      "statutory_basis": "Form 990 Pt VII Section A; reportable if comp ≥ $100k.",
+      "why_it_signals_fraud_or_misappropriation": "Disclosure category itself isn't a fraud signal. Useful for analyzing whether the top-5 includes family members or vendors that should appear elsewhere.",
+      "what_a_high_rate_means": "Larger orgs populate this.",
+      "what_a_low_rate_means": "Smaller orgs don't have $100k+ non-officer employees.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: secular has structurally more entries; religion's entries cluster in larger broadcast and hospital-system filers. Distribution not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "part_vii_officers.former": {
+      "what_it_is": "True = former officer/director/key employee still receiving reportable comp during the year.",
+      "statutory_basis": "Form 990 Pt VII Section A.",
+      "why_it_signals_fraud_or_misappropriation": "Former-employee continued comp is normal in severance and deferred-comp contexts; the diagnostic question is amount relative to original role and whether the arrangement was pre-approved with comparability data. Large continuing payments to founders post-separation are the watch list.",
+      "what_a_high_rate_means": "Rare across the corpus; positives are individually diagnostic.",
+      "what_a_low_rate_means": "Most orgs don't have former-officer ongoing comp.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has visible former-founder cases; secular has more former-CEO severance-tail cases. Distribution not separately tabulated here.",
+      "subgroup_caveats": "Read individual rows, not aggregate rates."
+    },
+
+    "part_vii_contractors.compensation": {
+      "what_it_is": "Compensation paid to a top-5 contractor (>$100k).",
+      "statutory_basis": "Form 990 Pt VII Section B; required disclosure for top-5 contractors over $100k.",
+      "why_it_signals_fraud_or_misappropriation": "Contractor comp itself isn't a fraud signal. The diagnostic angle is whether the contractor is also an interested person under §4958 — cross-reference contractor name against Sched L Pt IV vendor list and Sched R related-entity list.",
+      "what_a_high_rate_means": "Large contractor payments warrant cross-reference with Sched L Pt IV.",
+      "what_a_low_rate_means": "Smaller orgs don't trigger the $100k threshold.",
+      "how_to_compare_religion_vs_secular": "Hypothesis: religion has narrower contractor populations; secular Health Care has very wide ones because of sector size. Distribution not separately tabulated here.",
+      "subgroup_caveats": "Sector-structural."
+    },
+    "part_vii_contractors.contractor_state": {
+      "what_it_is": "Contractor US state or foreign country.",
+      "statutory_basis": "Jurisdictional disclosure.",
+      "why_it_signals_fraud_or_misappropriation": "Contractor location alone isn't a fraud signal. Cross-state contractor concentration with named insider connections is.",
+      "what_a_high_rate_means": "Concentration in same state as filer is normal.",
+      "what_a_low_rate_means": "Wide geographic dispersion is normal in larger filers.",
+      "how_to_compare_religion_vs_secular": "No meaningful comparison.",
+      "subgroup_caveats": "Not a high-priority field."
+    },
+    "part_vii_contractors.services_description": {
+      "what_it_is": "Free-text description of contractor services.",
+      "statutory_basis": "No direct statutory standard.",
+      "why_it_signals_fraud_or_misappropriation": "Read by content. Vague descriptions ('management services,' 'consulting') for substantial-dollar contracts warrant cross-reference with Sched L Pt IV vendor list.",
+      "what_a_high_rate_means": "Not rate-based.",
+      "what_a_low_rate_means": "Same.",
+      "how_to_compare_religion_vs_secular": "Hypothesis (not measured in this corpus): regulatory framing predicts religion contractor descriptions skew toward broadcasting/media-production/construction vocabulary while secular skews toward IT/construction/consulting/legal. Description-text mining has not been performed here.",
+      "subgroup_caveats": "Same."
+    }
+
+  },
+
+  "comparison_pairs": [
+
+    {
+      "pair_id": "religion_vs_education",
+      "label": "Religion (X) vs Education (B)",
+      "rationale": "Education is the largest secular major: 185,568 filings (2014-2024), or 194,778 including partial-2025. Shares with religion a high mission-driven non-commercial posture, founder-or-family-led structures at the small end (private schools), and substantial use of campus housing for staff. Both populate §170(b)(1)(A)(i)/(ii) public-charity status but face very different regulatory environments.",
+      "key_fields_to_highlight": [
+        "sched_j_main.housing_allowance_residence",
+        "sched_l_grants_to_interested.amount_of_assistance",
+        "sched_j_main.compensation_committee",
+        "sched_j_main.compensation_survey",
+        "sched_r_related_tax_exempt.section_512b_13_controlled"
+      ],
+      "interpretive_warning": "Education's per-filing Sched J Pt I rate (26.77%) is roughly 2.9× religion's (9.23%) — control for org size before reading the gap as religion-specific. Conversely, religion's §107 housing exclusion makes raw housing-allowance rates non-comparable; religion's elevated rate here is statutory, not behavioral.",
+      "what_to_conclude": "Religion has materially weaker procedural comp-governance disclosure than Education on the visible Sched J Pt I axis; whether this survives org-size control is a separate question.",
+      "what_not_to_conclude": "Do not infer Education is 'cleaner' from raw rates; Education has substantially more Pt IV business transactions (7.20% vs religion 4.83%) and substantially more Sched R Pt II related-tax-exempt density (20.91% vs religion 9.27%)."
+    },
+
+    {
+      "pair_id": "religion_vs_health_care",
+      "label": "Religion (X) vs Health Care (E)",
+      "rationale": "Health Care has the highest related-party transaction density in the dataset across multiple Schedules: Pt IV business transactions 11.38%, Sched R Pt V transactions 26.52%, Sched J Pt I 55.65%, Sched R Pt II related tax-exempt 48.60%. Religion's per-filing rates are far below all four (4.83%, 5.20%, 9.23%, 9.27%). The driver is sector-structural: physician-practice and system-affiliate architecture. Health Care n=96,633 filings (2014-2024).",
+      "key_fields_to_highlight": [
+        "sched_l_business_transactions.transaction_amount",
+        "sched_l_business_transactions.sharing_of_revenues",
+        "sched_r_related_tax_exempt.section_512b_13_controlled",
+        "sched_j_main.compensation_contingent_on_revenues",
+        "sched_j_main.severance_payment",
+        "sched_j_main.supplemental_nonqualified_retirement"
+      ],
+      "interpretive_warning": "Catholic, Adventist, Baptist, and Mennonite hospital systems are classified NTEE-E in this dataset, not NTEE-X. The 'religiously-sponsored health system' phenomenon is excluded from the religion corpus by NTEE coding even though sponsoring entities exercise governance control. This is the most consequential coding boundary in the comparison.",
+      "what_to_conclude": "Religion's lower rates on every Health Care-dominant field are partly a coding artifact — the religious health-system activity has moved into the secular corpus by NTEE classification.",
+      "what_not_to_conclude": "Do not read Health Care's high Pt IV / Sched R rates as evidence of more fraud; sector-structural physician-practice and system-affiliate relationships drive the bulk of these positives."
+    },
+
+    {
+      "pair_id": "religion_vs_human_services",
+      "label": "Religion (X) vs Human Services (P)",
+      "rationale": "Human Services is the second-largest sector: 171,347 filings (2014-2024) — 176,886 including partial-2025. Most directly comparable to religion in mission orientation — direct-service provision, often community-based, often founder-led at the small end. P has heavy faith-based-program-but-not-coded-X overlap (Catholic Charities, Lutheran Services, Jewish Family Service affiliates).",
+      "key_fields_to_highlight": [
+        "sched_l_excess_benefit.amt_tax_imposed",
+        "sched_l_loans.written_agreement",
+        "sched_l_business_transactions.transaction_amount",
+        "sched_r_related_tax_exempt.section_512b_13_controlled"
+      ],
+      "interpretive_warning": "The largest 'religion-affiliated' service providers (Catholic Charities USA network, Lutheran Services in America affiliates, Jewish Federation affiliates) are NTEE-P, not NTEE-X. The religion-vs-P comparison is therefore not 'religious' vs 'secular' but 'pastoral / theological' vs 'faith-affiliated service.' P's §4958 rate is 0.0286% (49 of 171,347) vs religion 0.0578% (50 of 86,455) — religion is roughly 2× P despite organizational overlap.",
+      "what_to_conclude": "Religion (pastoral) and Human Services (service-delivery, including faith-affiliated) have meaningfully different fraud-relevant disclosure patterns despite overlapping social positioning.",
+      "what_not_to_conclude": "Do not conflate NTEE-P with 'non-religious' — a substantial fraction of P is faith-affiliated service organizations."
+    },
+
+    {
+      "pair_id": "religion_vs_philanthropy",
+      "label": "Religion (X) vs Philanthropy & Voluntarism (T)",
+      "rationale": "Philanthropy 58,410 filings (2014-2024) — 60,206 with partial-2025. Includes public-charity foundations operating as 501(c)(3) public charities (filing Form 990, not 990-PF), donor-advised-fund sponsors, and federated giving organizations. T has the highest 509(a)(3) supporting-org share among secular majors — the same regulatory regime that captures many religiously-sponsored supporting orgs (denominational endowments, mission funds).",
+      "key_fields_to_highlight": [
+        "sched_r_related_tax_exempt.public_charity_status",
+        "sched_r_related_tax_exempt.section_512b_13_controlled",
+        "sched_r_transactions.transaction_type_code",
+        "sched_l_business_transactions.transaction_amount"
+      ],
+      "interpretive_warning": "Religion's supporting-org subset (denominational endowments, missionary fund-holders) maps closely to T's foundation-affiliate structure. Direct rate comparison across X and T captures the 509(a)(3) governance regime as much as the religious/secular distinction.",
+      "what_to_conclude": "T's per-filing Sched R Pt II rate (29.03%) is ~3.1× religion's (9.27%); the gap reflects foundation-affiliate architecture rather than fraud.",
+      "what_not_to_conclude": "Do not infer foundations have more insider dealing from elevated Sched R rates; the disclosure rate reflects affiliate-architecture density, not behavior."
+    },
+
+    {
+      "pair_id": "religion_vs_housing",
+      "label": "Religion (X) vs Housing & Shelter (L)",
+      "rationale": "Housing & Shelter 77,132 filings (2014-2024) — 79,712 with partial-2025. Has the highest Sched R Pt II rate in the entire dataset (52.18%) because each property is typically held in a separate LLC for liability reasons. Housing also leads Sched R Pt V at 20.80%. Religion's parsonage-and-real-estate subset shares some of this architecture but at much lower density (9.27% Sched R Pt II, 5.20% Sched R Pt V).",
+      "key_fields_to_highlight": [
+        "sched_r_related_tax_exempt.section_512b_13_controlled",
+        "sched_r_disregarded.end_of_year_assets",
+        "sched_r_transactions.transaction_type_code",
+        "sched_r_related_corp_trust.type_of_entity"
+      ],
+      "interpretive_warning": "Housing's elevated rates on every Sched R field are structural — LIHTC and HUD-financed housing requires separate-entity-per-project for tax-credit and lender purposes. None of this is fraud-adjacent.",
+      "what_to_conclude": "Housing is the clearest example of why disclosure-density does not equal fraud-density; the comparison shows religion's structural simplicity, not religion's relative cleanliness.",
+      "what_not_to_conclude": "Do not use Housing's elevated rates as a fraud baseline."
+    },
+
+    {
+      "pair_id": "religion_vs_mental_health",
+      "label": "Religion (X) vs Mental Health & Crisis (F)",
+      "rationale": "Mental Health & Crisis 28,772 filings (2014-2024) — 29,726 with partial-2025. The only secular major where the §4958 excess-benefit admission rate (0.1112%, 32 of 28,772) exceeds religion's (0.0578%, 50 of 86,455). F leads the entire 24-major leaderboard and is the only sector ranked above religion on this metric. F is dominated by smaller community mental-health providers, crisis-line operators, and founder-led counseling centers — structurally similar to small religious orgs in founder-dependence.",
+      "key_fields_to_highlight": [
+        "sched_l_excess_benefit.amt_tax_imposed",
+        "sched_l_loans.written_agreement",
+        "sched_j_main.compensation_committee",
+        "sched_j_main.compensation_survey"
+      ],
+      "interpretive_warning": "F is structurally similar to small religious orgs in founder-dependence and small-board governance; the elevated §4958 rate likely reflects shared structural risk, not sector-specific behavior.",
+      "what_to_conclude": "Religion is not uniquely high on §4958 admissions; founder-dominated small orgs across sectors share the pattern. Religion ranks #2 of 24 on §4958 disclosure rate; F is #1.",
+      "what_not_to_conclude": "Do not treat religion as the only sector with elevated excess-benefit risk; F is higher under the post-audit disclose-rate construction."
+    },
+
+    {
+      "pair_id": "religion_vs_international",
+      "label": "Religion (X) vs International, Foreign Affairs (Q)",
+      "rationale": "International 32,910 filings (2014-2024) — 33,622 with partial-2025. Overlaps substantially with religion in mission posture (faith-based foreign missions are often classified Q, not X). Q has the most legitimate offshore-domicile activity of any major. Direct comparison helps separate 'religion' from 'foreign-missionary' as analytic categories.",
+      "key_fields_to_highlight": [
+        "sched_r_disregarded.legal_domicile",
+        "sched_r_related_tax_exempt.legal_domicile",
+        "sched_l_business_transactions.transaction_amount",
+        "sched_r_transactions.transaction_amount"
+      ],
+      "interpretive_warning": "Major faith-based foreign-mission organizations (Samaritan's Purse, World Vision US, Compassion International, etc.) are classified Q, not X. Religion-X corpus captures domestic religious orgs preferentially.",
+      "what_to_conclude": "Q is the secular major most affected by the NTEE coding boundary with religion.",
+      "what_not_to_conclude": "Do not infer that 'religious organizations don't do international work' from the X/Q split — they do, and most of it is in Q."
+    },
+
+    {
+      "pair_id": "religion_vs_community_improvement",
+      "label": "Religion (X) vs Community Improvement (S)",
+      "rationale": "Community Improvement 78,731 filings (2014-2024) — 81,133 with partial-2025. Covers chambers of commerce, business-improvement districts, neighborhood associations, and community development corps. S has the lowest §4958 admission rate among substantial majors (0.0102%, 8 of 78,731) — useful as a low-baseline comparator. Religion (0.0578%) is roughly 5.7× S.",
+      "key_fields_to_highlight": [
+        "sched_l_excess_benefit.amt_tax_imposed",
+        "sched_l_loans.written_agreement",
+        "sched_r_related_tax_exempt.exempt_code_section",
+        "sched_j_main.compensation_committee"
+      ],
+      "interpretive_warning": "S has heavy 501(c)(4)/(c)(6) co-presence in related entities (the business-association ecosystem), unlike religion which co-presents with (c)(2) and (c)(3) only per regulatory framing. Different ecosystem, different baseline.",
+      "what_to_conclude": "S is the clearest 'low-baseline secular' comparator for excess-benefit rates.",
+      "what_not_to_conclude": "Do not treat S as 'normal nonprofit' — it has its own structural features (business-association ecosystem, chamber-of-commerce comp practices)."
+    },
+
+    {
+      "pair_id": "religion_vs_arts",
+      "label": "Religion (X) vs Arts, Culture & Humanities (A)",
+      "rationale": "Arts 108,296 filings (2014-2024) — 112,428 with partial-2025. Third-largest sector and most resembles religion in its concentration of small founder-led orgs with high-passion donor bases (parallel to religious congregations with founder-pastors). A leads the dataset on insider-loan disclosure rate (4.89%), narrowly above religion (4.70%) — religion ranks #2 of 24 on this metric.",
+      "key_fields_to_highlight": [
+        "sched_l_loans.original_principal",
+        "sched_l_loans.loan_to_organization",
+        "sched_l_loans.written_agreement",
+        "sched_j_main.first_class_or_charter_travel"
+      ],
+      "interpretive_warning": "Arts' high insider-loan rate is hypothesized to be dominated by founder-bankrolling-the-organization (loan_to_organization direction), not org-to-insider extraction, per regulatory framing. Direction matters here; the direction-split has not been quantified in current data.",
+      "what_to_conclude": "Religion's insider-loan rate is virtually tied with Arts; the founder-bankrolling pattern is shared in regulatory framing.",
+      "what_not_to_conclude": "Do not treat Arts' high loan rate as a fraud signal without checking loan_to_organization direction."
+    }
+
+  ],
+
+  "subgroup_framing": {
+
+    "X": {
+      "label": "Religion-related",
+      "what_this_sector_is": "Religious congregations and denominational entities that voluntarily file Form 990 (§6033(a)(3)(A)(i) exempts churches; this corpus is the opt-in subset, mostly ECFA members, federal-grant recipients, and religious nonprofits coded as church-status). 86,455 filings, 17,870 EINs (2014-2024 excl partial-2025); 88,660 filings, 18,017 EINs including 2025.",
+      "typical_related_party_profile": "Founder-pastor governance is common; smaller average board size; less professionalized comp governance per regulatory framing; §107 housing allowance structurally distinct; broadcasting-ministry corporate families create concentrated Sched R networks for the small subset of large filers.",
+      "comparison_to_religion": "Self-reference.",
+      "fields_where_this_sector_is_notable": [
+        "sched_l_excess_benefit (per-filing 0.0578%, 2.19× secular, ranks #2 of 24 — F leads at 0.1112%)",
+        "sched_l_loans (per-filing 4.70%, ranks #2 of 24 — A leads at 4.89%)",
+        "sched_l_loans.written_agreement (conditional unwritten share 39.9% vs secular 31.8%, ratio 1.26×)",
+        "sched_j_main.housing_allowance_residence (structurally elevated due to §107 — not a behavioral signal)",
+        "sched_j_main contingent-comp (per-filing 0.0625% vs secular 0.491%, secular is ~7.9× religion — theological constraint hypothesis)",
+        "sched_j_main any-row (per-filing 9.23%, ranks #24 of 24 — lowest in dataset; Health Care leads at 55.65%)",
+        "sched_l_business_transactions Pt IV (per-filing 4.83%, ranks #19 of 24)",
+        "sched_r_related_tax_exempt Pt II (per-filing 9.27%, ranks #19 of 24)",
+        "sched_r_transactions Pt V (per-filing 5.20%, ranks #21 of 24)",
+        "§512(b)(13) controlled (conditional 31.2% vs secular 39.3%, religion is BELOW secular by 0.79×)"
+      ],
+      "selection_caveat": "The single most important caveat in the entire tool: 88,660 filings at 18,017 EINs is the voluntary-filer subset. The non-filing church universe (~126k entities classified NTEE-X in the IRS BMF) is invisible. Any rate here is filer-vs-filer, not population-vs-population."
+    },
+
+    "B": {
+      "label": "Education",
+      "what_this_sector_is": "K-12 private schools, charter schools, universities, vocational schools, parent-teacher orgs, educational support orgs, alumni associations, scholarship funds. 185,568 filings (2014-2024); largest secular major.",
+      "typical_related_party_profile": "Endowment-investment partnerships drive related-entity counts; campus-housing loans for faculty/staff drive insider-loan disclosure (3.55%); alumni-affiliated foundations drive Sched R Pt II rate to 20.91%; professionalized comp governance at universities (Sched J Pt I 26.77%), weaker at small private schools.",
+      "comparison_to_religion": "Strong structural parallels with religion on housing benefits (campus housing vs parsonage) and founder-dependence at the small end (founder-led private schools). Universities operate under much stricter procedural governance than even the most professionalized religious orgs.",
+      "fields_where_this_sector_is_notable": [
+        "sched_r_transactions Pt V (12.82% — endowment-investment and alumni-foundation transfers)",
+        "sched_j_main any-row (26.77% — university executive comp governance)",
+        "sched_r_related_tax_exempt Pt II (20.91% — alumni-foundation affiliates)",
+        "sched_l_loans (3.55% — faculty/staff housing loans)"
+      ]
+    },
+
+    "E": {
+      "label": "Health Care",
+      "what_this_sector_is": "Hospitals, health systems, physician practices, community health centers, hospices, ambulatory surgery centers. 96,633 filings (2014-2024). Includes religiously-sponsored hospitals (Catholic, Adventist, Baptist, Mennonite, Jewish systems) which are coded E, not X.",
+      "typical_related_party_profile": "The most related-party-dense sector in the dataset. Physician-practice subsidiaries, foundation fundraising affiliates, system holding-company architecture, captive insurance subsidiaries, and joint-venture surgery centers all populate Sched R heavily. Leads on Pt IV (11.38%), Sched R Pt V (26.52%), Sched J Pt I any-row (55.65%), Sched R Pt II (48.60%).",
+      "comparison_to_religion": "Religiously-sponsored health systems are statistically in Health Care, not in religion. This is the most consequential coding boundary affecting religious-vs-secular comparison. The 'religion is lower than Health Care on every Health Care-dense field' headline is partly an artifact of NTEE classification.",
+      "fields_where_this_sector_is_notable": [
+        "sched_l_business_transactions Pt IV (11.38% — physician-vendor relationships, leads dataset)",
+        "sched_r_related_tax_exempt §512(b)(13) per-filing 48.60% (system architecture)",
+        "sched_j_main any-row (55.65% — leads dataset; professionalized executive comp governance)",
+        "sched_r_transactions Pt V (26.52% — leads dataset)",
+        "sched_j_compensation.total_filing_org (top of executive comp distribution per regulatory framing)"
+      ]
+    },
+
+    "F": {
+      "label": "Mental Health & Crisis",
+      "what_this_sector_is": "Community mental-health centers, crisis-intervention services, substance-use treatment, counseling centers, suicide-prevention orgs. 28,772 filings (2014-2024) — 29,726 with partial-2025.",
+      "typical_related_party_profile": "Smaller orgs, founder-led at the small end, less professionalized comp governance. The only secular major where §4958 excess-benefit admission rate (0.1112%, 32 of 28,772) exceeds religion's (0.0578%). F is the leader on §4958 in the 24-major leaderboard.",
+      "comparison_to_religion": "Structurally similar to small religious orgs in founder-dependence, small board size, weaker procedural governance. The elevated §4958 rate suggests this structural pattern (not religion specifically) is the underlying risk driver. F is now established as the leader on §4958 above religion under the post-audit denominator.",
+      "fields_where_this_sector_is_notable": [
+        "sched_l_excess_benefit (0.1112% — leads the 24-major dataset)",
+        "sched_l_business_transactions Pt IV (7.59% — ranks #4)",
+        "sched_l_loans (3.38% — small-org founder pattern)"
+      ]
+    },
+
+    "P": {
+      "label": "Human Services",
+      "what_this_sector_is": "Direct-service social-welfare orgs: food banks, homeless shelters (overlaps L), family services, child welfare, youth services, immigration services, adult day care, etc. Heavy faith-affiliated subset (Catholic Charities, Lutheran Services, Jewish Family Service, Salvation Army affiliates). 171,347 filings (2014-2024); second-largest sector.",
+      "typical_related_party_profile": "Federation-affiliated org structures drive Sched R Pt II rates (19.35%); government-contract revenue drives Pt IV business transactions (6.38%); §4958 disclosure rate 0.0286% (49 of 171,347) is roughly half religion's; professionalized comp governance at large federated orgs, weaker at small community-based orgs.",
+      "comparison_to_religion": "The most overlapping sector with religion in social positioning. The faith-affiliated service subset of P shares organizational DNA with X but is coded for primary activity (social services), not for religious affiliation. Direct X-vs-P comparison conflates 'pastoral' (X) vs 'faith-affiliated service' (P).",
+      "fields_where_this_sector_is_notable": [
+        "sched_l_business_transactions Pt IV (6.38% — government-contract-vendor relationships)",
+        "sched_r_related_tax_exempt Pt II (19.35% — federation-affiliate co-presence)",
+        "sched_j_main any-row (21.96% — professionalized at large orgs)"
+      ]
+    },
+
+    "T": {
+      "label": "Philanthropy & Voluntarism",
+      "what_this_sector_is": "Public-charity foundations (vs 990-PF private foundations), donor-advised-fund sponsors, federated giving (United Way affiliates), community foundations, alumni foundations, supporting-org grantmakers. 58,410 filings (2014-2024).",
+      "typical_related_party_profile": "Highest 509(a)(3) supporting-org density among secular sectors per regulatory framing; foundation-affiliate architecture drives Sched R Pt II to 29.03%; controlled-entity status common; Pt V transaction volume high (15.85%) because grantmaking to affiliated operating entities is the core business.",
+      "comparison_to_religion": "T's foundation-architecture maps closely to religion's denominational-endowment and missionary-fund subset. Direct comparison captures the 509(a)(3) governance regime as much as the religious/secular distinction.",
+      "fields_where_this_sector_is_notable": [
+        "sched_r_related_tax_exempt Pt II (29.03% — foundation-affiliate density, ranks #4 of 24)",
+        "sched_r_transactions Pt V (15.85% — heavy grant-to-affiliate flow)",
+        "sched_j_main any-row (23.53% — professionalized foundation governance)"
+      ]
+    },
+
+    "L": {
+      "label": "Housing & Shelter",
+      "what_this_sector_is": "Affordable-housing developers (LIHTC), homeless-shelter operators, transitional-housing programs, public-housing-affiliate orgs, senior housing. 77,132 filings (2014-2024).",
+      "typical_related_party_profile": "Each property typically held in a separate LLC for liability/financing reasons. Highest Sched R Pt II rate (52.18%) in the dataset — entirely structural for tax-credit and lender requirements. High Sched R Pt V at 20.80%. Low Sched L Pt I at 0.0052% (lowest of the substantial majors) and lowest insider-loan rate (2.02%).",
+      "comparison_to_religion": "The clearest example of why disclosure-density is not fraud-density. L's structural use of related-LLC architecture inflates every Sched R rate without any fraud-relevant signal.",
+      "fields_where_this_sector_is_notable": [
+        "sched_r_related_tax_exempt Pt II (52.18% — leads dataset; LIHTC architecture)",
+        "sched_r_transactions Pt V (20.80% — ranks #2)",
+        "sched_j_main any-row (32.44% — institutionalized housing-system executive comp)"
+      ]
+    },
+
+    "S": {
+      "label": "Community Improvement",
+      "what_this_sector_is": "Chambers of commerce, business-improvement districts, neighborhood associations, community development corps, economic-development orgs. 78,731 filings (2014-2024).",
+      "typical_related_party_profile": "Heavy 501(c)(4)/(c)(6) co-presence in related entities (business-association ecosystem) per regulatory framing. Low Sched L Pt I rate (0.0102%, 8 of 78,731) makes S a useful 'low-baseline' comparator. Religion at 0.0578% is ~5.7× S.",
+      "comparison_to_religion": "Different ecosystem from religion (business-association rather than religious-community). Useful as a low-baseline secular benchmark for excess-benefit rates.",
+      "fields_where_this_sector_is_notable": [
+        "sched_l_excess_benefit (0.0102% — among the lowest, useful low-baseline)",
+        "sched_r_related_tax_exempt Pt II (23.40%)"
+      ]
+    },
+
+    "Q": {
+      "label": "International, Foreign Affairs",
+      "what_this_sector_is": "International development, foreign mission organizations (including faith-based), humanitarian relief, international policy/advocacy, exchange programs. 32,910 filings (2014-2024).",
+      "typical_related_party_profile": "Most foreign-domicile activity in the dataset per regulatory framing; most legitimate offshore-affiliate use. Faith-based foreign missions (Samaritan's Purse, World Vision US, Compassion International, etc.) are coded Q, not X. Sched L Pt I 0.0365% (ranks #6 of 24).",
+      "comparison_to_religion": "Q captures a large fraction of what the public would call 'religious international work' — the NTEE coding boundary moves it out of religion. Direct X-vs-Q comparison helps separate 'religion' from 'foreign mission.'",
+      "fields_where_this_sector_is_notable": [
+        "sched_l_loans (3.89% — ranks #5)",
+        "sched_r_disregarded.legal_domicile (foreign-domicile presence per regulatory framing)"
+      ]
+    },
+
+    "A": {
+      "label": "Arts, Culture & Humanities",
+      "what_this_sector_is": "Museums, performing arts, visual arts, humanities orgs, historical societies, media (non-religious), libraries. 108,296 filings (2014-2024); third-largest sector.",
+      "typical_related_party_profile": "Highest insider-loan rate in dataset (4.89%) — per regulatory framing driven by donor-founder bankrolling (loan_to_organization direction); founder-passion orgs common at small end; donor-board members common. Sched L Pt I 0.0342% (ranks #7 of 24).",
+      "comparison_to_religion": "Resembles religion in founder-passion structure; insider-loan rates near-tied (A 4.89%, X 4.70%). Loan direction is the hypothesized differentiator — Arts is more often donor-funds-org, religion is more often org-funds-pastor — though the split is not numerically confirmed in current data.",
+      "fields_where_this_sector_is_notable": [
+        "sched_l_loans (4.89% — leads dataset)",
+        "sched_l_business_transactions Pt IV (5.70%)"
+      ]
+    },
+
+    "boring_sectors_note": "NTEE majors that are not worth dedicated comparison framing in the religion-vs-secular tool: D Animal-related (32,899 filings; small, structurally bland), G Voluntary Health Associations (18,011; specialty disease orgs, narrow signal), H Medical Research (8,982; very small, distinct regime — but #3 on §4958 at 0.0445%), I Crime & Legal-Related (18,434; specialized, low signal), J Employment (20,482; small, structurally bland), K Food/Agriculture (17,216; small, low signal), M Public Safety (34,266; lowest rates on most fraud-relevant fields, but for boring structural reasons — volunteer fire departments), N Recreation & Sports (71,059; athletic-club-like pattern), O Youth Development (31,727; mid-pack on everything), R Civil Rights & Civic Action (10,240; small, advocacy-bias profile), U Science & Tech (6,582; small, high org-size variance), V Social Science (2,755; smallest major, insufficient cells for stable rates — zero §4958 disclosures), W Public & Societal Benefit (18,534; catch-all)."
+
+  },
+
+  "global_caveats": [
+
+    {
+      "id": "disclosure_neq_wrongdoing",
+      "headline": "Disclosure is not wrongdoing",
+      "body": "Every rate in this tool is a disclosure rate. A high rate can mean more wrongdoing, more conscientious reporting, or more complex related-party architecture for non-fraud reasons. Schedule R is the clearest example: Housing & Shelter has the highest Sched R rates because affordable-housing developers structurally hold each property in a separate LLC — not because Housing has more fraud. Always ask what the structural baseline is before reading rate elevation as fraud signal."
+    },
+
+    {
+      "id": "rate_construction",
+      "headline": "Two rate constructions are in use; do not mix them",
+      "body": "Every per-filing rate in this tool uses n_distinct_filings_with_at_least_one_row / n_canonical_filings (the disclose-rate construction). The alternative n_rows / n_filings construction over-weights orgs that disclose many rows in one filing and is NOT used as a rate. Conditional rates (in-default loans, unwritten loans, §512(b)(13) controlled, sentinel names) use a different denominator (rows in the relevant table) and are explicitly tagged rate_kind=conditional in rel_vs_sec.json. Per-filing rates and conditional rates cannot be placed on the same axis without explicit segregation."
+    },
+
+    {
+      "id": "year_range_2014_2024",
+      "headline": "Headline rates are 2014-2024, excluding partial 2025",
+      "body": "Snapshot date is 2026-05-24. 2025 is a partial cohort (~14% of a full year by row count). Every headline ratio in this file uses 2014-2024. The with_2025 versions are computed and carried alongside in rel_vs_sec.json for transparency but are not the headline. Treat any number you can't trace to 2014-2024 as suspect."
+    },
+
+    {
+      "id": "church_exemption_hole",
+      "headline": "Church-exemption hole shapes the religion corpus",
+      "body": "IRC §6033(a)(3)(A)(i) exempts churches from filing Form 990. The 17,870 EINs (2014-2024) / 18,017 EINs (incl 2025) in the religion corpus are the voluntary-filer subset: ECFA members, federal-grant recipients under the Single Audit Act, religious-school operators, and religious orgs that chose to file. The non-filing church universe (~126,000 entities classified NTEE-X in the IRS Business Master File) is invisible. Every comparison ratio is filer-vs-filer, not population-vs-population. The voluntary-filer subset is more accountability-minded than the non-filing universe on average, so the visible religion rates are likely an OPTIMISTIC lower bound on what the full population would show on most procedural-governance fields."
+    },
+
+    {
+      "id": "group_ruling_subordinates",
+      "headline": "Group-ruling subordinates excluded from both corpora",
+      "body": "Rev. Proc. 80-27 (updated by Rev. Proc. 2018-40) lets a central organization file a single coordinated return covering subordinate entities. This excludes most US Catholic dioceses, parishes, schools and affiliates; most Southern Baptist Convention affiliates; most United Methodist Church / ELCA conference structures. The IRS 990 dataset — and therefore this tool — systematically under-represents Catholic, mainline Protestant, and large-denominational activity. Independent and non-denominational religious orgs are over-represented."
+    },
+
+    {
+      "id": "ntee_coding_artifact",
+      "headline": "NTEE coding is an IRS classification, not a religious self-identification",
+      "body": "NTEE-X captures orgs the IRS coded as religious in the Business Master File. Religiously-sponsored hospitals are NTEE-E (Health Care), faith-based foreign missions are typically NTEE-Q (International), faith-affiliated social services are typically NTEE-P (Human Services). The X-vs-secular comparison is therefore pastoral / theologically-primary religion vs everything else — not religious activity vs non-religious activity. Three of the four largest comparisons (X vs E, X vs P, X vs Q) are affected by this boundary."
+    },
+
+    {
+      "id": "no_fraud_label_join",
+      "headline": "No external fraud-label join",
+      "body": "This tool does not join 990 disclosures to SEC enforcement actions, DOJ indictments, state-AG actions, or charity-watchdog ratings. The 990 disclosures are themselves the signal: §4958 admissions, unwritten insider-loan terms, in-default loans, sentinel counterparty names, contingent comp, §512(b)(13)-controlled entities. Whether a given org is also subject to external enforcement is a separate inquiry."
+    },
+
+    {
+      "id": "covid_2019_dip",
+      "headline": "2019 trough is COVID, not behavior",
+      "body": "Every related-party table shows a ~45% volume trough at tax-period-end 2019. Those filings actually landed in calendar 2020 under IRS extension orders; the tax_period field stamps them as 2019. Treat 2019 as not-a-comparable-year in any time-series comparison."
+    },
+
+    {
+      "id": "sentinel_filter_extended",
+      "headline": "Sentinel filter is the extended post-audit version",
+      "body": "The religion-tuned sentinel filter (SUBSTANTIAL CONTRIBUTOR, NONE, VARIOUS, BOARD MEMBER, OFFICER, etc.) missed the secular corpus's dominant role-placeholders. The extended list (post-audit, 2026-05) now also catches VACANT, OPEN, POSITION OPEN, TBD, TBA, VOLUNTEER, RESIGNED, FORMER, RETIRED, DECEASED, INTERIM, ACTING, SEE ABOVE, SEE ATTACHED, AS NEEDED, NOT APPLICABLE, NOT REQUIRED, UNKNOWN, BOARD OF DIRECTORS, plus single-word common role/surname stand-ins (PRESIDENT, EXECUTIVE, MANAGER, FOUNDER) and short all-letter initials (≤3 chars). Religion sentinel rate (conditional, 2014-2024): 6.10% (910 of 14,921 Sched L rows). Secular: 9.25% (18,738 of 202,511). VACANT alone was #1 in the pre-audit pt_vii_people.json at 344 EINs."
+    },
+
+    {
+      "id": "rebuttable_presumption_fields_deprecated",
+      "headline": "Rebuttable-presumption procedural fields not extractable",
+      "body": "Reg. §53.4958-6 requires three elements for the rebuttable presumption of comp reasonableness: independent body approval, comparability data, contemporaneous documentation. The Form 990 Pt VI L15 trio that historically captured this is schema-deprecated from 2014v5.0+ and now lives in Sched O free text. The Sched J Pt I fields that approximate it (compensation_committee, compensation_survey) are populated; independent_compensation_consultant, written_policy_for_above, and approval_by_board_or_comp_committee are empty in the parsed corpus. The dataset cannot reconstruct full rebuttable-presumption posture."
+    },
+
+    {
+      "id": "small_n_subgroups",
+      "headline": "Small NTEE majors have unstable rates",
+      "body": "Social Science (V, 2,755 filings 2014-2024), Science & Technology (U, 6,582), Medical Research (H, 8,982), and Civil Rights & Civic Action (R, 10,240) have small enough cell sizes that subgroup rates on low-base-rate fields like sched_l_excess_benefit are statistically noisy. Require n_filings ≥ ~15,000 and n_with_disclosure ≥ ~30 for stable rate estimation on the rarer fields. V has zero §4958 disclosures across the entire 2014-2024 window."
+    },
+
+    {
+      "id": "990_ez_990_pf_excluded",
+      "headline": "Form 990 (full) only — 990-EZ and 990-PF excluded",
+      "body": "990-EZ filers don't file Sched L Pt IV or Sched R; 990-PF private foundations operate under the different §4941 self-dealing regime. The corpus therefore excludes small public charities (revenue typically <$200k) and private foundations. The visible related-party landscape is biased toward larger nonprofits."
+    },
+
+    {
+      "id": "self_incrimination_floor",
+      "headline": "§4958 admissions are a floor, not a population",
+      "body": "Schedule L Part I is a self-incrimination box. Reporting a non-zero entry is a tax admission triggering 25% first-tier excise tax on the disqualified person and 10% manager tax on knowing approvers. Filers do not volunteer these entries. In the religion corpus (2014-2024 excl partial-2025): 50 canonical filings with at least one Pt I row, at 27 distinct EINs, 84 raw rows. In the secular corpus over the same window: 307 canonical filings at 203 EINs, 446 raw rows. The disclosed floor — not an estimate of the actual excess-benefit population."
+    }
+
+  ]
+}

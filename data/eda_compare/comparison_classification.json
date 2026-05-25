@@ -1,0 +1,1326 @@
+{
+  "n_classified": 55,
+  "fields": [
+    {
+      "table": "sched_l_excess_benefit",
+      "column": "amt_tax_imposed",
+      "kind": "numeric",
+      "fraud_strength": "strongest",
+      "table_label": "Schedule L Pt I \u2014 Excess benefit transactions (\u00a74958)",
+      "religion_metric": 125432.5,
+      "religion_rank_of_24": 2,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 967.75,
+        "p50": 5805.0,
+        "p75": 20320.25,
+        "p90": 53248.000000000015,
+        "max": 337571.0
+      },
+      "closest_secular": {
+        "major": "I",
+        "value": 63913.0,
+        "rel_diff_pct": 0.4904590118191059
+      },
+      "bucket": "distinct_high"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "average_hours",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 2.0,
+      "religion_rank_of_24": 2,
+      "secular_quantiles": {
+        "min": 1.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p50": 1.0,
+        "p75": 1.125,
+        "p90": 2.0,
+        "max": 3.0
+      },
+      "closest_secular": {
+        "major": "D",
+        "value": 2.0,
+        "rel_diff_pct": 0.0
+      },
+      "bucket": "distinct_high"
+    },
+    {
+      "table": "sched_r_related_corp_trust",
+      "column": "percentage_ownership",
+      "kind": "numeric",
+      "fraud_strength": "moderate",
+      "table_label": "Schedule R Pt IV \u2014 Related corporations/trusts",
+      "religion_metric": 1.0,
+      "religion_rank_of_24": 22,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 1.0,
+        "p25": 1.0,
+        "p50": 1.0,
+        "p75": 1.0,
+        "p90": 1.0,
+        "max": 1.0
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 1.0,
+        "rel_diff_pct": 0.0
+      },
+      "bucket": "distinct_high"
+    },
+    {
+      "table": "sched_r_related_partnership",
+      "column": "percentage_ownership",
+      "kind": "numeric",
+      "fraud_strength": "moderate",
+      "table_label": "Schedule R Pt III \u2014 Related taxable partnerships",
+      "religion_metric": 0.65,
+      "religion_rank_of_24": 3,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0001,
+        "p25": 0.01,
+        "p50": 0.3257,
+        "p75": 0.5,
+        "p90": 0.555208,
+        "max": 0.81
+      },
+      "closest_secular": {
+        "major": "U",
+        "value": 0.675,
+        "rel_diff_pct": 0.03846153846153849
+      },
+      "bucket": "distinct_high"
+    },
+    {
+      "table": "sched_l_loans",
+      "column": "loan_to_organization",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt II \u2014 Loans to/from interested persons",
+      "religion_metric": 0.05215429731558764,
+      "religion_rank_of_24": 3,
+      "secular_quantiles": {
+        "min": 0.007744050647221752,
+        "p10": 0.017471460601270975,
+        "p25": 0.02291416760890216,
+        "p50": 0.03068546768366118,
+        "p75": 0.03871374702490851,
+        "p90": 0.043486423419174636,
+        "max": 0.06850606610452913
+      },
+      "closest_secular": {
+        "major": "V",
+        "value": 0.05586987270155587,
+        "rel_diff_pct": 0.07124197961071434
+      },
+      "bucket": "distinct_high"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "housing_allowance_residence",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.022400180464696592,
+      "religion_rank_of_24": 3,
+      "secular_quantiles": {
+        "min": 0.0005652591713300549,
+        "p10": 0.002011835113143744,
+        "p25": 0.002566615603778497,
+        "p50": 0.0037441782594137166,
+        "p75": 0.007102350453805292,
+        "p90": 0.018552267938762017,
+        "max": 0.046247522820852455
+      },
+      "closest_secular": {
+        "major": "Q",
+        "value": 0.02385342930224258,
+        "rel_diff_pct": 0.06487665757141356
+      },
+      "bucket": "distinct_high"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "base_compensation_filing_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 139568.5,
+      "religion_rank_of_24": 22,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 143531.1,
+        "p25": 156021.75,
+        "p50": 162431.0,
+        "p75": 168945.5,
+        "p90": 178706.6,
+        "max": 185309.0
+      },
+      "closest_secular": {
+        "major": "J",
+        "value": 142645.0,
+        "rel_diff_pct": 0.0220429394884949
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "deferred_compensation_filing_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 1906.0,
+      "religion_rank_of_24": 21,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 1985.4,
+        "p25": 5006.0,
+        "p50": 6264.0,
+        "p75": 8092.0,
+        "p90": 10092.0,
+        "max": 13842.0
+      },
+      "closest_secular": {
+        "major": "P",
+        "value": 1893.0,
+        "rel_diff_pct": 0.006820566631689402
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "individual_trustee_or_director",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 5.205402661854275,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 5.354134870838279,
+        "p10": 7.849757907788028,
+        "p25": 8.964734765507078,
+        "p50": 9.767550027041644,
+        "p75": 10.618098918581905,
+        "p90": 11.065732718754774,
+        "max": 12.919377652050919
+      },
+      "closest_secular": {
+        "major": "M",
+        "value": 5.354134870838279,
+        "rel_diff_pct": 0.028572661645165146
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "officer",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 2.84301827205053,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 3.492420871525615,
+        "p10": 3.8321892729029954,
+        "p25": 3.939821003619927,
+        "p50": 4.097458085451596,
+        "p75": 4.20128514498218,
+        "p90": 4.346026980671725,
+        "max": 4.9482153365394375
+      },
+      "closest_secular": {
+        "major": "D",
+        "value": 3.492420871525615,
+        "rel_diff_pct": 0.22842012865668382
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "highest_compensated_employee",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 0.12453191969321002,
+      "religion_rank_of_24": 23,
+      "secular_quantiles": {
+        "min": 0.07094002600192188,
+        "p10": 0.16289452689394807,
+        "p25": 0.2192329372785982,
+        "p50": 0.3981734201133739,
+        "p75": 0.5230313376446374,
+        "p90": 0.8420135302714344,
+        "max": 1.5632799659097827
+      },
+      "closest_secular": {
+        "major": "N",
+        "value": 0.13450882289649235,
+        "rel_diff_pct": 0.0801152285121829
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "compensation_survey",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.022727272727272728,
+      "religion_rank_of_24": 23,
+      "secular_quantiles": {
+        "min": 0.009637668871177434,
+        "p10": 0.033318259741011845,
+        "p25": 0.0545065126974988,
+        "p50": 0.08242031590968195,
+        "p75": 0.1044985335081676,
+        "p90": 0.166290143773376,
+        "max": 0.22229662547432072
+      },
+      "closest_secular": {
+        "major": "N",
+        "value": 0.024693350548741125,
+        "rel_diff_pct": 0.08650742414460946
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "compensation_committee",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.018723212271599367,
+      "religion_rank_of_24": 23,
+      "secular_quantiles": {
+        "min": 0.005369962127635521,
+        "p10": 0.027050070617391328,
+        "p25": 0.04190760122323636,
+        "p50": 0.05919675779822609,
+        "p75": 0.07979380703712244,
+        "p90": 0.1330956532569436,
+        "max": 0.17205413851179968
+      },
+      "closest_secular": {
+        "major": "N",
+        "value": 0.021721002797503768,
+        "rel_diff_pct": 0.1601109084498097
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "non_fixed_payments",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.005639521768554027,
+      "religion_rank_of_24": 22,
+      "secular_quantiles": {
+        "min": 0.0031937143180148096,
+        "p10": 0.008867317291592292,
+        "p25": 0.010511860898077612,
+        "p50": 0.018830289040545966,
+        "p75": 0.02606731531486476,
+        "p90": 0.04958606117181652,
+        "max": 0.11610965686572919
+      },
+      "closest_secular": {
+        "major": "N",
+        "value": 0.00521842048633527,
+        "rel_diff_pct": 0.07466967936302986
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "severance_payment",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.002977667493796526,
+      "religion_rank_of_24": 22,
+      "secular_quantiles": {
+        "min": 0.0016957775139901645,
+        "p10": 0.004231868833208706,
+        "p25": 0.006294780053080053,
+        "p50": 0.009922874341610233,
+        "p75": 0.014690372272273518,
+        "p90": 0.023485964862521875,
+        "max": 0.08982163511292385
+      },
+      "closest_secular": {
+        "major": "N",
+        "value": 0.0025150634818162255,
+        "rel_diff_pct": 0.15535784735671762
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "health_or_social_club_dues",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.0014098804421385067,
+      "religion_rank_of_24": 23,
+      "secular_quantiles": {
+        "min": 0.0007348369227290713,
+        "p10": 0.0024106801366519247,
+        "p25": 0.004051917638249115,
+        "p50": 0.006381828015143321,
+        "p75": 0.010493982827103236,
+        "p90": 0.021036528667931792,
+        "max": 0.030975426635011464
+      },
+      "closest_secular": {
+        "major": "M",
+        "value": 0.0007348369227290713,
+        "rel_diff_pct": 0.4787948674467243
+      },
+      "bucket": "distinct_low"
+    },
+    {
+      "table": "sched_l_excess_benefit",
+      "column": "transaction_corrected",
+      "kind": "boolean",
+      "fraud_strength": "strongest",
+      "table_label": "Schedule L Pt I \u2014 Excess benefit transactions (\u00a74958)",
+      "religion_metric": 0.00023685991427926912,
+      "religion_rank_of_24": 5,
+      "secular_quantiles": {
+        "min": 2.4650881885299446e-05,
+        "p10": 5.660082852101543e-05,
+        "p25": 6.160860056063827e-05,
+        "p50": 8.922729165427399e-05,
+        "p75": 0.00020457537268296153,
+        "p90": 0.0004315400324265049,
+        "max": 0.0007524454477050414
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.00020457537268296153,
+        "rel_diff_pct": 0.13630225990136335
+      },
+      "bucket": "looks_like_A"
+    },
+    {
+      "table": "sched_l_loans",
+      "column": "loan_from_organization",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt II \u2014 Loans to/from interested persons",
+      "religion_metric": 0.020133092713737876,
+      "religion_rank_of_24": 5,
+      "secular_quantiles": {
+        "min": 0.004465547453507433,
+        "p10": 0.006967844123214355,
+        "p25": 0.007971866454810062,
+        "p50": 0.01206994698829473,
+        "p75": 0.01756388958245563,
+        "p90": 0.027940640727666683,
+        "max": 0.15056480380499407
+      },
+      "closest_secular": {
+        "major": "V",
+        "value": 0.02050919377652051,
+        "rel_diff_pct": 0.018680739622581672
+      },
+      "bucket": "looks_like_V"
+    },
+    {
+      "table": "sched_l_loans",
+      "column": "written_agreement",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt II \u2014 Loans to/from interested persons",
+      "religion_metric": 0.04214978569817279,
+      "religion_rank_of_24": 5,
+      "secular_quantiles": {
+        "min": 0.006302639760330111,
+        "p10": 0.016760032280241227,
+        "p25": 0.023240254546316647,
+        "p50": 0.027474310438074634,
+        "p75": 0.037503677095900245,
+        "p90": 0.05717174000003725,
+        "max": 0.16513079667063021
+      },
+      "closest_secular": {
+        "major": "B",
+        "value": 0.040379303617451665,
+        "rel_diff_pct": 0.04200453338954649
+      },
+      "bucket": "looks_like_B"
+    },
+    {
+      "table": "sched_l_loans",
+      "column": "approved_by_board",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt II \u2014 Loans to/from interested persons",
+      "religion_metric": 0.05916986239566885,
+      "religion_rank_of_24": 5,
+      "secular_quantiles": {
+        "min": 0.009892035498275959,
+        "p10": 0.022010008804069874,
+        "p25": 0.029773944727680683,
+        "p50": 0.039359532434324676,
+        "p75": 0.04621885902877722,
+        "p90": 0.06876890538877777,
+        "max": 0.17092746730083233
+      },
+      "closest_secular": {
+        "major": "V",
+        "value": 0.06683168316831684,
+        "rel_diff_pct": 0.12948856837647169
+      },
+      "bucket": "looks_like_V"
+    },
+    {
+      "table": "sched_l_loans",
+      "column": "balance_due",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt II \u2014 Loans to/from interested persons",
+      "religion_metric": 29956.0,
+      "religion_rank_of_24": 6,
+      "secular_quantiles": {
+        "min": 11166.0,
+        "p10": 15848.4,
+        "p25": 20156.5,
+        "p50": 25000.0,
+        "p75": 25570.5,
+        "p90": 41713.20000000001,
+        "max": 80000.0
+      },
+      "closest_secular": {
+        "major": "D",
+        "value": 30000.0,
+        "rel_diff_pct": 0.0014688209373748165
+      },
+      "bucket": "looks_like_D"
+    },
+    {
+      "table": "sched_l_loans",
+      "column": "in_default",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt II \u2014 Loans to/from interested persons",
+      "religion_metric": 0.0005188360027069704,
+      "religion_rank_of_24": 7,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 6.708066739190333e-05,
+        "p25": 0.00017645837498801647,
+        "p50": 0.00028519821275786673,
+        "p75": 0.0005107609518871518,
+        "p90": 0.0005914834016980061,
+        "max": 0.0007994732881866065
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.000569253210943893,
+        "rel_diff_pct": 0.09717368874533817
+      },
+      "bucket": "looks_like_A"
+    },
+    {
+      "table": "sched_l_loans",
+      "column": "original_principal",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt II \u2014 Loans to/from interested persons",
+      "religion_metric": 36000.0,
+      "religion_rank_of_24": 8,
+      "secular_quantiles": {
+        "min": 15385.0,
+        "p10": 21093.600000000002,
+        "p25": 30000.0,
+        "p50": 32683.0,
+        "p75": 38652.0,
+        "p90": 64502.00000000002,
+        "max": 100000.0
+      },
+      "closest_secular": {
+        "major": "D",
+        "value": 35064.0,
+        "rel_diff_pct": 0.026
+      },
+      "bucket": "looks_like_D"
+    },
+    {
+      "table": "sched_l_grants_to_interested",
+      "column": "amount_of_assistance",
+      "kind": "numeric",
+      "fraud_strength": "moderate",
+      "table_label": "Schedule L Pt III \u2014 Grants to interested persons",
+      "religion_metric": 5865.5,
+      "religion_rank_of_24": 10,
+      "secular_quantiles": {
+        "min": 750.0,
+        "p10": 1640.0,
+        "p25": 2000.0,
+        "p50": 3523.0,
+        "p75": 11598.75,
+        "p90": 26103.5,
+        "max": 50000.0
+      },
+      "closest_secular": {
+        "major": "P",
+        "value": 5759.0,
+        "rel_diff_pct": 0.018157019861904357
+      },
+      "bucket": "looks_like_P"
+    },
+    {
+      "table": "sched_r_disregarded",
+      "column": "total_income",
+      "kind": "numeric",
+      "fraud_strength": "moderate",
+      "table_label": "Schedule R Pt I \u2014 Disregarded entities",
+      "religion_metric": 27480.0,
+      "religion_rank_of_24": 10,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 199.80000000000004,
+        "p25": 4617.75,
+        "p50": 19999.5,
+        "p75": 54623.0,
+        "p90": 93812.5,
+        "max": 585900.5
+      },
+      "closest_secular": {
+        "major": "B",
+        "value": 28220.5,
+        "rel_diff_pct": 0.026946870451237264
+      },
+      "bucket": "looks_like_B"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "personal_services",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.0005188360027069704,
+      "religion_rank_of_24": 10,
+      "secular_quantiles": {
+        "min": 0.00010497585555322275,
+        "p10": 0.00018012040207805298,
+        "p25": 0.0003048489711707127,
+        "p50": 0.00039441411016479113,
+        "p75": 0.0007345458848703656,
+        "p90": 0.003754283867170435,
+        "max": 0.013456345172452741
+      },
+      "closest_secular": {
+        "major": "N",
+        "value": 0.0005648805681084571,
+        "rel_diff_pct": 0.08874589496730016
+      },
+      "bucket": "looks_like_N"
+    },
+    {
+      "table": "sched_r_related_tax_exempt",
+      "column": "section_512b_13_controlled",
+      "kind": "boolean",
+      "fraud_strength": "moderate",
+      "table_label": "Schedule R Pt II \u2014 Related tax-exempt organizations",
+      "religion_metric": 0.12146401985111663,
+      "religion_rank_of_24": 11,
+      "secular_quantiles": {
+        "min": 0.011163868633768583,
+        "p10": 0.023366429507632767,
+        "p25": 0.039964303685029755,
+        "p50": 0.10642400300978179,
+        "p75": 0.42103054892290176,
+        "p90": 0.5737600664762684,
+        "max": 6.619559262190297
+      },
+      "closest_secular": {
+        "major": "B",
+        "value": 0.12030619474478638,
+        "rel_diff_pct": 0.009532247555691344
+      },
+      "bucket": "looks_like_B"
+    },
+    {
+      "table": "sched_r_related_partnership",
+      "column": "general_or_managing_partner",
+      "kind": "boolean",
+      "fraud_strength": "moderate",
+      "table_label": "Schedule R Pt III \u2014 Related taxable partnerships",
+      "religion_metric": 0.008560794044665013,
+      "religion_rank_of_24": 11,
+      "secular_quantiles": {
+        "min": 0.0003536067892503536,
+        "p10": 0.0006016476361655746,
+        "p25": 0.0025109578659401723,
+        "p50": 0.007195716369587647,
+        "p75": 0.03522487164886719,
+        "p90": 0.08436545191368916,
+        "max": 0.44851465274989966
+      },
+      "closest_secular": {
+        "major": "B",
+        "value": 0.007372495867089712,
+        "rel_diff_pct": 0.13880700451096992
+      },
+      "bucket": "looks_like_B"
+    },
+    {
+      "table": "sched_r_transactions",
+      "column": "transaction_amount",
+      "kind": "numeric",
+      "fraud_strength": "strongest",
+      "table_label": "Schedule R Pt V \u2014 Transactions with related organizations",
+      "religion_metric": 155460.0,
+      "religion_rank_of_24": 12,
+      "secular_quantiles": {
+        "min": 100000.0,
+        "p10": 109900.0,
+        "p25": 131561.5,
+        "p50": 155326.0,
+        "p75": 252283.5,
+        "p90": 340919.80000000005,
+        "max": 685973.0
+      },
+      "closest_secular": {
+        "major": "K",
+        "value": 155326.0,
+        "rel_diff_pct": 0.0008619580599511128
+      },
+      "bucket": "looks_like_K"
+    },
+    {
+      "table": "sched_r_disregarded",
+      "column": "end_of_year_assets",
+      "kind": "numeric",
+      "fraud_strength": "moderate",
+      "table_label": "Schedule R Pt I \u2014 Disregarded entities",
+      "religion_metric": 268940.5,
+      "religion_rank_of_24": 14,
+      "secular_quantiles": {
+        "min": 894.0,
+        "p10": 89838.5,
+        "p25": 164870.5,
+        "p50": 311558.0,
+        "p75": 397381.75,
+        "p90": 515219.9,
+        "max": 912915.0
+      },
+      "closest_secular": {
+        "major": "F",
+        "value": 258645.0,
+        "rel_diff_pct": 0.038281701714691536
+      },
+      "bucket": "looks_like_F"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "key_employee",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 0.15509812767877285,
+      "religion_rank_of_24": 14,
+      "secular_quantiles": {
+        "min": 0.06345034198179865,
+        "p10": 0.10827319795136542,
+        "p25": 0.13038759375645154,
+        "p50": 0.16872448921904504,
+        "p75": 0.21990336673786753,
+        "p90": 0.2976077745400646,
+        "max": 0.6318662364805909
+      },
+      "closest_secular": {
+        "major": "L",
+        "value": 0.15686471296668006,
+        "rel_diff_pct": 0.011390113564530107
+      },
+      "bucket": "looks_like_L"
+    },
+    {
+      "table": "sched_l_business_transactions",
+      "column": "sharing_of_revenues",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt IV \u2014 Business transactions with interested persons",
+      "religion_metric": 0.0006203473945409429,
+      "religion_rank_of_24": 15,
+      "secular_quantiles": {
+        "min": 0.00015660889538525788,
+        "p10": 0.00023308692640838105,
+        "p25": 0.00047600510733252605,
+        "p50": 0.0008881906580825349,
+        "p75": 0.0015722339266779602,
+        "p90": 0.0028188621606578686,
+        "max": 0.007072135785007072
+      },
+      "closest_secular": {
+        "major": "C",
+        "value": 0.0005835918542863286,
+        "rel_diff_pct": 0.05924993089043832
+      },
+      "bucket": "looks_like_C"
+    },
+    {
+      "table": "sched_r_related_corp_trust",
+      "column": "section_512b_13_controlled",
+      "kind": "boolean",
+      "fraud_strength": "moderate",
+      "table_label": "Schedule R Pt IV \u2014 Related corporations/trusts",
+      "religion_metric": 0.025163546131288066,
+      "religion_rank_of_24": 15,
+      "secular_quantiles": {
+        "min": 0.0031962497336458554,
+        "p10": 0.0071176815258894586,
+        "p25": 0.012008374957199239,
+        "p50": 0.06483181935833754,
+        "p75": 0.10660390068481919,
+        "p90": 0.17925844646761882,
+        "max": 1.5395994399464297
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.027973458569039742,
+        "rel_diff_pct": 0.11166599584538935
+      },
+      "bucket": "looks_like_A"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "nontaxable_benefits_filing_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 9703.0,
+      "religion_rank_of_24": 15,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 4672.2,
+        "p25": 7159.0,
+        "p50": 10314.0,
+        "p75": 11512.0,
+        "p90": 12463.1,
+        "max": 13615.5
+      },
+      "closest_secular": {
+        "major": "K",
+        "value": 10015.5,
+        "rel_diff_pct": 0.032206534061630425
+      },
+      "bucket": "looks_like_K"
+    },
+    {
+      "table": "sched_l_business_transactions",
+      "column": "transaction_amount",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule L Pt IV \u2014 Business transactions with interested persons",
+      "religion_metric": 40468.5,
+      "religion_rank_of_24": 16,
+      "secular_quantiles": {
+        "min": 18419.0,
+        "p10": 29331.6,
+        "p25": 33862.0,
+        "p50": 49360.5,
+        "p75": 60934.75,
+        "p90": 69503.3,
+        "max": 104400.0
+      },
+      "closest_secular": {
+        "major": "C",
+        "value": 40238.0,
+        "rel_diff_pct": 0.005695788082088538
+      },
+      "bucket": "looks_like_C"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "compensation_contingent_on_net_earnings",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.0002594180013534852,
+      "religion_rank_of_24": 16,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 6.931893504689891e-05,
+        "p25": 0.00020301886191274591,
+        "p50": 0.000887450407183128,
+        "p75": 0.0023766499189090107,
+        "p90": 0.0035350977751787416,
+        "max": 0.01754225766522595
+      },
+      "closest_secular": {
+        "major": "C",
+        "value": 0.00024572288601529626,
+        "rel_diff_pct": 0.05279169242973188
+      },
+      "bucket": "looks_like_C"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "tax_indemnification",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.0014549966162869389,
+      "religion_rank_of_24": 17,
+      "secular_quantiles": {
+        "min": 0.000763099881295574,
+        "p10": 0.0010108998177808834,
+        "p25": 0.0014211749774980763,
+        "p50": 0.002690761718101186,
+        "p75": 0.006630554445484771,
+        "p90": 0.009942085677438978,
+        "max": 0.02567926787199935
+      },
+      "closest_secular": {
+        "major": "L",
+        "value": 0.00143014853472501,
+        "rel_diff_pct": 0.017077759002175338
+      },
+      "bucket": "looks_like_L"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "former",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 0.016986239566884727,
+      "religion_rank_of_24": 20,
+      "secular_quantiles": {
+        "min": 0.008987620824147871,
+        "p10": 0.015763781523192456,
+        "p25": 0.02276333513932682,
+        "p50": 0.02807685444054488,
+        "p75": 0.04005608352936994,
+        "p90": 0.05655009759036875,
+        "max": 0.33999918832815895
+      },
+      "closest_secular": {
+        "major": "C",
+        "value": 0.01726203274257456,
+        "rel_diff_pct": 0.016236270223546276
+      },
+      "bucket": "looks_like_C"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "supplemental_nonqualified_retirement",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.004861267764493571,
+      "religion_rank_of_24": 21,
+      "secular_quantiles": {
+        "min": 0.003363292069413826,
+        "p10": 0.004530439251973474,
+        "p25": 0.007783290395660366,
+        "p50": 0.02191497366440933,
+        "p75": 0.03309868945177533,
+        "p90": 0.042755726239407515,
+        "max": 0.22584768977902234
+      },
+      "closest_secular": {
+        "major": "O",
+        "value": 0.005113999573833369,
+        "rel_diff_pct": 0.05198886825073437
+      },
+      "bucket": "looks_like_O"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "compensation_contingent_on_revenues",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.0005977893074667268,
+      "religion_rank_of_24": 21,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0005470829409782772,
+        "p25": 0.0010254236260017016,
+        "p50": 0.0017274025844600206,
+        "p75": 0.003117982299763466,
+        "p90": 0.008408608399146877,
+        "max": 0.02180353483086788
+      },
+      "closest_secular": {
+        "major": "R",
+        "value": 0.0006654624964350223,
+        "rel_diff_pct": 0.11320575347036002
+      },
+      "bucket": "looks_like_R"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "total_filing_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 172417.5,
+      "religion_rank_of_24": 21,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 171565.6,
+        "p25": 183631.0,
+        "p50": 188857.5,
+        "p75": 198266.75,
+        "p90": 211902.4,
+        "max": 229441.0
+      },
+      "closest_secular": {
+        "major": "P",
+        "value": 169864.5,
+        "rel_diff_pct": 0.014807081647744573
+      },
+      "bucket": "looks_like_P"
+    },
+    {
+      "table": "part_vii_contractors",
+      "column": "compensation",
+      "kind": "numeric",
+      "fraud_strength": "moderate",
+      "table_label": "Part VII Section B \u2014 Top 5 contractors",
+      "religion_metric": 219616.5,
+      "religion_rank_of_24": 21,
+      "secular_quantiles": {
+        "min": 199696.5,
+        "p10": 216397.9,
+        "p25": 232884.5,
+        "p50": 252000.0,
+        "p75": 290293.75,
+        "p90": 305510.4,
+        "max": 627662.0
+      },
+      "closest_secular": {
+        "major": "I",
+        "value": 212807.0,
+        "rel_diff_pct": 0.031006322384702426
+      },
+      "bucket": "looks_like_I"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "travel_companions",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.004150688021655764,
+      "religion_rank_of_24": 12,
+      "secular_quantiles": {
+        "min": 0.0008746551840139945,
+        "p10": 0.0011398133375909467,
+        "p25": 0.001777699215692217,
+        "p50": 0.003066494512588767,
+        "p75": 0.010115600093026731,
+        "p90": 0.014089305772883944,
+        "max": 0.023335315101070155
+      },
+      "closest_secular": {
+        "major": "R",
+        "value": 0.005038501758722312,
+        "rel_diff_pct": 0.21389555958782666
+      },
+      "bucket": "inside_pack"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "first_class_or_charter_travel",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.0036656891495601175,
+      "religion_rank_of_24": 12,
+      "secular_quantiles": {
+        "min": 5.6208195154853575e-05,
+        "p10": 0.0008906800469841991,
+        "p25": 0.00153016308405474,
+        "p50": 0.0031042089159284162,
+        "p75": 0.007834248744771925,
+        "p90": 0.012126274679593093,
+        "max": 0.02274078478002378
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0031042089159284162,
+        "rel_diff_pct": 0.1531718077347281
+      },
+      "bucket": "inside_pack"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "discretionary_spending_account",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.0007218587863749154,
+      "religion_rank_of_24": 17,
+      "secular_quantiles": {
+        "min": 0.00017798344753937884,
+        "p10": 0.00042833505095498894,
+        "p25": 0.000576994139901031,
+        "p50": 0.001520973422990714,
+        "p75": 0.0018705032654596175,
+        "p90": 0.005018419968899041,
+        "max": 0.008684888699498792
+      },
+      "closest_secular": {
+        "major": "C",
+        "value": 0.0005835918542863286,
+        "rel_diff_pct": 0.19154290935897042
+      },
+      "bucket": "inside_pack"
+    },
+    {
+      "table": "sched_j_main",
+      "column": "equity_based_compensation",
+      "kind": "boolean",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt I \u2014 Compensation policy indicators",
+      "religion_metric": 0.00010151139183397248,
+      "religion_rank_of_24": 15,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.00014863258026159333,
+        "p75": 0.00025177287162249677,
+        "p90": 0.0005562167056677498,
+        "max": 0.002828854314002829
+      },
+      "closest_secular": {
+        "major": "J",
+        "value": 0.00014108352144469525,
+        "rel_diff_pct": 0.38982944569852007
+      },
+      "bucket": "inside_pack"
+    },
+    {
+      "table": "sched_l_excess_benefit",
+      "column": "amt_tax_reimbursed",
+      "kind": "numeric",
+      "fraud_strength": "strongest",
+      "table_label": "Schedule L Pt I \u2014 Excess benefit transactions (\u00a74958)",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 17,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "base_compensation_related_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 185122.0
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "bonus_filing_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 1736.5
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "bonus_related_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "deferred_compensation_related_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 6349.0
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    },
+    {
+      "table": "sched_j_compensation",
+      "column": "total_related_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Schedule J Pt II \u2014 Per-officer compensation",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 220193.5
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "reportable_comp_from_org",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "reportable_comp_from_related",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    },
+    {
+      "table": "part_vii_officers",
+      "column": "other_compensation",
+      "kind": "numeric",
+      "fraud_strength": "strong",
+      "table_label": "Part VII Section A \u2014 Officers/directors/trustees/key employees",
+      "religion_metric": 0.0,
+      "religion_rank_of_24": 24,
+      "secular_quantiles": {
+        "min": 0.0,
+        "p10": 0.0,
+        "p25": 0.0,
+        "p50": 0.0,
+        "p75": 0.0,
+        "p90": 0.0,
+        "max": 0.0
+      },
+      "closest_secular": {
+        "major": "A",
+        "value": 0.0,
+        "rel_diff_pct": null
+      },
+      "bucket": "degenerate"
+    }
+  ],
+  "notes": "Religion-vs-23-secular classification for each boolean and numeric field. Booleans use 'disclose_rate' (n_true / canonical filings) as the comparison metric; numerics use median. Buckets: distinct_high (X at or above secular p90), distinct_low (X at or below p10), looks_like_X (X within 15% of one specific sector), inside_pack (X between p25 and p75 with no notably close neighbour). Order: distinct_high first."
+}

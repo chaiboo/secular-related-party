@@ -37,7 +37,12 @@
     "sum_tax_imposed": 13823605.0,
     "sum_tax_reimbursed": 13000.0,
     "n_reimbursed": 1,
-    "n_uncorrected": 0
+    "n_uncorrected": 0,
+    "n_distinct_filings_with_disclosure": 316,
+    "n_distinct_filings_with_disclosure_excl_2025": 307,
+    "n_eins_excl_2025": 203,
+    "n_rows_excl_2025": 446,
+    "denominator_definition": "n_distinct_filings_with_disclosure / n_filings (preferred). n_rows / n_filings is also reported but should NOT be called a 'rate'."
   },
   "sched_l_sentinel_yearly": [
     {
@@ -102,8 +107,17 @@
     }
   ],
   "sched_l_sentinel_overall": {
-    "n_total": 206299,
-    "n_sentinel": 18713,
-    "pct_sentinel": 0.09070814691297582
+    "n_total": 206712,
+    "n_sentinel": 19072,
+    "pct_sentinel": 0.09226363249351754,
+    "n_total_excl_2025": 202511,
+    "n_sentinel_excl_2025": 18738,
+    "pct_sentinel_excl_2025": 0.09252830710430544,
+    "filter_version": "extended_post_audit_2026-05"
+  },
+  "_meta": {
+    "partial_year_2025_in_aggregates": true,
+    "rationale": "Headline aggregates in this file pool 2014-2025; 2025 is a partial cohort (~14% of a full year by row count). Use rel_vs_sec.json for headline rates, which carry both a 2014-2024 'headline' rate and a 2014-2025 'with_2025' rate side by side.",
+    "data_snapshot_date": "2026-05-24"
   }
 }

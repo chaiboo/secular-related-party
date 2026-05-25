@@ -1,9 +1,34 @@
 [
   {
+    "title": "Rate construction (post-audit)",
+    "bullets": [
+      "Every per-filing disclosure rate in this tool uses one denominator: <code>n_distinct_filings_with_at_least_one_row / n_canonical_filings</code>.",
+      "This is &ldquo;what share of canonical filings disclosed this at all&rdquo;. <code>n_rows / n_filings</code> is NOT used as a rate (it over-weights orgs that disclose many rows in one filing).",
+      "Conditional rates (in-default loans, unwritten loans, &sect;512(b)(13) controlled, sentinel names) have a different denominator (rows in the relevant table) and are explicitly tagged <code>rate_kind=conditional</code> in <code>rel_vs_sec.json</code>. The UI must not place rows of different rate_kind on the same axis."
+    ]
+  },
+  {
+    "title": "Partial-year 2025 handling (post-audit)",
+    "bullets": [
+      "2025 is a partial cohort &mdash; the snapshot is from 2026-05-24.",
+      "Headline rates and corpus counts exclude 2025. The <em>with_2025</em> versions are carried alongside in every rates JSON for transparency.",
+      "Per-field detail (columns/, summary.json) still includes 2025 with the year clearly visible &mdash; throwing away 2025 entirely would lose information."
+    ]
+  },
+  {
+    "title": "Sentinel filter (extended post-audit)",
+    "bullets": [
+      "The religion-tuned sentinel filter caught <code>SUBSTANTIAL CONTRIBUTOR / NONE / VARIOUS / BOARD MEMBER / OFFICER</code> etc. but missed the secular corpus's dominant role-placeholders.",
+      "Extended list now also catches: <code>VACANT, OPEN, POSITION OPEN, TBD, TBA, VOLUNTEER, RESIGNED, FORMER, RETIRED, DECEASED, INTERIM, ACTING, SEE ABOVE, SEE ATTACHED, AS NEEDED, NOT APPLICABLE, NOT REQUIRED, UNKNOWN, BOARD OF DIRECTORS</code>.",
+      "A heuristic gate also flags single-word common role/surname stand-ins (<code>PRESIDENT, EXECUTIVE, MANAGER, FOUNDER</code> etc. as single uppercase tokens) and short all-letter initials (&le;3 chars).",
+      "VACANT alone was #1 in the pre-audit <code>pt_vii_people.json</code> at 344 EINs."
+    ]
+  },
+  {
     "title": "Churches that don't file are invisible",
     "bullets": [
       "&sect;6033(a)(3)(A)(i) exempts churches from filing Form 990.",
-      "The 15,656 church-status filers here are a self-selecting subset: ECFA members, federal-grant recipients under the Single Audit Act, religious nonprofits that opted in.",
+      "The religion subset here is a self-selecting voluntary-filer cohort: ECFA members, federal-grant recipients under the Single Audit Act, religious nonprofits that opted in.",
       "Any rate or ratio you compute is filer-vs-filer, not population-vs-population &mdash; the denominator is what chose to file."
     ]
   },
@@ -18,26 +43,25 @@
   {
     "title": "Sched R is a disclosure tree, not a peer network",
     "bullets": [
-      "Only 8.8% of disclosed related tax-exempt EINs are themselves filers in this corpus &mdash; the rest are non-filing affiliates the filer is reporting on.",
-      "Top-cited entities are all Christian Television Network affiliates, with 15&ndash;16 distinct citing filers each.",
-      "22.8% of related entities are cited by &ge;2 filers; only 2.7% by &ge;5.",
-      "Read the network as <em>disclosed corporate families</em>, not <em>a network of religious nonprofits</em>."
+      "Only a small share of disclosed related tax-exempt EINs are themselves filers in this corpus &mdash; the rest are non-filing affiliates the filer is reporting on.",
+      "Read the network as <em>disclosed corporate families</em>, not <em>a network of peer nonprofits</em>."
     ]
   },
   {
-    "title": "&sect;4958 admissions are a floor, not a population",
+    "title": "\u00a74958 admissions are a floor, not a population",
     "bullets": [
       "Schedule L Part I (excess-benefit transactions) is a self-incrimination box &mdash; reporting a non-zero entry is a tax admission.",
-      "84 rows total across 2015&ndash;2024, at 27 distinct EINs.",
+      "Religion corpus (2014-2024, excl partial-2025): 50 canonical filings with at least one Pt I row, at 27 distinct EINs, 84 raw rows.",
+      "Secular corpus (2014-2024, excl partial-2025): 307 canonical filings with at least one Pt I row, at 203 distinct EINs, 446 raw rows.",
       "The actual population of excess-benefit transactions is unknowable from Form 990 alone &mdash; this is the disclosed floor, not an estimate of behavior."
     ]
   },
   {
     "title": "Sentinels are kept separate from real names",
     "bullets": [
-      "Person-name and relationship columns include filer dodges: SUBSTANTIAL CONTRIBUTOR, NONE, NA, VARIOUS, SEE PART V.",
+      "Person-name and relationship columns include filer dodges plus role-placeholders.",
       "These are real disclosures with the counterparty obscured &mdash; not missing data.",
-      "Surfaced as their own bucket in the Sched L persons tab, never merged with real names. The sentinel-share-by-year line in that tab is itself a data finding."
+      "Surfaced as their own bucket in the Sched L persons tab, never merged with real names."
     ]
   },
   {
@@ -49,19 +73,19 @@
     ]
   },
   {
-    "title": "Sched L person-name graph is essentially zero",
+    "title": "Pt VII person-name interlocks are candidates, not confirmed identities",
     "bullets": [
-      "Across all Schedule L parts, only 37 normalized person names appear at &ge;2 distinct filers.",
-      "Either insider relationships are genuinely org-specific in this population, or name normalization is missing variants that would need fuzzy matching to recover.",
-      "The cross-filer <em>shared insider</em> signal lives in Part VII (1,874 persons appearing at &ge;3 EINs), not Schedule L."
+      "<code>pt_vii_people.json</code>'s top-interlock list is dominated by common name collisions (<em>DAVID SMITH</em>, <em>MICHAEL JOHNSON</em> et al.) once placeholder sentinels are filtered.",
+      "Each high-degree person is a candidate for further investigation, not a confirmed cross-org affiliation. Same-name collisions are systematic in a 187k-EIN secular corpus."
     ]
   },
   {
     "title": "Corpus scope",
     "bullets": [
       "Form 990 (full) filings only &mdash; 990-EZ filers don't file Sched L Pt IV or Sched R, and 990-PF runs the different &sect;4941 self-dealing regime.",
-      "Religion-related NTEE-X subset: 88,660 filings, 18,017 EINs, 2014&ndash;2025.",
-      "Foundation-group breakdown: 56,179 public charity, 16,117 supporting org, 15,656 church-status, ~570 other."
+      "Secular: 1,160,678 filings (2014-2024 headline), 187,133 EINs.",
+      "Religion (NTEE-X subset): 86,455 filings (2014-2024 headline), 18,017 EINs.",
+      "Data snapshot: 2026-05-24."
     ]
   }
 ]

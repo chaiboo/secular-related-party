@@ -1,24 +1,24 @@
 {
-"n_edges": 64590,
-"n_persons_real": 61389,
-"n_filers_with_real_person": 26084,
-"n_persons_at_ge_2_filers": 1845,
+"n_edges": 69298,
+"n_persons_real": 65916,
+"n_filers_with_real_person": 28202,
+"n_persons_at_ge_2_filers": 1978,
 "sentinel_examples": [
 {
 "pname": "SUBSTANTIAL CONTRIBUTOR",
-"n": 3092
+"n": 3391
 },
 {
 "pname": "SEE PART V",
-"n": 376
+"n": 388
 },
 {
 "pname": "VARIOUS",
-"n": 222
+"n": 225
 },
 {
 "pname": "NA",
-"n": 184
+"n": 204
 },
 {
 "pname": "ANONYMOUS",
@@ -26,7 +26,11 @@
 },
 {
 "pname": "BOARD MEMBER",
-"n": 101
+"n": 102
+},
+{
+"pname": "NOT REQUIRED",
+"n": 71
 },
 {
 "pname": "BOARD MEMBERS",
@@ -34,23 +38,31 @@
 },
 {
 "pname": "NONE",
-"n": 32
+"n": 41
+},
+{
+"pname": "BOARD OF DIRECTORS",
+"n": 36
 },
 {
 "pname": "-",
 "n": 30
 },
 {
-"pname": "1",
-"n": 23
+"pname": "TRUSTEE",
+"n": 27
 },
 {
 "pname": "SEE SCHEDULE O",
 "n": 23
 },
 {
+"pname": "1",
+"n": 23
+},
+{
 "pname": "EMPLOYEES",
-"n": 20
+"n": 22
 },
 {
 "pname": "DONOR",
@@ -61,86 +73,86 @@
 "n": 17
 },
 {
+"pname": "TRUSTEES",
+"n": 16
+},
+{
+"pname": "MVP",
+"n": 14
+},
+{
+"pname": "0",
+"n": 14
+},
+{
+"pname": "INTERESTED PERSON",
+"n": 14
+},
+{
 "pname": "2",
 "n": 14
 },
 {
+"pname": "BUSINESS",
+"n": 14
+},
+{
 "pname": "EMPLOYEE",
-"n": 12
-},
-{
-"pname": "INTERESTED PERSON",
-"n": 12
-},
-{
-"pname": "0",
-"n": 11
+"n": 13
 },
 {
 "pname": "SEE STATEMENT",
 "n": 11
 },
 {
+"pname": "NOT APPLICABLE",
+"n": 11
+},
+{
 "pname": "DIRECTOR",
+"n": 10
+},
+{
+"pname": "SPR",
+"n": 9
+},
+{
+"pname": "CSN",
 "n": 8
 },
 {
 "pname": "RELATED PARTY",
 "n": 7
-},
-{
-"pname": "SA",
-"n": 7
-},
-{
-"pname": "3",
-"n": 7
-},
-{
-"pname": "A",
-"n": 6
-},
-{
-"pname": "INTERESTED PERSONS",
-"n": 5
-},
-{
-"pname": "M",
-"n": 4
-},
-{
-"pname": "5",
-"n": 3
-},
-{
-"pname": "SP",
-"n": 2
-},
-{
-"pname": "T",
-"n": 1
-},
-{
-"pname": "VP",
-"n": 1
 }
 ],
 "cross_filer_persons": [
 {
+"pname": "<NA>",
+"n_filers": 25
+},
+{
 "pname": "VARIOUS BOARD MEMBERS",
-"n_filers": 24
+"n_filers": 25
 },
 {
 "pname": "RELATED TO SUBSTANTIAL CONTRIBUTOR",
-"n_filers": 23
+"n_filers": 24
 },
 {
 "pname": "LOAN FROM OFFICER",
-"n_filers": 22
+"n_filers": 24
 },
 {
 "pname": "BEL-ART ENTERPRISES",
 "n_filers": 17
+},
+{
+"pname": "NOTE PAYABLE",
+"n_filers": 16
+},
+{
+"pname": "BELART COMPANY LLC",
+"n_filers": 15
 },
 {
 "pname": "SEE BELOW",
@@ -151,16 +163,12 @@
 "n_filers": 15
 },
 {
-"pname": "BELART COMPANY LLC",
-"n_filers": 15
-},
-{
-"pname": "NOTE PAYABLE",
-"n_filers": 14
-},
-{
 "pname": "CONSTELLATION SCHOOLS LLC",
 "n_filers": 14
+},
+{
+"pname": "ELIZABETH LETICH - DAUGHTER OF",
+"n_filers": 13
 },
 {
 "pname": "SAMUEL BLEVINS - SON OF ROSEANNE",
@@ -168,10 +176,6 @@
 },
 {
 "pname": "MARK HOFFMAN",
-"n_filers": 13
-},
-{
-"pname": "ELIZABETH LETICH - DAUGHTER OF",
 "n_filers": 13
 },
 {
@@ -187,47 +191,7 @@
 "n_filers": 12
 },
 {
-"pname": "DENNIS LINDOR - HUSBAND OF DAWN",
-"n_filers": 11
-},
-{
-"pname": "CHERI BROUSE SISTER OF",
-"n_filers": 11
-},
-{
-"pname": "KAITLYN PENISKA RELATIVE OF LAURIE",
-"n_filers": 11
-},
-{
-"pname": "KAITLYN PENISKA - RELATIVE LAURIE",
-"n_filers": 11
-},
-{
-"pname": "BAILEY HAGEN DAUGHTER OF CHRISTINE",
-"n_filers": 11
-},
-{
-"pname": "INTREPID MANAGEMENT INC",
-"n_filers": 11
-},
-{
-"pname": "ELIZABETH LETICH",
-"n_filers": 11
-},
-{
-"pname": "STACY RICHARDS - DAUGHER OF JUDY",
-"n_filers": 11
-},
-{
-"pname": "ANNA LYNCH",
-"n_filers": 11
-},
-{
-"pname": "TARREN MCALISTER SON OF",
-"n_filers": 11
-},
-{
-"pname": "ANDY RAW SON OF",
+"pname": "JUSTIN NELSON - SON OF LEAH",
 "n_filers": 11
 },
 {
@@ -235,39 +199,7 @@
 "n_filers": 11
 },
 {
-"pname": "KERRI HICKS NEICE OF",
-"n_filers": 11
-},
-{
-"pname": "ANDREW RAW",
-"n_filers": 11
-},
-{
 "pname": "CFE MANAGEMENT GROUP LLC",
-"n_filers": 11
-},
-{
-"pname": "RILEIGH PORT DAUGHTER OF",
-"n_filers": 11
-},
-{
-"pname": "KIM GILBERT",
-"n_filers": 11
-},
-{
-"pname": "CHANTEL TRIGGS - WIFE OF JOHNATHON",
-"n_filers": 11
-},
-{
-"pname": "ELIZABETH LETICH DAUGHTER OF",
-"n_filers": 11
-},
-{
-"pname": "BAILEY HAGEN -DAUGHTER OF CHRISTINE",
-"n_filers": 11
-},
-{
-"pname": "NORINE KOSOBUSKI DAUGHTER OF CARRIE",
 "n_filers": 11
 },
 {
@@ -279,15 +211,15 @@
 "n_filers": 11
 },
 {
-"pname": "JUSTIN NELSON - SON OF LEAH",
+"pname": "CHERI BROUSE SISTER OF",
 "n_filers": 11
 },
 {
-"pname": "VICKI KOSCHAK-SIBLING OF CHESTER",
+"pname": "KERRI HICKS NEICE OF",
 "n_filers": 11
 },
 {
-"pname": "DAWN BJORGE",
+"pname": "KAITLYN PENISKA - RELATIVE LAURIE",
 "n_filers": 11
 },
 {
@@ -295,28 +227,80 @@
 "n_filers": 11
 },
 {
-"pname": "CHRISTOPHER WAGNER",
+"pname": "KAITLYN PENISKA RELATIVE OF LAURIE",
 "n_filers": 11
 },
 {
-"pname": "INTREPID INVESTMENTS INC INTREPID INVESTMENTS INC",
-"n_filers": 10
+"pname": "BAILEY HAGEN -DAUGHTER OF CHRISTINE",
+"n_filers": 11
 },
 {
-"pname": "BRIAN PORT SPOUSE OF",
-"n_filers": 10
+"pname": "BAILEY HAGEN DAUGHTER OF CHRISTINE",
+"n_filers": 11
 },
 {
-"pname": "ANDY RAW",
-"n_filers": 10
+"pname": "STACY RICHARDS - DAUGHER OF JUDY",
+"n_filers": 11
 },
 {
-"pname": "NOT REQUIRED",
-"n_filers": 10
+"pname": "TARREN MCALISTER SON OF",
+"n_filers": 11
 },
 {
-"pname": "JUSTIN PENISKA RELATIVE - LAURIE",
-"n_filers": 10
+"pname": "DAWN BJORGE",
+"n_filers": 11
+},
+{
+"pname": "ELIZABETH LETICH",
+"n_filers": 11
+},
+{
+"pname": "ANDY RAW SON OF",
+"n_filers": 11
+},
+{
+"pname": "ANDREW RAW",
+"n_filers": 11
+},
+{
+"pname": "ANNA LYNCH",
+"n_filers": 11
+},
+{
+"pname": "KIM GILBERT",
+"n_filers": 11
+},
+{
+"pname": "RILEIGH PORT DAUGHTER OF",
+"n_filers": 11
+},
+{
+"pname": "DENNIS LINDOR - HUSBAND OF DAWN",
+"n_filers": 11
+},
+{
+"pname": "CHANTEL TRIGGS - WIFE OF JOHNATHON",
+"n_filers": 11
+},
+{
+"pname": "INTREPID MANAGEMENT INC",
+"n_filers": 11
+},
+{
+"pname": "NORINE KOSOBUSKI DAUGHTER OF CARRIE",
+"n_filers": 11
+},
+{
+"pname": "VICKI KOSCHAK-SIBLING OF CHESTER",
+"n_filers": 11
+},
+{
+"pname": "ELIZABETH LETICH DAUGHTER OF",
+"n_filers": 11
+},
+{
+"pname": "CHRISTOPHER WAGNER",
+"n_filers": 11
 },
 {
 "pname": "SUSAN URLAUB",
@@ -327,7 +311,23 @@
 "n_filers": 10
 },
 {
+"pname": "BRIAN PORT SPOUSE OF",
+"n_filers": 10
+},
+{
+"pname": "JUSTIN PENISKA RELATIVE - LAURIE",
+"n_filers": 10
+},
+{
+"pname": "INTREPID INVESTMENTS INC INTREPID INVESTMENTS INC",
+"n_filers": 10
+},
+{
 "pname": "INTREPID INVESTMENTS INC",
+"n_filers": 10
+},
+{
+"pname": "ANDY RAW",
 "n_filers": 10
 },
 {
@@ -335,15 +335,7 @@
 "n_filers": 10
 },
 {
-"pname": "DEGNON ASSOCIATES INC",
-"n_filers": 9
-},
-{
-"pname": "KIMBERLY JAMES",
-"n_filers": 9
-},
-{
-"pname": "GLOBAL PACKAGING SOLUTIONS",
+"pname": "JAIDEEP KARAMCHANDANI",
 "n_filers": 9
 },
 {
@@ -351,11 +343,11 @@
 "n_filers": 9
 },
 {
-"pname": "JAIDEEP KARAMCHANDANI",
+"pname": "KIMBERLY JAMES",
 "n_filers": 9
 },
 {
-"pname": "LTC SUPPORT SERVICES (LTC)",
+"pname": "DEGNON ASSOCIATES INC",
 "n_filers": 9
 },
 {
@@ -363,55 +355,19 @@
 "n_filers": 9
 },
 {
-"pname": "STEPHANIE NELSON",
-"n_filers": 8
+"pname": "LTC SUPPORT SERVICES (LTC)",
+"n_filers": 9
 },
 {
-"pname": "SCOTT MARKIEWICZ",
-"n_filers": 8
-},
-{
-"pname": "BOARD OF DIRECTORS",
-"n_filers": 8
-},
-{
-"pname": "MARLA ATKINSON",
-"n_filers": 8
-},
-{
-"pname": "CARRIE SETTE-CAMARA",
-"n_filers": 8
-},
-{
-"pname": "LOAN",
-"n_filers": 8
+"pname": "GLOBAL PACKAGING SOLUTIONS",
+"n_filers": 9
 },
 {
 "pname": "CERTIFIED HEAT AIR",
 "n_filers": 8
 },
 {
-"pname": "CYNTHIA WORKMAN",
-"n_filers": 8
-},
-{
-"pname": "EDUCATION DYNAMICS INC",
-"n_filers": 8
-},
-{
-"pname": "MONTE LANGE",
-"n_filers": 8
-},
-{
-"pname": "MELISSA DAVIDSON",
-"n_filers": 8
-},
-{
-"pname": "TIFFANY MAINTENANCE CO INC",
-"n_filers": 8
-},
-{
-"pname": "FOUNDATION BUILDING MATERIALS",
+"pname": "STEPHANIE NELSON",
 "n_filers": 8
 },
 {
@@ -419,11 +375,19 @@
 "n_filers": 8
 },
 {
-"pname": "DAVID A MACHOLZ",
+"pname": "CYNTHIA WORKMAN",
 "n_filers": 8
 },
 {
-"pname": "MITCH POSSINGER",
+"pname": "LOAN",
+"n_filers": 8
+},
+{
+"pname": "MONTE LANGE",
+"n_filers": 8
+},
+{
+"pname": "EDUCATION DYNAMICS INC",
 "n_filers": 8
 },
 {
@@ -431,91 +395,51 @@
 "n_filers": 8
 },
 {
-"pname": "CS CAPITAL MANAGEMENT INC",
+"pname": "MITCH POSSINGER",
+"n_filers": 8
+},
+{
+"pname": "MARLA ATKINSON",
+"n_filers": 8
+},
+{
+"pname": "FOUNDATION BUILDING MATERIALS",
+"n_filers": 8
+},
+{
+"pname": "MELISSA DAVIDSON",
+"n_filers": 8
+},
+{
+"pname": "DUE FROM OFFICER",
+"n_filers": 8
+},
+{
+"pname": "CARRIE SETTE-CAMARA",
+"n_filers": 8
+},
+{
+"pname": "TIFFANY MAINTENANCE CO INC",
+"n_filers": 8
+},
+{
+"pname": "DAVID A MACHOLZ",
+"n_filers": 8
+},
+{
+"pname": "SCOTT MARKIEWICZ",
+"n_filers": 8
+},
+{
+"pname": "DIANA SEDITA",
 "n_filers": 7
 },
 {
-"pname": "SANTIAGO COMMUNITIES INC",
+"pname": "DIGNA CLOUD",
 "n_filers": 7
 },
 {
-"pname": "JOE WILL",
-"n_filers": 7
-},
-{
-"pname": "WASHINGTON PLACE AT ST BARNABAS",
-"n_filers": 7
-},
-{
-"pname": "SCOTT KAPLAN",
-"n_filers": 7
-},
-{
-"pname": "SENTRY SECURITY COMPANY INC",
-"n_filers": 7
-},
-{
-"pname": "ORGANIZATIONS LISTED IN PART D BELO",
-"n_filers": 7
-},
-{
-"pname": "GORDON GILBERT",
-"n_filers": 7
-},
-{
-"pname": "JOHN POPP",
-"n_filers": 7
-},
-{
-"pname": "CAROLYN AMES",
-"n_filers": 7
-},
-{
-"pname": "CRISTA TAYLOR",
-"n_filers": 7
-},
-{
-"pname": "DAVID M WARD",
-"n_filers": 7
-},
-{
-"pname": "JOAN MURRAY",
-"n_filers": 7
-},
-{
-"pname": "ALFRED FITZSIMONS",
-"n_filers": 7
-},
-{
-"pname": "DANIELLE ZOLLER",
-"n_filers": 7
-},
-{
-"pname": "THE COMMUNITY BUILDERS INC",
-"n_filers": 7
-},
-{
-"pname": "NICO SANDERS",
-"n_filers": 7
-},
-{
-"pname": "JACOB TUCKER",
-"n_filers": 7
-},
-{
-"pname": "JACOB SOLOMON",
-"n_filers": 7
-},
-{
-"pname": "STEPHEN LANDE",
-"n_filers": 7
-},
-{
-"pname": "BRADLEY BURCK",
-"n_filers": 7
-},
-{
-"pname": "MICHAEL HESS",
+"pname": "KATHLEEN WESTCOAT",
 "n_filers": 7
 },
 {
@@ -523,9 +447,662 @@
 "n_filers": 7
 },
 {
+"pname": "JACOB SOLOMON",
+"n_filers": 7
+},
+{
+"pname": "MARTINVILLE DUNN LLC",
+"n_filers": 7
+},
+{
+"pname": "BRADLEY BURCK",
+"n_filers": 7
+},
+{
+"pname": "ORGANIZATIONS LISTED IN PART D BELO",
+"n_filers": 7
+},
+{
+"pname": "JACOB TUCKER",
+"n_filers": 7
+},
+{
+"pname": "SANTIAGO COMMUNITIES INC",
+"n_filers": 7
+},
+{
+"pname": "SCOTT KAPLAN",
+"n_filers": 7
+},
+{
+"pname": "INTREPID MANAGEMENT INC INTREPID MANAGEMENT INC",
+"n_filers": 7
+},
+{
+"pname": "MICHAEL HESS",
+"n_filers": 7
+},
+{
+"pname": "STEPHEN LANDE",
+"n_filers": 7
+},
+{
+"pname": "CS CAPITAL MANAGEMENT INC",
+"n_filers": 7
+},
+{
+"pname": "GORDON GILBERT",
+"n_filers": 7
+},
+{
+"pname": "DANIELLE ZOLLER",
+"n_filers": 7
+},
+{
+"pname": "ALFRED FITZSIMONS",
+"n_filers": 7
+},
+{
+"pname": "JOE WILL",
+"n_filers": 7
+},
+{
+"pname": "JOAN MURRAY",
+"n_filers": 7
+},
+{
+"pname": "DAVID M WARD",
+"n_filers": 7
+},
+{
+"pname": "SENTRY SECURITY COMPANY INC",
+"n_filers": 7
+},
+{
+"pname": "CAROLYN AMES",
+"n_filers": 7
+},
+{
 "pname": "MAURICIO RIVEROS",
 "n_filers": 7
 }
 ],
-"method_note": "Persons normalized via upper+strip. Same-name collisions possible."
+"method_note": "Persons normalized via upper+strip. Same-name collisions possible. Each edge carries the filing EIN's NTEE major; cross-sector edges are those where the same person appears under two different majors.",
+"sentinel_rates_by_sector": {
+"A": {
+"label": "Arts, Culture & Humanities",
+"n_person_fields": 19190,
+"n_sentinel": 1380,
+"rate": 0.07191245440333507,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 69,
+"ANONYMOUS": 47,
+"SEE PART V": 13,
+"BOARD MEMBER": 9,
+"0": 5,
+"NA": 5,
+"NONE": 4,
+"HAS": 4,
+"DIRECTOR": 3,
+"ETC": 3,
+"REM": 2,
+"TRUSTEES": 2,
+"BOARD MEMBERS": 2,
+"MTR": 1,
+"DIRECTORS": 1,
+"SEE SCHEDULE O": 1,
+"IHC": 1
+}
+},
+"B": {
+"label": "Education",
+"n_person_fields": 45053,
+"n_sentinel": 6361,
+"rate": 0.1411892659756287,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 607,
+"VARIOUS": 161,
+"NA": 160,
+"SEE PART V": 80,
+"NOT REQUIRED": 70,
+"BOARD MEMBER": 53,
+"BOARD MEMBERS": 35,
+"ANONYMOUS": 31,
+"TRUSTEE": 27,
+"-": 20,
+"SEE SCHEDULE O": 18,
+"DONOR": 17,
+"1": 17,
+"2": 14,
+"TRUSTEES": 14,
+"NONE": 14,
+"OFFICER": 12,
+"EMPLOYEES": 8,
+"INTERESTED PERSON": 8,
+"3": 7,
+"VMG": 6,
+"A": 6,
+"EMPLOYEE": 6,
+"ACM": 5,
+"RELATED PARTY": 5,
+"INTERESTED PERSONS": 5,
+"NOT APPLICABLE": 4,
+"LIN": 3,
+"QPS": 3,
+"BOARD OF DIRECTORS": 3
+}
+},
+"C": {
+"label": "Environment",
+"n_person_fields": 4736,
+"n_sentinel": 254,
+"rate": 0.05363175675675676,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 16,
+"SEE PART V": 8,
+"ANONYMOUS": 6,
+"BOARD MEMBERS": 4,
+"BOARD MEMBER": 3,
+"NA": 3,
+"EQT": 1,
+"NPI": 1
+}
+},
+"D": {
+"label": "Animal-related",
+"n_person_fields": 4462,
+"n_sentinel": 221,
+"rate": 0.049529359031824295,
+"by_token": {
+"NONE": 4,
+"SUBSTANTIAL CONTRIBUTOR": 4,
+"SEE PART V": 2,
+"0": 1,
+"75229": 1,
+"DIRECTOR": 1,
+"EXECUTIVE": 1,
+"NA": 1
+}
+},
+"E": {
+"label": "Health Care",
+"n_person_fields": 31852,
+"n_sentinel": 3553,
+"rate": 0.11154715559462514,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 1791,
+"SEE PART V": 168,
+"MVP": 14,
+"-": 6,
+"BOARD MEMBERS": 3,
+"BOARD MEMBER": 2,
+"LLC": 2,
+"NA": 2,
+"CTI": 1,
+"OFFICERS": 1,
+"UBF": 1,
+"X": 1
+}
+},
+"F": {
+"label": "Mental Health & Crisis",
+"n_person_fields": 4839,
+"n_sentinel": 238,
+"rate": 0.049183715643728046,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 26,
+"SEE PART V": 7,
+"NOT APPLICABLE": 3,
+"EMPLOYEES": 2,
+"ANONYMOUS": 1,
+"KCA": 1,
+"NA": 1,
+"NOT REQUIRED": 1,
+"PRESIDENT": 1
+}
+},
+"G": {
+"label": "Voluntary Health Associations",
+"n_person_fields": 3031,
+"n_sentinel": 291,
+"rate": 0.09600791817881887,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 166,
+"SEE PART V": 2,
+"T": 1
+}
+},
+"H": {
+"label": "Medical Research",
+"n_person_fields": 1720,
+"n_sentinel": 84,
+"rate": 0.04883720930232558,
+"by_token": {
+"BOARD MEMBER": 3
+}
+},
+"I": {
+"label": "Crime & Legal-Related",
+"n_person_fields": 1910,
+"n_sentinel": 111,
+"rate": 0.0581151832460733,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 8
+}
+},
+"J": {
+"label": "Employment",
+"n_person_fields": 3107,
+"n_sentinel": 202,
+"rate": 0.06501448342452526,
+"by_token": {
+"SEE PART V": 7,
+"VARIOUS": 4,
+"BOARD OF DIRECTORS": 2
+}
+},
+"K": {
+"label": "Food, Agriculture & Nutrition",
+"n_person_fields": 2275,
+"n_sentinel": 112,
+"rate": 0.04923076923076923,
+"by_token": {
+"PAC": 5,
+"ANONYMOUS": 4,
+"M": 4,
+"CPU": 2,
+"OKI": 2,
+"NA": 1,
+"NRG": 1
+}
+},
+"L": {
+"label": "Housing & Shelter",
+"n_person_fields": 10414,
+"n_sentinel": 1039,
+"rate": 0.09976954100249665,
+"by_token": {
+"ANONYMOUS": 66,
+"SUBSTANTIAL CONTRIBUTOR": 25,
+"VARIOUS": 23,
+"EMPLOYEES": 10,
+"-": 4,
+"DIRECTOR": 2,
+"0": 1,
+"BOARD MEMBERS": 1,
+"ECS": 1,
+"ED": 1,
+"JJ": 1,
+"OFFICER": 1,
+"SEE PART V": 1
+}
+},
+"M": {
+"label": "Public Safety & Disaster Preparedness",
+"n_person_fields": 1816,
+"n_sentinel": 94,
+"rate": 0.051762114537444934,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 31,
+"SEE PART V": 3
+}
+},
+"N": {
+"label": "Recreation & Sports",
+"n_person_fields": 9441,
+"n_sentinel": 660,
+"rate": 0.06990784874483635,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 37,
+"BOARD MEMBER": 9,
+"SPR": 9,
+"SA": 7,
+"CVC": 6,
+"NA": 6,
+"SEE PART V": 6,
+"VARIOUS": 6,
+"ICM": 5,
+"BOARD OF DIRECTORS": 4,
+"SEE SCHEDULE O": 4
+}
+},
+"O": {
+"label": "Youth Development",
+"n_person_fields": 4362,
+"n_sentinel": 232,
+"rate": 0.05318661164603393,
+"by_token": {
+"ANONYMOUS": 5,
+"SUBSTANTIAL CONTRIBUTOR": 5,
+"BOARD MEMBER": 2,
+"MDP": 2,
+"TYP": 2,
+"VARIOUS": 2
+}
+},
+"P": {
+"label": "Human Services",
+"n_person_fields": 28120,
+"n_sentinel": 1759,
+"rate": 0.06255334281650071,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 186,
+"SEE PART V": 29,
+"BOARD MEMBER": 15,
+"BOARD OF DIRECTORS": 15,
+"SEE STATEMENT": 11,
+"BOARD MEMBERS": 10,
+"VARIOUS": 9,
+"CSN": 8,
+"SBA": 6,
+"ANONYMOUS": 5,
+"DAL": 4,
+"INTERESTED PERSON": 4,
+"NA": 4,
+"OFFICER": 4,
+"BAH": 3,
+"YYK": 3,
+"SP": 2,
+"ADP": 2,
+"RELATED PARTY": 2,
+"NONE": 2,
+"ISS": 2,
+"RELATED PARTIES": 1,
+"FOUNDER": 1,
+"EMPLOYEE": 1,
+"J": 1
+}
+},
+"Q": {
+"label": "International, Foreign Affairs",
+"n_person_fields": 5380,
+"n_sentinel": 443,
+"rate": 0.08234200743494424,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 50,
+"EMPLOYEE": 4,
+"5": 3,
+"GPA": 3,
+"SEE PART V": 3,
+"TO BE DETERMINED": 2,
+"NA": 1,
+"NOT APPLICABLE": 1,
+"VP": 1
+}
+},
+"R": {
+"label": "Civil Rights & Civic Action",
+"n_person_fields": 1452,
+"n_sentinel": 72,
+"rate": 0.049586776859504134,
+"by_token": {
+"SEE PART V": 15,
+"VVN": 3,
+"SUBSTANTIAL CONTRIBUTOR": 1
+}
+},
+"S": {
+"label": "Community Improvement",
+"n_person_fields": 10514,
+"n_sentinel": 975,
+"rate": 0.09273349819288568,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 25,
+"VARIOUS": 11,
+"SEE PART V": 9,
+"1": 6,
+"ATTORNEY": 4,
+"BOARD MEMBER": 4,
+"SMZ": 4,
+"0": 3,
+"CDA": 3,
+"BOARD OF DIRECTORS": 1,
+"EMPLOYEE": 1,
+"INC": 1,
+"PRESIDENT": 1
+}
+},
+"T": {
+"label": "Philanthropy & Voluntarism",
+"n_person_fields": 6243,
+"n_sentinel": 547,
+"rate": 0.08761813230818517,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 35,
+"BUSINESS": 14,
+"SEE PART V": 13,
+"BOARD OF DIRECTORS": 6,
+"VARIOUS": 4,
+"FMP": 3,
+"NONE": 3,
+"NOT APPLICABLE": 2,
+"0": 1,
+"158950": 1,
+"DAN": 1,
+"GJN": 1,
+"HRC": 1,
+"NCG": 1
+}
+},
+"U": {
+"label": "Science & Technology",
+"n_person_fields": 2238,
+"n_sentinel": 133,
+"rate": 0.059428060768543345,
+"by_token": {
+"SEE PART V": 5
+}
+},
+"V": {
+"label": "Social Science",
+"n_person_fields": 509,
+"n_sentinel": 87,
+"rate": 0.17092337917485265,
+"by_token": {
+"NONE": 4,
+"IPO": 2,
+"SEE PART V": 1
+}
+},
+"W": {
+"label": "Public & Societal Benefit",
+"n_person_fields": 4048,
+"n_sentinel": 224,
+"rate": 0.05533596837944664,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 10,
+"BOARD OF DIRECTORS": 5,
+"SEE PART V": 4,
+"VARIOUS": 2,
+"BOARD MEMBER": 1,
+"NONE": 1
+}
+},
+"X": {
+"label": "Religion-related",
+"n_person_fields": 15223,
+"n_sentinel": 922,
+"rate": 0.060566248439860734,
+"by_token": {
+"SUBSTANTIAL CONTRIBUTOR": 299,
+"NA": 20,
+"SEE PART V": 12,
+"NONE": 9,
+"SM": 6,
+"MM": 5,
+"0": 3,
+"KB": 3,
+"VARIOUS": 3,
+"MG": 2,
+"JM": 2,
+"UNKNOWN": 2,
+"DIRECTOR": 2,
+"EMPLOYEES": 2,
+"DIRECTORS": 2,
+"SDG": 2,
+"INTERESTED PERSON": 2,
+"RM": 2,
+"PRESIDENT": 1,
+"BOARD MEMBER": 1,
+"ICI": 1,
+"OFFICERS": 1,
+"DK": 1,
+"EMPLOYEE": 1,
+"8": 1,
+"MEMBERS": 1,
+"HRO": 1,
+"NOT APPLICABLE": 1
+}
+}
+},
+"by_sector": {
+"A": {
+"label": "Arts, Culture & Humanities",
+"n_edges": 6204,
+"n_persons_real": 6168,
+"n_filers_with_real_person": 2949
+},
+"B": {
+"label": "Education",
+"n_edges": 13659,
+"n_persons_real": 13383,
+"n_filers_with_real_person": 4584
+},
+"C": {
+"label": "Environment",
+"n_edges": 1650,
+"n_persons_real": 1639,
+"n_filers_with_real_person": 831
+},
+"D": {
+"label": "Animal-related",
+"n_edges": 1397,
+"n_persons_real": 1393,
+"n_filers_with_real_person": 799
+},
+"E": {
+"label": "Health Care",
+"n_edges": 10702,
+"n_persons_real": 9903,
+"n_filers_with_real_person": 2844
+},
+"F": {
+"label": "Mental Health & Crisis",
+"n_edges": 1477,
+"n_persons_real": 1464,
+"n_filers_with_real_person": 741
+},
+"G": {
+"label": "Voluntary Health Associations",
+"n_edges": 897,
+"n_persons_real": 896,
+"n_filers_with_real_person": 428
+},
+"H": {
+"label": "Medical Research",
+"n_edges": 502,
+"n_persons_real": 498,
+"n_filers_with_real_person": 236
+},
+"I": {
+"label": "Crime & Legal-Related",
+"n_edges": 721,
+"n_persons_real": 721,
+"n_filers_with_real_person": 375
+},
+"J": {
+"label": "Employment",
+"n_edges": 932,
+"n_persons_real": 926,
+"n_filers_with_real_person": 391
+},
+"K": {
+"label": "Food, Agriculture & Nutrition",
+"n_edges": 747,
+"n_persons_real": 746,
+"n_filers_with_real_person": 339
+},
+"L": {
+"label": "Housing & Shelter",
+"n_edges": 2749,
+"n_persons_real": 2322,
+"n_filers_with_real_person": 1144
+},
+"M": {
+"label": "Public Safety & Disaster Preparedness",
+"n_edges": 594,
+"n_persons_real": 590,
+"n_filers_with_real_person": 308
+},
+"N": {
+"label": "Recreation & Sports",
+"n_edges": 2901,
+"n_persons_real": 2887,
+"n_filers_with_real_person": 1232
+},
+"O": {
+"label": "Youth Development",
+"n_edges": 1584,
+"n_persons_real": 1581,
+"n_filers_with_real_person": 753
+},
+"P": {
+"label": "Human Services",
+"n_edges": 8516,
+"n_persons_real": 8366,
+"n_filers_with_real_person": 3909
+},
+"Q": {
+"label": "International, Foreign Affairs",
+"n_edges": 1671,
+"n_persons_real": 1664,
+"n_filers_with_real_person": 815
+},
+"R": {
+"label": "Civil Rights & Civic Action",
+"n_edges": 513,
+"n_persons_real": 508,
+"n_filers_with_real_person": 266
+},
+"S": {
+"label": "Community Improvement",
+"n_edges": 3300,
+"n_persons_real": 3249,
+"n_filers_with_real_person": 1470
+},
+"T": {
+"label": "Philanthropy & Voluntarism",
+"n_edges": 1985,
+"n_persons_real": 1959,
+"n_filers_with_real_person": 945
+},
+"U": {
+"label": "Science & Technology",
+"n_edges": 398,
+"n_persons_real": 398,
+"n_filers_with_real_person": 202
+},
+"V": {
+"label": "Social Science",
+"n_edges": 157,
+"n_persons_real": 157,
+"n_filers_with_real_person": 69
+},
+"W": {
+"label": "Public & Societal Benefit",
+"n_edges": 1239,
+"n_persons_real": 1237,
+"n_filers_with_real_person": 435
+},
+"X": {
+"label": "Religion-related",
+"n_edges": 4803,
+"n_persons_real": 4741,
+"n_filers_with_real_person": 2137
+}
+},
+"_unknown_counts": {
+"edges": 0,
+"all_person_fields": 0
+}
 }
